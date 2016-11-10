@@ -1,4 +1,6 @@
-# Software Maintenance by UCA((University Côte d'Azur (french Riviera University)) Students : from analysis to implementation
+# Software Maintenance: from analysis to implementation, by UCA students
+
+UCA : University Côte d'Azur (french Riviera University)
 
 This course aims to introduce Software maintenance by illustrative examples and the state of the art. 
 In this course, teams of 3-4 students works on a Software maintenance problem. During a 7 week period, the students spent 4 hours by weeks on this course.
