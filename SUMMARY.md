@@ -2,5 +2,5 @@
 
 * [Preface](README.md)
 * [Introduction](Introduction.md)
-* [Abstract](abstract.md)
+* [Abstract (Abstraire)](abstract.md)
 
