@@ -1,6 +1,6 @@
 # Summary
 
 * [Preface](README.md)
-* [First Chapter](Introduction.md)
+* [Introduction](Introduction.md)
 * Abstract
 
