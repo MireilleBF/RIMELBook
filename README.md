@@ -1,4 +1,4 @@
-# Software Maintenance: from analysis to implementation, by UCA students
+# Software Maintenance : some experiments, by UCA students
 
 UCA : University Côte d'Azur (french Riviera University)
 
