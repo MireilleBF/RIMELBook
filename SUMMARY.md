@@ -5,5 +5,4 @@
 * [Abstract (Abstraire)](abstract.md)
 * [Search (Fouiller)](search_fouiller.md)
 * [Evaluate](evaluate.md)
-* Exchange
 
