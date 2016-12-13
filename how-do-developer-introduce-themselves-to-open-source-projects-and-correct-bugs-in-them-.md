@@ -15,6 +15,8 @@ _**References used:**_
 
 _**Tools used:**_
 
+Github API
+
 _**Distribution of Work:**_
 
 * Simon Paris
@@ -22,9 +24,11 @@ _**Distribution of Work:**_
   * 
 
 
+
 * Loïc Potages
 
   * 
+
 
 
 * Pascal Tung
