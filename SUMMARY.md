@@ -7,5 +7,6 @@
     * Conclusion
 * [Search \(Fouiller\)](search_fouiller.md)
 * [Evaluate](evaluate.md)
+    * [Bug correction](bug-correction.md)
 * [Conclusion](conclusion.md)
 
