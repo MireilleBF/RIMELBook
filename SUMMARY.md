@@ -6,7 +6,7 @@
     * [Introduction](introduction.md)
     * Conclusion
 * [Search \(Fouiller\)](search_fouiller.md)
+    * [How do developer introduce themselves to open source projects and correct bugs in them ?](how-do-developer-introduce-themselves-to-open-source-projects-and-correct-bugs-in-them-.md)
 * [Evaluate](evaluate.md)
-    * [Bug correction](bug-correction.md)
 * [Conclusion](conclusion.md)
 
