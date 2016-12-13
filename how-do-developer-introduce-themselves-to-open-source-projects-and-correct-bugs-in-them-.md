@@ -9,5 +9,25 @@ _**Questions:**_
 
 
 
+_**Projects to study:**_
+
+Long projects with new developers in them.
+
+_**References used:**_
+
+_**Tools used:**_
+
+_**Distribution of Work:**_
+
+* Simon Paris
+  * 
+
+* Loïc Potages
+  * 
+
+* Pascal Tung
+  * 
+
+
 
 
