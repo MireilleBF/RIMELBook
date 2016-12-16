@@ -13,6 +13,12 @@ Long projects with new developers in them. The open source projects are a good s
 
 We will study the [ElasticSearch](https://github.com/elastic) project
 
+_**Methodology:**_
+
+We will star by get Github data out for work on it. The Github API should make possible the extraction of these data. Depending on the data format we will use for example python for processing of data. Also with python we could make a first set of basic graph for guide the rest of our exploration. 
+
+Depending on the things that we could reveal with data, we will choose the good graph tool for presente them. Considering the huge quantity of data that we can exctract, we could use the tools of one of the project that we will studie : ElasticSearch, and Kibana for make dashboards.
+
 _**References used:**_
 
 [The seven habits of highly effective GitHubbers](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/) by Ben Balter \(September 13, 2016\)
@@ -30,9 +36,6 @@ _**Distribution of Work:**_
 * Simon Paris
 
   * Explore the question "How do contributions of developers evolve over time?
-
-
-
 
 
 * Loïc Potages
