@@ -9,19 +9,29 @@ _**Questions:**_
 
 _**Projects to study:**_
 
-Long projects with new developers in them.
+Long projects with new developers in them. The open source projects are a good sudy case because there is often many move, developers start to contribut to the project and other stop to contribut. We should have many data to analyse the developers attitude.
+
+We will study the [ElasticSearch](https://github.com/elastic) project
 
 _**References used:**_
+
+[The seven habits of highly effective GitHubbers](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/) by Ben Balter \(September 13, 2016\)
+
+[A Data Set for Social Diversity Studies of GitHub Teams](/A Data Set for Social Diversity Studies of GitHub Teams) by Bogdan Vasilescu, Alexander Serebrenik, Vladimir Filkov
 
 _**Tools used:**_
 
 Github API
 
+Python for manipulate data and make a first set of graph
+
 _**Distribution of Work:**_
 
 * Simon Paris
 
-  * 
+  * Explore the question "How do contributions of developers evolve over time?
+
+
 
 
 
