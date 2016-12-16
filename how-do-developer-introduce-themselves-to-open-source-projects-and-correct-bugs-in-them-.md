@@ -23,18 +23,13 @@ _**Distribution of Work:**_
 
   * Explore the question "How do contributions of developers evolve over time?
 
-
 * Loïc Potages
 
-  * 
-
-
+  * Does bug correction add complexity to the code when it isn't done by the former developer?
 
 * Pascal Tung
 
   * 
-
-
 
 
 
