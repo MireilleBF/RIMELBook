@@ -8,7 +8,7 @@ We will study the [ElasticSearch](https://github.com/elastic) project
 
 _**Methodology:**_
 
-We will star by get Github data out for work on it. The Github API should make possible the extraction of these data. Depending on the data format we will use for example python for processing of data. Also with python we could make a first set of basic graph for guide the rest of our exploration.
+We will start by get Github data out for work on it. The Github API should make possible the extraction of these data. Depending on the data format we will use for example python for processing of data. Also with python we could make a first set of basic graph for guide the rest of our exploration.
 
 Depending on the things that we could reveal with data, we will choose the good graph tool for presente them. Considering the huge quantity of data that we can exctract, we could use the tools of the project that we will studie : ElasticSearch, and Kibana for make dashboards.
 
