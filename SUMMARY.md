@@ -4,6 +4,7 @@
 * [Introduction](Introduction.md)
 * [Abstract \(Abstraire\)](abstract.md)
     * [Introduction](introduction.md)
+    * [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
     * [Conclusion](conclusion.md)
 * [Search \(Fouiller\)](search_fouiller.md)
     * [How do developer introduce themselves to open source projects and correct bugs in them ?](how-do-developer-introduce-themselves-to-open-source-projects-and-correct-bugs-in-them-.md)
