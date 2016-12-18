@@ -18,7 +18,7 @@ In this sub-chapter, we will study the impacts of the TDD on code quality, code 
 
 Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aim to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(i.e, number of issues, fixes ...\) and productivity \(i.e, number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
 
-### References
+### Projects Studied
 
 In order to find a concrete answer, we had to find first many projects built using a TDD approach and of thousands of commits :
 
@@ -28,17 +28,29 @@ In order to find a concrete answer, we had to find first many projects built usi
 
 * JUnit[^4] was written by Kent Beck and Erich Gamma using TDD throughout. We will study JUnit4 and JUnit5.
 
-// TODO Mettre à jour la section en rajoutant les projets cités par uncle bob.
+* Fit. Written by Ward Cunningham. The progenitor of most current acceptance testing frameworks.
+
+* Rspec. Testing framework in Ruby. TDD throughout.
+
+* Cucumber 
+
+There are other projects using TDD but those are the most interesting for our works. We are limited in time by our studies. 
+
+### Articles
+
+Beck, K. \(2003\).Test-driven development: by example. Addison-Wesley Professional.
+
+Dave Astels. \(2003\).Test Driven Development: A Practical Guide. Prentice Hall Professional Technical Reference.
+
+M. Pancur, M. Ciglaric. \(2011\).Impact of test-driven development on productivity, code and tests: A controlled experiment. In Information and Software Technology 53 \(pp. 557–573\)
+
+Bhat, T., & Nagappan, N. \(2006, September\). Evaluating the efficacy of test-driven development: industrial case studies. InProceedings of the 2006 ACM/IEEE international symposium on Empirical software engineering\(pp. 356-363\). ACM.
+
+Martin, R. C. \(2008\).Clean Code: A Handbook of Agile Software Craftsmanship. Pearson Education. 
+
+Kaufmann R. & Janzen D. \(2003, October\). Implications of test-driven development: a pilot study. In Companion of the 18th annual ACM SIGPLAN conference on Object-oriented programming, systems, languages, and applications \(pp. 298-299\). ACM.
 
 ### Contributors
 
-//TODO 
-
-Alexandre Cazala is ... and will work on ... with ...
-
-
-
-
-
-
+Our project will be splited in two teams. The first one with Alexandre Cazala and Lisa Joanno will study TDD projects and the second one with Nicolas Lecourtois and Pierre Massanès will study Test-Last projects.
 
