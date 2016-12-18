@@ -50,6 +50,7 @@ Here we’ll try to find out if there is a correlation between contribution \(co
 * Automatically Detecting ORM Performance, Anti-Patterns on C\#   Applications:[http://scriptiesonline.uba.uva.nl/document/621996](http://scriptiesonline.uba.uva.nl/document/621996)
 
 * Finding Performance Issues in Hibernate Usage by Static Code Analysis :[http://scriptiesonline.uba.uva.nl/document/199509](http://scriptiesonline.uba.uva.nl/document/199509)
+
 * GitHub API
 
 * Git Maat
@@ -71,7 +72,7 @@ TODO
 
 * GitHub API
 
-* python/groovy scripts
+* Python/Groovy scripts
 
 
 **Methodology :**
