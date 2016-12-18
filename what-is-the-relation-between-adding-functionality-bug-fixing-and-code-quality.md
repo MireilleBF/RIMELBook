@@ -4,6 +4,8 @@
 
 In this question we will try to highlight any relation between adding functionality, bug fixing, and degradation or improvement of code quality. We hope to highlight an overall trend in the quality of the code over timeand thus confirm or invalidate the Lehman law.
 
+The idea is that we take several criteria on the quality of the code that we are going to determine and we look at the evolution over time.We are looking for a correlation between the addition of functionalities or the correction of bugs and the quality of the code and looks at several curves if the evolution of the quality corresponds or not to the correction of beug or the addition of functionnalities, Etc ...
+
 ## Chosen methodology
 
 To answer this question we will proceed in several steps. We will have to extract from a Github repository several versions of the same code. To do this we will extract the state of the code with each release or revision.
