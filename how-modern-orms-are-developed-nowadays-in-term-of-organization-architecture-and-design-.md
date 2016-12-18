@@ -9,7 +9,7 @@ Through this question we want to take a closer look at ORMs, Hibernate and Entit
 **Tools used :**
 
 * CodeCity
-* Git maat
+* Git Maat
 * GitHub API
 * Jenkins
 
@@ -29,7 +29,7 @@ Once those questions are answered, we’ll try to find more interesting correlat
 **Tools used :**
 
 * CodeCity
-* Git maat
+* Git Maat
 * GitHub API
 * Jenkins
 * Sonar
@@ -41,7 +41,7 @@ Here we’ll try to find out if there is a correlation between contribution \(co
 
 ## What about **Architecture & Design ?**
 
-### D**oes Hibernate and Entity framework contain anti-patterns and do they influence their performance ?**
+### D**oes Hibernate and Entity Framework contain anti-patterns and do they influence their performance ?**
 
 **Tools used :**
 
@@ -64,7 +64,7 @@ Here we’ll try to find out if there is a correlation between contribution \(co
 
 **Methodology :**
 
-TODO
+The goal of this part is to detect anti-patterns in those ORM implementations, and impacts of those anti-patterns in term of perfomances and code quality. Do we find the sames anti-patterns in both Hibernate and Entity framework ? Did they have been fixed in the next commits, and how ?
 
 ### **How Entity Framework and Hibernate manage database connections?**
 
