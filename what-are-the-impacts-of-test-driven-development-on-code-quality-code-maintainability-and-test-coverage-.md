@@ -10,8 +10,6 @@ The **Test-Driven Development** \(TDD\) is a method of software development rely
 
 The purpose of this method is to write the specifications first in the form of unit tests so the written code answers exactly to the wanted functionalities. More than that, it wants to assert that the code is always valid and more stable. It should also help the developer to avoid regression when refactoring the code.
 
-
-
 In this sub-chapter, we will study the impacts of the TDD on code quality, code maintainability and test coverage. The study will be splitted in three sub-questions :
 
 1. Does TDD reduce the number of issues to fix during the development ?
@@ -19,7 +17,6 @@ In this sub-chapter, we will study the impacts of the TDD on code quality, code 
 3. Does TDD projects always have a high test coverage ?
 
 Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aim to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(i.e, number of issues, fixes ...\) and productivity \(i.e, number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
-
 
 ### References
 
@@ -31,16 +28,17 @@ In order to find a concrete answer, we had to find first many projects built usi
 
 * JUnit[^4] was written by Kent Beck and Erich Gamma using TDD throughout. We will study JUnit4 and JUnit5.
 
-* 
+// TODO Mettre à jour la section en rajoutant les projets cités par uncle bob.
+
+### Contributors
+
+//TODO 
+
+Alexandre Cazala is ... and will work on ... with ...
 
 
 
 
-[^1]: [https://github.com/unclebob/fitnesse](https://github.com/unclebob/fitnesse)
 
-[^2]: [https://sites.google.com/site/unclebobconsultingllc/books](https://sites.google.com/site/unclebobconsultingllc/books "https://sites.google.com/site/unclebobconsultingllc/books")
 
-[^3]: [https://github.com/ahay/src](https://github.com/ahay/src "https://github.com/ahay/src")
-
-[^4]: [https://github.com/junit-team/junit5](https://github.com/junit-team/junit5 "https://github.com/junit-team/junit5")
 
