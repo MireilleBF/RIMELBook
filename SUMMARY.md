@@ -12,6 +12,7 @@
         * [Does bug correction add complexity to the code when it isn't done by the former developer?](does-bug-correction-add-complexity-to-the-code-when-it-isnt-done-by-the-former-developer.md)
         * [How long do bugs remain in open-source codes?](how-long-do-bugs-remain-in-open-source-codes.md)
     * [Impact of Test-Driven Development on code quality, code maintainability and test coverage](impact-of-test-driven-development-on-code-quality-code-maintainability-and-tests-coverage.md)
+    * [Is the quality of the code influencing its evolution](is-the-quality-of-the-code-influencing-its-evolution.md)
 * [Evaluate](evaluate.md)
     * [What is the relation between adding functionality, bug fixing, and code quality](what-is-the-relation-between-adding-functionality-bug-fixing-and-code-quality.md)
 * [Conclusion](conclusion.md)
