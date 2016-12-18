@@ -12,7 +12,13 @@ In this way we can hope to have enough difference between project version that w
 
 
 
-Pour répondre à cette question nous allons procéder en plusieurs étapes. Nous allons devoir extraire d'un repository Github plusieur version d'un même code. Pour ce faire nous allons extraire l'état du code à chaque release ou révision. 
+Once our code base has been extracted we will have to make a qualitative evaluation of the code for each selected revisions and versions, using tools. We can rely on the complexity of the code, which tools like Metrics or Sonar can give us.
+
+
+
+Pour répondre à cette question nous allons procéder en plusieurs étapes. Nous allons devoir extraire d'un repository Github plusieur version d'un même code. Pour ce faire nous allons extraire l'état du code à chaque release ou révision.
 
 De cette manière nous pourrons esperer avoir suffisament d'écart entre de version de projet que nous aurions choisis pour pouvoir les considérer comme pertinant pour notre étude. De plus, nous pouvons imaginer que les modification apporter lors d'une révcision tiendrons plus de la correction de bug que de l'ajout de fonctionnalité, et vice versa. Si ette hypothèse est vérifier nous aurons entre deux révisions éssentielement des corrections de bug et entre deux versions des ajout de fonctionnalité, ce qui pourrait nous permettre d'évaluer indépendament l'impact de ces deyx type de modification.
+
+Une fois notre base de code extraite nous devrons faire une évaluation qualitative du code pour chaque révisions et version choisis, à l'aide d'outils. nous pourrons nous baser sur la complexité du code, que de outils comme Metrics ou Sonar peuvent nous donner.
 
