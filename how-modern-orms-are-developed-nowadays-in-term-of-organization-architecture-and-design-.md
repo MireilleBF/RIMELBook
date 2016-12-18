@@ -66,7 +66,7 @@ Here we’ll try to find out if there is a correlation between contribution \(co
 
 TODO
 
-### **How Entity Framework and hibernate manage database connections?**
+### **How Entity Framework and Hibernate manage database connections?**
 
 **Tools used :**
 
