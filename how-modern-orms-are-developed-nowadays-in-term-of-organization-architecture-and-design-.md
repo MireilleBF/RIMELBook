@@ -22,7 +22,7 @@ Here we’ll examine the components of each ORM from different points of view :
 * Size : how does size of said components vary ?
 
 
-Once those questions are answered , we’ll try to find more interesting correlations between those metrics, is the number of bugs reported on a components proportional to its size ? does the number of bugs decrease if a big component is broken into smaller ones ?
+Once those questions are answered, we’ll try to find more interesting correlations between those metrics. Is the number of bugs reported on a components proportional to its size ? Does the number of bugs decrease if a big component is broken into smaller ones ?
 
 ### How can we detect highly coupled components in ORM frameworks through contributions ?
 
@@ -32,14 +32,12 @@ Once those questions are answered , we’ll try to find more interesting correla
 * Git maat
 * GitHub API
 * Jenkins
-* sonar
-* python/groovy scripts
+* Sonar
+* Python/Groovy scripts
 
 **Methodology :**
 
-Here we’ll try to find out if there is a correlation between contribution \(commits …\) and highly coupled components, this will be done by analysing commits that include multiple files belonging to different components. are two different files always committed together ?
-
-
+Here we’ll try to find out if there is a correlation between contribution \(commits …\) and highly coupled components. This will be done by analysing commits that include multiple files belonging to different components. Are two different files always committed together ?
 
 ## What about **Architecture & Design ?**
 
@@ -50,17 +48,18 @@ Here we’ll try to find out if there is a correlation between contribution \(co
 * CodeCity
 
 * Automatically Detecting ORM Performance, Anti-Patterns on C\#   Applications:[http://scriptiesonline.uba.uva.nl/document/621996](http://scriptiesonline.uba.uva.nl/document/621996)
+
 * Finding Performance Issues in Hibernate Usage by Static Code Analysis :[http://scriptiesonline.uba.uva.nl/document/199509](http://scriptiesonline.uba.uva.nl/document/199509)
 * GitHub API
 
 * Git Maat
 
-* python/groovy scripts
+* Python/Groovy scripts
 
 * Jenkins
 
 
-* sonar
+* Sonar
 
 **Methodology :**
 
@@ -74,11 +73,12 @@ TODO
 
 * python/groovy scripts
 
+
 **Methodology :**
 
 TODO
 
-##  
+## 
 
 ## 
 
