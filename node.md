@@ -6,7 +6,7 @@ In the world of software management, dependency management is a hell. The system
 
 Nodejs experienced strong growth in recent years. This includes the number of modules published the number of contributors. Node is a platform with many dependencies, publish a new version of a component can be a nightmare very quickly.
 
-​​
+​​![](/assets/Capture.PNG)
 
 In this chapter, we will focus on the development of nodejs philosophy
 
