@@ -1,7 +1,5 @@
 # Verify the suitability between the ideal teams and those extracted from the project documentation.
 
-
-
 _**Why ?**_
 
 This study try to compare the Spring’s team with some metric that qualify a good team from a bad team, based on Conway’s law. It is is a sociological based predicate, deduced by observation but seems to be true in most of cases. He said as **example **:
@@ -11,8 +9,6 @@ _"If you have four groups working on a compiler, you'll get a 4-pass compiler"_
 Bigger an organization is, the more social boundaries are produced: the major caused by communication problem.
 
 Developers are not robots and they can’t work work together perfectly because humans can’t share their mind: that’s why there is a conception phase before developing something. Working on the same code part means that you spend time on integration and to ensure that the integration will be good enough, developers need to speak together. Sometimes the project are so big that we need big team, dispatched all around the world and communication can be harder.
-
-
 
 _**The Goal ?**_
 
@@ -24,25 +20,17 @@ To avoid comprehension problems between team members, software architects are se
 
 Spring’s team is well dispatched around the world, we want to determine if we can use the Conway’s law to deduce the ideal team and compare it to get a better coding performance.
 
-
-
 _**How to ?**_
 
 First of all, we need to extract the team from the website project. So to achieve this, we choose to develop our own extractor, in few words, given a webpage, we can by parsing the tags catch the information needed.
 
 Extact tool is available at [RIMEL-extractor](http://rimel.dobl.fr/)
 
-Now, we need to imagine an ideal team for the project. However, how do we find this ideal team? 
+Now, we need to imagine an ideal team for the project. However, how do we find this ideal team?
 
-We know that that law is based on how developers communicate between each other. Therefore we can imagine that committers to one project module or the same project, needs to be communication dependent. 
+We know that that law is based on how developers communicate between each other. Therefore we can imagine that committers to one project module or the same project, needs to be communication dependent.
 
+_**References :**_
 
-
-_**References :**_
-
-Allan Kelly \(2013\) Conway's law v software architecture Published at DZone with permission of Allan Kelly, DZone MVB.
-
-
-
-
+Allan Kelly \(2013\) Conway's law v software architecture Published at DZone with permission of Allan Kelly, DZone MVB.
 
