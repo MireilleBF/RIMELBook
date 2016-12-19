@@ -6,15 +6,13 @@ In this question we will try to highlight any relation between adding functional
 
 The idea is that we take several criteria on the quality of the code that we are going to determine and we look at the evolution over time.We are looking for a correlation between the addition of functionalities or the correction of bugs and the quality of the code and looks at several curves if the evolution of the quality corresponds or not to the correction of beug or the addition of functionnalities, Etc ...
 
-## Problamtic 
+## Problamtic
 
 The importance of our question comes from the relationship between the code changes and its quality,there is a perception that when new features are added to a system that the added and modified portions of the source code are more prone to Fault. Many argued that the new code and features are prone to defects due to immaturity, lack of testing, as well as unstable requirements.
 
 We find that  improvements to existing features reduces bugs,improve- ments to code quality should reduce defect proneness an major improvements, on the other hand, can cause bugs: if we change too much code, we have too much defect prone immature code.
 
-But are these beliefs well-founded?
-
-Is there evidence to support the belief that beug fixes, additions, and feature enhancements can increase or abbreviate code quality?
+But are these beliefs well-founded?Is there evidence to support the belief that beug fixes, additions, and feature enhancements can increase or abbreviate code quality?
 
 ## Chosen methodology
 
