@@ -31,21 +31,21 @@ Then we will analyze:
 
 ## References
 
-​[Foundation node](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+[NodeJS ​Foundation](https://nodejs.org/en/foundation/)
 
-​[Registry npm](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+​[Registry npm](https://www.npmjs.com/package/npm-registry)​
 
-​[Semantic versioning](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+​[Semantic versioning​](http://semver.org/lang/fr/)
 
-​[A Unified Framework for the Comprehension of Software's time Dimension](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+​[A Unified Framework for the Comprehension of Software's time Dimension​](https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/11998/Benomar_Omar_2015_these.pdf?sequence=2&isAllowed=y)
 
 ## Tools
 
-​[CodeCity](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+​[CodeCity​](https://wettel.github.io/codecity.html)
 
-​[Github ap](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+​[Github ap​](https://developer.github.com/v3/)
 
-​[Gitinspector](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)​
+​[Gitinspector](https://github.com/ejwa/gitinspector)​
 
 ## Distribution of work in the team
 
