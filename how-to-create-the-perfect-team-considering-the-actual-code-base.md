@@ -44,3 +44,10 @@ For our study, we take as an example the Spring framework source : [https://gith
 
 We want to use a project like it to be more accurate with the creation of the “perfect” team organization.
 
+## Authors
+
+* Tom DALL'AGNOL, SI5 \(5th year in Computer Science\) at the engineering school Polytech Nice-Sophia.
+* Fabien VICENTE, SI5 \(5th year in Computer Science\) at the engineering school Polytech Nice-Sophia. 
+
+
+
