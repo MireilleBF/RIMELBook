@@ -42,7 +42,7 @@ Then we will have to extract for each revisions and version of the metrics on th
 
 The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
 
-~~Le projet sur lequel nous nous baserons n'a pas encore était choisis. nous avons besoin d'un projet assez active avec si possible les mêmes contributeurs tout du long de son évolution pour limiter les facteurs extérieurs à ceux ciblé.~~
+
 
 ## Contributors
 
