@@ -2,13 +2,14 @@
 
 In this chapter, it will be discussed "_how can video games \(and more generally, software\) be modular thanks to the addition of 'mods' or 'plugins' ?_". This can be the wish of the development team, or driven by the community playing the video game \(or using the software\).
 
-
-
 _**Questions :**_
 
 * How can a community impact the development of some features ?
 * How can the addition of mod impact the architecture ?
-* ...?
+
+With these questions, we hope to retrieve and measure some information like : 
+*  the mean time between two major updates and the number of line of code implied
+* the number of user requests before a major update
 
 _**Projects to study :**_
 
