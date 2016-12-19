@@ -21,7 +21,7 @@ _**Distribution of Work:**_
 
 * Simon Paris
 
-  * Explore the question "How do contributions of developers evolve over time?
+  * Explore the question "How do contributions of developers evolve over time?"
 
 * Loïc Potages
 
@@ -29,7 +29,9 @@ _**Distribution of Work:**_
 
 * Pascal Tung
 
-  * 
+  * Explore the question "How long do bugs remain in open-source codes?"
+
+
 
 
 
