@@ -1,4 +1,4 @@
-# How is managed node changes over time?
+# How is managed Node.js evolution over time?
 
 ## Case Study
 
