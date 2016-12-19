@@ -18,8 +18,6 @@ If companies try to split the work between developers by adding some rules based
 
 When you ask to a team of three developers to solve an easy problem such as creating a simple website: The first says “I know Node.js, you can simple add a server.ts file to route all requests”, while the second will say “Java allows you to create simple http-servlets to create a server” and the third will say “I’m not aware with backend programming, but there are a lot of online hoster to create a simple http server”. Each specialist find the way to answer to the question as it own, but with several ways.
 
-
-
 To avoid comprehension problems between team members, software architects are setted up to clarify which way to take in developpement. If the architect is far from the his team \(eg. 2-3 hours jet lag\) that can slow up the subject comprehension. Generally, the developers who shares the same module editing, must talk each other to clarify in which way progress: as you can see, proximity is the key and call reachability is essential.
 
 Spring’s team is well dispatched around the world, we want to determine if we can use the Conway’s law to deduce the ideal team and compare it to get a better coding performance.
@@ -28,11 +26,11 @@ Spring’s team is well dispatched around the world, we want to determine if we 
 
 First of all, we need to extract the team from the website project. To achieve this, we choose to develop our **own **extractor, in few word: given a webpage, we can by **parsing **the tags catch the information needed.
 
-Extact tool is available at [RIMEL-extractor](http://rimel.dobl.fr/) \(http://rimel.dobl.fr/\)
+Extact tool is available at [RIMEL-extractor](http://rimel.dobl.fr/) \([http://rimel.dobl.fr/\](http://rimel.dobl.fr/\)\)
 
 With that tool \(alpha version at the moment\) you can:
 
-* Enter a webpage which reference a team \(e.g. https://spring.io/team\)
+* Enter a webpage which reference a team \(e.g. [https://spring.io/team\](https://spring.io/team\)\)
 * See the list of team members
 * The Map will shows you their location
 * The grid shows you their team position \(e.g. Developer\)
@@ -50,6 +48,10 @@ We know that that law is based on how developers communicate between each other.
 
 * N. Nagappan, B. Murphy, and V. Basili. [The Influence of Organizational Structure on Software Quality](https://www.cs.umd.edu/~basili/publications/proceedings/P125.pdf). International Conference on Software Engineering, Proceedings.
 
+### Authors_**:**_
+
+* Manuel PAVONE, SI5 \(5th year in Computer Science\) at the engineering school Polytech Nice-Sophia.
+* Dorian BLANC, SI5 \(5th year in Computer Science\) at the engineering school Polytech Nice-Sophia.
 
 
 
