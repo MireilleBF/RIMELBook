@@ -48,13 +48,14 @@ We know that that law is based on how developers communicate between each other.
 
 * N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). [The Influence of Organizational Structure on Software Quality](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
 
-*  Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). [https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/ "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/")
+* Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). [https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/ "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/")
 
 * Lappeenranta University of Technology, LUT. "Human and organizational factors influence software quality." ScienceDaily. ScienceDaily, 11 August 2015. \[online\]. \(visited on 18/12/2016\). [www.sciencedaily.com/releases/2015/08/150811091913.htm](/www.sciencedaily.com/releases/2015/08/150811091913.htm "www.sciencedaily.com/releases/2015/08/150811091913.htm")
 
-* Authors_**:**_
+### Authors _**:**_
 
 * Manuel PAVONE, SI5 \(5th year in Computer Science\) at the engineering school Polytech Nice-Sophia.
+
 * Dorian BLANC, SI5 \(5th year in Computer Science\) at the engineering school Polytech Nice-Sophia.
 
 
