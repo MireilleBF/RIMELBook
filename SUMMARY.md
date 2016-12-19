@@ -16,6 +16,8 @@
         * [How to create the perfect team considering the actual code base?](how-to-create-the-perfect-team-considering-the-actual-code-base.md)
         * [Verify the suitability between the ideal teams and those extracted from the project documentation.](verify-the-suitability-between-the-ideal-teams-and-those-extracted-from-the-project-documentation.md)
     * [How modern ORMs are developed nowadays, in term of organization, Architecture and Design ?](how-modern-orms-are-developed-nowadays-in-term-of-organization-architecture-and-design-.md)
+        * [What about Organization](what-about-organization.md)
+        * [What about Architecture & Design](what-about-architecture--design.md)
 * [Evaluate](evaluate.md)
     * [What is the relation between adding functionality, bug fixing, and code quality](what-is-the-relation-between-adding-functionality-bug-fixing-and-code-quality.md)
     * [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)

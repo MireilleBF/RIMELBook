@@ -13,6 +13,8 @@ Long projects with new developers in them.
 
 _**References used:**_
 
+
+
 _**Tools used:**_
 
 Github API
@@ -30,7 +32,6 @@ _**Distribution of Work:**_
 * Pascal Tung
 
   * Explore the question "How long do bugs remain in open-source codes?"
-
 
 
 
