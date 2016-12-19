@@ -12,7 +12,7 @@
         * [How do developers contribute to each others bug corrections?](how-do-developers-contribute-to-each-others-bug-corrections.md)
         * [Does bug correction add complexity to the code when it isn't done by the former developer?](does-bug-correction-add-complexity-to-the-code-when-it-isnt-done-by-the-former-developer.md)
         * [How long do bugs remain in open-source codes?](how-long-do-bugs-remain-in-open-source-codes.md)
-    * [How is managed node changes over time?](node.md)
+    * [How is managed node evolution over time?](node.md)
 * [Evaluate](evaluate.md)
     * [What is the relation between adding functionality, bug fixing, and code quality](what-is-the-relation-between-adding-functionality-bug-fixing-and-code-quality.md)
     * [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
