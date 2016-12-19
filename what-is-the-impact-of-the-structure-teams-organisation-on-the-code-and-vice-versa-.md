@@ -26,7 +26,7 @@ _**Introduction:**_
 
 Melvin Conway introduced the idea in 1967 at the National Symposium on Modular Programming.** It states that :**
 
-_Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations - M. Conway_
+> _Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations - M. Conway_
 
 We try to verify the validity of this assumption by studying the structure of Spring project team and comparing the results to the code commits.
 

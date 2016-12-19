@@ -20,8 +20,6 @@ Then we will have to extract for each revisions and version of the metrics on th
 
 To answer this question we will proceed in several steps. We are going to have to extract a repository Github several version of a same code. To do this we will extract the state of the code at each release or revision.
 
-
-
 ~~De cette manière nous pourrons esperer avoir suffisament d'écart entre deux version de projet que nous aurions choisis pour pouvoir les considérer comme pertinante pour notre étude. De plus, nous pouvons imaginer que les modifications apporté lors d'une révision tiendrons plus de la correction de bug que de l'ajout de fonctionnalité, et vice versa. Si cette hypothèse est vérifié nous aurons entre deux révisions principalement des corrections de bug et entre deux versions des ajouts de fonctionnalités, ce qui pourrait nous permettre d'évaluer indépendament l'impact de ces deux type de modification.~~
 
 In this way we can hope to have enough gap between two version of project that we would have chosen for them to be considered as relevant to our study.
@@ -35,6 +33,14 @@ Once our code base extracted we will have to make a qualitative assessment of th
 ~~Ensuite nous aurons à extraire pour chaque révisons et version des métriques sur le nombre d'ajout de fonctionnalité et de correction de bug. Nous aurons alors toutes les informations et métriques nécéssaire et nous n'aurons plus qu'a les mettre en corrélation et voir si nous pourrons en extraire une tendence significative sur l'évolution de la qualité du code en fonction de l'ajouts de fonctionnalités et des corrections de bug.~~
 
 Then we will have to extract for each review and version metrics on the number of adding functionality and Correction of bug. Then we will have all the information and metrics necessary and we will no longer have that has correlation, and see if we can extract a significant trend on the evolution of the quality of the code according to the addition of features and corrections of bug.
+
+## Tools used
+
+-github
+
+-metrics
+
+-sonar 
 
 ## References
 
