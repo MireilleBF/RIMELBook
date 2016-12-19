@@ -12,6 +12,7 @@ Through this question we want to take a closer look at ORMs, Hibernate and Entit
 * Git Maat
 * GitHub API
 * Jenkins
+* neo4j
 
 **Methodology :**
 
@@ -20,7 +21,6 @@ Here we’ll examine the components of each ORM from different points of view :
 * Ownership: are components “owned” by a contributor ?
 
 * Size : how does size of said components vary ?
-
 
 Once those questions are answered, we’ll try to find more interesting correlations between those metrics. Is the number of bugs reported on a components proportional to its size ? Does the number of bugs decrease if a big component is broken into smaller ones ?
 
@@ -47,33 +47,35 @@ Here we’ll try to find out if there is a correlation between contribution \(co
 
 * CodeCity
 
-* Automatically Detecting ORM Performance, Anti-Patterns on C\# Applications : [http://scriptiesonline.uba.uva.nl/document/621996](http://scriptiesonline.uba.uva.nl/document/621996)
-
-* Finding Performance Issues in Hibernate Usage by Static Code Analysis : [http://scriptiesonline.uba.uva.nl/document/199509](http://scriptiesonline.uba.uva.nl/document/199509)
-
 * GitHub API
 
 * Git Maat
 
 * Python/Groovy scripts
 
-* Jenkins
-
+* Jenkins/jira
 
 * Sonar
+
+* static code analysis tool \(to be defined\)
+
+**References : **
+
+* \[0\] Tuba Kaya, [Automatically Detecting ORM Performance, Anti-Patterns on C\# Applications](http://scriptiesonline.uba.uva.nl/document/621996) - Amsterdam University
+
+* \[1\]  Jasper Alblas, [finding Performance Issues in Hibernate Usage by Static Code Analysis](http://scriptiesonline.uba.uva.nl/document/199509) - Amsertdam University
 
 **Methodology :**
 
 The goal of this part is to detect anti-patterns in those ORM implementations, and impacts of those anti-patterns in term of perfomances and code quality. Do we find the sames anti-patterns in both Hibernate and Entity framework ? Did they have been fixed in the next commits, and how ?
 
-### **How Entity Framework and Hibernate manage database connections?**
+### **How Entity Framework and Hibernate manage caching?**
 
 **Tools used :**
 
 * GitHub API
 
 * Python/Groovy scripts
-
 
 **Methodology :**
 
