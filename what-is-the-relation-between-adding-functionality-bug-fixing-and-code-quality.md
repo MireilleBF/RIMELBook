@@ -16,13 +16,25 @@ Once our code base has been extracted we will have to make a qualitative evaluat
 
 Then we will have to extract for each revisions and version of the metrics on the number of added functionality and bug fix. We will then have all the necessary information and metrics and we will have only to correlate them and see if we can extract a significant tendency on the evolution of the quality of the code according to the additions of functionalities and Bug fixes.
 
-Pour répondre à cette question nous allons procéder en plusieurs étapes. Nous allons devoir extraire d'un repository Github plusieur version d'un même code. Pour ce faire nous allons extraire l'état du code à chaque release ou révision.
+~~Pour répondre à cette question nous allons procéder en plusieurs étapes. Nous allons devoir extraire d'un repository Github plusieur version d'un même code. Pour ce faire nous allons extraire l'état du code à chaque release ou révision.~~
 
-De cette manière nous pourrons esperer avoir suffisament d'écart entre deux version de projet que nous aurions choisis pour pouvoir les considérer comme pertinante pour notre étude. De plus, nous pouvons imaginer que les modifications apporté lors d'une révision tiendrons plus de la correction de bug que de l'ajout de fonctionnalité, et vice versa. Si cette hypothèse est vérifié nous aurons entre deux révisions principalement des corrections de bug et entre deux versions des ajouts de fonctionnalités, ce qui pourrait nous permettre d'évaluer indépendament l'impact de ces deux type de modification.
+To answer this question we will proceed in several steps. We are going to have to extract a repository Github several version of a same code. To do this we will extract the state of the code at each release or revision.
 
-Une fois notre base de code extraite nous devrons faire une évaluation qualitative du code pour chaque révisions et version choisis, à l'aide d'outils. nous pourrons nous baser sur la complexité du code, que de outils comme Metrics ou Sonar peuvent nous donner.
 
-Ensuite nous aurons à extraire pour chaque révisons et version des métriques sur le nombre d'ajout de fonctionnalité et de correction de bug. Nous aurons alors toutes les informations et métriques nécéssaire et nous n'aurons plus qu'a les mettre en corrélation et voir si nous pourrons en extraire une tendence significative sur l'évolution de la qualité du code en fonction de l'ajouts de fonctionnalités et des corrections de bug.
+
+~~De cette manière nous pourrons esperer avoir suffisament d'écart entre deux version de projet que nous aurions choisis pour pouvoir les considérer comme pertinante pour notre étude. De plus, nous pouvons imaginer que les modifications apporté lors d'une révision tiendrons plus de la correction de bug que de l'ajout de fonctionnalité, et vice versa. Si cette hypothèse est vérifié nous aurons entre deux révisions principalement des corrections de bug et entre deux versions des ajouts de fonctionnalités, ce qui pourrait nous permettre d'évaluer indépendament l'impact de ces deux type de modification.~~
+
+In this way we can hope to have enough gap between two version of project that we would have chosen for them to be considered as relevant to our study.
+
+In addition, we can imagine that the changes made in a Revision keep more of the Correction of bug that the addition of functionality, and vice versa. If this assumption is verified we will have between two revisions mainly corrections of bug and between two versions of the additions of features, which could allow us to independently assess the impact of these two type of modification.
+
+~~Une fois notre base de code extraite nous devrons faire une évaluation qualitative du code pour chaque révisions et version choisis, à l'aide d'outils. nous pourrons nous baser sur la complexité du code, que de outils comme Metrics ou Sonar peuvent nous donner.~~
+
+Once our code base extracted we will have to make a qualitative assessment of the code for each revisions and selected version, using tools. We can based on the complexity of the Code, that tools such as metrics or Sonar can give us.
+
+~~Ensuite nous aurons à extraire pour chaque révisons et version des métriques sur le nombre d'ajout de fonctionnalité et de correction de bug. Nous aurons alors toutes les informations et métriques nécéssaire et nous n'aurons plus qu'a les mettre en corrélation et voir si nous pourrons en extraire une tendence significative sur l'évolution de la qualité du code en fonction de l'ajouts de fonctionnalités et des corrections de bug.~~
+
+Then we will have to extract for each review and version metrics on the number of adding functionality and Correction of bug. Then we will have all the information and metrics necessary and we will no longer have that has correlation, and see if we can extract a significant trend on the evolution of the quality of the code according to the addition of features and corrections of bug.
 
 ## References
 
@@ -34,5 +46,15 @@ Ensuite nous aurons à extraire pour chaque révisons et version des métriques 
 
 The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
 
-Le projet sur lequel nous nous baserons n'a pas encore était choisis. nous avons besoin d'un projet assez active avec si possible les mêmes contributeurs tout du long de son évolution pour limiter les facteurs extérieurs à ceux ciblé.
+~~Le projet sur lequel nous nous baserons n'a pas encore était choisis. nous avons besoin d'un projet assez active avec si possible les mêmes contributeurs tout du long de son évolution pour limiter les facteurs extérieurs à ceux ciblé.~~
+
+## Contributors
+
+BELHASSEN Issam
+
+DENNE Djoe
+
+DESTORS Max
+
+MOULAYEELY Bezeid
 
