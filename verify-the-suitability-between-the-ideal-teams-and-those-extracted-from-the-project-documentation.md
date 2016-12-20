@@ -40,7 +40,7 @@ Now, we need to imagine an ideal team for the project. However, how do we find i
 
 The ideal team is a team where all the members of the project are gathered in the same place.
 
-And if several geographical groups are formed, then the best thing is for each geographic group, to work on an independent part of the project. In order to limit problems due to remote communication.
+And if several geographical groups are formed, then the best thing is for each geographic group, to work on an independent part of the project. In order to limit problems due to remote communication.
 
 We know that that law is based on how developers communicate between each other. Therefore we can imagine that committers to one project module or the same project, needs to be communication dependent.
 
