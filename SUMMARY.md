@@ -3,9 +3,6 @@
 * [Preface](README.md)
 * [Introduction](Introduction.md)
 * [Abstract \(Abstraire\)](abstract.md)
-    * [Introduction](introduction.md)
-    * [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
-    * [Conclusion](conclusion.md)
 * [Search \(Fouiller\)](search_fouiller.md)
     * [How do developer introduce themselves to open source projects and correct bugs in them ?](how-do-developer-introduce-themselves-to-open-source-projects-and-correct-bugs-in-them-.md)
         * [How do developers contribute to each others bug corrections?](how-do-developers-contribute-to-each-others-bug-corrections.md)
@@ -21,5 +18,6 @@
 * [Evaluate](evaluate.md)
     * [What is the relation between adding functionality, bug fixing, and code quality](what-is-the-relation-between-adding-functionality-bug-fixing-and-code-quality.md)
     * [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
+* [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
 * [Conclusion](conclusion.md)
 
