@@ -1,6 +1,6 @@
 # How do developer introduce themselves to open source projects and correct bugs in them ?
 
-Remarques : 
+Remarques :
 
 * _ personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
 * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
