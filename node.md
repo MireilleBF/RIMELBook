@@ -90,16 +90,16 @@ Then we will analyze:
 * Balde Thierno
 
   * Commits analysis over a given period
-
+> @mbf : pourquoi faire?
   * Identification modules and correlated these contributors
-  > Il y a des idées mais soyez un peu plus "clair"
+  > @mbf : Il y a des idées mais soyez un peu plus "clair"
 
 * Diallo Mahmoud
 
   * Versions Analysis of Module
 
   * Contributions Analys is different developers on a given module
-  > ????
+  > @mbf : ????
 
 
 
