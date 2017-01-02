@@ -29,7 +29,9 @@ Then, by analysing the history of commit to find links between committers and co
 
 Finally, to establish a hierarchy between contributors, we’ll retrieve the biggest contributors for each components this permits us to find who has the most knowledge of each part of the system and find appropriate technical leaders for each. Something identical could be used for modules in order to have the bigger picture.
 
+
 Thanks to these analysis, we can derive a team that will have the good properties of having less external communication \(we group the people that need to work together\) and sharing the most knowledge of the same component \(all the people working on a component know the code and they are less likely to add a bug due to a lack of knowledge of the current code base\).
+>@mbf : effective team et ideal team should distinguished.
 
 In order to achieve what we have talked about we need some tooling. We’ve found those tools that permits us to do such things :
 
