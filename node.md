@@ -4,9 +4,9 @@
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** : 
-  *   Il faut un titre qui ...
+  *   Il faut un titre qui interesse. 
 * **Question générale** : 
-  *   La question est trop précise, que cherchez-vous plus généralement?
+  *   La question est trop précise, que cherchez-vous plus généralement? Peu de personnes s'intéressent à la manière dont Node.js évolue dans le temps.
 * **Pourquoi \(fera office d'introduction\) :**
   *   
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
