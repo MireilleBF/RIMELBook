@@ -13,6 +13,7 @@
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
   *   
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+  * J'ai du mal à comprendre l'articulation entre les 2 sous parties. Essayez de l'écrire en fin de votre introduction cela aidera.
 * **Articles : serviront de référence et pourront etre discutés**
 * **En vrac**
   1. TeamCodeParser est lié à github ou git?
