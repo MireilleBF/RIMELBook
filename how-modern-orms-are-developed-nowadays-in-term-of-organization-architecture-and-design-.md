@@ -6,7 +6,7 @@
 * **Question générale** :
    * OK... Si on ne parvient pas à généraliser la question, alors il faut expliciter pourquoi on se pose la question sur les ORMs, en quoi répondre à cette question fait avancer nos connaissances de manière générale.
 * **Pourquoi \(fera office d'introduction\) :**
-   * 
+   * a REVOIR
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
   * 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
