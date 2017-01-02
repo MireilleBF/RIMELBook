@@ -5,8 +5,9 @@
 * **Titre du chapitre** : 
   * A choisir la question générale est trop longue pour faire office d'un titre \(bugs management along ..\)?
 * **Question générale** : 
-  \* 
+  * OK 
 * **Pourquoi \(fera office d'introduction\) :**
+  * manque au niveau général
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
@@ -19,7 +20,8 @@
 
   * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
 
-  * Il faut identifier 
+  * Il faut identifier
+
     * des références... ??? euh ... en fait dans les sous-rubriques
     * des projets à étudier aussi... cela devient urgent.
     * des outils !!
