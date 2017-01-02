@@ -29,7 +29,7 @@ The idea is that we take several criteria on the quality of the code that we are
 ## Problematic
 
 The importance of our question comes from the relation between the code changes and its quality; there is a perception that when new features are added to a system that the added and modified portions of the source code are more prone to Fault. Many argued that the new code and features are prone to defects due to immaturity, lack of testing, as well as unstable requirements.
->@mbf : vous ne pouvez pas vous baser sur des rumeurs, il vous faut des références qui étayent vos propos.
+>@mbf : vous ne pouvez pas vous baser sur des rumeurs, il vous faut des références qui étayent vos propos. Ou bien vérifiez autour de vous par un mini sondage ou bien contentez vous de faire référence à Lehman.
 
 We find that  improvements to existing features reduces bugs, improvements to code quality should reduce defect proneness an major improvements, on the other hand, can cause bugs: if we change too much code, we have too much defect prone immature code.
 >@mbf : j'ai du mal à vous suivre.
