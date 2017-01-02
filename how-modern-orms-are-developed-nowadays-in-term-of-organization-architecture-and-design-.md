@@ -2,9 +2,9 @@
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** :
-   * oK... on verra plus tard pour etre un peu plus percutant
+   * ...
 * **Question générale** :
-   * OK
+   * OK... Si on ne parvient pas à généraliser la question, alors il faut expliciter pourquoi on se pose la question sur les ORMs, en quoi répondre à cette question fait avancer nos connaissances de manière générale.
 * **Pourquoi \(fera office d'introduction\) :**
    * manque au niveau général
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
