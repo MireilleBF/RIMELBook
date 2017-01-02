@@ -14,6 +14,10 @@ Developers are not robots and they can’t work together perfectly because human
 
 ![](/assets/ConwaysLaw.png)
 
+> @mbf : AJOUTER une légende et faites référence à la figure dans le texte. CIter dans cette légende votre source.
+
+
+
 If companies tries to split the work between developers by adding some rules based on that Conway’s , we can imagine the job can be done **better and faster**.
 
 When you ask to a team of three developers to solve an easy problem such as creating a simple website: The first says “I know Node.js, you can simple add a server.ts file to route all requests”, while the second will say “Java allows you to create simple http-servlets to create a server” and the third will say “I’m not aware with backend programming, but there are a lot of online hoster to create a simple http server”. Each specialist find the way to answer to the question as it own, but with several ways.
