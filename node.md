@@ -1,16 +1,17 @@
-# How is managed Node.js evolution over time?
-
+```
+How is managed Node.js evolution over time?
+```
 
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** : 
-  *   Il faut un titre qui interesse. 
+  * Il faut un titre qui interesse. 
 * **Question générale** : 
-  *   La question est trop précise, que cherchez-vous plus généralement? Peu de personnes s'intéressent à la manière dont Node.js évolue dans le temps.
+  * La question est trop précise, que cherchez-vous plus généralement? Peu de personnes s'intéressent à la manière dont Node.js évolue dans le temps.
 * **Pourquoi \(fera office d'introduction\) :**
-  *   
+  * dependencies : 
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  *   
+  * 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
 
   * 
@@ -18,7 +19,6 @@
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 
 * **Articles : serviront de référence et pourront etre discutés**
-
 
 ## Case Study
 
@@ -29,6 +29,8 @@ Nodejs experienced strong growth in recent years. This includes the number of mo
 ​​![](/assets/Capture.PNG)
 
 In this chapter, we will focus on the development of nodejs philosophy
+
+> @mbf : mais quel est le problème étudié? Pourquoi cette étude de cas?
 
 ## Methodology
 
