@@ -32,7 +32,7 @@
 
 The goal of this part is to detect anti-patterns in those ORM implementations, and impacts of those anti-patterns in term of perfomances and code quality. Do we find the sames anti-patterns in both Hibernate and Entity framework ? Did they have been fixed in the next commits, and how ?
 
->@mbf : Quels anti-patterns? liés aux ORMs? 
+>@mbf : Quels anti-patterns? liés aux ORMs? COMMENT ferez-vous le lien avec les performances? 
 
 ## **How Entity Framework and Hibernate manage caching?**
 
