@@ -39,6 +39,8 @@ In order to achieve what we have talked about we need some tooling. We’ve foun
 * fractal figures, to visualize data: [https://github.com/adamtornhill/FractalFigures](https://github.com/adamtornhill/FractalFigures)
 * neo4j to visualize, analyze and edit graphes: [https://neo4j.com/](https://neo4j.com/)
 
+>@mbf : OK
+
 ## References:
 
 * N. Nagappan, B. Murphy, and V. Basili. [The Influence of Organizational Structure on Software Quality](https://www.cs.umd.edu/~basili/publications/proceedings/P125.pdf). International Conference on Software Engineering, Proceedings.
