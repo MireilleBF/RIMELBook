@@ -9,11 +9,14 @@
 * **Pourquoi \(fera office d'introduction\) :**
   * manque au niveau général
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
+* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
+
+  * ok mettre ce qui est ici dans la partie introduction 
+
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
 
-* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-
+* 
 * * En vrac
 
   * _personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
