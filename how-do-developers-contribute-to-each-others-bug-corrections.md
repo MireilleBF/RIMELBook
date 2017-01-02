@@ -16,7 +16,7 @@ We will start by getting Github data out to work on it. The Github API should ma
 
 Depending on the things that we could reveal with data, we will choose the good graph tool for representing them. Considering the huge quantity of data that we can extract, we could use the tools of the project that we will study : ElasticSearch, and Kibana to make dashboards.
 
-> @mbf : Explictez d'abord les questions que vous allez posés puis votre approche \(quelles données extraire\) et ensuite comment vous allez les explorer : requêtes, visualisation, etc.
+> @mbf : Explicitez d'abord les questions que vous allez posés puis votre approche \(quelles données extraire\) et ensuite comment vous allez les explorer : requêtes, visualisation, etc.
 
 _**References used:**_
 
@@ -24,9 +24,24 @@ _**References used:**_
 
 [A Data Set for Social Diversity Studies of GitHub Teams](/A Data Set for Social Diversity Studies of GitHub Teams) by Bogdan Vasilescu, Alexander Serebrenik, Vladimir Filkov
 
+> @mbf : TB @inproceedings{Vasilescu:2015:DSS:2820518.2820601,
+ author = {Vasilescu, Bogdan and Serebrenik, Alexander and Filkov, Vladimir},
+ title = {A Data Set for Social Diversity Studies of GitHub Teams},
+ booktitle = {Proceedings of the 12th Working Conference on Mining Software Repositories},
+ series = {MSR '15},
+ year = {2015},
+ location = {Florence, Italy},
+ pages = {514--517},
+ numpages = {4},
+ url = {http://dl.acm.org/citation.cfm?id=2820518.2820601},
+ acmid = {2820601},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+} 
+
 _**Tools used:**_
 
 Github API
 
 Python for manipulate data and make a first set of graph
-
+>@mbf : sans la question détaillée dure de savoir, attention de ne pas "tout refaire!"
