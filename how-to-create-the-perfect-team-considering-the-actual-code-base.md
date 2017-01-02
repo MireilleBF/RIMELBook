@@ -33,8 +33,11 @@ In order to achieve what we have talked about we need some tooling. We’ve foun
 ## References:
 
 * N. Nagappan, B. Murphy, and V. Basili. [The Influence of Organizational Structure on Software Quality](https://www.cs.umd.edu/~basili/publications/proceedings/P125.pdf). International Conference on Software Engineering, Proceedings.
+> @mbf : ok, TB
 
 * M. D’Ambros, M. Lanza, and H Gall. Fractal Figures: [Visualizing Development Effort for CVS Entities](http://www.inf.usi.ch/faculty/lanza/Downloads/DAmb05b.pdf). Visualizing Software for Understanding and Analysis, 2005. VISSOFT 2005. 3rd IEEE International Workshop on.
+> @mbf : ok
+
 
 * Conway, Melvin E. \(April 1968\), "[How do Committees Invent?](http://www.melconway.com/Home/Committees_Paper.html)", Datamation, 14 \(5\): 28–31, retrieved 2015-04-10
 > @mbf : ok
