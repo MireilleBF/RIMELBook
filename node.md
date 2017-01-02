@@ -14,9 +14,8 @@ How is managed Node.js evolution over time?
   \* sans une question plus précise, on ne sait pas répondre.
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
   * ok
-
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
-
+  * trop confus
 * **Articles : serviront de référence et pourront etre discutés**
 
 ## Case Study
