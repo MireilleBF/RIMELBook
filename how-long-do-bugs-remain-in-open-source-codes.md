@@ -43,4 +43,4 @@ _**Tools used:**_
 
 [Gitinspector : a statistical analysis tool for git repositories](https://github.com/ejwa/gitinspector)
 
->@mbf : J'ai des doutes ! 
+>@mbf : J'ai des doutes, la question étant insuffisamment détaillée
