@@ -32,6 +32,7 @@ _**Tools: **_
 * GitHub API
 * TeamCodeParser \(Made by us, allows, given a Github repository \(ex: github.com/spring-io/sagan\), to extract the team by **code exploration**\)
 * TeamParser \(Made by us, allows, given a webpage \(ex: spring.io/team\), to extract teams by **subject **and **location**\)
+> @mbf :n'importe quelle page web ?
 
 _**Project to study: **_
 
