@@ -56,3 +56,6 @@ Once those questions are answered, we’ll try to find more interesting correlat
 
 Here we’ll try to find out if there is a correlation between contribution \(commits …\) and highly coupled components. This will be done by analysing commits that include multiple files belonging to different components. Are two different files always committed together ?
 
+> @mbf : en quoi cela nous intéresse? 
+Ce passage est écrit sans réflexion.
+
