@@ -1,5 +1,32 @@
 # How is managed Node.js evolution over time?
 
+Remarques : @mbf à enlever après prise en compte
+Titre du chapitre :
+A choisir la question générale est trop longue pour faire office d'un titre (bugs management along ..Open Source)?
+Question générale :
+OK
+Attention, par la suite il semble que l'open source ne soit pas l'objectif mais seulement un moyen... Faîtes un choix. Si vous pensez que votre étude est plus générale alors ne mettez pas "Open source" dans le titre... Comme vous n'avez pas de code non open-source à étudier : Laisser open source et dans la question générale et dans les perspectives, élargissez la question, peut-on déduire de vos résultats des comportements similaires dans le cadre de projets présentant la même volatilité des développeurs? l'absence de dirigisme? En quoi votre étude est-elle impactée par le fait que vous vous intéressez uniquement à des projets open-source?
+Pourquoi (fera office d'introduction) :
+manque au niveau général
+devra servir de base pour introduire le plan, i.e. la décomposition en sous partie. A faire assez vite pour que vous ayez votre fil conducteur.
+Outils, Méthodes (en partie dans l'introduction) :
+Soyez plus précis.
+Codes (au choix à présenter dans une partie méthodologie ou dans les sous parties
+
+ok mettre ce qui est ici dans la partie introduction et compléter avec les sous-parties
+Pistes (devra servir de base à un plan de chapitre, et il faut expliquer pourquoi)
+
+Articles : serviront de référence et pourront etre discutés
+
+En vrac
+personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant)
+
+La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
+Il faut identifier
+des références... ??? euh ... en fait dans les sous-rubriques
+des projets à étudier aussi... cela devient urgent.
+des outils !!
+
 ## Case Study
 
 In the world of software management, dependency management is a hell. The system evolves more it integrates components, most system management is becoming increasingly complex.
