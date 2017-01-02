@@ -46,7 +46,12 @@ In order to achieve what we have talked about we need some tooling. We’ve foun
 
 For our study, we take as an example the Spring framework source : [https://github.com/spring-projects/spring-framework](https://github.com/spring-projects/spring-framework). We choose it because there is plenty of commit \(13,764 commits on the master branch the 19 december 2016\) and with 187 contributors we have a large amount of data to analyze.
 
+> @mbf : ok
+
+
 We want to use a project like it to be more accurate with the creation of the “perfect” team organization.
+
+
 
 ## Authors
 
