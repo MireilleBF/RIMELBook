@@ -6,7 +6,7 @@ The open source projects are a good study case because there is often many move,
 
 We will study the [ElasticSearch](https://github.com/elastic) project.
 
-> @mbf : Le lien est trop haut
+> @mbf : Le lien est trop haut... Sauf si vous vous intéressez à la suite.
 
 _**Methodology:**_
 
