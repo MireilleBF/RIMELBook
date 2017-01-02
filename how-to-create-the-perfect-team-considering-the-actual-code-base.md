@@ -8,7 +8,7 @@ For that we want to use the opposite of Conway’s law that says that an organis
 
 Thanks to that, the project team will have a better internal structure permitting more efficient communication and enabling more productive work.
 
-> @mbf : ok... j'espère que vous montrerez que la règle est vraie... et que vous la préciserez car "to produce designs"  et "communication structures" sont flous.
+> @mbf : ok... j'espère que vous montrerez que la règle est vraie... et que vous la préciserez car "to produce designs"  et "communication structures" sont flous (granularité,...).
 
 ## How?
 
