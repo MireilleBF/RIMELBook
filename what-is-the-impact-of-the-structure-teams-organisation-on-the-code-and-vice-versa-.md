@@ -42,7 +42,9 @@ _**Project to study: **_
 _**Questions: **_
 
 * Extract the code and analyze it to determine the perfect team. 
+> @mbf :perfect, je ne comprends pas..
 * Verify the suitability between the ideal teams and those extracted from the project documentation.
+> @mbf : pareil... je ne comprends pas. 
 
 _**Introduction:**_
 
@@ -51,4 +53,6 @@ Melvin Conway introduced the idea in 1967 at the National Symposium on Modular P
 > _Organizations which design systems ... are constrained to produce designs which are copies of the communication structures of these organizations - M. Conway_
 
 We try to verify the validity of this assumption by studying the structure of Spring project team and comparing the results to the code commits.
+
+> @mbf : oui !
 
