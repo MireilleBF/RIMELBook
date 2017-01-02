@@ -14,7 +14,7 @@ We will start by getting Github data out to work on it. The Github API should ma
 
 > @mbf : Quelles data vous intéressent? Que voulez-vous identifier ? Les commits faisant référence à des bugs? Les contributeurs sur des fichiers, lignes de codes?
 
-Depending on the things that we could reveal with data, we will choose the good graph tool for representing them. Considering the huge quantity of data that we can extract, we could use the tools of the project that we will study : ElasticSearch, and Kibana tp make dashboards.
+Depending on the things that we could reveal with data, we will choose the good graph tool for representing them. Considering the huge quantity of data that we can extract, we could use the tools of the project that we will study : ElasticSearch, and Kibana to make dashboards.
 
 _**References used:**_
 
