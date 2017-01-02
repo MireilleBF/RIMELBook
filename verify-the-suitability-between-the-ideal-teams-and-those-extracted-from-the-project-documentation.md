@@ -70,7 +70,7 @@ We know that that law is based on how developers communicate between each other.
 > @mbf : OK Conway's Law is now working in reverse: the system is imposing structure on the organization. mais se pose aussi la question :
 Both forms of Conway's Law and the Homomorphic Force pose a dilemma for any organization. Should they work with the force or try to break it?
 
-* N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). [The Influence of Organizational Structure on Software Quality](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
+* N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). [The Influence of Organizational Structure on Software Quality]
 
 * Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). [https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/ "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/")
 
