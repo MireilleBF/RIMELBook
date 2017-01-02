@@ -79,3 +79,4 @@ Kaufmann R. & Janzen D. \(2003, October\). Implications of test-driven developme
 
 Our project will be splited in two teams. The first one with Alexandre Cazala and Lisa Joanno will study TDD projects and the second one with Nicolas Lecourtois and Pierre Massanès will study Test-Last projects.
 
+> @mbf : TB ... faîtes attention à prévoir des métrics qui permettent les comparaisons.
