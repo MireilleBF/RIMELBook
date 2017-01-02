@@ -4,8 +4,7 @@
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** : 
-  * A choisir la question générale est trop longue pour faire office d'un titre \(bugs management along ..Open Source\)? 
-  * 
+  *   
 * **Question générale** : 
   *   
 * **Pourquoi \(fera office d'introduction\) :**
