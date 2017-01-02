@@ -18,8 +18,15 @@ In that case, we will be looking for active projects that being running for a wh
 
 _**Methodology:**_
 
-The first thing to do is to collect and analyse all the issues on the git repository of the project. The goal is to evaluate whether the project uses issues to report bugs and if the contributors interact in these with commit tags, comments or not.  
+The first thing to do is to collect and analyse all the issues on the git repository of the project. The goal is to evaluate whether the project uses issues to report bugs and if the contributors interact in these with commit tags, comments or not.
+
+> @mbf : sur ce point, vous êtes plus dans la sélection du projet non? Pas vraiment dans l'analyse...
+
+
+
 After that, we have to look into each issues and compare the creation date, the first commit date and the date when the issue was closed.
+
+> @mbf : il me manque beaucoup d'éléments.. si c'est la complexité, si c'est les contributeurs,...
 
 _**References used:**_
 
