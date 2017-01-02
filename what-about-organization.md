@@ -29,6 +29,7 @@ Once those questions are answered, we’ll try to find more interesting correlat
 
 > @mbf : ces questions sont différentes de ORMs... On n'est plus non plus sur de l'organisation... que se passe-t-il si on ajoute un "composant" .. retrouve-t-on des responsabilités similaires dans les 2 systèmes?
 
+> @mbf : qui est sur cette partie?
 
 ## How can we detect highly coupled components in ORM frameworks through contributions ?
 
