@@ -9,9 +9,9 @@ How is managed Node.js evolution over time?
 * **Question générale** : 
   * La question est trop précise, que cherchez-vous plus généralement? Peu de personnes s'intéressent à la manière dont Node.js évolue dans le temps.
 * **Pourquoi \(fera office d'introduction\) :**
-  * dependencies : 
+  * dependencies? mettre en place des outils pour analyser les dépendances? 
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  \* 
+  \* je ne comprends pas...
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
 
   * 
