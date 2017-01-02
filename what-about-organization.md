@@ -23,7 +23,7 @@ Here we’ll examine the components of each ORM from different points of view :
 * Ownership: are components “owned” by a contributor ?
 
 * Size : how does size of said components vary ?
-
+> @mbf : relativement au temps, les uns par rapport aux autres ? dans un système? entre les systèmes?, l'architecture?
 
 Once those questions are answered, we’ll try to find more interesting correlations between those metrics. Is the number of bugs reported on a components proportional to its size ? Does the number of bugs decrease if a big component is broken into smaller ones ?
 
