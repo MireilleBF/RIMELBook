@@ -2,7 +2,8 @@
 
 **Remarques** :
 
-* **Titre du chapitre** :
+* **Titre du chapitre** : 
+  * A choisir la question générale est trop longue pour faire office d'un titre \(bugs management along ..\)?
 * **Question générale** : 
   * 
 * **Pourquoi \(fera office d'introduction\) :**
@@ -11,9 +12,11 @@
 * **Articles : serviront de référence et pourront etre discutés**
 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
+
 * * En vrac
 
   * _personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
+
   * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
   * Il faut identifier 
     * des références... ??? euh ... en fait dans les sous-rubriques
