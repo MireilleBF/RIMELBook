@@ -33,6 +33,9 @@ Once those questions are answered, we’ll try to find more interesting correlat
 
 ## How can we detect highly coupled components in ORM frameworks through contributions ?
 
+> @mbf : pourquoi pas un fichier à part?
+
+
 **Tools used :**
 
 * CodeCity
