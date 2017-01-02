@@ -16,6 +16,7 @@
 
 
 **Methodology :**
+> @mbf : essayez de préciser ce que vous appelerez "component"
 
 Here we’ll examine the components of each ORM from different points of view :
 
