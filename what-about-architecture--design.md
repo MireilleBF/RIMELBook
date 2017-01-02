@@ -18,6 +18,7 @@
 
 * static code analysis tool \(to be defined\)
 
+>@mbf : voir l'autre chapitre
 
 **References : **
 
