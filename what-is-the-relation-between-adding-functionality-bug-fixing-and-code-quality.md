@@ -47,6 +47,8 @@ Once our code base has been extracted we will have to make a qualitative evaluat
 
 Then we will have to extract for each revisions and version of the metrics on the number of added functionality and bug fix. We will then have all the necessary information and metrics and we will have only to correlate them and see if we can extract a significant tendency on the evolution of the quality of the code according to the additions of functionalities and Bug fixes.
 
+>@mbf : OK
+
 ## Tools used
 
 -github
