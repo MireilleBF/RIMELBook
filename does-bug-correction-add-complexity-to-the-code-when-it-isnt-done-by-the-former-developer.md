@@ -44,9 +44,9 @@ Several projects that have a large number of contributors on a long time period.
 
 We will also be looking for projects that have a free access ticketing in order to have more precise data.
 
-
-
 ### Methodology:
+
+> @mbf : Super! Il faudra préciser les durées et les chiffres mais oui c'est bien!
 
 The way to do this is to first analysis the git of the project and check if debugs are marked with special annotations.
 
