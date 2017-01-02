@@ -36,9 +36,9 @@ Using our methodology, companies should also be able to deduct patterns for thei
 
 “ XXXXX generally debugs its own features very fast and even removes complexity from its code but when it comes to someone else's feature it is the total opposite”
 
-
-
 ### Project studied:
+
+> @mbf : chaque membre de l'équipe travaille sur un projet différent?
 
 Several projects that have a large number of contributors on a long time period.
 
