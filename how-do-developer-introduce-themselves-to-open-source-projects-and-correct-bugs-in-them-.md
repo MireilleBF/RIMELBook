@@ -8,6 +8,7 @@
   * OK 
 * **Pourquoi \(fera office d'introduction\) :**
   * manque au niveau général
+  * devra servir de base pour introduire le plan, i.e. la décomposition en sous partie. A faire assez vite pour que vous ayez votre fil conducteur.
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
 
