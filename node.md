@@ -11,7 +11,7 @@ How is managed Node.js evolution over time?
 * **Pourquoi \(fera office d'introduction\) :**
   * dependencies : 
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  * 
+  \* 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
 
   * 
@@ -41,7 +41,11 @@ Then we will analyze:
 * the dependency rules between these correlated modules
 
 * * are they strict / loose ?
+
+  > @mbf : OK pourquoi vous posez la question ?
 * the version of a module changes
+
+> @mbf : OK pourquoi vous posez la question ?
 
 * The contributions from developers on a module
 
@@ -50,6 +54,10 @@ Then we will analyze:
   * Which developer commit the most lines
 
   * What are contributors to module X Version X.Y.Z
+
+  > @mbf : OK pourquoi vous posez la question ?
+
+
 
 ## References
 
