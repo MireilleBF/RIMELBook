@@ -19,7 +19,7 @@
   1. TeamCodeParser est lié à github ou git?
   2. Vous devez faire le lien entre la structure et l'équipe... je ne le vois pas dans les outils...
   3. j'ai du mal avec "ideal team" ... il faudrait clarfier cette question.
-  4. 
+  
 -----
 _**Team:**_
 
