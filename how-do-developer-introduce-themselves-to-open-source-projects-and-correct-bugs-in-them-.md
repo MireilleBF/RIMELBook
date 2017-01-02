@@ -1,21 +1,24 @@
 # How do developer introduce themselves to open source projects and correct bugs in them ?
 
-Remarques :
+**Remarques** :
 
-* Titre du chapitre :
-* Question générale : 
-* Pourquoi \(fera office d'introduction\)
-* Outils, Méthodes : 
-* Articles 
-* Codes
-* Pistes
-* 
-* _personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
-* La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
-* Il faut identifier 
-  * des références... ??? euh ... en fait dans les sous-rubriques
-  * des projets à étudier aussi... cela devient urgent.
-  * des outils !!
+* **Titre du chapitre** :
+* **Question générale** : 
+  * 
+* **Pourquoi \(fera office d'introduction\) :**
+* **Outils, Méthodes \(en partie dans l'introduction\) : **
+* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+* **Articles : serviront de référence et pourront etre discutés**
+
+* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
+* * En vrac
+
+  * _personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
+  * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
+  * Il faut identifier 
+    * des références... ??? euh ... en fait dans les sous-rubriques
+    * des projets à étudier aussi... cela devient urgent.
+    * des outils !!
 
 _**Questions:**_
 
