@@ -3,7 +3,7 @@
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** :
-   * oK... on verra plus tard pour etre un peu plus percutant
+   * OK... on verra plus tard pour etre un peu plus percutant
 * **Question générale** :
    * OK
 * **Pourquoi \(fera office d'introduction\) :**
@@ -19,7 +19,7 @@
   2. Vous devez faire le lien entre la structure et l'équipe... je ne le vois pas dans les outils...
   3. j'ai du mal avec "ideal team" ... il faudrait clarfier cette question.
   4. 
-
+-----
 _**Team:**_
 
 * Dorian BLANC
