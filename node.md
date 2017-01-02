@@ -92,7 +92,7 @@ Then we will analyze:
   * Commits analysis over a given period
 
   * Identification modules and correlated these contributors
-  > ????
+  > Il y a des idées mais soyez un peu plus "clair"
 
 * Diallo Mahmoud
 
