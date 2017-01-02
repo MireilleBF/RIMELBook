@@ -4,7 +4,7 @@
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** : 
-  *   Il faut une question qui fait du sens.
+  *   Il faut un titre qui ...
 * **Question générale** : 
   *   La question est trop précise, que cherchez-vous plus généralement?
 * **Pourquoi \(fera office d'introduction\) :**
