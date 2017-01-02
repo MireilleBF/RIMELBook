@@ -14,7 +14,8 @@
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
 * **En vrac**
-
+  * Souci d'organisation avec des mauvais niveaux de titres. 
+  * qui contribue à quoi?
 --------
 
 Object-relational mapping \(ORM\) is a mechanism that makes it possible to address, access and manipulate objects without having to consider how those objects relate to their data sources. It abstracts away the actual details, ORM lets programmers maintain a consistent view of objects over time, even as the sources that deliver them, the sinks that receive them and the applications that access them change.
