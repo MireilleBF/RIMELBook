@@ -33,7 +33,7 @@ _**References used:**_
 [Tracking the Software Quality of Android Applications  
 along their Evolution](https://hal.inria.fr/hal-01178734/document) by Geoffrey Hecht, Benomar Omar, Romain Rouvoy, Naouel Moha, Laurence Duchien \(17 Sep 2015\)
 
-> @mbf : Pourquoi celui-ci ?
+> @mbf : Pourquoi celui-ci ? Il faudrait un article qui touche à la complexité.
 
 [14 Ways to Contribute to Open Source without Being a Programming Genius or a Rock Star](http://blog.smartbear.com/programming/14-ways-to-contribute-to-open-source-without-being-a-programming-genius-or-a-rock-star/) by Andy Lester \(March 10, 2012\)
 
@@ -43,3 +43,4 @@ _**Tools used:**_
 
 [Gitinspector : a statistical analysis tool for git repositories](https://github.com/ejwa/gitinspector)
 
+>@mbf : J'ai des doutes ! 
