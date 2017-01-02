@@ -26,6 +26,7 @@ _**Questions :**_
 * How can a community impact the development of some features ?
 * How can the addition of mod impact the architecture ?
 >@mbf : mod? module? feature?
+
 With these questions, we hope to retrieve and measure some information like : 
 *  the mean time between two major updates and the number of line of code implied
 * the number of user requests before a major update
