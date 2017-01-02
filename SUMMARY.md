@@ -17,7 +17,7 @@
         * [What about Architecture & Design](what-about-architecture--design.md)
 * [Evaluate](evaluate.md)
     * [What is the relation between adding functionality, bug fixing, and code quality](what-is-the-relation-between-adding-functionality-bug-fixing-and-code-quality.md)
+    * [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
     * [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
-* [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
 * [Conclusion](conclusion.md)
 

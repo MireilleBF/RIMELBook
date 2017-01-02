@@ -6,7 +6,7 @@ In this question we will try to highlight any relation between adding functional
 
 The idea is that we take several criteria on the quality of the code that we are going to determine and we look at the evolution over time.We are looking for a correlation between the addition of functionalities or the correction of bugs and the quality of the code and looks at several curves if the evolution of the quality corresponds or not to the correction of beug or the addition of functionnalities, Etc ...
 
-## Problamtic
+## Problematic
 
 The importance of our question comes from the relation between the code changes and its quality,there is a perception that when new features are added to a system that the added and modified portions of the source code are more prone to Fault. Many argued that the new code and features are prone to defects due to immaturity, lack of testing, as well as unstable requirements.
 
@@ -41,8 +41,6 @@ Then we will have to extract for each revisions and version of the metrics on th
 ## Target project
 
 The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
-
-
 
 ## Contributors
 

@@ -2,10 +2,18 @@
 
 Remarques :
 
-* _ personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
+* Titre du chapitre :
+* Question générale : 
+* Pourquoi \(fera office d'introduction\)
+* Outils, Méthodes : 
+* Articles 
+* Codes
+* Pistes
+* 
+* _personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
 * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
 * Il faut identifier 
-  * des références... 
+  * des références... ??? euh ... en fait dans les sous-rubriques
   * des projets à étudier aussi... cela devient urgent.
   * des outils !!
 
