@@ -11,7 +11,7 @@
 * **Pourquoi \(fera office d'introduction\) :**
   *   
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  * 
+  *   
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
 
   * 
