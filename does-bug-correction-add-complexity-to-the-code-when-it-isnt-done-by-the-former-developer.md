@@ -38,11 +38,13 @@ Using our methodology, companies should also be able to deduct patterns for thei
 
 ### Project studied:
 
-> @mbf : chaque membre de l'équipe travaille sur un projet différent?
+> @mbf : chaque membre de l'équipe travaille sur un projet différent? Oui c'est bien !
 
 Several projects that have a large number of contributors on a long time period.
 
 We will also be looking for projects that have a free access ticketing in order to have more precise data.
+
+
 
 ### Methodology:
 
