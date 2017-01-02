@@ -16,6 +16,8 @@
   * trop confus
 * **Articles : serviront de référence et pourront etre discutés**
 
+----
+
 ## Case Study
 
 In the world of software management, dependency management is a hell. The system evolves more it integrates components, most system management is becoming increasingly complex.
