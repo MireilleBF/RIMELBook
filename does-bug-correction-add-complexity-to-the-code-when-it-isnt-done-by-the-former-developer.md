@@ -14,13 +14,13 @@ They may also be able to reproduce our methodology in their own environment in o
 
 It could also help them to analyze the performances of their coders in order to deduct the tasks they can attribute them.
 
-
-
 > @mbf : OK... Mais j'aimerais un peu plus de recul.
 >
 > a\) On n'est pas sur d'avoir un résultat : b\) même si la réponse est oui... on fait quoi si le développeur part? c\) si vous etes sur de l'Open source ...
 
 _**Criterias**_
+
+> @mbf : oui bien !
 
 The results of this study may tell if it’s a good idea to give debugging tasks to other coders or not and how it affects the code quality.
 
@@ -35,6 +35,8 @@ Or their total opposites.
 Using our methodology, companies should also be able to deduct patterns for their own team, such as:
 
 “ XXXXX generally debugs its own features very fast and even removes complexity from its code but when it comes to someone else's feature it is the total opposite”
+
+
 
 ### Project studied:
 
