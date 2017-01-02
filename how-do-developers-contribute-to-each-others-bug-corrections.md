@@ -24,24 +24,28 @@ _**References used:**_
 
 [A Data Set for Social Diversity Studies of GitHub Teams](/A Data Set for Social Diversity Studies of GitHub Teams) by Bogdan Vasilescu, Alexander Serebrenik, Vladimir Filkov
 
-> @mbf : TB @inproceedings{Vasilescu:2015:DSS:2820518.2820601,
- author = {Vasilescu, Bogdan and Serebrenik, Alexander and Filkov, Vladimir},
- title = {A Data Set for Social Diversity Studies of GitHub Teams},
- booktitle = {Proceedings of the 12th Working Conference on Mining Software Repositories},
- series = {MSR '15},
- year = {2015},
- location = {Florence, Italy},
- pages = {514--517},
- numpages = {4},
- url = {http://dl.acm.org/citation.cfm?id=2820518.2820601},
- acmid = {2820601},
- publisher = {IEEE Press},
- address = {Piscataway, NJ, USA},
-} 
+> @mbf : TB @inproceedings{Vasilescu:2015:DSS:2820518.2820601,  
+>  author = {Vasilescu, Bogdan and Serebrenik, Alexander and Filkov, Vladimir},  
+>  title = {A Data Set for Social Diversity Studies of GitHub Teams},  
+>  booktitle = {Proceedings of the 12th Working Conference on Mining Software Repositories},  
+>  series = {MSR '15},  
+>  year = {2015},  
+>  location = {Florence, Italy},  
+>  pages = {514--517},  
+>  numpages = {4},  
+>  url = {[http://dl.acm.org/citation.cfm?id=2820518.2820601}](http://dl.acm.org/citation.cfm?id=2820518.2820601}),  
+>  acmid = {2820601},  
+>  publisher = {IEEE Press},  
+>  address = {Piscataway, NJ, USA},  
+> }
 
 _**Tools used:**_
 
 Github API
 
 Python for manipulate data and make a first set of graph
->@mbf : sans la question détaillée dure de savoir, attention de ne pas "tout refaire!"
+
+> @mbf : sans la question détaillée dure de savoir, attention de ne pas "tout refaire!"
+
+
+

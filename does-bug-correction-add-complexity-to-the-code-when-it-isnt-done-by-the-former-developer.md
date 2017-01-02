@@ -6,6 +6,8 @@ _**Why?**_
 
 This study is done to compare performances and qualities of debugging in different contexts.
 
+> @mbf : préciser
+
 Companies may use those results to know if they should always assign the coder that designed a feature to any debugging task related to this feature or if they can also safely attribute other coders or even newcomers to this task.
 
 They may also be able to reproduce our methodology in their own environment in order to get their conclusions.
@@ -28,15 +30,13 @@ Using our methodology, companies should also be able to deduct patterns for thei
 
 “ XXXXX generally debugs its own features very fast and even removes complexity from its code but when it comes to someone else's feature it is the total opposite”
 
-
-
 ### Project studied:
 
 Several projects that have a large number of contributors on a long time period.
 
 We will also be looking for projects that have a free access ticketing in order to have more precise data.
 
-###  Methodology:
+### Methodology:
 
 The way to do this is to first analysis the git of the project and check if debugs are marked with special annotations.
 
@@ -52,9 +52,6 @@ Those comparisons will be done in three cases:
 
 3. When the bug corrector is a newcomer in the project
 
-
-
-
 The elements that we will be comparing includes:
 
 1. Cyclomatic Complexity
@@ -62,9 +59,6 @@ The elements that we will be comparing includes:
 2. Number of dependencies
 
 3. Number of lines of code
-
-
-
 
 ### References used:
 
