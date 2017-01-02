@@ -23,6 +23,8 @@ ORMs can even take care of important aspects of the database access such as cach
 
 Through this question we want to take a closer look at ORMs, Hibernate and Entity Framework, the purpose of this study is not to find out which ORM is better, but rather the difference between the way the two projects are conducted \(version control, commits, branching strategies …\) and the effect it has on the final products.
 
+> @mbf : il faut que l'on essaie de montrer pourquoi la question est intéressante : même type de projet, des architectures différentes, ... on verra plus tard en fonction des résultats... Mais il faudrait quand même mieux savoir ce que l'on cherche à savoir.
+
 **Team :**
 
 * Buisson Kevin
