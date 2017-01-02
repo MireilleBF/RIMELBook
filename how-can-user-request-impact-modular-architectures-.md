@@ -1,5 +1,24 @@
 # Modularity in Video Games
 
+> **Remarques** : @mbf à enlever après prise en compte
+
+* **Titre du chapitre** :
+   * oK... on verra plus tard pour etre un peu plus percutant
+* **Question générale** :
+   * OK
+* **Pourquoi \(fera office d'introduction\) :**
+   * manque au niveau général
+* **Outils, Méthodes \(en partie dans l'introduction\) : **
+  * 
+* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
+  *   
+* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+* **Articles : serviront de référence et pourront etre discutés**
+* **En vrac**
+
+--------
+
+
 In this chapter, it will be discussed "_how can video games \(and more generally, software\) be modular thanks to the addition of 'mods' or 'plugins' ?_". This can be the wish of the development team, or driven by the community playing the video game \(or using the software\).
 
 _**Questions :**_

@@ -1,4 +1,22 @@
 # What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?
+> **Remarques** : @mbf à enlever après prise en compte
+
+* **Titre du chapitre** :
+   * oK... on verra plus tard pour etre un peu plus percutant
+* **Question générale** :
+   * OK
+* **Pourquoi \(fera office d'introduction\) :**
+   * manque au niveau général
+* **Outils, Méthodes \(en partie dans l'introduction\) : **
+  * 
+* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
+  *   
+* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+* **Articles : serviront de référence et pourront etre discutés**
+* **En vrac**
+
+--------
+
 
 ## Introduction
 
