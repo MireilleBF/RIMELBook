@@ -69,6 +69,8 @@ Then we will have to extract for each revisions and version of the metrics on th
 
 The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
 
+>@ mbf : j'ai besoin d'une séparation en plusieurs sous partie en précisant qui fait quoi.
+
 ## Contributors
 
 BELHASSEN Issam
