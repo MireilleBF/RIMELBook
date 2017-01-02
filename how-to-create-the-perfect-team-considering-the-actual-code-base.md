@@ -21,9 +21,11 @@ Next, extracting components from the code permits to slice the code base and use
 
 Sometimes, multiple components are strongly linked together, so retrieving them by checking which are the most often modified at the same time can form our submodules. We now have small groups working on submodules which we could call teams.
 
-> @mbf : donc vous retrouvez les équipes...
+> @mbf : donc vous retrouvez des sous-systemes.. pas les équipes à cette étape.
 
 Then, by analysing the history of commit to find links between committers and components we can start to populate our teams with contributors.
+
+>@mbf : ok. Définissez un modele team, file, component, etc. Vous serez plus clairs.
 
 Finally, to establish a hierarchy between contributors, we’ll retrieve the biggest contributors for each components this permits us to find who has the most knowledge of each part of the system and find appropriate technical leaders for each. Something identical could be used for modules in order to have the bigger picture.
 
