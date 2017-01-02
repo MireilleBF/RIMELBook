@@ -14,6 +14,8 @@ _**Project studied:**_
 
 In that case, we will be looking for active projects that being running for a while and with a large number of contributors. Such as the [ElasticSearch Project](https://github.com/elastic) or the [Atom text editor](https://github.com/atom/atom/).
 
+> @mbf : sur quel critère pensez-vous faire le choix?
+
 _**Methodology:**_
 
 The first thing to do is to collect and analyse all the issues on the git repository of the project. The goal is to evaluate whether the project uses issues to report bugs and if the contributors interact in these with commit tags, comments or not.  
