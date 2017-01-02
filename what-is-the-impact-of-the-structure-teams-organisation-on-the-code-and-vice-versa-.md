@@ -32,11 +32,12 @@ _**Tools: **_
 * GitHub API
 * TeamCodeParser \(Made by us, allows, given a Github repository \(ex: github.com/spring-io/sagan\), to extract the team by **code exploration**\)
 * TeamParser \(Made by us, allows, given a webpage \(ex: spring.io/team\), to extract teams by **subject **and **location**\)
-> @mbf :n'importe quelle page web ?
+> @mbf :n'importe quelle page web ? Vraiment vous ne pensez pas à utiliser des outils extérieurs? Votre contribution serait alors aussi les outils que vous mettez en place, mais dans ce cas, j'aimerais bien que pour "TeamCodeParser" vous vérifiiez que Maat ne fait pas ce que vous faîtes et pour l'autre qu'il n'existe pas déjà des formats pour définir des équipes...
 
 _**Project to study: **_
 
 * [Spring](https://spring.io/)
+> @mbf : donnez des arguments par écrit pour ce choix
 
 _**Questions: **_
 
