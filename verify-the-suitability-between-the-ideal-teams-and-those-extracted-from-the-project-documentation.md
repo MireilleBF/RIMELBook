@@ -72,9 +72,14 @@ Both forms of Conway's Law and the Homomorphic Force pose a dilemma for any orga
 
 * N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). [The Influence of Organizational Structure on Software Quality]
 
-* Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). [https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/ "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/")
+* Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). [https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study]
+(https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/ "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/")
+
+> @mbf : ok
 
 * Lappeenranta University of Technology, LUT. "Human and organizational factors influence software quality." ScienceDaily. ScienceDaily, 11 August 2015. \[online\]. \(visited on 18/12/2016\). [www.sciencedaily.com/releases/2015/08/150811091913.htm](http://www.sciencedaily.com/releases/2015/08/150811091913.htm)
+> @mbf : vous avez l'article?
+
 
 ### Authors _**:**_
 
