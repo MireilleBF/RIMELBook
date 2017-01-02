@@ -1,6 +1,6 @@
 # How do developer introduce themselves to open source projects and correct bugs in them ?
 
-**Remarques** :
+> **Remarques** : @mbf 
 
 * **Titre du chapitre** : 
   * A choisir la question générale est trop longue pour faire office d'un titre \(bugs management along ..Open Source\)? 
