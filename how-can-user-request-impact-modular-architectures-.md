@@ -30,6 +30,7 @@ _**Questions :**_
 With these questions, we hope to retrieve and measure some information like : 
 *  the mean time between two major updates and the number of line of code implied
 * the number of user requests before a major update
+>@mbf : ... community driven sofware evolution? 
 
 _**Projects to study :**_
 
