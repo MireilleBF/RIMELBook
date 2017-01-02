@@ -11,7 +11,7 @@
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
   * 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  *   
+  *   explicitez en global le choix de Spring.
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
   * J'ai du mal à comprendre l'articulation entre les 2 sous parties. Essayez de l'écrire en fin de votre introduction cela aidera.
 * **Articles : serviront de référence et pourront etre discutés**
