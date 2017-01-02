@@ -11,7 +11,7 @@
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
 
-  * ok mettre ce qui est ici dans la partie introduction 
+  * ok mettre ce qui est ici dans la partie introduction et compléter avec les sous-parties
 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 
