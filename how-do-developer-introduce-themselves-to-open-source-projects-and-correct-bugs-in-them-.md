@@ -27,11 +27,8 @@
 
   * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
 
-  * Il faut identifier
+------
 
-    * des références... ??? euh ... en fait dans les sous-rubriques
-    * des projets à étudier aussi... cela devient urgent.
-    * des outils !!
 
 _**Questions:**_
 
