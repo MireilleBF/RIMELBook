@@ -66,11 +66,22 @@ Then we will analyze:
 
 ​[Semantic versioning​](http://semver.org/lang/fr/)
 
+> @mbf Pourquoi ? Où voulez-vous en venir?
+
+
 ​[A Unified Framework for the Comprehension of Software's time Dimension​](https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/11998/Benomar_Omar_2015_these.pdf?sequence=2&isAllowed=y)
+
+> @mbf outil que vous compter utiliser? c'est une thèse... pourquoi celui-ci?
+
+
+
+
 
 ## Tools
 
 ​[CodeCity​](https://wettel.github.io/codecity.html)
+> @mbf Avez-vous vérifier les compatibilités de langage ?
+
 
 ​[Github ap​](https://developer.github.com/v3/)
 
@@ -89,6 +100,7 @@ Then we will analyze:
   * Versions Analysis of Module
 
   * Contributions Analys is different developers on a given module
+  > ????
 
 
 
