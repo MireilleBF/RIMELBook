@@ -21,8 +21,7 @@
 
 * **Articles : serviront de référence et pourront etre discutés**
 
-* 
-* * En vrac
+* **En vrac$$
 
   * _personne ne semble répondre à la 1e question, même si elle mérite d'être affinée, comme dans la suite c'est intéressant\)_
 
