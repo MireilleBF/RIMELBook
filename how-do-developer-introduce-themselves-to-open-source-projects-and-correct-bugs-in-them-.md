@@ -14,6 +14,7 @@
   * ok mettre ce qui est ici dans la partie introduction 
 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+
 * **Articles : serviront de référence et pourront etre discutés**
 
 * 
