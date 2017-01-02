@@ -94,6 +94,7 @@ Then we will analyze:
   * Commits analysis over a given period
 
   * Identification modules and correlated these contributors
+  > ????
 
 * Diallo Mahmoud
 
