@@ -35,6 +35,7 @@ We find that  improvements to existing features reduces bugs, improvements to co
 >@mbf : j'ai du mal à vous suivre.
 
 But are these beliefs well-founded?Is there evidence to support the belief that bug fixes, additions, and feature enhancements can increase or abbreviate code quality?
+>@mbf : OK ici.
 
 ## Chosen methodology
 
