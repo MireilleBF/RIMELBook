@@ -7,23 +7,19 @@
 * **Question générale** :
    * OK
 * **Pourquoi \(fera office d'introduction\) :**
-* manque au niveau général
-* devra servir de base pour introduire le plan, i.e. la décomposition en sous partie. A faire assez vite pour que vous ayez votre fil conducteur.
+   * manque au niveau général
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-* Soyez plus précis.
+  * 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-
-* ok mettre ce qui est ici dans la partie introduction et compléter avec les sous-parties
-
+  *   
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
-
 * **Articles : serviront de référence et pourront etre discutés**
-
 * **En vrac**
-1. TeamCodeParser est lié à github ou git?
-2. Vous devez faire le lien entre la structure et l'équipe... je ne le vois pas dans les outils...
-3. j'ai du mal avec "ideal team" ... il faudrait clarfier cette question.
-4. 
+  1. TeamCodeParser est lié à github ou git?
+  2. Vous devez faire le lien entre la structure et l'équipe... je ne le vois pas dans les outils...
+  3. j'ai du mal avec "ideal team" ... il faudrait clarfier cette question.
+  4. 
+
 _**Team:**_
 
 * Dorian BLANC
