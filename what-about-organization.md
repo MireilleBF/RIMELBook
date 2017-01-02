@@ -27,6 +27,9 @@ Here we’ll examine the components of each ORM from different points of view :
 
 Once those questions are answered, we’ll try to find more interesting correlations between those metrics. Is the number of bugs reported on a components proportional to its size ? Does the number of bugs decrease if a big component is broken into smaller ones ?
 
+> @mbf : ces questions sont différentes de ORMs..;
+
+
 ## How can we detect highly coupled components in ORM frameworks through contributions ?
 
 **Tools used :**
