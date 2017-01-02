@@ -16,6 +16,8 @@ We will start by getting Github data out to work on it. The Github API should ma
 
 Depending on the things that we could reveal with data, we will choose the good graph tool for representing them. Considering the huge quantity of data that we can extract, we could use the tools of the project that we will study : ElasticSearch, and Kibana to make dashboards.
 
+> @mbf : Explictez d'abord les questions que vous allez posés puis votre approche \(quelles données extraire\) et ensuite comment vous allez les explorer : requêtes, visualisation, etc.
+
 _**References used:**_
 
 [The seven habits of highly effective GitHubbers](http://ben.balter.com/2016/09/13/seven-habits-of-highly-effective-githubbers/) by Ben Balter \(September 13, 2016\)
