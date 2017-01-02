@@ -10,11 +10,15 @@ This study is done to compare performances and qualities of debugging in differe
 
 Companies may use those results to know if they should always assign the coder that designed a feature to any debugging task related to this feature or if they can also safely attribute other coders or even newcomers to this task.
 
-> @mbf : OK...
-
 They may also be able to reproduce our methodology in their own environment in order to get their conclusions.
 
 It could also help them to analyze the performances of their coders in order to deduct the tasks they can attribute them.
+
+
+
+> @mbf : OK... Mais j'aimerais un peu plus de recul.
+>
+> a\) On n'est pas sur d'avoir un résultat : b\) même si la réponse est oui... on fait quoi si le développeur part? c\) si vous etes sur de l'Open source ...
 
 _**Criterias**_
 
