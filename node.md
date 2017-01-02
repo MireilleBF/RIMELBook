@@ -11,10 +11,9 @@ How is managed Node.js evolution over time?
 * **Pourquoi \(fera office d'introduction\) :**
   * dependencies? mettre en place des outils pour analyser les dépendances? 
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  \* je ne comprends pas...
+  \* sans une question plus précise, on ne sait pas répondre.
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-
-  * 
+  * ok
 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 
