@@ -22,6 +22,8 @@
 
 To present our study, we need first to explain what is our research context. Then, in a second section we deep into the description of our study and on which project it will be based.
 
+> @mbf : essayer de ne garder pour le document final le futur que pour des perspectives.
+
 ### Research context
 
 The **Test-Driven Development** \(TDD\) is a method of software development relying on writing tests **before** the tested code even exists. More precisely, there are five different steps. First **writing** **the unit test**, then **run** the test to watch it fail. If the test succeeds, there is a problem since the tested code is not yet written. When the test is written and fails, the next step is to write just enough code to see the **test succeed**. Then, when the new test succeeds, the fourth step is to **check** that all the tests still pass. If there are some failures, it is necessary to fix the issues to have all the tests passing. Then the final step is to **refactor** the code in order to make it better. The Figure below illustrates the developpment process using the TDD method.![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TDD_Global_Lifecycle.png/1024px-TDD_Global_Lifecycle.png)Figure 1 : TDD developement process
@@ -33,6 +35,8 @@ In this sub-chapter, we will study the impacts of the TDD on code quality, code 
 1. Does TDD reduce the number of issues to fix during the development ?
 2. Does TDD reduce the overall complexity of a project ?
 3. Does TDD projects always have a high test coverage ?
+
+>@mbf : je ne comprends pas comment vous pourrez montrer le "reduce"? Et par rapport à quoi? 
 
 Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aim to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(i.e, number of issues, fixes ...\) and productivity \(i.e, number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
 
