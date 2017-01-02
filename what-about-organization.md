@@ -50,7 +50,7 @@ Once those questions are answered, we’ll try to find more interesting correlat
 
 * Python/Groovy scripts
 
-> @mbf : pas clair du tout... vous avez mis tout ce que vous aviez en magasin?
+> @mbf : pas clair du tout... vous avez mis tout ce que vous aviez en magasin? Expliquez moi pourquoi ces outils. Jenkins?
 
 **Methodology :**
 
