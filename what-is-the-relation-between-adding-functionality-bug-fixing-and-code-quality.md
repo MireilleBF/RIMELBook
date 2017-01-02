@@ -63,6 +63,8 @@ Then we will have to extract for each revisions and version of the metrics on th
 
 \[1\] Lehman, M. M.; J. F. Ramil; P. D. Wernick; D. E. Perry; W. M. Turski - Metrics and laws of software evolution—the nineties view [http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf](http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf)  -  1997
 
+> @mbf : Mettez en un plus moderne comme : Herraiz I, Rodriguez D, Robles G, Gonzalez-Barahona JM (2013) The Evolution of the Laws of Software Evolution: A Discussion Based on a Systematic Literature Review. ACM Comput Surv 46:28:1--28:28. Excellent !
+
 ## Target project
 
 The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
