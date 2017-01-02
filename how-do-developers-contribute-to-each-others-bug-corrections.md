@@ -4,10 +4,9 @@ _**Project studied:**_
 
 The open source projects are a good study case because there is often many move, developers start to contribute to the project and other stop to contribute. We should have many data to analyse the developers attitude.
 
-We will study the [ElasticSearch](https://github.com/elastic) project. 
+We will study the [ElasticSearch](https://github.com/elastic) project.
+
 > @mbf : Le lien est trop haut
- 
-:+1:
 
 _**Methodology:**_
 
