@@ -12,7 +12,9 @@ _**Methodology:**_
 
 We will start by getting Github data out to work on it. The Github API should make possible the extraction of these data. Depending on the data format we will use for example python for processing of data. Also with python we could make a first set of basic graph for guide the rest of our exploration.
 
-Depending on the things that we could reveal with data, we will choose the good graph tool for represent them. Considering the huge quantity of data that we can extract, we could use the tools of the project that we will study : ElasticSearch, and Kibana tp make dashboards.
+> @mbf : Quelles data vous intéressent? Que voulez-vous identifier ? Les commits faisant référence à des bugs? Les contributeurs sur des fichiers, lignes de codes?
+
+Depending on the things that we could reveal with data, we will choose the good graph tool for representing them. Considering the huge quantity of data that we can extract, we could use the tools of the project that we will study : ElasticSearch, and Kibana tp make dashboards.
 
 _**References used:**_
 
