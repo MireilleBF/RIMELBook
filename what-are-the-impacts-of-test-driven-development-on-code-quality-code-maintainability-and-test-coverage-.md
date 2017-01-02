@@ -39,6 +39,7 @@ In this sub-chapter, we will study the impacts of the TDD on code quality, code 
 >@mbf : je ne comprends pas comment vous pourrez montrer le "reduce"? Et par rapport à quoi? 
 
 Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aim to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(i.e, number of issues, fixes ...\) and productivity \(i.e, number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
+>@mbf : oui.
 
 ### Projects Studied
 
@@ -57,6 +58,8 @@ In order to find a concrete answer, we had to find first many projects built usi
 * Cucumber 
 
 There are other projects using TDD but those are the most interesting for our works. We are limited in time by our studies. 
+
+>@mbf : Cela fait peut-être beaucoup déjà... 
 
 ### Articles
 
