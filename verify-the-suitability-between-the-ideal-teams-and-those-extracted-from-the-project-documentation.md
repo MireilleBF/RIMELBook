@@ -26,6 +26,10 @@ To avoid comprehension problems between team members, software architects are se
 
 Spring’s team is well dispatched around the world, we want to determine if we can use the Conway’s law to deduce the ideal team and compare it to get a better coding performance.
 
+> @mbf : même question que l'autre groupe.
+
+
+
 ### _**How to ?**_
 
 First of all, we need to extract the team from the website project. To achieve this, we choose to develop our **own **extractor, in few word: given a webpage, we can by **parsing **the tags catch the information needed.
