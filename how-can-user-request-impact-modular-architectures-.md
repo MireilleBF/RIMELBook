@@ -5,15 +5,20 @@
 * **Titre du chapitre** :
    * ... je ne sais pas si la limitation aux video games est une bonne idée d'autant que je ne pense pas que l'on puisse répondre à cette question par votre étude.
 * **Question générale** :
-   * 
+   * oui
 * **Pourquoi \(fera office d'introduction\) :**
-   * manque au niveau général
+   * il y a de l'idée... on en saura un peu plus après quelques essais
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  * 
+  * ok
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  *   
+  *   ok
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+  * trop succinct
 * **Articles : serviront de référence et pourront etre discutés**
+  * absents... Il faudrait chercher du côté des plugings. 
+  peut etre : 
+https://books.google.fr/books?hl=fr&lr=&id=NVaZBQAAQBAJ&oi=fnd&pg=PA177&dq=software+engineering+modularity+code+quality&ots=p2EbX7G5rr&sig=AE0Pkr-4xcjn7pqZiXugQyw8WVg&redir_esc=y#v=onepage&q=modularity&f=false
+
 * **En vrac**
 
 --------
