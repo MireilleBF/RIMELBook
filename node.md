@@ -6,7 +6,7 @@
 * **Titre du chapitre** : 
   *   Il faut une question qui fait du sens.
 * **Question générale** : 
-  *   La question est trop précise, que cherchez-vous précisemment?
+  *   La question est trop précise, que cherchez-vous plus généralement?
 * **Pourquoi \(fera office d'introduction\) :**
   *   
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
