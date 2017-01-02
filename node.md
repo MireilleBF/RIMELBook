@@ -57,13 +57,12 @@ Then we will analyze:
 
   > @mbf : OK pourquoi vous posez la question ?
 
-
-
 ## References
 
 [NodeJS ​Foundation](https://nodejs.org/en/foundation/)
 
 ​[Registry npm](https://www.npmjs.com/package/npm-registry)​
+> @mbf outil que vous compter utiliser?
 
 ​[Semantic versioning​](http://semver.org/lang/fr/)
 
