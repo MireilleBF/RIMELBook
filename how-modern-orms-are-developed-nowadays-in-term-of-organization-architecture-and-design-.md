@@ -1,4 +1,21 @@
 # **How are modern ORMs developed nowadays, in term of Organization, Architecture and Design ?**
+> **Remarques** : @mbf à enlever après prise en compte
+
+* **Titre du chapitre** :
+   * oK... on verra plus tard pour etre un peu plus percutant
+* **Question générale** :
+   * OK
+* **Pourquoi \(fera office d'introduction\) :**
+   * manque au niveau général
+* **Outils, Méthodes \(en partie dans l'introduction\) : **
+  * 
+* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
+  *   
+* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
+* **Articles : serviront de référence et pourront etre discutés**
+* **En vrac**
+
+--------
 
 Object-relational mapping \(ORM\) is a mechanism that makes it possible to address, access and manipulate objects without having to consider how those objects relate to their data sources. it abstracts away the actual details, ORM lets programmers maintain a consistent view of objects over time, even as the sources that deliver them, the sinks that receive them and the applications that access them change.
 
