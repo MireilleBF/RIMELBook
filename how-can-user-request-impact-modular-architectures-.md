@@ -3,9 +3,9 @@
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** :
-   * oK... on verra plus tard pour etre un peu plus percutant
+   * ... je ne sais pas si la limitation aux video games est une bonne idée d'autant que je ne pense pas que l'on puisse répondre à cette question par votre étude.
 * **Question générale** :
-   * OK
+   * 
 * **Pourquoi \(fera office d'introduction\) :**
    * manque au niveau général
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
@@ -25,7 +25,7 @@ _**Questions :**_
 
 * How can a community impact the development of some features ?
 * How can the addition of mod impact the architecture ?
-
+>@mbf : mod? module? feature?
 With these questions, we hope to retrieve and measure some information like : 
 *  the mean time between two major updates and the number of line of code implied
 * the number of user requests before a major update
