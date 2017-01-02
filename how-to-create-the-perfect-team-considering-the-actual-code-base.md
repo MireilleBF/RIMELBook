@@ -17,6 +17,7 @@ In order to determine the perfect teams, we need to extract data from the code b
 First, we need to extract the code from the public repository. A simple “git clone” will do the job. As soon we have the code base and all the commit history, we can start to work on retrieving interesting data.
 
 Next, extracting components from the code permits to slice the code base and use them to create a first team structure : a team composed by plenty of small groups that works only on a component.
+> @mbf : ???
 
 Sometimes, multiple components are strongly linked together, so retrieving them by checking which are the most often modified at the same time can form our submodules. We now have small groups working on submodules which we could call teams.
 
