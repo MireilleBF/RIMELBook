@@ -34,7 +34,10 @@ Spring’s team is well dispatched around the world, we want to determine if we 
 
 First of all, we need to extract the team from the website project. To achieve this, we choose to develop our **own **extractor, in few word: given a webpage, we can by **parsing **the tags catch the information needed.
 
-Extact tool is available at [RIMEL-extractor](http://rimel.dobl.fr/) \([http://rimel.dobl.fr/\](http://rimel.dobl.fr/\)\)
+Extract tool is available at [RIMEL-extractor](http://rimel.dobl.fr/) \([http://rimel.dobl.fr/\](http://rimel.dobl.fr/\)\)
+
+> @mbf : vous êtes dans la contribution...
+Mettez plutôt en avant (pour le livre) les points que vous jugez important, à vous lire, (i) location (ii) position (iii) same team, ...
 
 With that tool \(alpha version at the moment\) you can:
 
@@ -47,10 +50,15 @@ With that tool \(alpha version at the moment\) you can:
 Now, we need to imagine an ideal team for the project. However, how do we find it?
 
 The ideal team is a team where all the members of the project are gathered in the same place.
+> @mbf : according to conway?
 
 And if several geographical groups are formed, then the best thing is for each geographic group, to work on an independent part of the project. In order to limit problems due to remote communication.
+> @mbf :mais y a t il vraiment des parties independantes?
 
-So we will try to analyze the distribution of members.
+
+So we will try to analyze the distribution of members. 
+> @mbf : geographique ou dans le code?
+
 
 Then we will try to assess whether it is satisfactory, and see if people working on the same subjects are geographically close or not.
 
