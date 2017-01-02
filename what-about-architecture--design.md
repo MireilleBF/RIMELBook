@@ -53,5 +53,5 @@ The goal of this part is to detect anti-patterns in those ORM implementations, a
 
 Through this question we’ll try to take a closer look at the different caching strategies used in both frameworks, by having access to the source code, and more specifically the parts dealing with cache, we hope that, through code analysis, we will be able to find the differences \(or the similarities\) in this area.
 
-
+> @mbf : Ok sur la problématique, mais dîtes nous bien comment vous faîtes et à avoir des éléments tangibles pour justifier vos constatations.
 
