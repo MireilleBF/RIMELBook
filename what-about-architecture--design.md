@@ -47,7 +47,8 @@ The goal of this part is to detect anti-patterns in those ORM implementations, a
 
 * \[2\] **http://searchwindevelopment.techtarget.com/definition/object-relational-mapping**
 
->@mbf : article web sur ORM 
+>@mbf : article web sur ORM mais rien à voir avec RIMEL
+
 **Methodology :**
 
 Through this question we’ll try to take a closer look at the different caching strategies used in both frameworks, by having access to the source code, and more specifically the parts dealing with cache, we hope that, through code analysis, we will be able to find the differences \(or the similarities\) in this area.
