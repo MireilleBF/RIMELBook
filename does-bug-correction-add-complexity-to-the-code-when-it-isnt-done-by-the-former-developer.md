@@ -6,7 +6,11 @@ _**Why?**_
 
 This study is done to compare performances and qualities of debugging in different contexts.
 
-> @mbf : préciser
+By performance we mean the time needed to fully correct a bug.
+
+By quality we mean the quality of the code concerned by the debug of this feature. The criterias detailing this point are given below in the criterias section.
+
+> ~~@mbf : préciser~~
 
 Companies may use those results to know if they should always assign the coder that designed a feature to any debugging task related to this feature or if they can also safely attribute other coders or even newcomers to this task.
 
@@ -16,11 +20,11 @@ It could also help them to analyze the performances of their coders in order to 
 
 > @mbf : OK... Mais j'aimerais un peu plus de recul.
 >
-> a\) On n'est pas sur d'avoir un résultat : b\) même si la réponse est oui... on fait quoi si le développeur part? c\) si vous etes sur de l'Open source ...
+> a\) On n'est pas sur d'avoir un résultat : ~~b\) même si la réponse est oui... on fait quoi si le développeur part? c\) si vous etes sur de l'Open source ...~~
 
 _**Criterias**_
 
-> @mbf : oui bien !
+> ~~@mbf : oui bien !~~
 
 The results of this study may tell if it’s a good idea to give debugging tasks to other coders or not and how it affects the code quality.
 
@@ -38,15 +42,17 @@ Using our methodology, companies should also be able to deduct patterns for thei
 
 ### Project studied:
 
-> @mbf : chaque membre de l'équipe travaille sur un projet différent? Oui c'est bien !
+> ~~@mbf : chaque membre de l'équipe travaille sur un projet différent? Oui c'est bien !~~
 
-Several projects that have a large number of contributors on a long time period.
+We are looking for projects that have a large number of contributors on a long time period.
 
-We will also be looking for projects that have a free access ticketing in order to have more precise data.
+They should also have a free access ticketing in order to have more precise data.
+
+ElasticSearch provides such a project with a total amount of 756 contributors that started in february 2010, and uses the internal ticketing of GitHub. 
 
 ### Methodology:
 
-> @mbf : Super! Il faudra préciser les durées et les chiffres mais oui c'est bien!
+> ~~@mbf : Super! Il faudra préciser les durées et les chiffres mais oui c'est bien!~~
 
 The way to do this is to first analysis the git of the project and check if debugs are marked with special annotations.
 
