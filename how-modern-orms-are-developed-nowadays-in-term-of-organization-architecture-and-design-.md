@@ -14,6 +14,8 @@
   * 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
+   * peut etre : Evolutionary and collaborative software architecture recovery with Softwarenaut
+
 * **En vrac**
   * Souci d'organisation avec des mauvais niveaux de titres. 
   * qui contribue à quoi?
