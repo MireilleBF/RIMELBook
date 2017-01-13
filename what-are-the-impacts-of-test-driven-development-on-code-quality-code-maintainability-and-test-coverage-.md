@@ -11,7 +11,7 @@
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
   \* 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  * 
+  \* 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
 * **En vrac**
@@ -20,7 +20,7 @@
 
 ## Introduction
 
-This document presents the results of our researches on the Test-Driven Development method. In order to concretly present them, we present in a first section the context of our research. In the second section, we deep into the description of our study and on which project it is based. 
+This document presents the results of our researches on the Test-Driven Development method. In order to concretly present them, we present in a first section the context of our research. In the second section, we deep into the description of our study and on which project it is based.
 
 > @mbf : essayer de ne garder pour le document final le futur que pour des perspectives.
 
@@ -60,7 +60,16 @@ In order to find a concrete answer, we had to find many projects built using a T
 
 There are other projects using TDD but those are the most interesting for our works. We are limited in time by our studies.
 
-> @mbf : Cela fait peut-être beaucoup déjà...
+We compared TDD method projects with TL method projects based on:
+
+* Cyclomatic complexity
+* Many common code smells 
+* Code coverage
+* Issues
+* Number of lines added per commit or per week
+* Number of commits per week
+
+
 
 ### Articles
 
