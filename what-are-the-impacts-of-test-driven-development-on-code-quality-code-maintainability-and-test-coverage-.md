@@ -22,8 +22,6 @@
 
 This document presents the results of our researches on the Test-Driven Development method. In order to concretly present them, we present in a first section the context of our research. In the second section, we deep into the description of our study and on which project it is based.
 
-> @mbf : essayer de ne garder pour le document final le futur que pour des perspectives.
-
 ### Research context
 
 The **Test-Driven Development** \(TDD\) is a method of software development relying on writing tests **before** the tested code even exists. More precisely, there are five different steps. First **writing** **the unit test**, then **run** the test to watch it fail. If the test succeeds, there is a problem since the tested code is not yet written. When the test is written and fails, the next step is to write just enough code to see the **test succeed**. Then, when the new test succeeds, the fourth step is to **check** that all the tests still pass. If there are some failures, it is necessary to fix the issues to have all the tests passing. Then the final step is to **refactor** the code in order to make it better. The Figure below illustrates the developpment process using the TDD method.![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/TDD_Global_Lifecycle.png/1024px-TDD_Global_Lifecycle.png)Figure 1 : TDD developement process
@@ -36,11 +34,7 @@ In this sub-chapter, we present our study of the impacts of the TDD method on co
 2. Does TDD reduce the overall complexity of a project compared to the common Test Last \(TL\) method ?
 3. Does TDD projects always have a high test coverage ?
 
-> @mbf : je ne comprends pas comment vous pourrez montrer le "reduce"? Et par rapport à quoi?
-
 Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aim to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. This common method is also known as the Test-Last \(TL\) method. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(_i.e,_ number of issues, fixes ...\) and productivity \(_i.e,_ number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
-
-> @mbf : oui.
 
 ### Projects Studied
 
@@ -68,8 +62,6 @@ We compared TDD method projects with TL method projects based on:
 * Issues
 * Number of lines added per commit or per week
 * Number of commits per week
-
-
 
 ### Articles
 
