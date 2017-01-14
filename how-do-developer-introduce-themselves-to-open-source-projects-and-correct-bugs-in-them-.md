@@ -27,8 +27,7 @@
 
   * La question du chapitre doit être revue, elle ne correspond pas vraiment à ce que vous avez prévu...
 
-------
-
+---
 
 _**Questions:**_
 
