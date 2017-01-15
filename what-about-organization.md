@@ -10,15 +10,13 @@ by components we mean structures responsible for a feature, for example, in the 
 
 **Tools used :**
 
-* CodeCity
+* CodeCity : to get  visualization of the codebase following size of the packages, complexity and other metrics :
 
-* Git Maat
+* code Maat : to perform analysis on the codebase in order to detect logical coupling, churn, ownership and the maturity of components
 
-* GitHub API
+* GitHub API : retreive pull request, this will give us the velocity 
 
-* Jenkins
-
-* neo4j
+* Jenkins : retreive the failing builds, and more precisely the commit thar broke the build
 
 **Methodology :**
 
@@ -28,9 +26,15 @@ Here we’ll examine the components of each ORM from different points of view :
 
 * Ownership: are components “owned” by a contributor ?
 
-* Size : how does size of said components vary ? given that the two ORMs are coded in languages that are somewhat similar in terms of verbosity \(Java and C\#\), we find it fair to compare the components in terms of lines of code, the comparison doesn't stop here, as we will also look at the evolution of size during time \(from one release to another for example\)
+* Size : how does size of said components vary ? given that the two ORMs are coded in languages that are somewhat similar in terms of verbosity \(Java and C\#\), we find it fair to compare the components in terms of lines of code, the comparison doesn't stop here, as we will also look at the evolution of size during time \(from one release to another for example
 
-  > @mbf : relativement au temps, les uns par rapport aux autres ? dans un système? entre les systèmes?, l'architecture?
+To answer this question we'll use first CodeCity in order to have a global picture about the codebase, then using Code Maat we'll perform several analysis \(i.e the ones listed before\), with the option -t of Code Maat, we will add the temporal dimension to our analysis.
+
+On the other hand, the Github API will give us informations about the activity around those features, finally with Jenkins we will be able to find the commits and commiters that broke the builds and on which configurations did they broke it.
+
+finally we will use tools in order to visualize the retreived informations in order to make it more "readable".
+
+* > @mbf : relativement au temps, les uns par rapport aux autres ? dans un système? entre les systèmes?, l'architecture?
 
 ## Are dialects and caching highly coupled with other components  ?
 
