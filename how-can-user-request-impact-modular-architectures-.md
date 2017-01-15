@@ -65,7 +65,7 @@ _**Distribution of Work:t**_
 
 _**Subject:**_
 
-After a few weeks of studies, we think about reducing the scope of this part, because there are too little documentation on it. We will focus on "...".
+After a few weeks of studies, we think about reducing the scope of this part, because there are too little documentation on it. We will focus on how the community drive the development.
 
 _**Methodology:**_
 
@@ -85,6 +85,12 @@ The second phase is to transform data using Logstash to convert the CSV, product
 
 The third and last step is to exploit these data, and produce charts, stats, dashboards, ... and reason on it.
 
+_**First results:**_
+
+We were able to extract,  display the files per commits over the last two years. We can measure that over 1300 modifications was made between November 30th and the December 6th.
+
+![](/assets/screen_kibana.png)
+
 _**Major difficulties:**_
 
 We encountered major difficulties in term of documentation. We didn't find anything on the subject.
@@ -93,7 +99,7 @@ Therefore, searching tools has also be a pain because there are too few research
 
 _**Tools used:**_
 
-We first thouugh of using Diggit but we realized that this tools wasn't fullfilling our needs : we don't know Ruby, and the possibilities are too limitied for our purpose. So we use homemade scripts and the ELK stack where we maily use Elasticsearch  and Kibana.
+We first thouugh of using Diggit but we realized that this tools wasn't fullfilling our needs : we don't know Ruby, and the possibilities are too limitied for our purpose. So we use homemade scripts and the ELK stack where we mainly use Elasticsearch  and Kibana.
 
 * Github API
 * Scripts
