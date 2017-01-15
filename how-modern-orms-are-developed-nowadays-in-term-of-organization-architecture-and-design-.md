@@ -1,22 +1,24 @@
 # **How are modern ORMs developed nowadays, in term of Organization, Architecture and Design ?**
+
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** :
-   * ...
+  * ...
 * **Question générale** :
-   * OK... Si on ne parvient pas à généraliser la question, alors il faut expliciter pourquoi on se pose la question sur les ORMs, en quoi répondre à cette question fait avancer nos connaissances de manière générale.
+  * OK... Si on ne parvient pas à généraliser la question, alors il faut expliciter pourquoi on se pose la question sur les ORMs, en quoi répondre à cette question fait avancer nos connaissances de manière générale.
 * **Pourquoi \(fera office d'introduction\) :**
-   * a REVOIR
+  * a REVOIR
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
-  * 
+  \* 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  *   
+  \* 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
 * **En vrac**
   * Souci d'organisation avec des mauvais niveaux de titres. 
   * qui contribue à quoi?
---------
+
+---
 
 Object-relational mapping \(ORM\) is a mechanism that makes it possible to address, access and manipulate objects without having to consider how those objects relate to their data sources. It abstracts away the actual details, ORM lets programmers maintain a consistent view of objects over time, even as the sources that deliver them, the sinks that receive them and the applications that access them change.
 
@@ -35,7 +37,6 @@ Through this question we want to take a closer look at ORMs, Hibernate and Entit
 * El Amrani Achraf
 
 * Tijani Yassine
-
 
 
 
