@@ -79,7 +79,7 @@ The first phase is to extract data : to do this, we use an homemade script and w
 * The committer name
 * The committer email
 * The committer date
-* The subjet 
+* The subject 
 
 The second phase is to transform data using Logstash to convert the CSV, product by the fisrt step and produce a JSON file. We then use this JSON to inflate an Elastik.
 
