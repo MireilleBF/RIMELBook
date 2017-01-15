@@ -17,8 +17,7 @@
   * absents... Il faudrait chercher du côté des plugings. 
     peut etre : 
 
-[Investigating software modularity using class and module level metrics  
-M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://books.google.fr/books?hl=fr&lr=&id=NVaZBQAAQBAJ&oi=fnd&pg=PA177&dq=software+engineering+modularity+code+quality&ots=p2EbX7G5rr&sig=AE0Pkr-4xcjn7pqZiXugQyw8WVg&redir\_esc=y\#v=onepage&q=modularity&f=false)
+
 
 ---
 
@@ -56,11 +55,15 @@ _**Tools used:**_
 * [Github API](https://developer.github.com/v3/)
 * [Diggit](https://github.com/jrfaller/diggit)
 
-_**Distribution of Work:t**_
+_**Distribution of Work:**_
 
 * MANNOCCI Adrien \(M2\)
 * SARROCHE Nicolas \(SI5\)
 
+_**Articles:**_
+
+* Software modularity :  [Investigating software modularity using class and module level metrics M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
+* 
 ## Analysis
 
 _**Subject:**_
