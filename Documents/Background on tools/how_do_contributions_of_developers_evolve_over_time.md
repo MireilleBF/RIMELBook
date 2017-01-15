@@ -4,7 +4,7 @@
 
 We want to know if the developers's works in a open source project follow the same way, every developer start by write documentations or tests before fix bugs or they have all a behavior very different in their contributions activities.
 
-We use the simple command "git log" with a custom respons format for obtain the follow informations \(\`git log --pretty="%an:$:%ad:$:%s" --date=short\`\) : for every commit, the author, the date and the message associate. These data are put in text file, read by a Python program to inject these in Elastic base. After that we use Kibana to make query and visualisations. With the capabilities of Kibana and Elastic to search into a string, we hope find enough informations for define developer behavior in open source projects.
+We use the simple command "git log" with a custom respons format for obtain the follow informations \(`git log --pretty="%an:$:%ad:$:%s" --date=short`\) : for every commit, the author, the date and the message associate. These data are put in text file, read by a Python program to inject these in Elastic base. After that we use Kibana to make query and visualisations. With the capabilities of Kibana and Elastic to search into a string, we hope find enough informations for define developer behavior in open source projects.
 
 ### The first results :
 
