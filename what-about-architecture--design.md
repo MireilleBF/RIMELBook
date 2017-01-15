@@ -8,7 +8,9 @@ So we found it interesting to see how this property, which is very important, is
 
 **References : **
 
-* reference here 
+* [Reverse Engineering Java Code to Class Diagram: An Experience Report](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.259.546&rep=rep1&type=pdf)
+
+
 
 ## **How **do **Entity Framework and Hibernate manage caching? **Are there any major differences?
 
@@ -16,7 +18,7 @@ Caching in ORMs is a major factor in the overall performance, it is also a very 
 
 **References :**
 
-* reference here 
+* [Reverse Engineering Java Code to Class Diagram: An Experience Report](#)
 
 The tooling and methodology are** common for caching and dialects**
 

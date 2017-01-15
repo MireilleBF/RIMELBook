@@ -32,6 +32,12 @@ On the other hand, the Github API will give us informations about the activity a
 
 finally we will use tools in order to visualize the retreived informations in order to make it more "readable".
 
+
+
+**references :**
+
+* [Don’t Touch My Code! Examining the Effects of Ownership on Software Quality](http://research.cs.queensu.ca/home/ahmed/home/teaching/CISC880/F11/papers/DontTouchMyCode_FSE2011.pdf)
+
 ## Are dialects and caching highly coupled with other components  ?
 
 Here We'll examine the coupling between the caching and dialects components and the rest of the code base
@@ -48,6 +54,4 @@ Here We'll examine the coupling between the caching and dialects components and 
 
 Here we well try to see if dialects and caching components are tightly coupled with other components, in other terms, does adding new functionality require making changes in other areas of the code base, of course this is not necessarily something related to those features alone, and could be extended to other features, this question seems interesting because, usually, adding functionality to tightly coupled components is harder than adding it to a loosely coupled one.  
  To so we will analyse commits history using code maat and see if files from those components are often commited with files from other components.
-
-
 
