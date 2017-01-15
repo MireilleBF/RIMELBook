@@ -18,8 +18,8 @@
 
   * absents... Il faudrait chercher du côté des plugings. 
     peut etre : 
-    
-[Investigating software modularity using class and module level metrics
+
+[Investigating software modularity using class and module level metrics  
 M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://books.google.fr/books?hl=fr&lr=&id=NVaZBQAAQBAJ&oi=fnd&pg=PA177&dq=software+engineering+modularity+code+quality&ots=p2EbX7G5rr&sig=AE0Pkr-4xcjn7pqZiXugQyw8WVg&redir\_esc=y\#v=onepage&q=modularity&f=false)
 
 * **En vrac**
