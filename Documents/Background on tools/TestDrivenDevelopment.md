@@ -32,15 +32,11 @@ In the first picture with orange buildings, the color is not linked to any metri
 
 But in this second picture the color varies according the number of code smells. This picture shows also another feature of SoftVis3D, the city is represented with streets \(which are the packages\) forming districts.![](/assets/sonarstreet.png)
 
-## Problems faced
+## Issues
+
+A difficult task we had to face was to find a framework generating test report that Sonar was able to use \(Surefire for example\). This kind of framework is language specific. Analyzing those reports allows Sonar to estimate the test-coverage of a project.
+
+To analyze a project with SonarQube, one needs to collect a few parameters on the project, parameters often directly linked to the way the project was thinked and built. For example, for each project, the structure may differ, and one needs to search for files to include or exclude or where to find test reports. It is necessary to study the projects and their structure to generate a valid analysis result, which may be a difficult task in projects with thousands of lines and different technologies.
 
 
-
-
-
-
-
-[^1]: [https://sonarqube.com](https://sonarqube.com)
-
-[^2]: [http://softvis3d.com](http://softvis3d.com)
 
