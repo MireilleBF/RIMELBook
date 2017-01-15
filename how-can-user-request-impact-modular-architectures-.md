@@ -1,24 +1,5 @@
 # How can user requests impact modular architectures ?
 
-* **Titre du chapitre** :
-
-  * ... je ne sais pas si la limitation aux video games est une bonne idée d'autant que je ne pense pas que l'on puisse répondre à cette question par votre étude.
-
-* **Pourquoi \(fera office d'introduction\) :**
-
-  * il y a de l'idée... on en saura un peu plus après quelques essais
-
-* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
-
-  * trop succinct
-
-* **Articles : serviront de référence et pourront etre discutés**
-
-  * absents... Il faudrait chercher du côté des plugings. 
-    peut etre : 
-
----
-
 ## Introduction
 
 In this chapter, it will be discussed "_how can video games \(and more generally, software\) be modular thanks to the addition of 'mods' or 'plugins' ?_". This can be the wish of the development team, or driven by the community playing the video game \(or using the software\).
@@ -61,7 +42,7 @@ _**Distribution of Work:**_
 _**Articles:**_
 
 * Software modularity :  [Investigating software modularity using class and module level metrics M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
-* 
+
 ## Analysis
 
 _**Subject:**_
