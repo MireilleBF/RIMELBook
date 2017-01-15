@@ -17,8 +17,6 @@
   * absents... Il faudrait chercher du côté des plugings. 
     peut etre : 
 
-
-
 ---
 
 ## Introduction
