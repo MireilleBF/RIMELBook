@@ -1,6 +1,6 @@
 # What about Organization ?
 
-In this chapter we’ll be interested in the organizational differences between the two ORMs, to do so, we’ll examine the implementation of two features of our choosing: Caching, and dialects \[define caching and dialects ??\], the reason behind this choice is the fact the we find them interesting and also to make this study a bit more specific, given that ORMs cover a big variety of functionalities
+In this chapter we’ll be interested in the organizational differences between the two ORMs, to do so, we’ll examine the implementation of two features of our choosing: Caching, and dialects \[define caching and dialects ??\], the reason behind this choice is the fact the we find them interesting and also to make this study a bit more specific, given that ORMs cover a big variety of functionalities,
 
 To do so, We will try to answer the following questions :
 
@@ -20,8 +20,6 @@ by components we mean structures responsible for a feature, for example, in the 
 
 * neo4j
 
-
-
 **Methodology :**
 
 > @mbf : essayez de préciser ce que vous appelerez "component"
@@ -36,7 +34,7 @@ Here we’ll examine the components of each ORM from different points of view :
 
 ## Are dialetcs and caching highly coupled with other components  ?
 
-Here We'll see the coupling between the caching and dialects components and the rest of the code base 
+Here We'll examine the coupling between the caching and dialects components and the rest of the code base
 
 > @mbf : pourquoi pas un fichier à part?
 
