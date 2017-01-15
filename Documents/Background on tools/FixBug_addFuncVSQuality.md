@@ -42,11 +42,7 @@
 
 **Afin de pouvoir évaluer un code nous allons l’analyser pour connaître la qualité et l’évolution dans le temps du code . Pour cela nous allons utiliser deux différents outils , À savoir : SONAR et CODE MAAT.**
 
-**SONAR**
-
 **    Sonar est un outil open source qui se charge du développement et du support de Sonar. Le but principal de cet outil est de fournir une analyse complète de la qualité d'une application en fournissant de nombreuses statistiques \(oumétriques\) sur ses projets. Ces données permettent ainsi d'évaluer la qualité du code, et d'en connaître l'évolution au cours du développement.**
-
-
 
 **L’outil sonar nous permettra de :**
 
@@ -58,12 +54,11 @@
 
 * **une historique pour en voir l’évolution au cours du temps**
 
-**  
+**    
 **
 
 **Pour l’instant nous avons pas encore des résultats à présenter , ils sont en cours d’évaluation et d’analyse .**
 
-  
-**  
+**    
 **
 
