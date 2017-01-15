@@ -6,6 +6,8 @@ To do so, We will try to answer the following questions :
 
 ## How do components evolve over time \(including ownership, bugs, build stability, metrics\) ?
 
+by components we mean structures responsible for a feature, for example, in the case of hibernate, a component is more often than not, a maven project, the study we'll only include those components
+
 **Tools used :**
 
 * CodeCity
@@ -18,7 +20,7 @@ To do so, We will try to answer the following questions :
 
 * neo4j
 
-by components we mean the a structure responsible for a feature, for example, in the case of hibernate, a components is more often than not, a maven project, so the study we'll only include those components 
+
 
 **Methodology :**
 
@@ -28,11 +30,13 @@ Here we’ll examine the components of each ORM from different points of view :
 
 * Ownership: are components “owned” by a contributor ?
 
-* Size : how does size of said components vary ? given that the two ORMs are coded in languages that are somewhat similar in terms of verbosity \(Java and C\#\), we find it fair to compare the components in terms of lines of code, the comparison dos not stop here, as we will also look at the evolution of size during time \(from one release to another for example\)
+* Size : how does size of said components vary ? given that the two ORMs are coded in languages that are somewhat similar in terms of verbosity \(Java and C\#\), we find it fair to compare the components in terms of lines of code, the comparison doesn't stop here, as we will also look at the evolution of size during time \(from one release to another for example\)
 
   > @mbf : relativement au temps, les uns par rapport aux autres ? dans un système? entre les systèmes?, l'architecture?
 
-## How can we detect highly coupled components in ORM frameworks through contributions ?
+## Are dialetcs and caching highly coupled with other components  ?
+
+Here We'll see the coupling between the caching and dialects components and the rest of the code base 
 
 > @mbf : pourquoi pas un fichier à part?
 
