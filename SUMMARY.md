@@ -11,6 +11,7 @@
     * [How is managed Node.js evolution over time?](node.md)
     * [What is the impact of the structure \(teams organisation\) on the code and vice versa ?](what-is-the-impact-of-the-structure-teams-organisation-on-the-code-and-vice-versa-.md)
         * [How to create the perfect team considering the actual code base?](how-to-create-the-perfect-team-considering-the-actual-code-base.md)
+        * [What about the team structure](what-about-the-team-structure.md)
         * [Verify the suitability between the ideal teams and those extracted from the project documentation.](verify-the-suitability-between-the-ideal-teams-and-those-extracted-from-the-project-documentation.md)
     * [How modern ORMs are developed nowadays, in term of organization, Architecture and Design ?](how-modern-orms-are-developed-nowadays-in-term-of-organization-architecture-and-design-.md)
         * [What about Organization](what-about-organization.md)

@@ -10,13 +10,11 @@ Bigger an organization is, more social boundaries are produced: majors are cause
 
 Developers are not robots and they can’t work together perfectly because humans can’t share their mind: that’s why there is a conception phase before developing something. Working on the same code part means that you spend time on integrations and ensuring that the integration will be good enough, developers need to speak together. Sometimes the project are so big that we need a **big team**, dispatched all around the world and communication can be hard.
 
+Figure 1![](/assets/ConwaysLaw.png)
+
+Generally, to avoid this lack of communication, organizations wich design a systems are constrained to produce designs which are copies of the communication structures of these organizations. The** Figure 1 **illustrate this problem : the entire system is based on a design, and the developers team have to reflect the design structure.
+
 ### _**The Goal ?**_
-
-![](/assets/ConwaysLaw.png)
-
-> @mbf : AJOUTER une légende et faites référence à la figure dans le texte. CIter dans cette légende votre source.
-
-
 
 If companies tries to split the work between developers by adding some rules based on that Conway’s , we can imagine the job can be done **better and faster**.
 
@@ -28,37 +26,19 @@ Spring’s team is well dispatched around the world, we want to determine if we 
 
 > @mbf : même question que l'autre groupe.
 
-
-
 ### _**How to ?**_
 
-First of all, we need to extract the team from the website project. To achieve this, we choose to develop our **own **extractor, in few word: given a webpage, we can by **parsing **the tags catch the information needed.
-
-Extract tool is available at [RIMEL-extractor](http://rimel.dobl.fr/) \([http://rimel.dobl.fr/\](http://rimel.dobl.fr/\)\)
-
-> @mbf : vous êtes dans la contribution...
-Mettez plutôt en avant (pour le livre) les points que vous jugez important, à vous lire, (i) location (ii) position (iii) same team, ...
-
-With that tool \(alpha version at the moment\) you can:
-
-* Enter a webpage which reference a team \(e.g. [https://spring.io/team\](https://spring.io/team\)\)
-* See the list of team members
-* The Map will shows you their location
-* The grid shows you their team position \(e.g. Developer\)
-* Sort by Name, Position, Location, Github name
-
-Now, we need to imagine an ideal team for the project. However, how do we find it?
-
 The ideal team is a team where all the members of the project are gathered in the same place.
+
 > @mbf : according to conway?
 
 And if several geographical groups are formed, then the best thing is for each geographic group, to work on an independent part of the project. In order to limit problems due to remote communication.
+
 > @mbf :mais y a t il vraiment des parties independantes?
 
+So we will try to analyze the distribution of members.
 
-So we will try to analyze the distribution of members. 
 > @mbf : geographique ou dans le code?
-
 
 Then we will try to assess whether it is satisfactory, and see if people working on the same subjects are geographically close or not.
 
@@ -67,19 +47,19 @@ We know that that law is based on how developers communicate between each other.
 ### _**References :**_
 
 * Allan Kelly \(2013\) Conway's law v software architecture Published at DZone with permission of Allan Kelly, DZone MVB.
-> @mbf : OK Conway's Law is now working in reverse: the system is imposing structure on the organization. mais se pose aussi la question :
-Both forms of Conway's Law and the Homomorphic Force pose a dilemma for any organization. Should they work with the force or try to break it?
 
-* N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). [The Influence of Organizational Structure on Software Quality]
+  > @mbf : OK Conway's Law is now working in reverse: the system is imposing structure on the organization. mais se pose aussi la question :  
+  > Both forms of Conway's Law and the Homomorphic Force pose a dilemma for any organization. Should they work with the force or try to break it?
 
-* Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). [https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study]
-(https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/ "https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/")
+* N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). \[The Influence of Organizational Structure on Software Quality\]
+
+* Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). \[[https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study)\]  
+  \([https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/) "[https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/)"\)
 
 > @mbf : ok
 
 * Lappeenranta University of Technology, LUT. "Human and organizational factors influence software quality." ScienceDaily. ScienceDaily, 11 August 2015. \[online\]. \(visited on 18/12/2016\). [www.sciencedaily.com/releases/2015/08/150811091913.htm](http://www.sciencedaily.com/releases/2015/08/150811091913.htm)
-> @mbf : vous avez l'article?
-
+  > @mbf : vous avez l'article?
 
 ### Authors _**:**_
 
