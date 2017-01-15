@@ -32,7 +32,7 @@ Here we’ll examine the components of each ORM from different points of view :
 
   > @mbf : relativement au temps, les uns par rapport aux autres ? dans un système? entre les systèmes?, l'architecture?
 
-## Are dialetcs and caching highly coupled with other components  ?
+## Are dialects and caching highly coupled with other components  ?
 
 Here We'll examine the coupling between the caching and dialects components and the rest of the code base
 
@@ -56,7 +56,8 @@ Here We'll examine the coupling between the caching and dialects components and 
 
 **Methodology :**
 
-Here we’ll try to find out if there is a correlation between contribution \(commits …\) and highly coupled components. This will be done by analysing commits that include multiple files belonging to different components. Are two different files always committed together ?
+Here we well try to see if dialects and caching components are tightly coupled with other components, in other terms, does adding new functionality require making changes in other areas of the code base, of course this is not necessarily something related to those features alone, and could be extended to other features, this question seems interesting because, usually, adding functionality to tightly coupled components is harder than adding it to a loosely coupled one.  
+ To so we will analyse commits history and see if files from those components are often commited with files from other components.
 
 > @mbf : en quoi cela nous intéresse?  
 > Ce passage est écrit sans réflexion.
