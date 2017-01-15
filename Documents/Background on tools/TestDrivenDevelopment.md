@@ -1,6 +1,16 @@
 # Background on tools : What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?
 
-## Used tools
+## Questions
+
+The questions we aim to answer are :
+
+* Can developpers using TDD methods really claim a better quality of code ?
+
+By “quality”, we mean code smells, code duplication, cyclomatic complexity and number of bugs.
+
+* Do TDD projects really have a higher test coverage ?
+
+## Tooling
 
 ### SonarQube[^1]
 
@@ -12,11 +22,11 @@ We can see here a detailed preview of the analysis of the project Fitnesse with 
 
 ### SoftVis3D
 
-SoftVis3D is a tool which allow to display a project in the shape of a 3D city map. Each building represents a file and each district a package. One of the strong points of this tool is that it exists as a SonarQube plugin and so is really easy to use. Moreover it is possible to choose which metrics to use to modelize the base of a building, its height and its color. 
+SoftVis3D is a tool which allow to display a project in the shape of a 3D city map. Each building represents a file and each district a package. One of the strong points of this tool is that it exists as a SonarQube plugin and so is really easy to use. Moreover it is possible to choose which metrics to use to modelize the base of a building, its height and its color.
 
-The following pictures represents an analysis of the Fitnesse project with SoftVis3D. Here, the base of a building is the cyclomatic complexity and the height is the number of lines of code. 
+The following pictures represents an analysis of the Fitnesse project with SoftVis3D. Here, the base of a building is the cyclomatic complexity and the height is the number of lines of code.
 
-In the first picture with orange buildings, the color is not linked to any metrics. 
+In the first picture with orange buildings, the color is not linked to any metrics.
 
 ![](/assets/sonarcity.png)
 
