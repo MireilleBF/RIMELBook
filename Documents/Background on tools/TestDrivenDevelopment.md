@@ -1,6 +1,16 @@
 # Background on tools : What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?
 
-## Used tools
+## Questions
+
+The questions we aim to answer are :
+
+* Can developpers using TDD methods really claim a better quality of code ?
+
+By “quality”, we mean code smells, code duplication, cyclomatic complexity and number of bugs.
+
+* Do TDD projects really have a higher test coverage ?
+
+## Tooling
 
 ### SonarQube[^1]
 
