@@ -20,22 +20,19 @@ With the extractor tool you can:
 
 We can now analyse the team by considering some metrics: the projects that Spring team develop, the projects locations and the team positionning.
 
-
-
 We need to make sense of the data we have collected.
 
 First, the data we can collect on the spring.io/teams page is not extended and knowing that they have certainly been filled by hand, they are not very reliable.
 
 So, we have begun to extract the geographical position of the developer, his main position, his github adress and his name.
 
-
-
 ### Locations_:_
 
 These data are arranged on a map to allow a quick look at the scope of the project.
 
-A project where all members work in the same building is different from a project where members can be scattered around the world \(like Spring\).   
-The consequences of huge separation may be a lack of communication due to jet lag, language or culture. That will impact productivity in a negative way.
+A project where all members work in the same building is different from a project where members can be scattered around the world \(like Spring\).  
+The consequences of huge separation may be a lack of communication  
+ due to jet lag, language or culture. That will impact productivity in a negative way.
 
 We were able to recover the latitude and longitude of each developer and thanks to the Google Map's GeoCode API we were able to retrieve geographical informations allowing to aggregate this data and to know the number of developer by country. \(in a donut chart\)
 
@@ -51,13 +48,7 @@ We then counted the occurrences of each word \(after having standardized their c
 
 ### Project_: \(comming soon\)_
 
+We will search in the repository of each developer looking for projects which he works at spring.
 
-
-
-
-
-
-
-
-
+And we will pool all the members who work on this project whose geographical position and the name of the team are known and determinate if the team is too separate or not.
 
