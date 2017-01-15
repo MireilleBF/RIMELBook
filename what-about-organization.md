@@ -10,11 +10,11 @@ by components we mean structures responsible for a feature, for example, in the 
 
 **Tools used :**
 
-* CodeCity : to get  visualization of the codebase following size of the packages, complexity and other metrics :
+* CodeCity : to get  visualization of the codebase following size of the packages, complexity and other metrics.
 
-* code Maat : to perform analysis on the codebase in order to detect logical coupling, churn, ownership and the maturity of components
+* code Maat : to perform analysis on the codebase in order to detect ownership patterns, churn and the maturity of components
 
-* GitHub API : retreive pull request, this will give us the velocity 
+* GitHub API : retreive pull request, this will give us the velocity
 
 * Jenkins : retreive the failing builds, and more precisely the commit thar broke the build
 
