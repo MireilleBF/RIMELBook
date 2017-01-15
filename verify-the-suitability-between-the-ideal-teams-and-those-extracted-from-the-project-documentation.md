@@ -30,14 +30,9 @@ According to the Conway's law, the ideal team is a team where all the members wh
 
 We have already analysed the real team, we will now try to assess whether it is satisfactory, and see if people working on the same subjects are geographically close or not.
 
-
-
 ### _**References :**_
 
 * Allan Kelly \(2013\) Conway's law v software architecture Published at DZone with permission of Allan Kelly, DZone MVB.
-
-  > @mbf : OK Conway's Law is now working in reverse: the system is imposing structure on the organization. mais se pose aussi la question :  
-  > Both forms of Conway's Law and the Homomorphic Force pose a dilemma for any organization. Should they work with the force or try to break it?
 
 * N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). \[The Influence of Organizational Structure on Software Quality\]
 
@@ -45,8 +40,6 @@ We have already analysed the real team, we will now try to assess whether it is 
   \([https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/) "[https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/)"\)
 
 * Lappeenranta University of Technology, LUT. "Human and organizational factors influence software quality." ScienceDaily. ScienceDaily, 11 August 2015. \[online\]. \(visited on 18/12/2016\). [www.sciencedaily.com/releases/2015/08/150811091913.htm](http://www.sciencedaily.com/releases/2015/08/150811091913.htm)
-
-  > @mbf : vous avez l'article?
 
 ### Authors _**:**_
 
