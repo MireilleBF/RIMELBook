@@ -69,7 +69,7 @@ After a few weeks of studies, we think about reducing the scope of this part, be
 
 _**Methodology:**_
 
-We run through 3 phases to analyse data from the Terasology repository \(for instance\).   
+We run through 3 phases to analyse data from the Terasology repository \(for instance\).  
 The first phase is to extract data : to do this, we use an homemade script and we extract :
 
 * The commit hash
@@ -83,11 +83,11 @@ The first phase is to extract data : to do this, we use an homemade script and w
 
 The second phase is to transform data using Logstash to convert the CSV, product by the fisrt step and produce a JSON file. We then use this JSON to inflate an Elastik.
 
-The third and last step is to exploit these data, and produce charts, stats, dashboards, ... and reason on
+The third and last step is to exploit these data, and produce charts, stats, dashboards, ... and reason on it.
 
 _**Major difficulties:**_
 
-We encountered major difficulties in term of documentation. We didn't find anything on the subject.  
+We encountered major difficulties in term of documentation. We didn't find anything on the subject.
 
 Therefore, searching tools has also be a pain because there are too few researches about it.
 
