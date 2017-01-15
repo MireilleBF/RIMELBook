@@ -24,25 +24,13 @@ To avoid comprehension problems between team members, software architects are se
 
 Spring’s team is well dispatched around the world, we want to determine if we can use the Conway’s law to deduce the ideal team and compare it to get a better coding performance.
 
-> @mbf : même question que l'autre groupe.
-
 ### _**How to ?**_
 
-The ideal team is a team where all the members of the project are gathered in the same place.
+According to the Conway's law, the ideal team is a team where all the members whose develop part of a project are gathered in the same place. And if several geographical groups are formed, then the best thing is for each geographic group, to work on a small part of the project. In order to limit problems due to remote communication.
 
-> @mbf : according to conway?
+We have already analysed the real team, we will now try to assess whether it is satisfactory, and see if people working on the same subjects are geographically close or not.
 
-And if several geographical groups are formed, then the best thing is for each geographic group, to work on an independent part of the project. In order to limit problems due to remote communication.
 
-> @mbf :mais y a t il vraiment des parties independantes?
-
-So we will try to analyze the distribution of members.
-
-> @mbf : geographique ou dans le code?
-
-Then we will try to assess whether it is satisfactory, and see if people working on the same subjects are geographically close or not.
-
-We know that that law is based on how developers communicate between each other. Therefore we can imagine that committers to one project module or the same project, needs to be communication dependent.
 
 ### _**References :**_
 
@@ -56,9 +44,8 @@ We know that that law is based on how developers communicate between each other.
 * Frank Philip Seth. The Influence of Organizational Structure On Software Quality: An Empirical Case Study \[online\]. \(visited on 18/12/2016\). \[[https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study)\]  
   \([https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/) "[https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/](https://www.microsoft.com/en-us/research/publication/the-influence-of-organizational-structure-on-software-quality-an-empirical-case-study/)"\)
 
-> @mbf : ok
-
 * Lappeenranta University of Technology, LUT. "Human and organizational factors influence software quality." ScienceDaily. ScienceDaily, 11 August 2015. \[online\]. \(visited on 18/12/2016\). [www.sciencedaily.com/releases/2015/08/150811091913.htm](http://www.sciencedaily.com/releases/2015/08/150811091913.htm)
+
   > @mbf : vous avez l'article?
 
 ### Authors _**:**_
