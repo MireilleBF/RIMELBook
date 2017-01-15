@@ -32,9 +32,10 @@ We have already analysed the real team, we will now try to assess whether it is 
 
 ### _**References :**_
 
-* Alan D. MacCormack, John Rusnak & Carliss Y. Baldwin \(2014\) , Exploring the Duality between Product and Organizational Architectures: A Test of the Mirroring Hypothesis  , \[[http://hbswk.hbs.edu/item/exploring-the-duality-between-product-and-organizational-architectures-a-test-of-the-mirroring-hypothesis](http://hbswk.hbs.edu/item/exploring-the-duality-between-product-and-organizational-architectures-a-test-of-the-mirroring-hypothesis)\] 
+* Alan D. MacCormack, John Rusnak & Carliss Y. Baldwin \(2014\) , Exploring the Duality between Product and Organizational Architectures: A Test of the Mirroring Hypothesis  
+  , \[[http://hbswk.hbs.edu/item/exploring-the-duality-between-product-and-organizational-architectures-a-test-of-the-mirroring-hypothesis](http://hbswk.hbs.edu/item/exploring-the-duality-between-product-and-organizational-architectures-a-test-of-the-mirroring-hypothesis)\]
 
-* Sam Newman \(2014\), Demystifying Conway's Law \[[https://www.thoughtworks.com/profiles/sam-newman](https://www.thoughtworks.com/profiles/sam-newman)\] 
+* Sam Newman \(2014\), Demystifying Conway's Law \[[https://www.thoughtworks.com/profiles/sam-newman](https://www.thoughtworks.com/profiles/sam-newman)\]
 
 * Allan Kelly \(2013\) Conway's law v software architecture Published at DZone with permission of Allan Kelly, DZone MVB.
 
