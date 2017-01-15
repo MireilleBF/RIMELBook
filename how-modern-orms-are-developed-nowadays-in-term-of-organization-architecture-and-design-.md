@@ -19,7 +19,7 @@ ORMs are very widely used in large scale enterprise applications, they take care
 
 Through this question we want to take a closer look at ORMs, Hibernate and Entity Framework, the purpose of this study is not to find out which ORM is better, but rather the difference between the way the two projects are conducted \(version control, commits, branching strategies …\) and the effect it has on the final products.
 
-This questions also gains interest becausewe are looking at two products that do the same thing but come from different mentalities, entity framework is a Microsoft product and only came to the open source world recently \(2013\), so it is interesting to compare the two products.
+This questions also gains interest because we are looking at two products that do the same thing but come from different mentalities, entity framework is a Microsoft product and only came to the open source world recently \(2013\), so it is interesting to compare the two products.
 
 **Team :**
 
