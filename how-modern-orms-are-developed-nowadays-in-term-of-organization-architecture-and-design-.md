@@ -1,18 +1,5 @@
 # **How are modern ORMs developed nowadays, in term of Organization, Architecture and Design ?**
 
-> **Remarques** : @mbf à enlever après prise en compte
-
-* **Question générale** :
-  * OK... Si on ne parvient pas à généraliser la question, alors il faut expliciter pourquoi on se pose la question sur les ORMs, en quoi répondre à cette question fait avancer nos connaissances de manière générale.
-* **Pourquoi \(fera office d'introduction\) :**
-  * a REVOIR
-* **Outils, Méthodes \(en partie dans l'introduction\) : **
-* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
-* **Articles : serviront de référence et pourront etre discutés**
-
----
-
 Object-relational mapping \(ORM\) is a mechanism that makes it possible to address, access and manipulate objects without having to consider how those objects relate to their data sources. It abstracts away the actual details, ORM lets programmers maintain a consistent view of objects over time, even as the sources that deliver them, the sinks that receive them and the applications that access them change.
 
 ORMs are very widely used in large scale enterprise applications, they take care of important aspects of the database access such as caching strategies and connection management \(pooling …\), which can have quite an effect on the overall performance of the application, so we thought it would be interesting to examine hibernate and entity framework, from different angles : organisation which is more related to contribution and Architecture/Design which is more technical, in both parts we’ll try to extract some interesting metrics/informations.
