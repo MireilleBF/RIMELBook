@@ -8,11 +8,9 @@ We will use SonarQube, a tool to analyse projects and to find metrics such as co
 
 Here is a preview of an analysis of the TDD project Fitness made by SonarQube.![](/assets/sonar.png)
 
+We can see here a detailed preview of the analysis of the project Fitnesse with the number of code smells in particular.![](/assets/sonar2.png)
+
 ## Problems faced
 
 
-
-
-
-[^1]: [https://sonarqube.com](/ https://sonarqube.com)
 
