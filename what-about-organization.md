@@ -18,6 +18,8 @@ by components we mean structures responsible for a feature, for example, in the 
 
 * Jenkins : retreive the failing builds, and more precisely commist that broke the build
 
+* [codescene.io ](https://codescene.io): visualize all the analysis of code Maat
+
 **Methodology :**
 
 > @mbf : essayez de préciser ce que vous appelerez "component"
@@ -44,24 +46,18 @@ Here We'll examine the coupling between the caching and dialects components and 
 
 **Tools used :**
 
-* CodeCity
+* CodeCity : perform analysis on concerned components
 
-* Git Maat
+* Code Maat : perform analysis on the logical coupling side.
 
-* GitHub API
-
-* Jenkins
-
-* Sonar
-
-* Python/Groovy scripts
+* [codescene.io](https://codescene.io) : visualize all the analysis of code Maat
 
 > @mbf : pas clair du tout... vous avez mis tout ce que vous aviez en magasin? Expliquez moi pourquoi ces outils. Jenkins?
 
 **Methodology :**
 
 Here we well try to see if dialects and caching components are tightly coupled with other components, in other terms, does adding new functionality require making changes in other areas of the code base, of course this is not necessarily something related to those features alone, and could be extended to other features, this question seems interesting because, usually, adding functionality to tightly coupled components is harder than adding it to a loosely coupled one.  
- To so we will analyse commits history and see if files from those components are often commited with files from other components.
+ To so we will analyse commits history using code maat and see if files from those components are often commited with files from other components.
 
 > @mbf : en quoi cela nous intéresse?  
 > Ce passage est écrit sans réflexion.
