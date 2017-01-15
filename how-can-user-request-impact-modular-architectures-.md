@@ -81,7 +81,7 @@ The first phase is to extract data : to do this, we use an homemade script and w
 * The committer date
 * The subject 
 
-The second phase is to transform data using Logstash to convert the CSV, product by the fisrt step and produce a JSON file. We then use this JSON to inflate an Elastik.
+The second phase is to transform data using Logstash to convert the CSV, product by the fisrt step and produce a JSON file. We then use this JSON to populate an Elasticsearch.
 
 The third and last step is to exploit these data, and produce charts, stats, dashboards, ... and reason on it.
 
