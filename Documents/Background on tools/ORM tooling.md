@@ -82,5 +82,5 @@ we tried our solution into a part of hibernate \(hibernate-core, this is what ga
 
 issues and problems we faced mainly in finding the right APIs \(i.e github api on pull requests\) and the design of the scripts, and on  how should we extract classes from UML digram.
 
-these issues are not major as they will disapear once we'll get the python and groovy script to a stable version. on the other hand, extraction of the relevent parts of UML diagrams seems to be possible through different way, we still need fix one way to do it \(XML parsing vs manual treatment\).
+these issues are not major as they will disapear once we'll get the python and groovy script to a stable version. on the other hand, extraction of the relevent parts of UML diagrams seems to be possible through different way, we still need decide which way to do it \(XML parsing vs manual treatment\).
 
