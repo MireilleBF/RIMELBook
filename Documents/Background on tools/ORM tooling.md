@@ -32,21 +32,17 @@ this shows us, that the postgresql 8.1 is not that active over time \(in term of
 
 the PostgreSQL93Dialect.java is so small that code maat can't chart it, this shows us that the 9.3 inherits all its behavior from the elder versions, and this without opening any java class.
 
-
-
 ## Github API :
 
 the Github API will provide us with all the pull requests made on the projects, for example to access the pull requests resource on the hibernate project we'll follow the link : [https://api.github.com/repos/hibernate/hibernate-orm/pulls](https://api.github.com/repos/hibernate/hibernate-orm/pulls)
 
-the most interesting part for us is the property "merge\__commit_sha" which contains the sha1 code of the commit, with a groovy or python script we can iterate over the json object in order to retrieve the sha1 code then execute on the script the following command :
+the most interesting part for us is the property "merge\_\_commit\_sha" which contains the sha1 code of the commit, with a groovy or python script we can iterate over the json object in order to retrieve the sha1 code then execute on the script the following command :
 
 ```
-git show <sha1_code> 
+git show <sha1_code>
 ```
 
 which will list all the modified files on the pull request.
 
-this tooling seems quite appropriate in order to see if the selected features are subject to a lot of PRs, and in case of the identified PRs, see their type : bugfix, enhancement etc...
-
-
+this tooling seems quite appropriate in order to see if the selected features are subject to a lot of pull requests, and in case of the identified pull requests, see their type : bugfix, enhancement etc...
 
