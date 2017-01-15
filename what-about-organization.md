@@ -1,5 +1,13 @@
 # What about Organization ?
 
+
+
+In this chapter we’ll be interested in the organizational differences between the two ORMs, to do so, we’ll examine the implementation of two features of our choosing: Caching, and dialects \[define caching and dialects ??\], the reason behind this choice is the fact the we find them interesting and also to make this study a bit more specific, given that ORMs cover a big variety of functionalities
+
+To do so, We will try to answer the following questions :
+
+
+
 ## How do components evolve over time \(including ownership, bugs, build stability, metrics\) ?
 
 **Tools used :**
@@ -56,7 +64,7 @@ Once those questions are answered, we’ll try to find more interesting correlat
 
 Here we’ll try to find out if there is a correlation between contribution \(commits …\) and highly coupled components. This will be done by analysing commits that include multiple files belonging to different components. Are two different files always committed together ?
 
-> @mbf : en quoi cela nous intéresse?   
+> @mbf : en quoi cela nous intéresse?  
 > Ce passage est écrit sans réflexion.
 
 
