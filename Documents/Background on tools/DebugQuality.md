@@ -1,6 +1,6 @@
 # Tools and Methodology : Does bug correction add complexity to the code when it isn't done by the former developer?
 
-@mbf : après vous avoir lu complétement .. est-ce vraiment la complexité que vous regardez? ... Dans le document principal il faudra bien la qualifier sinon.
+@mbf : après vous avoir lu complétement .. est-ce vraiment la complexité que vous regardez? vous parlez de qualité par la suite... Dans le document principal il faudra bien la qualifier .
 
 ## Phase 1: Identify the bug and the commits concerned
 
@@ -152,7 +152,9 @@ Find a way to analyse only the part of the code we want to \(Calculate lines add
 ## Special Mentions:
 
 JArchitect is mentioned in many topics about tools that could help us on the last part, and looks like a great tool that is a fusion of all of those used in the third phase of our study.  
-However this tool isn’t free to use, so you may want to use it if you already have a license or if you can afford it.
+However this tool isn’t free to use, so you may want to use it if you already have a license or if you can afford it. 
+
+_@mbf 14-day trial ?? But before il faut etre sure de ce qui sera étudié.. Il y a un probleme de fond... bug et bug correcions.._
 
 ## Author:
 
