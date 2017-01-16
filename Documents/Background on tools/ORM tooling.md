@@ -38,7 +38,7 @@ now let's have a look to logical coupling inside the dialect package, with codes
 
 this is part of the logical-coupling digram \(we used here a part, since the original one is quiet huge, and will only be used on the book\).
 
-as we can see, the Oracledb 9 Dialect is coupled to the Oracledb 8 Dialect \(since its an update, it must inherit most of its behaviour\), the SchemaUpdate and SchemaValidator are coupled too, but the interesting information is that Schema validation/update is not coupled to the implementation of the Dialects \(which is, by the way, a good news.\).
+As we can see, the Oracledb 9 Dialect is coupled to the Oracledb 8 Dialect \(since its an update, it must inherit most of its behaviour\), the SchemaUpdate and SchemaValidator are coupled too, but the interesting information is that Schema validation/update is not coupled to the implementation of the Dialects \(which is, by the way, a good news.\).
 
 As we know, the software industry is always evolving, for example, each 2 or 3 months we hear of new version realese for postgresql, mysql, mariadb etc..., so handling the dialects appropriatly is a vital matter, since each version may introduce new elements to the dialects.
 

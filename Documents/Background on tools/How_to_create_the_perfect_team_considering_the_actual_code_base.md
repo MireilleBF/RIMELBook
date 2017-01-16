@@ -39,7 +39,7 @@ This proves our knowledge on how to use the tools and allow us to know which fil
 
 ![](/assets/graph.png)_Fig 2. Death Star of coupling _
 
-## **@mbf : ;-\)**
+## 
 
 ## Difficulties
 
