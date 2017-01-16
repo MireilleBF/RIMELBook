@@ -16,15 +16,21 @@ Result: We now have the list of all the issues that concern bugs and bugs correc
 
 ###### We now look for who worked on debugging this feature, and which commits of the git repository are concerned by this debug.
 
+_@mbf : j'ai du mal à saisir... bug, bug correction, debug.... How do you do/know ? Choisissez vous les projets à analyser en regardant ou en faisant l'hypothèse qu'ils utilisent les labels adéquats?  _
+
 In order to do this, we once again use the Github API, which allows to retrieve all kind of events for a given issue.  
-One of them is particularly interesting in our study: CommitCommentEvent   
+One of them is particularly interesting in our study: CommitCommentEvent  
 They give us the information about all the commits that are linked to the debug of this feature, and informations about their authors.  
 If we look at the first commit of this list, we can easily know the state of the Git when the debug was implemented \(we just need to go to the commit N-1\).
 
-##### Result:     
+##### Result:
 
 We now have the commit we have to start our study from.  
 And also the list of the modifications and their authors made in order to debug this feature.
+
+
+
+_@mbf : Sauriez-vous représenter sun un modèle votre "vision" : "bug apparait dans une issue"..."LinkedCommits" "State of the system" ... et préciser ce qui est important par exemple dans la notion d'état?_
 
 ## Phase 2: Identify the author / corrector situation
 
@@ -34,11 +40,10 @@ Git functionnalities and scripts
 
 ##### We are now looking to identify the current “author case” we are in, meaning:
 
-* The author of the feature corrected his own bug
+* The author of the feature corrected his own bug_ \(@mbf : mais comment vous affectez un feature à un auteur? Quelle approximation?\)_
 * An other developer corrected his feature
 
-  
-We can also extend the “other developer” by newcomer, by completing our methodology.   
+We can also extend the “other developer” by newcomer, by completing our methodology.  
 This also leads to other questions like “From when can we consider that our developer is no longer a newcomer?”, that we won’t answer in this study.
 
 In order to do this, we need to use a code comparison tool.  
@@ -63,7 +68,7 @@ With this we know who edited which line, if the line starts with ^, it’s becau
 
 We need to compare between the author of the initial line and the final line
 
-##### Result: 
+##### Result:
 
 We now know the case we are in \(Self Correction / Someone Else correction\).
 
@@ -90,7 +95,7 @@ We could for example use them in order to know if we still match our base criter
 _**For checkstyle:**_
 
 In order to retrieve the cyclomatic complexity with this tool , we need to generate a configuration file, and then add the cyclomatic complexity metric.  
-More informations about it can be found here:   
+More informations about it can be found here:  
 [http://checkstyle.sourceforge.net/config\_metrics.html](http://checkstyle.sourceforge.net/config_metrics.html)
 
 _**For PMD:**_
@@ -98,8 +103,6 @@ _**For PMD:**_
 In order to calculate the cyclomatic complexity, we can refer to this part of the documentation:  
 [http://pmd.sourceforge.net/pmd-4.3.0/rules/codesize.html](http://pmd.sourceforge.net/pmd-4.3.0/rules/codesize.html)  
 We just ned to apply those rules to our configuration file in order to retrieve the results expected.
-
-
 
 #### Compare Number of Lines of Code
 
@@ -130,9 +133,8 @@ Those tests can be done with jacoco which can generate reports about the code co
 
 The tool can be found here: [http://www.eclemma.org/jacoco/](http://www.eclemma.org/jacoco/)
 
-## Identified Problems: 
+## Identified Problems:
 
-  
 We found several problems in our methodology that we need to fix:
 
 We currently make the assumption that the only edits done to a file between the initial commit and the last debug commit are only bug correction, which is not the case.
