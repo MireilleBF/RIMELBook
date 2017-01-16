@@ -34,7 +34,7 @@ In this sub-chapter, we present our study of the impacts of the TDD method on co
 2. Does TDD reduce the overall complexity of a project compared to the common Test Last \(TL\) method ?
 3. Does TDD projects always have a high test coverage ?
 
-Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aim to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. This common method is also known as the Test-Last \(TL\) method. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(_i.e,_ number of issues, fixes ...\) and productivity \(_i.e,_ number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
+Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aims to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. This common method is also known as the Test-Last \(TL\) method. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(_i.e,_ number of issues, fixes ...\) and productivity \(_i.e,_ number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
 
 ### Projects Studied
 
@@ -80,6 +80,4 @@ Kaufmann R. & Janzen D. \(2003, October\). Implications of test-driven developme
 ### Contributors
 
 Our Team is splited in two groups. The first one with Alexandre Cazala and Lisa Joanno studied TDD projects and the second one with Nicolas Lecourtois and Pierre Massanès studied Test-Last projects.
-
-
 
