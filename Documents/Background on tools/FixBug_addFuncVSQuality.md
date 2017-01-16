@@ -1,6 +1,6 @@
 # What is the relation between adding functionality, bug fixing, and code quality
 
-## **@mbf : Gros soucis, je ne sais pas évaluer cela.**
+## **@mbf : Gros soucis, je ne sais pas évaluer cela. C'est inquiétant...**
 
 ## **Process:**
 
@@ -56,11 +56,11 @@
 
 * **une historique pour en voir l’évolution au cours du temps**
 
-**      
+**        
 **
 
 **Pour l’instant nous avons pas encore des résultats à présenter , ils sont en cours d’évaluation et d’analyse .**
 
-**      
+**        
 **
 
