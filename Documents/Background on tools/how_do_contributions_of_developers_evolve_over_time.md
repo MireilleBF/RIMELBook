@@ -14,3 +14,9 @@ We have define a data format to give to the Git command "log". With that we have
 
 To use ElasticSearch and Kibana we used Docker image with them but it was not trivial to keep injected data and visualisations that we made with Kibana. The worst difficulty will start when we will inspect commits's messages because developers write them in differents ways and it can be complicated to obtain some useful informations considering the huge quantity of data.
 
+
+
+_@mbf : technique des nuages de mots? Ne gardez \(s'il y en a\) que ceux qui reviennent le plus souvent, puis les positionner relativement aux temps/auteurs etc.. Voir la nature de ces termes pour voir s'ils sont métier \(jeux\) ou techniques?  Pas sure.._
+
+
+
