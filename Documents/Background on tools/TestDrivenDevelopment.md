@@ -32,7 +32,7 @@ In the first picture with orange buildings, the color is not linked to any metri
 
 But in this second picture the color varies according the number of code smells. This picture shows also another feature of SoftVis3D, the city is represented with streets \(which are the packages\) forming districts.![](/assets/sonarstreet.png)
 
-### **Code Maat**
+### **Code Maat **
 
 Code-Maat inspects commit logs from nearly any version control system to generate data, such as code age, number of revisions for each files, code ownership and so on. It can be interesting to compare theses metrics for test-driven and test last projects to see for which development strategy files are the most frequently modified. With the code age we can check if files keep being maintained over time, or reach a definitive state at some point of the project. We can also measure when this happens in average. The analysis can be parameterized. We can set a minimal number of revisions to reach to consider a file, we can specify a regular expression the commit message must match. This last feature will be exploited to make statistics on commits containing key-words like “fix”, “feature” or so, and understand the impacts of TDD.
 

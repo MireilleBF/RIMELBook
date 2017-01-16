@@ -12,7 +12,7 @@ Are there people who work more specifically on the interconnection between these
 
 ## **Tools and Methods**
 
-To understand how teams organize themselves in this project and its possible link with different languages, we will start by looking the history of its evolution through the commits. Then we will use codeMaat to analyze the data collected previously in order to determine the structural organization in the project.
+To understand how teams organize themselves in this project and its possible link with different languages, we will start by looking the history of its evolution through the commits. Then we will use codeMaat to analyze the data collected previously in order to determine the structural organization in the project. \(@mi : Explain what do you mean by structural organization\)
 
 Once we have the organizational metrics, we will be able to find developers who work on several modules written in different languages. To do this, we will use both codeMaat and gitinspector. The option ownership provided among others by codeMaat will enable us to identify the developers who work on the modules developed in different languages, the percentage of their contributions to different modules, major developers, etc ....
 
