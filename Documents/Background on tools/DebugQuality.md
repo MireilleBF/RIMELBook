@@ -1,5 +1,7 @@
 # Tools and Methodology : Does bug correction add complexity to the code when it isn't done by the former developer?
 
+@mbf : après vous avoir lu complétement .. est-ce vraiment la complexité que vous regardez? ... Dans le document principal il faudra bien la qualifier sinon.
+
 ## Phase 1: Identify the bug and the commits concerned
 
 #### Tools used:
@@ -27,8 +29,6 @@ If we look at the first commit of this list, we can easily know the state of the
 
 We now have the commit we have to start our study from.  
 And also the list of the modifications and their authors made in order to debug this feature.
-
-
 
 _@mbf : Sauriez-vous représenter sun un modèle votre "vision" : "bug apparait dans une issue"..."LinkedCommits" "State of the system" ... et préciser ce qui est important par exemple dans la notion d'état?_
 
