@@ -4,6 +4,10 @@ _**Subject:**_
 
 After a few weeks of studies, we think about reducing the scope of this part, because there are too little documentation on it. We will focus on how the community drive the development.
 
+
+
+_@mbf : je n'arrive pas à comprendre où vous prenez en compte la communauté \(c'est peut etre que communauté c'est pour vous les développeurs?\) ? Vous pensez vraiment qu'il y a bcp de différences entre author and commiter? Pas d'utilisations des issues? dans le temps? par exemple pour voir s'il y a une correlation entre le nombre d'issues et de commit? _
+
 _**Methodology:**_
 
 We run through 3 phases to analyse data from the Terasology repository \(for instance\).  
