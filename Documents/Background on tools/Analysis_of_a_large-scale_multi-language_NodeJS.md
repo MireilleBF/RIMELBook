@@ -32,7 +32,7 @@ With gitinspector we were able to determine the major contributors to the variou
 
 ![](https://lh4.googleusercontent.com/SdkiVYnalRihGDom9g2uQrPav6FgECtLyWRLDBztR3RYpWX0-TOAwhxZdhSgDw1mG6kLunmgr_6t817bZCy-0GaYZy9fMqWyYDgeQtOglnGz6Ehi_6sDltKMDzlepOgfsmvzIjz6 "git_inspector.PNG")
 
-## **Difficulties encountered**
+## E**ncountered difficulties **
 
 The difficulty we have encountered is that we are analyzing a large-scale software system developed mainly in C ++ and Javascript. Besides this, NodeJs includes a large number of modules in which one can find hundreds of files. We had to wait about 5 hours to get first results of our analyzes using Gitinspector.
 
