@@ -25,7 +25,7 @@ One of them is particularly interesting in our study: CommitCommentEvent
 They give us the information about all the commits that are linked to the debug of this feature, and informations about their authors.  
 If we look at the first commit of this list, we can easily know the state of the Git when the debug was implemented \(we just need to go to the commit N-1\).
 
-                                                                         ![](/assets/Github Issue.png)
+![](/assets/Github Issue.png)
 
 ##### Result:
 
