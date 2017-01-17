@@ -42,3 +42,5 @@ A difficult task we had to face was to find a framework generating test report t
 
 To analyze a project with SonarQube, one needs to collect a few parameters on the project, parameters often directly linked to the way the project was thinked and built. For example, for each project, the structure may differ, and one needs to search for files to include or exclude or where to find test reports. It is necessary to study the projects and their structure to generate a valid analysis result, which may be a difficult task in projects with thousands of lines and different technologies.
 
+To avoid losing too much time on this issue, we're only going to estimate the test-coverage of one TDD project and one TL project. 
+
