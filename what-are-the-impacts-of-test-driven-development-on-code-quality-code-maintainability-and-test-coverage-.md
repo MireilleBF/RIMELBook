@@ -54,6 +54,13 @@ In order to find a concrete answer, we had to find many projects built using a T
 
 There are other projects using TDD but those are the most interesting for our works. We are limited in time by our studies.
 
+We found the following TL projects which are approximately of the same size as the previous TDD projects.
+
+* [Google Gson](https://github.com/google/gson)
+* [Node.js](https://github.com/nodejs/node)
+* [OpenShift Origin](https://github.com/openshift/origin)
+* [Spoon](https://github.com/INRIA/spoon) 
+
 We compared TDD method projects with TL method projects based on:
 
 * Cyclomatic complexity
