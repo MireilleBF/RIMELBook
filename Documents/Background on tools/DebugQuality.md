@@ -1,6 +1,6 @@
-# Tools and Methodology : Does bug correction add complexity to the code when it isn't done by the former developer?
+# Tools and Methodology : Who should debug?
 
-@mbf : après vous avoir lu complétement .. est-ce vraiment la complexité que vous regardez? vous parlez de qualité par la suite... Dans le document principal il faudra bien la qualifier .
+~~@mbf : après vous avoir lu complétement .. est-ce vraiment la complexité que vous regardez? vous parlez de qualité par la suite... Dans le document principal il faudra bien la qualifier .~~
 
 ## Phase 1: Identify the bug and the commits concerned
 
@@ -24,6 +24,10 @@ In order to do this, we once again use the Github API, which allows to retrieve 
 One of them is particularly interesting in our study: CommitCommentEvent  
 They give us the information about all the commits that are linked to the debug of this feature, and informations about their authors.  
 If we look at the first commit of this list, we can easily know the state of the Git when the debug was implemented \(we just need to go to the commit N-1\).
+
+![](/assets/Untitled Diagram-1.png)
+
+
 
 ##### Result:
 
@@ -152,7 +156,7 @@ Find a way to analyse only the part of the code we want to \(Calculate lines add
 ## Special Mentions:
 
 JArchitect is mentioned in many topics about tools that could help us on the last part, and looks like a great tool that is a fusion of all of those used in the third phase of our study.  
-However this tool isn’t free to use, so you may want to use it if you already have a license or if you can afford it. 
+However this tool isn’t free to use, so you may want to use it if you already have a license or if you can afford it.
 
 _@mbf 14-day trial ?? But before il faut etre sure de ce qui sera étudié.. Il y a un probleme de fond... bug et bug correcions.._
 
