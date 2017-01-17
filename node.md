@@ -1,4 +1,4 @@
-#How is managed Node.js evolution over time?
+# **Analysis of a large-scale multi-language software system applied to NodeJS**?
 
 > **Remarques** : @mbf à enlever après prise en compte
 
@@ -16,7 +16,7 @@
   * trop confus
 * **Articles : serviront de référence et pourront etre discutés**
 
-----
+---
 
 ## Case Study
 
@@ -60,26 +60,22 @@ Then we will analyze:
 [NodeJS ​Foundation](https://nodejs.org/en/foundation/)
 
 ​[Registry npm](https://www.npmjs.com/package/npm-registry)​
+
 > @mbf outil que vous compter utiliser?
 
 ​[Semantic versioning​](http://semver.org/lang/fr/)
 
 > @mbf Pourquoi ? Où voulez-vous en venir?
 
-
 ​[A Unified Framework for the Comprehension of Software's time Dimension​](https://papyrus.bib.umontreal.ca/xmlui/bitstream/handle/1866/11998/Benomar_Omar_2015_these.pdf?sequence=2&isAllowed=y)
 
 > @mbf outil que vous compter utiliser? c'est une thèse... pourquoi celui-ci?
 
-
-
-
-
 ## Tools
 
 ​[CodeCity​](https://wettel.github.io/codecity.html)
-> @mbf Avez-vous vérifier les compatibilités de langage ?
 
+> @mbf Avez-vous vérifier les compatibilités de langage ?
 
 ​[Github ap​](https://developer.github.com/v3/)
 
@@ -90,16 +86,17 @@ Then we will analyze:
 * Balde Thierno
 
   * Commits analysis over a given period
-> @mbf : pourquoi faire?
+    > @mbf : pourquoi faire?
   * Identification modules and correlated these contributors
-  > @mbf : Il y a des idées mais soyez un peu plus "clair"
+    > @mbf : Il y a des idées mais soyez un peu plus "clair"
 
 * Diallo Mahmoud
 
   * Versions Analysis of Module
 
   * Contributions Analys is different developers on a given module
-  > @mbf : ????
+
+    > @mbf : ????
 
 
 
