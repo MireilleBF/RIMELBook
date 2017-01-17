@@ -44,7 +44,7 @@ So in details :
 
 For each job description we have retrieved words separated by spaces, removed unnecessary terms like punctuation and link words and removed the term Spring \(because it does not have any specific meaning, every developer is at Spring\)
 
-We then counted the occurrences of each word \(after having standardized their case\), and have weighted by several functions \(log, square or n, available in the settings the size of display of the word according to its number of occurrences\).
+Then we counted the occurrences of each word \(after having standardized their case\), and have weighted by several functions \(log, square or n, available in the settings the size of display of the word according to its number of occurrences\).
 
 ### Project_: \(comming soon\)_
 
