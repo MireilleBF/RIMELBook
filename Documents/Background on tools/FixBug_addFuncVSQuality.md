@@ -4,15 +4,9 @@
 
 ## **Process:**
 
-**récupère les morceau de code dégueu**
+Dans un premier temps,nous allons devoir évaluer notre code. un e fois cette évaluation faite nous devons ètre capable de lier chaque ligne de code avec un type de modification\(ajout de fonctionnalité,correction de beug\).
 
-**on regarde quel morceau correspond a quel commit**
-
-**on lie les commits au taches jira**
-
-**on peut ainsi noter chaque tâche jira**
-
-**on trie les tache jira par type**
+Pour ce faire nous avons décidé de passer par les tickets jira,qui contiennent déja cette information.Nous allons devoir lier les commit au défférent tickets,que se soit en analysant les commentaires de ces commit ou en liant les numéro de pull request liés à un commit vers un ticket jira.Ce que nous permettra de pouvoir faire des métrics pour chaque type de modification .
 
 # **Question :**
 
@@ -56,11 +50,11 @@
 
 * **une historique pour en voir l’évolution au cours du temps**
 
-**        
+**            
 **
 
 **Pour l’instant nous avons pas encore des résultats à présenter , ils sont en cours d’évaluation et d’analyse .**
 
-**        
+**            
 **
 
