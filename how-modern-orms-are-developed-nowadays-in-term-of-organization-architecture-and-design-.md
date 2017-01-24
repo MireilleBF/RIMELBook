@@ -1,4 +1,6 @@
-# **How are modern ORMs developed nowadays, in term of Organization, Architecture and Design ?**
+# How to do feature-driven comparisons ? application to ORMs.
+
+
 
 Object-relational mapping \(ORM\) is a mechanism that makes it possible to address, access and manipulate objects without having to consider how those objects relate to their data sources. It abstracts away the actual details, ORM lets programmers maintain a consistent view of objects over time, even as the sources that deliver them, the sinks that receive them and the applications that access them change.
 
