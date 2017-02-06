@@ -18,7 +18,7 @@ Result: We now have the list of all the issues that concern bugs and bugs correc
 
 ###### We now look for who worked on debugging this feature, and which commits of the git repository are concerned by this debug.
 
-_@mbf : j'ai du mal à saisir... bug, bug correction, debug.... How do you do/know ? Choisissez vous les projets à analyser en regardant ou en faisant l'hypothèse qu'ils utilisent les labels adéquats?  _
+~~_@mbf : j'ai du mal à saisir... bug, bug correction, debug.... How do you do/know ? Choisissez vous les projets à analyser en regardant ou en faisant l'hypothèse qu'ils utilisent les labels adéquats?  _~~
 
 In order to do this, we once again use the Github API, which allows to retrieve all kind of events for a given issue.  
 One of them is particularly interesting in our study: CommitCommentEvent  
@@ -32,7 +32,7 @@ If we look at the first commit of this list, we can easily know the state of the
 We now have the commit we have to start our study from.  
 And also the list of the modifications and their authors made in order to debug this feature.
 
-_@mbf : Sauriez-vous représenter sun un modèle votre "vision" : "bug apparait dans une issue"..."LinkedCommits" "State of the system" ... et préciser ce qui est important par exemple dans la notion d'état?_
+~~_@mbf : Sauriez-vous représenter sun un modèle votre "vision" : "bug apparait dans une issue"..."LinkedCommits" "State of the system" ... et préciser ce qui est important par exemple dans la notion d'état?_~~
 
 ## Phase 2: Identify the author / corrector situation
 
