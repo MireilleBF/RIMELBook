@@ -2,9 +2,26 @@
 
 ## Problematic
 
+During the maintenance of a project, we can issue several concerns. One of them is debugging features, which can take some time and be done more or less well
+
+But how to know who we should attribute this task to?
+
+That's the question we'll try to answer with this study.
+
+We would like to obtain two results:
+
+* Obtain the result for a specific team composition and on an individual point of view, meaning :
+  * Should X debug the feature he developed?
+    * Yes because he generally does it well and fast
+    * No, and in this case, who should do this task?
+
+* If this leads to a concluant result, we could extend our study to a general statement, meaning:
+
 ## Definitions
 
 ## Process Description
+
+We are basing our study on Open Source projects, and more specifically ElasticSearch as a base project, but by applying our methodology, you can obtain the results for your own team or project.
 
 ## Tools and Methodology
 
