@@ -11,13 +11,22 @@ That's the question we'll try to answer with this study.
 We would like to obtain two results:
 
 * Obtain the result for a specific team composition and on an individual point of view, meaning :
+
   * Should X debug the feature he developed?
     * Yes because he generally does it well and fast
     * No, and in this case, who should do this task?
 
 * If this leads to a concluant result, we could extend our study to a general statement, meaning:
 
+  * Should we attribute debugging tasks to newcomers / advanced developers other than the author or the author himself?
+
+And also make more specific statements : 
+
+* Newcomers tend to \(or not\) generally debug slower than other developers but do that better \(in code quality way\).
+
 ## Definitions
+
+Code Quality : General state of the code regarding the metrics linked to this notion at a moment.
 
 ## Process Description
 
@@ -178,6 +187,26 @@ JArchitect is mentioned in many topics about tools that could help us on the las
 However this tool isn’t free to use, so you may want to use it if you already have a license or if you can afford it.
 
 ## Further Questions
+
+### Code Ownership
+
+How to improve code ownership algorithm to be relevant ?
+
+### Relevant Metric
+
+How to compute metrics to have a relevant score?
+
+### Bug Difficulty
+
+Debugging easy bugs may be less rewarding but how to qualify the difficulty of a bug?
+
+### Multiple Correctors
+
+How to adapt algorithms when multiple persons are correcting a bug?
+
+### Bug duration
+
+If a bug is present for a longer time, does it affect our study?
 
 ## References
 
