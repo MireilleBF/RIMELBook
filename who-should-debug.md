@@ -2,6 +2,8 @@
 
 ## Problematic
 
+![](/assets/RIMEL_IntroBis.jpg)
+
 During the maintenance of a project, we can issue several concerns. One of them is debugging features, which can take some time and be done more or less well
 
 But how to know who we should attribute this task to?
@@ -30,13 +32,17 @@ Code Quality : General state of the code regarding the metrics linked to this no
 
 ## Process Description
 
-![](/assets/RIMEL_Process.jpg)
+![](/assets/RIMEL_ProcessHead.jpg)
 
 We are basing our study on Open Source projects, and more specifically ElasticSearch as a base project, but by applying our methodology, you can obtain the results for your own team or project.
+
+![](/assets/RIMEL_ProcessDetail.jpg)
 
 ## Tools and Methodology
 
 ### Phase 1: Identify the bug and the commits concerned
+
+![](/assets/RIMEL_Phase1.jpg)
 
 #### Tools used:
 
@@ -65,6 +71,8 @@ We now have the commit we have to start our study from.
 And also the list of the modifications and their authors made in order to debug this feature.
 
 ### Phase 2: Identify the author / corrector situation
+
+![](/assets/RIMEL_Phase2.jpg)
 
 #### Tools used:
 
@@ -105,6 +113,8 @@ We need to compare between the author of the initial line and the final line
 We now know the case we are in \(Self Correction / Someone Else correction\).
 
 ### Phase 3: Analysis of the code quality
+
+![](/assets/RIMEL_Phase3.jpg)
 
 #### Tools used:
 
@@ -166,6 +176,8 @@ Those tests can be done with jacoco which can generate reports about the code co
 The tool can be found here: [http://www.eclemma.org/jacoco/](http://www.eclemma.org/jacoco/)
 
 ### Phase 4: Results computation
+
+![](/assets/RIMEL_Phase4.jpg)
 
 ## Identified Problems:
 
