@@ -36,7 +36,16 @@ Code Quality : General state of the code regarding the metrics linked to this no
 
 We are basing our study on Open Source projects, and more specifically ElasticSearch as a base project, but by applying our methodology, you can obtain the results for your own team or project.
 
+We chose this project because it provides all informations about the differents issues on this project \(meaning the issues with the label bug that were corrected, and all the commits linked to this issue\), and have a project that has been existing for a long time, with developer turnovers, and a large number of contributors.
+
 ![](/assets/RIMEL_ProcessDetail.jpg)
+
+Our process is splited in 4 differents phases that will be detailed below, let's just explain the general purpose of each phase :
+
+1. The Listing phase is here to identify a corrected bug and retrieve all the commits related to this issue through a manual parser, and save those informations
+2. The second phase is here to identify the author / corrector situation meaning who introduced the bug and who corrected it? 
+3. The third phase is here to compare the code before and after the code corrections by comparing different metrics that will be detailed below. The final goal is to generate a report detailing all the informations about this comparison
+4. The forth phase is here to compute all the results provided by the 3 precedent phases and generate a final report that will display the final results of our study on this project.
 
 ## Tools and Methodology
 
@@ -206,8 +215,6 @@ _**Note :**_ We don't need to study if a correction introduced new bugs since th
 
 We here take the assumption that if someone corrects a bug on a portion of the code, then he totally takes the ownership of it, meaning that if he didn't corrected all bugs on this portion and leaves some after his actions, he'll then be responsible of them.
 
-
-
 A first approach to the answer is to simply check and add the results given for each report.
 
 We'll obtain a chain of scores like::
@@ -227,8 +234,6 @@ The Advanced Programmer score will reflect the quality of his work once he acqui
 
 The Owner score will reflect the quality of his own work, meaning introducing bugs and correcting them.
 
-
-
 We can then produce a more detailed report, by combining the informations of the detailed report, meaning we can also know
 
 * Programmer 1 : 
@@ -236,8 +241,7 @@ We can then produce a more detailed report, by combining the informations of the
   * Newcomer { Code coverage test: 40, Code Complexity 20 }
   * Advanced { Code Coverage test: -20, Code Complexity: 30 }
 
-
-  This allows us to have more detailed informations about the code produced by this coder, meaning he generally add tests coverage while debugging his code but also adds complexity to his code, improves code complexity but don't add tests on a large number of case when debugging other people's code as an advanced programmer on a project ...
+This allows us to have more detailed informations about the code produced by this coder, meaning he generally add tests coverage while debugging his code but also adds complexity to his code, improves code complexity but don't add tests on a large number of case when debugging other people's code as an advanced programmer on a project ...
 
 ## Identified Problems:
 
