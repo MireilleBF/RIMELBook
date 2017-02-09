@@ -20,7 +20,7 @@ We would like to obtain two results:
 
   * Should we attribute debugging tasks to newcomers / advanced developers other than the author or the author himself?
 
-And also make more specific statements : 
+And also make more specific statements :
 
 * Newcomers tend to \(or not\) generally debug slower than other developers but do that better \(in code quality way\).
 
@@ -29,6 +29,8 @@ And also make more specific statements :
 Code Quality : General state of the code regarding the metrics linked to this notion at a moment.
 
 ## Process Description
+
+![](/assets/RIMEL_Process.jpg)
 
 We are basing our study on Open Source projects, and more specifically ElasticSearch as a base project, but by applying our methodology, you can obtain the results for your own team or project.
 
