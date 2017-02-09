@@ -116,6 +116,17 @@ We now know the case we are in \(Self Correction / Someone Else correction\).
 
 ![](/assets/RIMEL_Phase3.jpg)
 
+#### Goals:
+
+The goal of this phase is to generate a report that will be used to compare the quality of the code before and after the debugging task.
+
+We can easily retrieve the pre-debugging state of the code by pulling the commit before the first one in our list of commits for this issue. We can then the final state of the code by pulling the last one in this list.
+
+We are trying to identify two general values during this phase :
+
+* A general debugging score that is a combination of the different metrics.
+* A detailed report that will be used during the final phase in order to compare the studied metrics for each issue.
+
 #### Tools used:
 
 Shell scripts  
@@ -179,6 +190,55 @@ The tool can be found here: [http://www.eclemma.org/jacoco/](http://www.eclemma.
 
 ![](/assets/RIMEL_Phase4.jpg)
 
+This final phase is ment to compute all the results given by the Phase 1 to 3.
+
+For each issue, we will obtain a report that will include :
+
+* Who introduced this bug
+* Who corrected it
+* What is the relation of the corrector \( Newcomer on the Project / Advanced developer / Author himself\)
+* Metric score
+* Link to a more detailed report \( Phase 3 datas\)
+
+With this report, we'll be able to then generate a final report that will assemble all the datas and give a final answer to the question "Who should debug? " in the scope of our study.
+
+_**Note :**_ We don't need to study if a correction introduced new bugs since the ownership of the code will change with this task, so our recursive study of the project will automatically detect this problem.
+
+We here take the assumption that if someone corrects a bug on a portion of the code, then he totally takes the ownership of it, meaning that if he didn't corrected all bugs on this portion and leaves some after his actions, he'll then be responsible of them.
+
+
+
+A first approach to the answer is to simply check and add the results given for each report.
+
+We'll obtain a chain of scores like::
+
+* Programmer 1 : Score 230 as Newcomer, 50 as Advanced Programmer, -50 as Owner
+* Programmer 2 : Score 10 as Newcomer, 30 as Advanced Programmer, 10 as Owner
+
+A positive score means that a programmer adds value to the code he touched regarding our generated metric.
+
+A negative score means that the programmer affected the code in a bad way with his corrections.
+
+We will have a score for each of the ownership / experience case in this project.
+
+The newcomer score will generally reflect the quality of his work as a newcomer in the company, debugging other people bugs.
+
+The Advanced Programmer score will reflect the quality of his work once he acquired some experience on the project.
+
+The Owner score will reflect the quality of his own work, meaning introducing bugs and correcting them.
+
+
+
+We can then produce a more detailed report, by combining the informations of the detailed report, meaning we can also know
+
+* Programmer 1 : 
+  * Owner:{ Code coverage test : 10, Code Complexity: -20 }
+  * Newcomer { Code coverage test: 40, Code Complexity 20 }
+  * Advanced { Code Coverage test: -20, Code Complexity: 30 }
+
+
+  This allows us to have more detailed informations about the code produced by this coder, meaning he generally add tests coverage while debugging his code but also adds complexity to his code, improves code complexity but don't add tests on a large number of case when debugging other people's code as an advanced programmer on a project ...
+
 ## Identified Problems:
 
 We found several problems in our methodology that we need to fix:
@@ -204,7 +264,7 @@ However this tool isn’t free to use, so you may want to use it if you already 
 
 ### Code Ownership
 
-How to improve code ownership algorithm to be relevant ?
+How to improve code ownership algorithm to be more relevant ?
 
 ### Relevant Metric
 
