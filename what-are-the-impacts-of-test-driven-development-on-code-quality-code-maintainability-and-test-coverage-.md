@@ -2,24 +2,6 @@
 
 ## **auteurs**
 
-> **Remarques** : @mbf à enlever après prise en compte
-
-* **Titre du chapitre** :
-  * oK... on verra plus tard pour etre un peu plus percutant
-* **Question générale** :
-  * OK
-* **Pourquoi \(fera office d'introduction\) :**
-  * manque au niveau général
-* **Outils, Méthodes \(en partie dans l'introduction\) : **
-  \* 
-* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  \* 
-* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
-* **Articles : serviront de référence et pourront etre discutés**
-* **En vrac**
-
----
-
 ## Introduction
 
 This document presents the results of our researches on the Test-Driven Development method. In order to concretly present them, we present in a first section the context of our research. In the second section, we deep into the description of our study and on which project it is based.
