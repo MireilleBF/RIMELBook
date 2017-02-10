@@ -61,6 +61,8 @@ We compared TDD method projects with TL method projects based on:
 * Number of lines added per commit or per week
 * Number of commits per week
 
+### Contribution
+
 ### Articles
 
 Beck, K. \(2003\).Test-driven development: by example. Addison-Wesley Professional.
