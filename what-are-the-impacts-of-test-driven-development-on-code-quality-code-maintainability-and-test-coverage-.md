@@ -1,14 +1,13 @@
 # What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?
 
-## A**uteurs**
+## Authors
 
-Alexandre Cazala &lt;alexandre.cazala@gmail.com&gt;
+We are four students in last year of Polytech' Nice-Sophia specialized in Software Architecture :
 
-Nicolas Lecourtois &lt;lecourtoisn@gmail.com&gt;
-
-Lisa Joanno &lt;lisa.joanno@gmail.com&gt;
-
-Pierre Massanès &lt;pierre.massanes@gmail.com&gt;
+* Alexandre Cazala &lt;alexandre.cazala@gmail.com&gt;
+* Nicolas Lecourtois &lt;lecourtoisn@gmail.com&gt;
+* Lisa Joanno &lt;lisa.joanno@gmail.com&gt;
+* Pierre Massanès &lt;pierre.massanes@gmail.com&gt;
 
 ## Introduction
 
