@@ -77,5 +77,5 @@ Kaufmann R. & Janzen D. \(2003, October\). Implications of test-driven developme
 
 ### Contributors
 
-Our Team is splited in two groups. The first one with Alexandre Cazala and Lisa Joanno studied TDD projects and the second one with Nicolas Lecourtois and Pierre Massanès studied Test-Last projects.
+Our Team is splited in two groups. The first one composed by Alexandre Cazala and Lisa Joanno studied TDD projects and the second one composed by Nicolas Lecourtois and Pierre Massanès studied Test-Last projects.
 
