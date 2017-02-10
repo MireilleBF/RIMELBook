@@ -1,4 +1,6 @@
-# What is the relation between adding functionality, bug fixing, and code quality
+# What is the relation between adding functionality, bug fixing, and code quality ?
+
+## **auteurs**
 
 > **Remarques** : @mbf à enlever après prise en compte
 
@@ -11,7 +13,7 @@
 * **Outils, Méthodes \(en partie dans l'introduction\) : **
   \* 
 * **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  * 
+  \* 
 * **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
 * **Articles : serviront de référence et pourront etre discutés**
 * **En vrac**

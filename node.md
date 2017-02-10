@@ -1,6 +1,8 @@
 # **Analysis of a large-scale multi-language software system applied to NodeJS**?
 
 > **Remarques** : @mbf à enlever après prise en compte
+>
+> ## **auteurs**
 
 * **Titre du chapitre** : 
   * Il faut un titre qui interesse. 

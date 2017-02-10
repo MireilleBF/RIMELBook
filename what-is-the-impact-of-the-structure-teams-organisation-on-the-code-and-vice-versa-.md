@@ -1,5 +1,7 @@
 # **What is the impact of the structure \(teams organisation\) on the code and vice versa ?**
 
+## **auteurs**
+
 > **Remarques** : @mbf à enlever après prise en compte
 
 * **Titre du chapitre** :
