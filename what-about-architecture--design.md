@@ -45,11 +45,9 @@ Let’s start with dialect: we used simple search functions, such as “find” 
 * ·A more interesting result : we found classes representing different database products : postgres, MySql …  
   this is very important, as it gives an insight into dialects supported by hibernate
 
-  ```
-                                                         ![](/assets/uml_postges.png)
+![](/assets/uml_postges.png)
 
-                                                                  Figure : generated UML for Dialect package
-  ```
+Figure : generated UML for Dialect package
 
 As we can see, each new version extends the older one, to alter its behavior or to add something new.
 
@@ -59,11 +57,9 @@ The next thing we tried is taking a look at the class that talks to the database
 
 We used our IDE, and generated an UML to see if there are any references to cache classes:
 
-```
-                                                ![](/assets/UML.png)
+![](/assets/UML.png)
 
-                                                         Figure : generated UML for SessionImpl
-```
+Figure : generated UML for SessionImpl
 
 As we can see, no references to cache
 
@@ -77,9 +73,7 @@ By examining the event listeners we found that, they also have a load method in 
 
 ![](/assets/code.png)
 
-```
-                                                      Figure : Calls to first & second level cache
-```
+Figure : Calls to first & second level cache
 
 This gives a very important insight, as we learned that hibernate has two levels of cache
 
@@ -89,11 +83,5 @@ What about Entity Framework ?
 
 ![](/assets/StateManger.png)
 
-
-
-
-
 ![](/assets/AST.png)
-
-
 

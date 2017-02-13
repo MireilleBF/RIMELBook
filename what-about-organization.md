@@ -22,8 +22,6 @@ Here we can see that there's no established lead on entity framework as the half
 
 when doing feature driven comparison, it might be interesting to look closely to the team organization around the targeted features, as sometimes it may give you insights about feature importance to the team, stability and maintenance.
 
-
-
 ### Dialect organization on Hibernate
 
 ![](/assets/ownership.png)
@@ -35,8 +33,6 @@ we can see that Hibernate support variety of SQL dialects, also, we can see that
 ![](/assets/dialect_entityFramework.png)
 
 in contrast with hibernate, we can see that \(like the general team organization\) ownership of the dialect feature is dispatched through the team, which may slow the developpement since it will increase interactions and coupling between developpements.
-
-
 
 ### Caching organization on Hibernate
 
@@ -50,11 +46,7 @@ here we have the general cache structure package, which owned again by hibernate
 
 On Entity side, we can see also repartition between the leads, which leads to the same conclusion on hibernate.
 
-
-
 ## Conclusion
-
-
 
 
 
