@@ -22,7 +22,7 @@ The importance of our question comes from the relation between the code changes 
 
 But are these beliefs well-founded?Is there evidence to support the belief that bug fixes, additions, and feature enhancements can increase or abbreviate code quality?
 
-> @mbf : OK ici.
+
 
 ## Context and hypotheses
 
