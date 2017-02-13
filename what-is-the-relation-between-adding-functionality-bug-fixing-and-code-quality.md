@@ -2,23 +2,13 @@
 
 ## **auteurs**
 
-> **Remarques** : @mbf à enlever après prise en compte
+BELHASSEN Issam
 
-* **Titre du chapitre** :
-  * oK... on verra plus tard pour etre un peu plus percutant
-* **Question générale** :
-  * OK
-* **Pourquoi \(fera office d'introduction\) :**
-  * manque au niveau général
-* **Outils, Méthodes \(en partie dans l'introduction\) : **
-  \* 
-* **Codes \(au choix à présenter dans une partie méthodologie ou dans les sous parties**
-  \* 
-* **Pistes \(devra servir de base à un plan de chapitre, et il faut expliquer pourquoi\)**
-* **Articles : serviront de référence et pourront etre discutés**
-* **En vrac**
+DENNE Djoe
 
----
+DESTORS Max
+
+MOULAYEELY Bezeid
 
 ## Abstract
 
@@ -42,17 +32,94 @@ But are these beliefs well-founded?Is there evidence to support the belief that 
 
 > @mbf : OK ici.
 
-## Chosen methodology
+## Context and hypotheses
 
-To answer this question we will proceed in several steps. We will have to extract from a Github repository several versions of the same code. To do this we will extract the state of the code with each release or revision.
+### Context
 
-In this way we can hope to have enough gap between two versions of project that we would have chosen to be able to consider them as relevant for our study. In addition, we can imagine that changes made during a revision will keep more bug fixes than adding functionality, and vice versa. If this assumption is verified we will have between two revisions mainly bug fixes and between two versions of feature additions, which could allow us to independently evaluate the impact of these two types of modification.
+It is always annoying to see the progress of a project slow down, either because of the frequent occurrence of bugs or because of the degradation of code quality, which makes development much more complicated.
 
-Once our code base has been extracted we will have to make a qualitative evaluation of the code for each selected revisions and versions, using tools. We can rely on the complexity of the code, which tools like Metrics or Sonar can give us.
+There are a number of tools to solve the problem: Sonar, Code Maat ... Of course, the use of its solutions allows to guarantee a clean and easily maintainable code or to progress towards this state. But none of these tools can extract value from this data. There is no additional information available for this project. A project is available in this kind of situation: Is it due to a lack of skills of the team? The context of the project that prevents the code review? Are there times when code degradation is more important? Can some habits or processes affect or improve the quality of the code? Or is it due to the addition of functionality that burdens the code or the bug fix done precipitously?
 
-Then we will have to extract for each revisions and version of the metrics on the number of added functionality and bug fix. We will then have all the necessary information and metrics and we will have only to correlate them and see if we can extract a significant tendency on the evolution of the quality of the code according to the additions of functionalities and Bug fixes.
+It is precisely this question that we have chosen to answer. While we know that if we can set up a process to answer this question, the effort to answer the other questions will greatly simplify. This is proof of concept and feasibility.
 
-> @mbf : OK
+To do this we chose to base ourselves on the Scala project which is an open source project available on Github with a public ticket manager under Jira. It has a lot of the information we need but like all Open Source projects it suffers from a lack of compliance and rule, especially in commit messages. We will detail are point later.
+
+### Hypotheses
+
+To answer this question we need a project that gives us access to a Git repository and to its ticket manager. In our case, we opted for an open source project under Github and Jira. But the process described and valid for all projects with a Git directory and a ticket manager. The tools and scripts developed are based on the Github and Jira APIs.
+
+Our biggest constraint is at the level of the commit messages, which must be formatted in order to integrate the Jira ticket number or the Pull Request number to which it responds.
+
+In absolute terms, a strong link created for example by a plugin allowing to link the deposit Git to the Jira would be a not negligible and would make it easier to extend the subject to other question.
+
+To be certain that the process described here works effortlessly to provide, it is necessary to:
+
+* A Github depot.
+* A Jira ticket manager. Tickets must be linked to versions \(Affected version\)
+* The ticket type must be specified. They should not all be "task"
+* Tickets describing a Pull Requests must have the tag "has-pull-request" and have the Pull Request link in a comment.
+* Commits must include a ticket or Pull Request number in their message.
+
+## Target project
+
+The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
+
+## Process
+
+In order to answer this question we have put in place a process which allows to extract different metrics which will allow to put forward any correlation between the different nature of modification and the evolution of the quality of the code.
+
+We will first have to make the link between the commits and the tickets to which they respond, which allows us to have a link between the commit \(and thus the code\) and a nature of modification. Then for each commit a differential analysis between this commit and the commit directly preceding it will be launched with Sonar. This will give us a collection of differential analysis for each nature of modifications, then we can get out of the value by doing various statistical processing \(average, standard deviation, variance ...\).
+
+
+
+## Link between Code and Jira
+
+The first step in our process will be to link the commits to the 3600 tickets we are interested in. The information we will need for the rest of the process is the list of commits for each type of ticket and for each version. A commit will be represented only by its SHA and the previous commit's \("parent"\) SHA which is the information to retrieve the commit from Git for analysis.  
+  
+To get this list we will first have to list the commits and extract their key. The key is the information that allows to link this commit to a ticket, that is to say are either "ticket number" or its Pull request number if there is one. The 26 000 commits are therefore retrieved by 100 per Github API and their message is analyzed to extract the key. In parallel to this treatment, they are grouped by their keys. So we get a list of keys with a list of SHA peers, each of which represents a commit, and are commit "parent".  
+  
+We will then have to extract the tickets from the versions we have chosen to analyze. These tickets will be represented by their key and are type. So if a ticket is tagged "has-pull-request" it will retrieve all its comments to analyze them and find the url of a Pull request, this one will contain the number that interests us. If a ticket is tagged "has-pull-request" but we are unable to retrieve its number, the ticket will be ignored. Once the key is extracted we will try to find the commits linked to this ticket thanks to the list of commits previously generated. Tickets are also grouped by type, so either bug, feature addition or Improvement.  
+  
+So we have at this moment a list of versions with each having three list of tickets represented by their key and a list of peers of commits, they are grouped by type.  
+  
+We gathered and coupled the information necessary to be able to analyze the code by the Sonar tool and to correlate the results with the information already obtained, that is to say the types of ticket.
+
+
+
+## Problems
+
+We encountered many problems in the process. One of the first was the lack of consistency in commit messages. This problem is probably related to the open source aspect of the project but it had a significant impact on the results obtained, in the end among the 3600 selected tickets we succeeded in finding the commit link in only 40% of the cases, which can Greatly distort the results and amputates us from much of our test data.
+
+The second problem is related to the Sonar analysis of the commit. Our process, although functional and complete, lacks optimization. So for each commit we run a full scan of the source code instead of running it only on files impacted by the commit. This rendered the extraction of results extremely complicated, an analysis may take several minutes.
+
+And finally, we realized a little late, that the Scala project benefited from a regular Sonar analysis. This introduces a variable whose effects it is impossible to predict on our test set.
+
+
+
+## Results
+
+Unfortunately, we have no interesting results. The problem posed is not in question, but rather the slowness of the process and the project chosen.
+
+The project seemed to match our criteria: Open Source, with a ticket manager and the commit messages seemed in many cases to have information to link it to a ticket. Although the Pull Request mergers have all this information, it is not necessarily the case of the other commits. This aspect is linked to its nature Open Source which makes it necessarily less constant in compliance with certain rules. To this is added the fact that it regularly ran a Sonar analysis, which distorted the few results that we were able to extract.
+
+The process is also involved, we not in its run but in its current execution time which is about 3-4 minutes for each couple of commit. It is a correctible defect, but unfortunately we did not have time.
+
+
+
+## Evolution
+
+We realized that the process we put in place could answer a lot of other questions with relatively few changes.
+
+Indeed by modifying the selection criteria of the commits which is today the different types of modification and returning more information related to the commits when the first phase, information related to the context \(date, time compared to a release ... \) Or the developer, we could derive much more value from it:
+
+* Is there a link between the evolution of the quality of the code and the period of the year where we are?
+* Is there a link between the evolution of the quality of the code and the reconciliation of a deadline \(date of release\)?
+* Do Pull requests from external contributor tend to further degrade the quality of the code?
+* Who codes the most cleanly?
+* Who corrects the most Bad smelt?
+* Who degrades the quality of the code?
+
+And we could answer all these issues relatively simply by smaller modification of the process.
 
 ## Tools used
 
@@ -72,19 +139,7 @@ Then we will have to extract for each revisions and version of the metrics on th
 
 > @mbf : Mettez en un plus moderne comme : Herraiz I, Rodriguez D, Robles G, Gonzalez-Barahona JM \(2013\) The Evolution of the Laws of Software Evolution: A Discussion Based on a Systematic Literature Review. ACM Comput Surv 46:28:1--28:28. Excellent !
 
-## Target project
+## 
 
-The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
 
-> @ mbf : j'ai besoin d'une séparation en plusieurs sous partie en précisant qui fait quoi.
-
-## Contributors
-
-BELHASSEN Issam
-
-DENNE Djoe
-
-DESTORS Max
-
-MOULAYEELY Bezeid
 
