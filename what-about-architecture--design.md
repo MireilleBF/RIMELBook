@@ -36,21 +36,20 @@ More precisely, we will clone both hibernate and entity’s code base into Intel
 
 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#"
 
-  
-
-
 The goal is to use static analysis of code to find interesting results about each feature, be it caching or dialects, and, if possible, to generalize our methods to be used in other scenarios
 
 Let’s start with dialect: we used simple search functions, such as “find” and “grep”, to search for key words, the idea being that, by searching for those words, they will leads us to java classes that implement our features, so the search for the word dialect lead us to a package containing different classes:
 
 * ·A mother classes containing various SQL key words and functions
 
-* ·A more interesting result : we found classes representing different database products : postgres, MySql …
+* ·A more interesting result : we found classes representing different database products : postgres, MySql …  
   this is very important, as it gives an insight into dialects supported by hibernate
 
-                                                             ![](/assets/uml_postges.png)
+  ```
+                                                         ![](/assets/uml_postges.png)
 
-                                                                      Figure : generated UML for Dialect package
+                                                                  Figure : generated UML for Dialect package
+  ```
 
 As we can see, each new version extends the older one, to alter its behavior or to add something new.
 
@@ -60,11 +59,11 @@ The next thing we tried is taking a look at the class that talks to the database
 
 We used our IDE, and generated an UML to see if there are any references to cache classes:
 
-                                                    ![](/assets/UML.png)
+```
+                                                ![](/assets/UML.png)
 
-                                                             Figure : generated UML for SessionImpl
-
-
+                                                         Figure : generated UML for SessionImpl
+```
 
 As we can see, no references to cache
 
@@ -78,35 +77,23 @@ By examining the event listeners we found that, they also have a load method in 
 
 ![](/assets/code.png)
 
-                                                          Figure : Calls to first & second level cache
+```
+                                                      Figure : Calls to first & second level cache
+```
 
 This gives a very important insight, as we learned that hibernate has two levels of cache
 
-Granted, the analysis of caching is more manual that it is static, but we learned that the hard way, it is very difficult to find information about a complex feature without resorting to manual work and reading the code, for various reasons, even the programming approach can affect greatly the efficiency of static analysis, as we mentioned before, the fact that an event driven approach is used, made it impossible to see references to cache classes in the generated UML 
+Granted, the analysis of caching is more manual that it is static, but we learned that the hard way, it is very difficult to find information about a complex feature without resorting to manual work and reading the code, for various reasons, even the programming approach can affect greatly the efficiency of static analysis, as we mentioned before, the fact that an event driven approach is used, made it impossible to see references to cache classes in the generated UML
 
 What about Entity Framework ?
 
+![](/assets/StateManger.png)
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![](/assets/AST.png)
 
 
 
