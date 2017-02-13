@@ -12,7 +12,7 @@ MOULAYEELY Bezeid
 
 ## Abstract
 
-We are trying to verify the rumors that say  is a perception that when new features are added to a system that those added and modified parts of the  source-code are more fault prone. Many have argued that new code and new features are defect prone due to immaturity, lack of testing, as well unstable requirements also we find that frequently changed code is often buggy.
+
 
 In this question we will try to highlight any relation between adding functionality, bug fixing, and degradation or improvement of code quality. We hope to highlight an overall trend in the quality of the code over time.
 
@@ -20,7 +20,7 @@ The idea is that we take several criteria on the quality of the code that we are
 
 ## Problematic
 
-The importance of our question comes from the relation between the code changes and its quality; there is a perception that when new features are added to a system that the added and modified portions of the source code are more prone to Fault. Many argued that the new code and features are prone to defects due to immaturity, lack of testing, as well as unstable requirements.
+The importance of our question comes from the relation between the code changes and its quality,we are trying to verify the rumors that say  is a perception that when new features are added to a system that those added and modified parts of the  source-code are more fault prone. Many have argued that new code and new features are defect prone due to immaturity, lack of testing, as well unstable requirements also we find that frequently changed code is often buggy.
 
 > @mbf : vous ne pouvez pas vous baser sur des rumeurs, il vous faut des références qui étayent vos propos. Ou bien vérifiez autour de vous par un mini sondage ou bien contentez vous de faire référence à Lehman.
 
