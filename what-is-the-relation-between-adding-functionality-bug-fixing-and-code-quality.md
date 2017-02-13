@@ -12,7 +12,7 @@ MOULAYEELY Bezeid
 
 ## Abstract
 
-In this question we will try to highlight any relation between adding functionality, bug fixing, and degradation or improvement of code quality. We hope to highlight an overall trend in the quality of the code over time and thus confirm or invalidate the Lehman law.
+In this question we will try to highlight any relation between adding functionality, bug fixing, and degradation or improvement of code quality. We hope to highlight an overall trend in the quality of the code over time.
 
 > @mbf : préciser laquelle
 
@@ -68,10 +68,10 @@ Let's make a statement of what we have. So we have a Project, Scala, which has a
 * New feature.
 * Improvement.
 
-It is managed by version, the tickets being linked to a specific version, and on the Git finds a branch by minor version.  
-  
-External contributors are required to create Pull Requests to contribute to the project. Accepted and merged Pull requests have a Jira ticket associated. Tickets created for Pull Requests are tagged "has-pull-request" and the Pull request link is commented.  
-  
+It is managed by version, the tickets being linked to a specific version, and on the Git finds a branch by minor version.
+
+External contributors are required to create Pull Requests to contribute to the project. Accepted and merged Pull requests have a Jira ticket associated. Tickets created for Pull Requests are tagged "has-pull-request" and the Pull request link is commented.
+
 There are currently 26,000 commits and we initially chose to focus on versions ranging from 2.10.x to 2.12.x, or nearly 3600 Jira tasks.
 
 ## Process
@@ -130,8 +130,6 @@ And we could answer all these issues relatively simply by smaller modification o
 -metrics
 
 -sonar
-
-> @mbf : j'aurais pensé \) code-maat...
 
 ## References
 
