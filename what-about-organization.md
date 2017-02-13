@@ -4,54 +4,57 @@ In this chapter we’ll be interested in the organizational differences between 
 
 To do so, We will try to answer the following questions :
 
-## How do components evolve over time \(including ownership, bugs, build stability, metrics\) ?
+## General organization of hibernate and Entity Framework core
 
-by components we mean structures responsible for a feature, for example, in the case of hibernate, a component is more often than not, a maven project, the study we'll only include those components
+First of all we'll present the two communities working on the projects, Hibernate is an open source framework led by a core team that works on Red hat, the following picture shows the interactions between developpers on the hibernate project :
 
-**Tools used :**
+![](/assets/lead.png)
 
-* CodeCity : to get  visualization of the codebase following size of the packages, complexity and other metrics.
+As we can see from the highlighted paths, there's one project lead on hibernate, and two big contributors, this gives to the project a clear direction, as the vision is not shared across severals, but on the other hand if the lead \(i.e Steve Ebersole in our case.\) leaves the project, there will  a knowledge loss \(uless there's a transition period\).
 
-* code Maat : to perform analysis on the codebase in order to detect ownership patterns, churn and the maturity of components
+on the Entity Framework side, things are a bit different, the framework is a part of .NET core stack \(newly open sourced\) which is maintained by Microsoft, the following picture shows the interactions between developpers on the project :
 
-* GitHub API : retreive pull request, this will give us the velocity
+![](/assets/leadEntity.png)
 
-* Jenkins : retreive the failing builds, and more precisely commist that broke the build
+Here we can see that there's no established lead on entity framework as the half on the right is made of leads, in this case we have a knowledge sharing, but different visions as each one of them may have a different point of vue about where the product is heading.
 
-* [codescene.io ](https://codescene.io): visualize all the analysis of code Maat
+## Organization around dialects and caching on hibernate and Entity Framework core
 
-Here we’ll examine the components of each ORM from different points of view :
-
-* Ownership: are components “owned” by a contributor ?
-
-* Size : how does size of said components vary ? given that the two ORMs are coded in languages that are somewhat similar in terms of verbosity \(Java and C\#\), we find it fair to compare the components in terms of lines of code, the comparison doesn't stop here, as we will also look at the evolution of size during time \(from one release to another for example\)
-
-To answer this question we'll use first CodeCity in order to have a global picture about the codebase, then using Code Maat we'll perform several analysis \(i.e the ones listed before\), with the option -t of Code Maat, we will add the temporal dimension to our analysis.
-
-On the other hand, the Github API will give us informations about the activity around those features, finally with Jenkins we will be able to find the commits and commiters that broke the builds and on which configurations did they broke it.
-
-finally we will use tools in order to visualize the retreived informations in order to make it more "readable".
+when doing feature driven comparison, it might be interesting to look closely to the team organization around the targeted features, as sometimes it may give you insights about feature importance to the team, stability and maintenance.
 
 
 
-**references :**
+### Dialect organization on Hibernate
 
-* [Don’t Touch My Code! Examining the Effects of Ownership on Software Quality](http://research.cs.queensu.ca/home/ahmed/home/teaching/CISC880/F11/papers/DontTouchMyCode_FSE2011.pdf)
+![](/assets/ownership.png)
 
-## Are dialects and caching highly coupled with other components  ?
+we can see that Hibernate support variety of SQL dialects, also, we can see that color circles tend to be steve ebersole's one, which is normal since dialects are a core feature developed from the first day, managing them is critical, so it's normal the lead as an owner of this feature
 
-Here We'll examine the coupling between the caching and dialects components and the rest of the code base
+### Dialect organization on Entity Framework
 
-**Tools used :**
+![](/assets/dialect_entityFramework.png)
 
-* CodeCity : perform analysis on concerned components
+in contrast with hibernate, we can see that \(like the general team organization\) ownership of the dialect feature is dispatched through the team, which may slow the developpement since it will increase interactions and coupling between developpements.
 
-* Code Maat : perform analysis on the logical coupling side.
 
-* [codescene.io](https://codescene.io) : visualize all the analysis of code Maat
 
-**Methodology :**
+### Caching organization on Hibernate
 
-Here we well try to see if dialects and caching components are tightly coupled with other components, in other terms, does adding new functionality require making changes in other areas of the code base, of course this is not necessarily something related to those features alone, and could be extended to other features, this question seems interesting because, usually, adding functionality to tightly coupled components is harder than adding it to a loosely coupled one.  
- To so we will analyse commits history using code maat and see if files from those components are often commited with files from other components.
+![](/assets/cache_feature_h.png)
+
+here we have the general cache structure package, which owned again by hibernate's lead, we can assume that this behaviour may be a pattern that is reproduced on all features.
+
+### Caching organization on Entity Framework
+
+![](/assets/cache_feature_en.png)
+
+On Entity side, we can see also repartition between the leads, which leads to the same conclusion on hibernate.
+
+
+
+## Conclusion
+
+
+
+
 
