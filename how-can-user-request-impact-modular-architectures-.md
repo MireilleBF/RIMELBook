@@ -1,7 +1,5 @@
 # How can user requests impact modular architectures ?
 
-## **auteurs**
-
 ## Introduction
 
 In this chapter, it will be discussed "_how can video games \(and more generally, software\) be modular thanks to the addition of 'mods' or 'plugins' ?_". This can be the wish of the development team, or driven by the community playing the video game \(or using the software\).
@@ -51,10 +49,10 @@ _**Subject:**_
 
 After a few weeks of studies, we think about reducing the scope of this part, because there are too little documentation on it. We will focus on how the community drive the development.
 
-_**Methodology:**_
+_**First Methodology:**_
 
-We run through 3 phases to analyse data from the Terasology repository \(for instance\).  
-The first phase is to extract data : to do this, we use an homemade script and we extract :
+We will run through 3 phases to analyse data from the Terasology repository \(for instance\).  
+The first phase will be to extract data : to do this, we use an homemade script and we extract :
 
 * The commit hash
 * The author name
@@ -88,6 +86,16 @@ We first thouugh of using Diggit but we realized that this tools wasn't fullfill
 * Github API
 * Scripts
 * ELK
+
+_**New Methodology:**_
+
+An idea suggested by one of our teachers  was to going back up to the source of our community : their forum. We then implemented a crawler to retrieve all relevant information \(or even piece of information\) like :
+
+* Who is the most talkative on the forum
+* Who talks about features 
+* The date when people asks for features
+
+We would then be able to deduce the elapsed time between the day a user makes a request and the day of the first commit about this request.
 
 
 
