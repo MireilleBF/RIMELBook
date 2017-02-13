@@ -62,7 +62,17 @@ To be certain that the process described here works effortlessly to provide, it 
 
 ## Target project
 
-The project on which we will base ourselves has not yet been chosen. We need a rather active project with, if possible, the same contributors throughout its evolution to limit external factors to those targeted.
+Let's make a statement of what we have. So we have a Project, Scala, which has a Github with a core of contributors and external contributors. The project also has a Jira on which you will find all the tasks related to a version. Tickets can be of 3 types only:
+
+* Bug.
+* New feature.
+* Improvement.
+
+It is managed by version, the tickets being linked to a specific version, and on the Git finds a branch by minor version.  
+  
+External contributors are required to create Pull Requests to contribute to the project. Accepted and merged Pull requests have a Jira ticket associated. Tickets created for Pull Requests are tagged "has-pull-request" and the Pull request link is commented.  
+  
+There are currently 26,000 commits and we initially chose to focus on versions ranging from 2.10.x to 2.12.x, or nearly 3600 Jira tasks.
 
 ## Process
 
@@ -70,21 +80,17 @@ In order to answer this question we have put in place a process which allows to 
 
 We will first have to make the link between the commits and the tickets to which they respond, which allows us to have a link between the commit \(and thus the code\) and a nature of modification. Then for each commit a differential analysis between this commit and the commit directly preceding it will be launched with Sonar. This will give us a collection of differential analysis for each nature of modifications, then we can get out of the value by doing various statistical processing \(average, standard deviation, variance ...\).
 
-
-
 ## Link between Code and Jira
 
-The first step in our process will be to link the commits to the 3600 tickets we are interested in. The information we will need for the rest of the process is the list of commits for each type of ticket and for each version. A commit will be represented only by its SHA and the previous commit's \("parent"\) SHA which is the information to retrieve the commit from Git for analysis.  
-  
-To get this list we will first have to list the commits and extract their key. The key is the information that allows to link this commit to a ticket, that is to say are either "ticket number" or its Pull request number if there is one. The 26 000 commits are therefore retrieved by 100 per Github API and their message is analyzed to extract the key. In parallel to this treatment, they are grouped by their keys. So we get a list of keys with a list of SHA peers, each of which represents a commit, and are commit "parent".  
-  
-We will then have to extract the tickets from the versions we have chosen to analyze. These tickets will be represented by their key and are type. So if a ticket is tagged "has-pull-request" it will retrieve all its comments to analyze them and find the url of a Pull request, this one will contain the number that interests us. If a ticket is tagged "has-pull-request" but we are unable to retrieve its number, the ticket will be ignored. Once the key is extracted we will try to find the commits linked to this ticket thanks to the list of commits previously generated. Tickets are also grouped by type, so either bug, feature addition or Improvement.  
-  
-So we have at this moment a list of versions with each having three list of tickets represented by their key and a list of peers of commits, they are grouped by type.  
-  
+The first step in our process will be to link the commits to the 3600 tickets we are interested in. The information we will need for the rest of the process is the list of commits for each type of ticket and for each version. A commit will be represented only by its SHA and the previous commit's \("parent"\) SHA which is the information to retrieve the commit from Git for analysis.
+
+To get this list we will first have to list the commits and extract their key. The key is the information that allows to link this commit to a ticket, that is to say are either "ticket number" or its Pull request number if there is one. The 26 000 commits are therefore retrieved by 100 per Github API and their message is analyzed to extract the key. In parallel to this treatment, they are grouped by their keys. So we get a list of keys with a list of SHA peers, each of which represents a commit, and are commit "parent".
+
+We will then have to extract the tickets from the versions we have chosen to analyze. These tickets will be represented by their key and are type. So if a ticket is tagged "has-pull-request" it will retrieve all its comments to analyze them and find the url of a Pull request, this one will contain the number that interests us. If a ticket is tagged "has-pull-request" but we are unable to retrieve its number, the ticket will be ignored. Once the key is extracted we will try to find the commits linked to this ticket thanks to the list of commits previously generated. Tickets are also grouped by type, so either bug, feature addition or Improvement.
+
+So we have at this moment a list of versions with each having three list of tickets represented by their key and a list of peers of commits, they are grouped by type.
+
 We gathered and coupled the information necessary to be able to analyze the code by the Sonar tool and to correlate the results with the information already obtained, that is to say the types of ticket.
-
-
 
 ## Problems
 
@@ -94,8 +100,6 @@ The second problem is related to the Sonar analysis of the commit. Our process, 
 
 And finally, we realized a little late, that the Scala project benefited from a regular Sonar analysis. This introduces a variable whose effects it is impossible to predict on our test set.
 
-
-
 ## Results
 
 Unfortunately, we have no interesting results. The problem posed is not in question, but rather the slowness of the process and the project chosen.
@@ -103,8 +107,6 @@ Unfortunately, we have no interesting results. The problem posed is not in quest
 The project seemed to match our criteria: Open Source, with a ticket manager and the commit messages seemed in many cases to have information to link it to a ticket. Although the Pull Request mergers have all this information, it is not necessarily the case of the other commits. This aspect is linked to its nature Open Source which makes it necessarily less constant in compliance with certain rules. To this is added the fact that it regularly ran a Sonar analysis, which distorted the few results that we were able to extract.
 
 The process is also involved, we not in its run but in its current execution time which is about 3-4 minutes for each couple of commit. It is a correctible defect, but unfortunately we did not have time.
-
-
 
 ## Evolution
 
