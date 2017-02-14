@@ -89,13 +89,33 @@ We first thouugh of using Diggit but we realized that this tools wasn't fullfill
 
 _**New Methodology:**_
 
-An idea suggested by one of our teachers  was to going back up to the source of our community : their forum. We then implemented a crawler to retrieve all relevant information \(or even piece of information\) like :
+An idea suggested by one of our teachers  was to going back up to the source of our community : their forum. We then implemented a crawler in order to deduce relevant information \(or even piece of information\) like :
 
 * Who is the most talkative on the forum
 * Who talks about features 
 * The date when people asks for features
+* The elapsed time between the day a user makes a request and the day of the first commit about this request
 
-We would then be able to deduce the elapsed time between the day a user makes a request and the day of the first commit about this request.
+Here are all data we retrieved from the forum :
+
+* Title of the message
+* Pseudo of the writer
+* Date of the message
+* Category of the message
+* Content of the message
+* Content of the message without useless words \(determinants, subjects, ...\)
+* URI of the page
+
+The crawler generates data ready to be insert in ElasticSearch.
+
+We also extracted information about pull requests and issues on Git using the Githup API, converted them into proper JSON object and placed them into our ElasticSearch.
+
+To summarize, our elasticsearch now contains :
+
+* All github commits
+* All github issues
+* All github pull requests
+* All forum messages
 
 
 
