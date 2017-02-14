@@ -28,9 +28,9 @@ Below is the percentage of contributors per languag
 
 We see in the figure above that there are 1252 contributors. 62% are mainly Javascript developers, 22% are C / C ++ developers and 16% for other contributors \(document, installation script, ...\). We deduce that there are more Javascript contributors than C / C ++ contributors.
 
-* ###  **Commits**
+* ### **Commits**
 
-Below is the percentage of commit by language
+**Below is the percentage of commit by language**
 
 ![](https://lh6.googleusercontent.com/PBoIbia6t9D6j7YxVGllPWcEmy96WImqu74HE91dFF_2yMZSmfUaSLImNp_fqAjizBYOEnScUNQxHzJs63LYCKgN8zV6sfxRvXbeculwfPJF2HbzxdZzL2tD07he25E3dkHjGXNy)
 
@@ -44,11 +44,11 @@ Now that we have the organizational metrics in the project in a global way, we w
 
 The figure above gives an estimate of the percentage of the contributions in each language. It was obtained by applying a filter on the commits that are at least one of the language C/C++/JS. We note that the percentage of the contributions in Javascript and C/C++ corresponds respectively to 68% and 32%.
 
-Are there developper responsible for several modules developed in the different languages ?
+**Are there developper responsible for several modules developed in the different languages ?**
 
 We still more refine our analysis by looking at contributions concerning two languages at the same time. the goal is to find developers who contribute in both languages at the same time, the distribution of their effort and qualify them.
 
-Percentage of contributors in both languages:
+**Percentage of contributors in both languages:**
 
 The figure above shows the percentage of contributors in both languages at the same time.
 
@@ -56,7 +56,7 @@ The figure above shows the percentage of contributors in both languages at the s
 
 The figure below that 11% of developers work in both.
 
-Percentage of commits in both languages:
+**Percentage of commits in both languages:**
 
 The figure below shows the percentage of commits in both languages at the same time.
 
@@ -74,13 +74,13 @@ Major contributor = property &gt; 2%
 
 ![](https://lh4.googleusercontent.com/TExM0xmkkUElnYf3dRr9N0_i_rfakp0VmJ2cCWDeU3OKK2wOzZNbFvYJQfbQGpmc6KWgd3Ub4qtDKQcWaoDSFC5BImyw5gCx3VKPuN-54f-JHiWnJhESwKzjkBPRBpBDMuJ-7x_w)
 
-The figure below shows the distribution of contributor efforts in both languages.
+**The figure below shows the distribution of contributor efforts in both languages.**
 
 ![](https://lh5.googleusercontent.com/Iyj5qAQongZS6cDIryTctdGlD35lGuWg4Q5-BOMyljC170CV8a3uXH9Q321IE9CEABV8xbEl7EOdjyCnEzj8yYgqqdL3JphvEEPhhASmXdp6ialhpSBFGz5nclpogH6lOyp-BMPY)
 
 In the figure above we observe that there are 6 major contributors.
 
-Percentage of commits for both languages:
+**Percentage of commits for both languages:**
 
 ![](https://lh3.googleusercontent.com/TyvEA7ctRiPgE6kzM8ANDLAnIvPM7ku3sC3eIIHZdgLP4pX_32FqbL1uztaI2h6Zpdv_0RZhtUTJUTth3VkyhYhzkQg4uo7Cb64IW-W4dblg_MiIplhPzcewtU35r1vt05ps3f5E)
 
@@ -122,6 +122,6 @@ Balde Thierno
 
 Diallo Mahmoud
 
-**    
+**      
 **
 
