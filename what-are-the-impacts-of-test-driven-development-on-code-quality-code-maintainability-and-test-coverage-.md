@@ -143,12 +143,105 @@ JaCoCo is a free code coverage library for Java. The advantage of using JaCoCo w
    </executions>
 </plugin>
 ```
+
 The Gradle configuration is similar. When the plugin is configured, you can generate reports with :
+
 ```
 $ mvn jacoco:report
 ```
 
+For each project, we had a report like the following :  
+![JUnit4 JaCoCo report](/assets/JUnit.png)  
+Figure X : JUnit4 JaCoCo report
 
+This report allows us to know the code coverage of each project, a metric we need to compare TDD and TL methods.
+
+#### Sonar
+
+We scanned each project with SonarQube. Sonar allowed us to get the general quality of the code. Like JaCoCo, the reports generated are the same for each projects, which allows us to compare the projects easily. To be able to scan with SonarQube a project, one needs to add a file calledsonar-project.propertiesto a project. The file we used for all our project is the following :
+
+```
+sonar.java.source=1.8
+sonar.sources=src/main
+sonar.tests=src/test
+sonar.junit.reportsPath=target/surefire-reports
+sonar.jacoco.reportPaths=target/jacoco.exec
+sonar.java.binaries=target/classes
+
+#local props
+sonar.login=admin
+sonar.password=admin
+sonar.host.url=http://localhost:9000
+
+sonar.projectKey=JUNIT
+sonar.projectName=junit
+sonar.projectVersion=1.0
+```
+
+You need to have JaCoCo configured for your project \(previously described\) and your project built. After you launched the SonarQube server, you can scan your project with :
+
+```
+$ sonar-scanner
+```
+
+The reports can be found onlocalhost:9000, where the list of all your projects will be displayed.
+
+Another advantage of using Sonar is the uniformity of the generated reports. For example :![](/assets/SonarQube   junit.png)Figure X : Sonar reports for JUnit4
+
+Using SonarQube was a way during our study to get the cyclomatic complexity of the projects, along with the sonar issues. Both are a metric we need to compare TDD and TL methods. Sonar defines a number of issues during a scan, for example bugs detected, vulnerabilities and code smells.
+
+#### SoftVis3D
+
+SoftVis3D is a framework to vizualize a project, litterally. It is available on the SonarQube update center. You need to install the plugin on Sonar and it is automatically available when you scan a code.
+
+The goal is to provide a visualization for the hierarchical structure of a project. Folders or packages are shown as districts, files as buildings. The building footprint, height and color are dependent on two arbitrary sonar metrics : you can tell SoftVis3D wich value you want to use, and you can use any metrics. This tool is useful in order to have a complete view of a project, and to see if a god-class is present. For our project, we use it to judge the global cleanliness of a project. We used the complexity as footprint , the number of duplicated lines as height, and number of Sonar issues as the color.
+
+![](/assets/junit-codecity.png)
+
+Figure X : SoftVis3D results for JUnit4
+
+#### Code maat
+
+We used Code Maat as a tool to study GitHub repositories. Code Maat is a command line tool used to mine and analyze data from version-control systems. It allows us to perform many kind of analyses. Those in which we were interested are “age” \(the code age\) and “revisions” \(how many times a file has been modified\).
+
+Running code-maat directly is not the most convenient way, so we made a simple cli in python with two commands : retrieve &lt;git\_url&gt; and analyse &lt;projects\_names&gt;. The first one clone the repository and run code-maat analysis on it, which gives as an output the raw data relative to code-age and revisions \(among other unexploited in our project\). The second one aggregates these raw data into readable statistics which we used to make our own analysis. It also counts the number of commits containing our predefined keywords \(fix, test and refactor\).
+
+This script is in python and is available here:
+
+[https://github.com/lecourtoisn/code-maat-cli](https://github.com/lecourtoisn/code-maat-cli)
+
+Here is an example of output we used :
+
+```
+fitnesse       fix 6%(365)   , refactor 1%(87)    , add 4%(234)   , test 14%(809)
+origin         fix 9%(1684)  , refactor 1%(194)   , add 6%(1111)  , test 9%(1604)
+spoon          fix 30%(535)  , refactor 7%(126)   , add 13%(243)  , test 12%(223)
+jacoco         fix 2%(35)    , refactor 0%(2)     , add 2%(39)    , test 11%(151)
+junit4         fix 7%(156)   , refactor 1%(24)    , add 5%(115)   , test 14%(303)
+node           fix 17%(2850) , refactor 2%(383)   , add 17%(2883) , test 18%(3084)
+gson           fix 6%(92)    , refactor 0%(8)     , add 6%(83)    , test 13%(183)
+jfreechart     fix 1%(49)    , refactor 0%(1)     , add 3%(104)   , test 7%(266)
+```
+
+## Study
+
+For each project, we applied the previously described evaluation process, except for the SonarQube analysis of OpenCover which can be found directly online. In the next two parts we present and analyse these results to answer our questions.
+
+### Raw results
+
+Here are the raw results we obtained after analysing the projects.
+
+#### SonarQube and CodeMaat results
+
+
+
+
+| Metrics | Test-Driven Development |||| Test-Last Development |||
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+|  | Fitnesse | JUnit4 | JFreeChart | OpenCover | Spoon | GSON | JaCoCo |
+| Code Coverage | 48% | 85% | 45% | 93.9% | 90.7% | 83% | 80% |
+| Sonar issues | 1927 | 833 | 5039 | 286 | 2341 | 592 | 200 |
+| Complexity | 8612 | 2061 | 19323 | 1568 | 7635 | 1945 | 1962 |
 
 ### Articles
 
