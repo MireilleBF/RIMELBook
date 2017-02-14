@@ -49,7 +49,7 @@ To get more insight into the sql generation, we explored a little bit the classe
 
 ![](/assets/AST.png)
 
-Figure : SQL generation logic 
+Figure : SQL generation logic
 
 this is how it goes, we go through the DbContext \(which is the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
 
@@ -87,11 +87,7 @@ What about Entity Framework ?
 
 Entity Framework provides caching but only first level one, since the stateManager is specific to DbContext \(but we don't have specific one on the DbContextFactory level\), so a DbContext caches only entities that it fetched so it cannot see entities cached by another instance of DbContext, let's see how it works :
 
-![](/assets/Caching.png)
-
-```
-                                                              Figure : Calls to first level cache
-```
+![](/assets/Caching.png)Figure : Calls to first level cache
 
 when we try to fetch entity by identity key from the DbContext, the stateManager has an instance of IdentityMap, this class has basically a property which is a Dictionary that maps keys to entities, the entity is being fetched from there if already cached
 
