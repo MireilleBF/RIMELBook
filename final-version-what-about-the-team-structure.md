@@ -16,20 +16,14 @@ First of all, we need to extract the team from the website project. To achieve t
 
 ## How to do it
 
-in the extractor tool you can:
+In the extractor tool you can:
 
-* Choose a project which reference a team \(e.g.[https://spring.io/team](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)\)
-
+* Choose a project which reference a team \(e.g. [https://spring.io/team\](https://spring.io/team\)\)
 * See the list of team members
-
 * The Map will shows you their location
-
 * The grid shows you their team position \(e.g. Developer\)
-
 * Sort by Name, Position, Location, Github name
-
 * View the most represented positions and locations
-
 * View the correlation between project and location
 
 ### Locations_:_
@@ -56,15 +50,11 @@ With our extractor, at the top of the page, we can see a table and a map who sho
 
 For each, we got :
 
-* the Name \(Surname + Lastname\)
-
-* The description of the position \(handwrite by the collaborator\)
-
-* A description of the location
-
-* The precise location \(latitude and longitude, visible on the map on the right\)
-
-* The collaborator’s github address
+* The Name \(Surname + Lastname\)
+* The description of the position \(handwrited by the collaborator\)
+* A description of the location 
+* The precise location \(latitude and longitude, visible on the map\)
+* The collaborator's github adress
 
 ![](https://lh4.googleusercontent.com/XNjBt__q7qyj2oQRQYYQsms_j9f7t-jVGKYJvlooLSFkktaPU6FK_I-7hSyUkIaw-exooBIXBSD3bh0TwmlFNbzxqATB3VdD4UY3c1ttVibe0DtK41Tk_P2HYwgcTVVc859mSeEq)
 
@@ -73,10 +63,9 @@ So we decided to made a words analysis on the terms found on the description of 
 Interest of the words cloud :
 
 * It reveals the essential. Projects names pop, key words float to the surface.
-
 * Word clouds can allow you to share back results from research in a way that doesn’t require an understanding of the technicalities.
 
-![](https://lh3.googleusercontent.com/WcFoXPkRVInDtJSBld6hQYLIEi4hhcfSrJAEFkYFitvlOI1jWblhZ1LVUVq80y-Zaf9AQeDqbDFygNaTOuMvKDWnrcsb45oGkm5VlD75hNJ9MtlKgOrWGThWLqMJdlwQOlzBw_hz)
+![](http://image.prntscr.com/image/90d71b8665b14e2e8ddc2a2e7ad64ee0.png)
 
 Then we tried to find similarities between collaborators in order to find the work relationship between them and then constitute the teams. But the position’s description are too blurred and two collaborator working in the same team describe their work so differently that we can’t find similarities.
 
@@ -96,9 +85,7 @@ So how we proceed :
 
 We obtained in the spring-framework project 18 collaborators from our initial list \(the one from spring.io\). 18 people is poor, but it’s the best we have so we listed these contributors :
 
-![](https://lh6.googleusercontent.com/IBf99yKrnBc7O8Cot4bB6GGTzscaFanvfssTT4UY6SWQL3PcLPHzOFpaORoetqj9tkJm7OOCihrRH2N4swxHvznikyLBO-tUW896duf_vEhnitBxiaSxojKHWT78D_T-kSPXnoUP)
-
-![](https://lh4.googleusercontent.com/H14dxxLPd4Hptpfg_rcbym0jU9EFOEsFpggZ15cNKESRhR5WVBEduIUkoKymO6wW-BEdPJp2tAStWONOENawUZOI7tlBDFIfUecy2o4hVqDNfzIIq8GTK0TGVZ2AmkYg13V1sfvO)
+![](http://image.prntscr.com/image/7567c21994764ad88aa59c3674a11d78.png)![](http://image.prntscr.com/image/c61e32e424fb4e52bf84dad73e48eae9.png)
 
 Then according to these data we compute the average time difference between collaborators.![](https://lh4.googleusercontent.com/3muWtfPvnGRwx4rF6qBHlWa5e87kEcJn6Pn4acOpjbdisKeiLLmcWsQCFFP1Ki8EeGcHkEtP66qNPmi864jhOgORfte0WOSE4el4NEIAQYi5EuCyxN3N1PJneIVAFRAynQOI0xrV)
 
