@@ -1,8 +1,6 @@
-# Verify the suitability between the ideal teams and those extracted from the project documentation.
+# What Conway's law is talking about ?
 
-### _**Why ?**_
-
-This study tries to compare the Spring’s teams with some metrics that qualify a good team from a bad team, based on Conway’s law. It is a sociological based predicate, deduced by observations but that seems to be true in most of cases. He said for **example **:
+Conway’s law it's a sociological based predicate, deduced by observations but that seems to be true in most of cases. He said for **example **:
 
 > _If you have four groups working on a compiler, you'll get a 4-pass compiler_
 
@@ -26,9 +24,17 @@ Spring’s team is well dispatched around the world, we want to determine if we 
 
 ### _**How to ?**_
 
-According to the Conway's law, the ideal team is a team where all the members whose develop part of a project are gathered in the same place. And if several geographical groups are formed, then the best thing is for each geographic group, to work on a small part of the project. In order to limit problems due to remote communication.
+According to the Conway's law, the ideal team is a team where all the members whose develop part of a project are gathered in the same place. And if several geographical groups are formed, then the best thing is for each geographic group, to work on a small part of the project in order to limit problems due to remote communication.
 
-We have already analysed the real team, we will now try to assess whether it is satisfactory, and see if people working on the same subjects are geographically close or not.
+Will will take two approaches :
+
+* The first one try to be more analytic on the actual Spring's team. To be more specific, on a module of Spring project \(we will talk about modules and submodules in the next part\).
+* The second one is a bottom to top approach : we start from code analysis and we end by creating an ideal team based on some metrics in accord to Conway's law.
+* The final part will consist to gather all that results and trying to prove the suitability of Conway's law.
+
+
+
+
 
 ### _**References :**_
 
