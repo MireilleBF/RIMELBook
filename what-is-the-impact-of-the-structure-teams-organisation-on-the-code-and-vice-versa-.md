@@ -22,10 +22,9 @@ _**Project to study: **_
 _**Questions: **_
 
 * Is Conway's law valid for an open source project ? 
-> * Analyse the real team and try to match the ideal team according to conways law
-> * Extract the code and analyze it to determine the perfect team. 
-
-
+  * Analyse the real team and try to match the ideal team according to conways law
+  * Extract the code and analyze it to determine the perfect team.
+  * Merge the results to be more accurate and verify the suatability of the law
 
 ## Introduction
 
