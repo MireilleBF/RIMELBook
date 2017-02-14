@@ -50,10 +50,10 @@ There are other projects using TDD but those are the most interesting for our wo
 
 We found the following TL projects which are approximately of the same size as the previous TDD projects.
 
-* [Google Gson](https://github.com/google/gson)
-* [Node.js](https://github.com/nodejs/node)
-* [OpenShift Origin](https://github.com/openshift/origin)
-* [Spoon](https://github.com/INRIA/spoon) 
+* [Google Gson](https://github.com/google/gson) is a Java serialization/deserialization library that can convert Java Objects into JSON and back \(around 1,300 commits\)
+* JaCoCo is a Java code coverage library \(around 1,400 commits\)
+
+* [Spoon](https://github.com/INRIA/spoon) is an open-source library to analyze, rewrite, transform, transpile Java source code \(around 1,800 commits\)
 
 We compared TDD method projects with TL method projects based on:
 
