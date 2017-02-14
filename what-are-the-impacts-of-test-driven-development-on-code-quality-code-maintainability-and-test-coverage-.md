@@ -92,6 +92,38 @@ The cyclomatic complexity measures the number of paths through a function. Ideal
 
 Code smells are issues detected in the source code that can lead to a deeper problem. For example, Duplicated code, long methods and large class are code smells. The more code smells spotted in the source code, the more likely the project to be difficult to maintain.
 
+### Evaluation process
+
+During our projects, we applied the same process on seven different projects. We used four test-driven development projects and three test-last projects, as described before. We chose those seven projects of their likeliness in terms of commits and lines of code.
+
+TDD projects :
+
+* FitNess : 5 401 commits, 21 236 lines of code \(LOC\)
+
+* JUnit4 : 2 160 commits, 4 682 LOC
+
+* jFreeChart : 3 405 commits, 54 713 LOC
+
+* Open Cover : 1 196 commits, 11 518 LOC
+
+Test-last projects :
+
+* spoon : 1 709 commits, 18 305 LOC
+
+* GSON : 1 320 commits, 4 318 LOC
+
+* JaCoCo : 1 365 commits, 11 740 LOC
+
+For each project, we tried to obtain the data about the metrics we defined in the first part of the report.
+
+#### JaCoCo
+
+The first thing we did was configuring the JaCoCo \(Java code coverage\) for each project.
+
+JaCoCo is a free code coverage library for Java. The advantage of using JaCoCo was the uniformity of generated reports, and its compatibility with Maven and Gradle. All of our studied projects use either Maven or Gradle. We configured the plugin for each project.
+
+
+
 ### Articles
 
 Beck, K. \(2003\).Test-driven development: by example. Addison-Wesley Professional.
