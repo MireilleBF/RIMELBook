@@ -164,9 +164,9 @@ The sonar tool will allow us to :
 
 \[1\] Lehman, M. M.; J. F. Ramil; P. D. Wernick; D. E. Perry; W. M. Turski - Metrics and laws of software evolution—the nineties view [http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf](http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf)  -  1997
 
+ The evolution of the laws of software evolution. A discussion based on a systematic literature review 
+
 [Herraiz I, Rodriguez D, Robles G, Gonzalez-Barahona JM \(2013\) The Evolution of the Laws of Software Evolution: A Discussion Based on a Systematic Literature Review. ACM Comput Surv 46:28:1--28:28.](http://www.cc.uah.es/drg/jif/2013HerraizRRG_CSUR.pdf)
-
-
 
 ## 
 
