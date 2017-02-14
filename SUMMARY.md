@@ -7,7 +7,7 @@
   * [How do developers contribute to each others bug corrections?](how-do-developers-contribute-to-each-others-bug-corrections.md)
   * [Does bug correction add complexity to the code when it isn't done by the former developer?](does-bug-correction-add-complexity-to-the-code-when-it-isnt-done-by-the-former-developer.md)
   * [How long do bugs remain in open-source codes?](how-long-do-bugs-remain-in-open-source-codes.md)
-* [NodeJS](node.md)
+* [Analysis of a large-scale multi-language](node.md)
 * [What is the impact of the structure \(teams organisation\) on the code and vice versa ?](what-is-the-impact-of-the-structure-teams-organisation-on-the-code-and-vice-versa-.md)
   * [Verify the suitability between the ideal teams and those extracted from the project documentation.](verify-the-suitability-between-the-ideal-teams-and-those-extracted-from-the-project-documentation.md)
   * [How to create the perfect team considering the actual code base?](how-to-create-the-perfect-team-considering-the-actual-code-base.md)
