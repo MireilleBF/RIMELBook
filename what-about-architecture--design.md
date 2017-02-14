@@ -18,7 +18,7 @@ We will also take a look at the classes responsible for generating the SQL for t
 
 * [Reverse Engineering Java Code to Class Diagram: An Experience Report](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.259.546&rep=rep1&type=pdf)
 
-## **How **does **Entity Framework and Hibernate manage d**ialects**? **Are there any major differences? 
+## **How **does **Entity Framework and Hibernate manage d**ialects**? **Are there any major differences?
 
 ## Dialects
 
@@ -41,9 +41,9 @@ what about entity ?
 
 ![](/assets/AST.png)
 
-## **How **does **Entity Framework and Hibernate manage caching? **Are there any major differences? 
+## **How **does **Entity Framework and Hibernate manage caching? **Are there any major differences?
 
-Moving on to caching, finding interesting information was a lot harder compared to dialects. 
+Moving on to caching, finding interesting information was a lot harder compared to dialects.
 
 let's start with hibernate:
 
@@ -53,9 +53,7 @@ The next thing we tried is taking a look at the class that talks to the database
 
 We used our IDE, and generated an UML to see if there are any references to cache classes:
 
-![](/assets/UML.png)
-
-                                                                Figure : generated UML for SessionImpl
+![](/assets/UML.png)  Figure : generated UML for SessionImpl
 
 As we can see, no references to cache
 
@@ -67,9 +65,7 @@ We found out, that en event approach was used, when the load method was called, 
 
 By examining the event listeners we found that, they also have a load method in which we can see:
 
-![](/assets/code.png)
-
-                                                              Figure : Calls to first & second level cache
+![](/assets/code.png)Figure : Calls to first & second level cache
 
 This gives a very important insight, as we learned that hibernate has two levels of cache
 
@@ -78,17 +74,4 @@ Granted, the analysis of caching is more manual that it is static, but we learne
 What about Entity Framework ?
 
 ![](blob:file:///7ff295cb-f130-407d-8404-28dcc79ba115)
-
-  
-
-
-
-
-
-
-
-
-
-
-
 
