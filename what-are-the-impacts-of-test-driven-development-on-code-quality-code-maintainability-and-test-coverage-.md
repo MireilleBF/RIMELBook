@@ -247,6 +247,87 @@ Here are the raw results we obtained after analysing the projects.
 
 #### SoftVis3D results
 
+#### TDD projects
+
+![](/assets/FitnesseBobCodeQuality.png)Figure X : Fitnesse
+
+![](/assets/jfreechart-codecity.png)
+
+Figure X : JFreeChart
+
+![](/assets/junit-codecity.png)
+
+Figure X : JUnit4
+
+#### Test-Last projects
+
+![](/assets/GsonCityCodeQuality.png)
+
+Figure X : Google GSON
+
+![](/assets/JaCoCoCodeQuality.png)Figure X : JaCoCo
+
+![](/assets/spoon-codecity.png)
+
+Figure X : Spoon
+
+### Critical Analysis
+
+From the raw data we had collected and for each of our metrics, we made charts to obtain a better visualization and make comparisons easier. The four first projects in the charts are TDD and the three last TL.
+
+![](/assets/test_coverage.png)
+
+Figure X : Test Coverage
+
+This chart represents the percentage of code coverage for each project. We can see that TL projects have a code coverage higher than 80%, so they are mainly well covered by tests. For the TDD projects, there is some disparity. Two projects have a code coverage higher than 80% but the two others have a coverage of 48% and 52%, which is really low. We expected TDD projects to have a high code coverage, but our study shows the opposite. TL projects seems to have a better code coverage than TDD. But as we studied just a few projects, these results can be just exceptions or the consequences of external factors.
+
+![](/assets/count_keywords.png)
+
+Figure X : Proportions of commits
+
+With this view, where the projects are kept separated, we can see that the results are more or less uniform. Except for Spoon, whose number of fix related commits is surprisingly high, about four times higher than the other.
+
+![](/assets/compare_keywords.png)
+
+Figure X : Proportions of commits. TDD compared to TL
+
+As expected, using a Test-Last method implies to have more fixes \(and so, have more bugs\). However, Spoon has falsified our data, it proves that we need more data to have a concrete representation of the Test-Driven Method and the Test-Last method. Also, the first metric shows that in Test-Driven Development we got less tests than in Test-Last. This metric is only a study of their commits and not representing the test coverage. Yet, due to the way TDD works, with phases of test and phases of refactoring, we expected TDD projects to have a higher percentage of refactor commits.
+
+![](/assets/mean_revisions.png)
+
+Figure X : Stability of files
+
+The first four are TDD projects and others are TL projects. GSON is a TL project made by Google, this statistic shows that each file has been edited approximately 17 time \(in average\). We know there is a correlation between the number of revisions and the number of bugs proven by many researchers \(Thomas Zimmermann studied it in its researches: [https://goo.gl/eNVqAK](https://goo.gl/eNVqAK)\). So it seems that GSON, based on this metric, isn’t a clean project.
+
+Globally, TL projects are less stable \(more often edited\) than TDD projects and consequently more subjects to bugs.
+
+![](/assets/compare_metrics.png)
+
+Figure X : Stability and Test Coverage \(TDD compared to TL\)
+
+This graphic shows three important metrics. Globally, we can see that files in TDD projects are more stable and, consequently, less exposed to bugs. However it is interesting to see that the mean of TDD test coverage is under the mean of TL test coverage projects. Using the TDD method doesn’t mean to have more test, it is just a method where you have to write tests before the code.
+
+Visualizing the SoftVis3D representations, where the base is the cyclomatic complexity, the color is the number of sonar issues and the height the number of code duplication, it appears that projects using TDD have a lower cyclomatic complexity than TL projects, which is what we expected. This results may be a consequence of the process explained by Kent Beck \[ref\] during a TDD project :
+
+  
+
+
+> The two rules imply an order to the tasks of programming:
+>
+> * Red—write a little test that doesn’t work, perhaps doesn’t even compile at first
+> * Green—make the test work quickly, committing whatever sins necessary in the process
+> * Refactor—eliminate all the duplication created in just getting the test to work
+>
+> Red/green/refactor. The TDDs mantra.
+
+The refactor phase happens after every task during TDD, so developers are probably more used to refactor, and the quality of the said refactor may be higher. A highest refactor quality may explained the lower cyclomatic complexity in TDD method, because developers devote more time to refactoring.
+
+## Conclusion
+
+In our study, we investigated the impacts of Test-Driven Development on code quality and code coverage compared to projects following the Test-Last method. We analysed seven projects of similar size to evaluate these impacts. The results that we analysed shows that the TDD projects have an overall complexity and code quality better than TL projects, according to our expectations. However, the results gathered about code coverage are not matching our expectations. Half of the TDD projects have a code coverage lower than 60% and all the TL projects have a coverage higher than 80%.
+
+As we analysed just a few projects without a precisely defined context, we cannot generalize the results obtained beyond our scope. Still we can see that our results about code quality are similar to the ones of the study made by Bhat and Nagappan \[ref\] who also studied the impacts of TDD on development time \(which is not part of our scope\). So we hope that this study will contribute to the research in this field, especially about the confidence on the impacts on code quality while using the Test-Driven Development method.
+
 ### Articles
 
 Beck, K. \(2003\).Test-driven development: by example. Addison-Wesley Professional.
