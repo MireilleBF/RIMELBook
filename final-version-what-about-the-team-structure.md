@@ -32,17 +32,7 @@ In the Spring.io website we can retrieve informations about developpers position
 
 We were able to recover the latitude and longitude of each developer and thanks to the Google Map's GeoCode API we were able to retrieve geographical informations allowing to aggregate this data and to know the number of developer by country. \(in a donut chart\)
 
-So, to extract all the team on rimel.dobl.fr, just click on this button
 
-### Team projects:
-
-By analyzing the terms of each job description, we were able to group them and thus know the number of developer in each functional module \(company's way\)
-
-So in details :
-
-For each job description we have retrieved words separated by spaces, removed unnecessary terms like punctuation and link words and removed the term Spring \(because it does not have any specific meaning, every developer is at Spring\)
-
-Then we counted the occurrences of each word \(after having standardized their case\), and have weighted by several functions \(log, square or n, available in the settings the size of display of the word according to its number of occurrences\).
 
 ### Let's go ! :
 
@@ -76,9 +66,7 @@ For example the most used word in position description is “Committer”. Commi
 So how we proceed :
 
 1. Collect all the spring projects's name at github.com/spring-projects using github’s developper API
-
 2. Find the team members working in these projects
-
 3. Determine in which time zone members are located
 
 ## Results
@@ -110,4 +98,17 @@ For example on spring framework we had 9 hours of time shifting to the maximum.
 But If we reduce this to smaller intervals of 1 or 2 hours. We realized this often represents 4 or 5 people, with only one leader.
 
 So we can think this is a team work. But nothing proves it. However, we will discuss it in the final conclusion.
+
+### _**References :**_
+
+* Alan D. MacCormack, John Rusnak & Carliss Y. Baldwin \(2014\) , Exploring the Duality between Product and Organizational Architectures: A Test of the Mirroring Hypothesis  
+  , \[[http://hbswk.hbs.edu/item/exploring-the-duality-between-product-and-organizational-architectures-a-test-of-the-mirroring-hypothesis](http://hbswk.hbs.edu/item/exploring-the-duality-between-product-and-organizational-architectures-a-test-of-the-mirroring-hypothesis)\]
+
+* Sam Newman \(2014\), Demystifying Conway's Law \[[https://www.thoughtworks.com/profiles/sam-newman](https://www.thoughtworks.com/profiles/sam-newman)\]
+
+* Allan Kelly \(2013\) Conway's law v software architecture Published at DZone with permission of Allan Kelly, DZone MVB.
+
+* N. Nagappan, B. Murphy, and V. Basili. International Conference on Software Engineering, Proceedings \[online\] \(visited on 18/12/2016\). \[The Influence of Organizational Structure on Software Quality\]
+
+
 
