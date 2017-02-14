@@ -92,7 +92,7 @@ A scanner of the projet takes about 1 minute and a half but the SonarQube must t
 
 At the end of this script we write in a file the PRs that have been scanned in a json file used by the next Script.
 
-## Gather Sonar data using the web API
+### Gather Sonar data using the web API
 
 In this script we first get the PRs scanned using the json file of the previous script. Then we do many calls to the SonarQube web API to gather number of new Sonar Issues, the number of Closed Sonar issues and the current total number of Sonar Issues \(after PR modification\).
 
