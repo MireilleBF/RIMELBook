@@ -114,7 +114,7 @@ Unfortunately, we have no interesting results. The problem posed is not in quest
 
 The project seemed to match our criteria: Open Source, with a ticket manager and the commit messages seemed in many cases to have information to link it to a ticket. Although the Pull Request mergers have all this information, it is not necessarily the case of the other commits. This aspect is linked to its nature Open Source which makes it necessarily less constant in compliance with certain rules. To this is added the fact that it regularly ran a Sonar analysis, which distorted the few results that we were able to extract.
 
-The process is also involved, we not in its run but in its current execution time which is about 3-4 minutes for each couple of commit. It is a correctible defect, but unfortunately we did not have time.
+The process is also involved, we not in its run but in its current execution time which is about 6-7 minutes for each couple of commit. It is a correctible defect, but unfortunately we did not have time.
 
 ## _Evolution_
 
