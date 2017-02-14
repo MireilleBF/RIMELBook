@@ -233,15 +233,19 @@ Here are the raw results we obtained after analysing the projects.
 
 #### SonarQube and CodeMaat results
 
-
-
-
-| Metrics | Test-Driven Development |||| Test-Last Development |||
+| Metrics | Test-Driven Development |  |  |  | Test-Last Development |  |  |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 |  | Fitnesse | JUnit4 | JFreeChart | OpenCover | Spoon | GSON | JaCoCo |
 | Code Coverage | 48% | 85% | 45% | 93.9% | 90.7% | 83% | 80% |
 | Sonar issues | 1927 | 833 | 5039 | 286 | 2341 | 592 | 200 |
 | Complexity | 8612 | 2061 | 19323 | 1568 | 7635 | 1945 | 1962 |
+| Code Age | 48.3% | 21.5% | 18.1% | 83.6% | 9% | 50% | 35% |
+| Average number of reviews/files | 4.46 | 7.72 | 4.97 | 3.15 | 6.35 | 17.26 | 9.12 |
+| % "Fix" Commit | 6% | 7% | 1% | 7% | 30% | 6% | 2% |
+| % "Refactor" Commit | 1% | 1% | 0% | 2% | 7% | 0% | 0% |
+| % "Test" commit | 14% | 14% | 7% | 9% | 12% | 13% | 11% |
+
+#### SoftVis3D results
 
 ### Articles
 
