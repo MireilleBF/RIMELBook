@@ -51,6 +51,8 @@ To get more insight into the sql generation, we explored a little bit the classe
 
 Figure : SQL generation logic
 
+&lt;center&gt;Centered text&lt;/center&gt;
+
 this is how it goes, we go through the DbContext \(which is the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
 
 ## **How **does **Entity Framework and Hibernate manage caching? **Are there any major differences?
