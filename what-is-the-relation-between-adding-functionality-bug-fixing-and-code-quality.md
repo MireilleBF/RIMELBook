@@ -135,7 +135,7 @@ And we could answer all these issues relatively simply by smaller modification o
 
 -github
 
--metrics
+-Jira
 
 -sonar
 
