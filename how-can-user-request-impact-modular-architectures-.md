@@ -24,6 +24,8 @@ _**Methodology :**_
 * Analyse the Git repository.
 * Attempt to find every pull request involving change in plugin interface system.
 
+---
+
 ## Analysis
 
 _**Subject:**_
@@ -55,6 +57,8 @@ We were able to extract,  display the files per commits over the last two years.
 ![](/assets/screen_kibana.png)
 
 _Figure 1 : Our first result in Kibana._
+
+---
 
 _**New Methodology:**_
 
@@ -114,16 +118,25 @@ We then decided to take a look at the git contributor in order to find an overla
 
 _Figure 5 : The distribution of contributors._
 
-We were facing a new problem : naming. While some person give their name both on Git and on the forum, most of the users have different name on both plateform. For instance "Rasmus Praestholm" is the "Cervator" named above. Here again, we had no automatic way to link the person on the forum with the person on Git. Therefore we did it manually.
+We were facing a new problem : naming. While some person give their name both on Git and on the forum, most of the users have different name on both plateform. For instance "Rasmus Praestholm" is the "Cervator" named above. Here again, we had no automatic way to link the person on the forum with the person on Git. Therefore we did it manually. "Immortius" named above is here known as "Martin Steiger" for instance. And so on...
 
-Then, we decided to take a look a the commits to see if we could find some commit name linked to the wordcloud just above.
+Then, we decided to take a look a the commits to see if we could find some commit name linked to the wordcloud just above. We couldn't find a way of doing it automatically because of the gap of the two languages. We did it manually and tried to have as much as connections as possible. We came out with 10 related subjects between the repository and the forum. We were then able to compute some measures like the time between the message in the forum and the commit. We came out with theses values :
+
+* Min : - 5 hours \*
+* Mean : 5 months
+* Max : 1 year
+
+_\( \* : The person acutally posts in the forum to say "I did it, do you like it ?" AFTER committing on  the repository.\)_
+
+---
+
+## Conclusion
+
+We came to the conclusion that this project was poorly driven by the community. Only a bunch of people maintaining up to date, the people on the forum rarely propose new ideas. It is more like the leaders say "We suggest THIS, do you agree?". The link between the information retrieved from the forum and those retrieved from Git was tedious and not really automatisable which prevent us from gathering enough data to our research.
 
 _**Major difficulties:**_
 
-We encountered major difficulties in term of documentation. We didn't find anything on the subject.
-
-Therefore, searching tools has also be a pain because there are too few researches about it.
-
+We encountered major difficulties in term of documentation. Searching tools has also be a pain because there are too few researches about it.  
 Language as also be complicated. While in the forum everybody use a natural language \(English most of the time\), the issues and the pull requests reference to the code itself so it was impossible to find an automatic way to match the natural language and the code.
 
 _**Tools used:**_
