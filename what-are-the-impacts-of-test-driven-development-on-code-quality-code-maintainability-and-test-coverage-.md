@@ -309,9 +309,6 @@ This graphic shows three important metrics. Globally, we can see that files in T
 
 Visualizing the SoftVis3D representations, where the base is the cyclomatic complexity, the color is the number of sonar issues and the height the number of code duplication, it appears that projects using TDD have a lower cyclomatic complexity than TL projects, which is what we expected. This results may be a consequence of the process explained by Kent Beck \[ref\] during a TDD project :
 
-  
-
-
 > The two rules imply an order to the tasks of programming:
 >
 > * Red—write a little test that doesn’t work, perhaps doesn’t even compile at first
@@ -328,6 +325,30 @@ In our study, we investigated the impacts of Test-Driven Development on code qua
 
 As we analysed just a few projects without a precisely defined context, we cannot generalize the results obtained beyond our scope. Still we can see that our results about code quality are similar to the ones of the study made by Bhat and Nagappan \[ref\] who also studied the impacts of TDD on development time \(which is not part of our scope\). So we hope that this study will contribute to the research in this field, especially about the confidence on the impacts on code quality while using the Test-Driven Development method.
 
+## References
+
+### Projects
+
+* Uncle Bob website: [www.cleancoder.com/](http://www.cleancoder.com/)
+
+TDD projects:
+
+* Fitness: [https://github.com/unclebob/fitnesse](https://github.com/unclebob/fitnesse)
+
+* JUnit4: [https://github.com/junit-team/junit4](https://github.com/junit-team/junit4)
+
+* JFreeChart: [https://github.com/jfree/jfreechart](https://github.com/jfree/jfreechart)
+
+* Open Cover: [https://sonarqube.com/dashboard/index?id=opencover](https://sonarqube.com/dashboard/index?id=opencover)
+
+TL projects:
+
+* Spoon: [https://github.com/INRIA/spoon](https://github.com/INRIA/spoon)
+
+* Google Gson: [https://github.com/google/gson](https://github.com/google/gson)
+
+* JaCoCo: [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
+
 ### Articles
 
 Beck, K. \(2003\).Test-driven development: by example. Addison-Wesley Professional.
@@ -342,7 +363,11 @@ Martin, R. C. \(2008\).Clean Code: A Handbook of Agile Software Craftsmanship. P
 
 Kaufmann R. & Janzen D. \(2003, October\). Implications of test-driven development: a pilot study. In Companion of the 18th annual ACM SIGPLAN conference on Object-oriented programming, systems, languages, and applications \(pp. 298-299\). ACM.
 
-### Contributors
+Bhat, T., & Nagappan, N. \(2006, September\). Evaluating the efficacy of test-driven development: industrial case studies. InProceedings of the 2006 ACM/IEEE international symposium on Empirical software engineering\(pp. 356-363\). ACM. 
 
-Our Team is splited in two groups. The first one composed by Alexandre Cazala and Lisa Joanno studied TDD projects and the second one composed by Nicolas Lecourtois and Pierre Massanès studied Test-Last projects.
+Thomas Zimmermann, Nachiappan Nagappan, and Andreas Zeller, Predicting Bugs from History. [https://goo.gl/eNVqAK](https://goo.gl/eNVqAK)
+
+### 
+
+
 
