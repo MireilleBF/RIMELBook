@@ -8,11 +8,7 @@ To do so, We will try to answer the following questions :
 
 First of all we'll present the two communities working on the projects, Hibernate is an open source framework led by a core team that works on Red hat, the following picture shows the interactions between developpers on the hibernate project :
 
-![](/assets/lead.png)
-
-```
-                                                      Figure : Communication between hibernate team members 
-```
+![](/assets/lead.png)Figure : Communication between hibernate team members 
 
 As we can see from the highlighted paths, Steve Ebersole talks pretty much with the entire team, so there is a good chance he is the project's lead\(we confirmed this by going to his stackoverflow account\), in addition there are two big contributors, which gives to the project a clear direction, as the vision is not shared across several developers, the flip side being that if the lead \(i.e Steve Ebersole in our case.\) leaves the project, there will be huge knowledge loss \(unless there's a transition period\).
 
