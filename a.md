@@ -8,7 +8,7 @@ According to our previous results, by merging what we findwe would have to find 
 
 After collecting major contributors and associating with the results of the real team, all major contributors except Arjen Poutsma are committers and Juergen Hoeller which is the Project lead. In the previous results \(Tom and Fabien’s research\) they found that the contributor which has the major number of file owners is Juergen Hoeller and it results to be the project lead ! That’s a good point.
 
-Arjen Poutsma was at the beginning a Committer and then it becomes a technical adviser in the same time zone that the project lead. Then we can see that for Spring Framework, most major committers are in the same time zone and depend on the same leader. 
+Arjen Poutsma was at the beginning a Committer and then he became a technical adviser in the same time zone that the project lead. Then we can see that for Spring Framework, most major committers are in the same time zone and depend on the same leader.
 
 However, there are two people who are in completely independent time zones, so we have to look further to find out whether they are aberrant values or not.
 
@@ -18,7 +18,7 @@ For Rossen Staoyanchev we have not found any specific information about his role
 
 # CONCLUSION
 
-Firstly we can say that the projects we had access to were only open sources projects: the problem is that this kind of project does not have a well-defined hierarchy. Everyone can participate to the project code and most people works at home by modifying a little part of a component so we need to filter developers to find the real people that collaborates to the project.
+Firstly we can say that the projects we had access to were only open sources projects: the problem is that this kind of project does not have a well-defined hierarchy. Everyone can participate to the project code and most people works at home by modifying a little part of a component so we need to filter developers to find .
 
 By looking at the repository, for sure we can get a lot of information, but it isn’t by evaluating the number of committed lines that we will really know if the person is currently participating to the project : somebody can have changed a lot of things \(by importing a library maybe\) without adding business value to the project unlike someone who has added 1% of the component lines and adding a big feature. In conclusion that metric is a good one but it is also misleading, maybe it has to be coupled with another filter \(maybe only the number of lines added ?\).
 
@@ -35,7 +35,4 @@ The law isn’t verified for Spring project but we assume private companies that
 Our study focus on Spring that is made of multiple project, so we can’t conclude on all the open sources projects. We propose a methodology to apply our work on any open source project, with the only constraints is to have informations about the real team of the project. A plan can be to make an empirical study on a large amount of open source projects to see if we have only similarities between the real team and the code knowledge one, so that we can conclude either the Conway’s Law is true or false.
 
 Another plan can be to prospect each real team, asking the enterprises directly. A problem that can emerged is that organizations don’t like to tell about their internal structure, so it can be pretty difficult to retrieve these data.
-
-  
-
 
