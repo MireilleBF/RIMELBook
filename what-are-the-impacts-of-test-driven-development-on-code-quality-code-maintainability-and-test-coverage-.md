@@ -38,20 +38,20 @@ The projects studied here are either TDD or TL but how can we now the developmen
 
 In order to find a concrete answer, we had to find many projects built using a TDD approach and of at least thousands of commits:
 
-* FitNesse is a project from Robert C. Martin, also known as Uncle Bob, who wrote many famous books about agile principles, code quality and best practices. It has more than 5000 commits.
+* [FitNesse](https://github.com/unclebob/fitnesse) is a project from Robert C. Martin, also known as Uncle Bob, who wrote many famous books about agile principles, code quality and best practices. It has more than 5000 commits.
 
-* JUnit was written by Kent Beck and Erich Gamma using TDD throughout. We study JUnit4 \(around 2,000 commits\).
+* [JUnit](https://github.com/junit-team/junit4) was written by Kent Beck and Erich Gamma using TDD throughout. We study JUnit4 \(around 2,000 commits\).
 
-* JFreeChart is a 2D chart library for Java applications \(around 3,000 commits\).
+* [JFreeChart](http://www.jfree.org/jfreechart/) is a 2D chart library for Java applications \(around 3,000 commits\).
 
-* OpenCover is a code coverage tool for .NET \(around 1,200 commits\).
+* [OpenCover](https://github.com/OpenCover/opencover) is a code coverage tool for .NET \(around 1,200 commits\).
 
 There are other projects using TDD but those are the most interesting for our works. We are limited in time by our studies.
 
 We found the following TL projects which are approximately of the same size as the previous TDD projects.
 
 * [Google Gson](https://github.com/google/gson) is a Java serialization/deserialization library that can convert Java Objects into JSON and back \(around 1,300 commits\)
-* JaCoCo is a Java code coverage library \(around 1,400 commits\)
+* [JaCoCo](http://www.eclemma.org/jacoco/) is a Java code coverage library \(around 1,400 commits\)
 
 * [Spoon](https://github.com/INRIA/spoon) is an open-source library to analyze, rewrite, transform, transpile Java source code \(around 1,800 commits\)
 
