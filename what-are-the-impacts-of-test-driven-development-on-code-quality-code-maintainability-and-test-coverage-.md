@@ -152,7 +152,7 @@ $ mvn jacoco:report
 
 For each project, we had a report like the following :  
 ![JUnit4 JaCoCo report](/assets/JUnit.png)  
-Figure X : JUnit4 JaCoCo report
+Figure 2 : JUnit4 JaCoCo report
 
 This report allows us to know the code coverage of each project, a metric we need to compare TDD and TL methods.
 
@@ -186,7 +186,7 @@ $ sonar-scanner
 
 The reports can be found onlocalhost:9000, where the list of all your projects will be displayed.
 
-Another advantage of using Sonar is the uniformity of the generated reports. For example :![](/assets/SonarQube   junit.png)Figure X : Sonar reports for JUnit4
+Another advantage of using Sonar is the uniformity of the generated reports. For example :![](/assets/SonarQube   junit.png)Figure 3 : Sonar reports for JUnit4
 
 Using SonarQube was a way during our study to get the cyclomatic complexity of the projects, along with the sonar issues. Both are a metric we need to compare TDD and TL methods. Sonar defines a number of issues during a scan, for example bugs detected, vulnerabilities and code smells.
 
@@ -198,7 +198,7 @@ The goal is to provide a visualization for the hierarchical structure of a proje
 
 ![](/assets/junit-codecity.png)
 
-Figure X : SoftVis3D results for JUnit4
+Figure 3 : SoftVis3D results for JUnit4
 
 #### Code maat
 
@@ -249,27 +249,27 @@ Here are the raw results we obtained after analysing the projects.
 
 #### TDD projects
 
-![](/assets/FitnesseBobCodeQuality.png)Figure X : Fitnesse
+![](/assets/FitnesseBobCodeQuality.png)Figure 4 : Fitnesse
 
 ![](/assets/jfreechart-codecity.png)
 
-Figure X : JFreeChart
+Figure 5 : JFreeChart
 
 ![](/assets/junit-codecity.png)
 
-Figure X : JUnit4
+Figure 6 : JUnit4
 
 #### Test-Last projects
 
 ![](/assets/GsonCityCodeQuality.png)
 
-Figure X : Google GSON
+Figure 7 : Google GSON
 
-![](/assets/JaCoCoCodeQuality.png)Figure X : JaCoCo
+![](/assets/JaCoCoCodeQuality.png)Figure 8 : JaCoCo
 
 ![](/assets/spoon-codecity.png)
 
-Figure X : Spoon
+Figure 9 : Spoon
 
 ### Critical Analysis
 
@@ -277,25 +277,25 @@ From the raw data we had collected and for each of our metrics, we made charts t
 
 ![](/assets/test_coverage.png)
 
-Figure X : Test Coverage
+Figure 10 : Test Coverage
 
 This chart represents the percentage of code coverage for each project. We can see that TL projects have a code coverage higher than 80%, so they are mainly well covered by tests. For the TDD projects, there is some disparity. Two projects have a code coverage higher than 80% but the two others have a coverage of 48% and 52%, which is really low. We expected TDD projects to have a high code coverage, but our study shows the opposite. TL projects seems to have a better code coverage than TDD. But as we studied just a few projects, these results can be just exceptions or the consequences of external factors.
 
 ![](/assets/count_keywords.png)
 
-Figure X : Proportions of commits
+Figure 11 : Proportions of commits
 
 With this view, where the projects are kept separated, we can see that the results are more or less uniform. Except for Spoon, whose number of fix related commits is surprisingly high, about four times higher than the other.
 
 ![](/assets/compare_keywords.png)
 
-Figure X : Proportions of commits. TDD compared to TL
+Figure 12 : Proportions of commits. TDD compared to TL
 
 As expected, using a Test-Last method implies to have more fixes \(and so, have more bugs\). However, Spoon has falsified our data, it proves that we need more data to have a concrete representation of the Test-Driven Method and the Test-Last method. Also, the first metric shows that in Test-Driven Development we got less tests than in Test-Last. This metric is only a study of their commits and not representing the test coverage. Yet, due to the way TDD works, with phases of test and phases of refactoring, we expected TDD projects to have a higher percentage of refactor commits.
 
 ![](/assets/mean_revisions.png)
 
-Figure X : Stability of files
+Figure 13 : Stability of files
 
 The first four are TDD projects and others are TL projects. GSON is a TL project made by Google, this statistic shows that each file has been edited approximately 17 time \(in average\). We know there is a correlation between the number of revisions and the number of bugs proven by many researchers \(Thomas Zimmermann studied it in its researches: [https://goo.gl/eNVqAK](https://goo.gl/eNVqAK)\). So it seems that GSON, based on this metric, isn’t a clean project.
 
@@ -363,7 +363,7 @@ Martin, R. C. \(2008\).Clean Code: A Handbook of Agile Software Craftsmanship. P
 
 Kaufmann R. & Janzen D. \(2003, October\). Implications of test-driven development: a pilot study. In Companion of the 18th annual ACM SIGPLAN conference on Object-oriented programming, systems, languages, and applications \(pp. 298-299\). ACM.
 
-Bhat, T., & Nagappan, N. \(2006, September\). Evaluating the efficacy of test-driven development: industrial case studies. InProceedings of the 2006 ACM/IEEE international symposium on Empirical software engineering\(pp. 356-363\). ACM. 
+Bhat, T., & Nagappan, N. \(2006, September\). Evaluating the efficacy of test-driven development: industrial case studies. InProceedings of the 2006 ACM/IEEE international symposium on Empirical software engineering\(pp. 356-363\). ACM.
 
 Thomas Zimmermann, Nachiappan Nagappan, and Andreas Zeller, Predicting Bugs from History. [https://goo.gl/eNVqAK](https://goo.gl/eNVqAK)
 
