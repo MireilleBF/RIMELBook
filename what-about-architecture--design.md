@@ -4,7 +4,7 @@ The goal is to use static analysis of code to find interesting results about eac
 
 ## **Tools used :**
 
-* CodeCity
+* Codescene
 
 * IntelliJ UML plugin: generating UML from code and exporting it as XML
 
@@ -97,5 +97,5 @@ Our goal was to see to what extent can we  use static analysis to compare hibern
 
 In general it is extremely hard to extract feature related information from the code, a lot of the work is rather manual, but despite the difficulty we managed to find some fundamental differences between the framework
 
-Static analysis can be useful as an entry point to do analysis, it gives a broad idea about the feature in question, but to go in depth, one has no choice but to resort to reading the code 
+Static analysis can be useful as an entry point to do analysis, it gives a broad idea about the feature in question, but to go in depth, one has no choice but to resort to reading the code
 
