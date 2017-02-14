@@ -39,7 +39,7 @@ As we can see, each new version extends the older one, to alter its behavior or 
 
 what about Entity Framework ?
 
-using our usual method \(key work search\), we didn't find any dialects dedicated to known databases such as postgres or MySQL, 
+using our usual method \(key work search\), we didn't find any dialects dedicated to known databases such as postgres or MySQL,
 
 SQL Server is the mantra, EF supports it and nothing else, there are some connectors to use postgresql with EF but nothing official
 
@@ -49,7 +49,7 @@ To get more insight into the sql generation, we explored a little bit the classe
 
 ![](/assets/AST.png)
 
-                                                         Figure : SQL generation logic 
+Figure : SQL generation logic 
 
 this is how it goes, we go through the DbContext \(which is the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
 
@@ -65,9 +65,7 @@ The next thing we tried is taking a look at the class that talks to the database
 
 We used our IDE, and generated an UML to see if there are any references to cache classes:
 
-![](/assets/UML.png)                 
-
-                                                       Figure : generated UML for SessionImpl
+![](/assets/UML.png)Figure : generated UML for SessionImpl
 
 As we can see, no references to cache
 
@@ -79,9 +77,7 @@ We found out, that en event approach was used, when the load method was called, 
 
 By examining the event listeners we found that, they also have a load method in which we can see:
 
-![](/assets/code.png) 
-
-                                                           Figure : Calls to first & second level cache
+![](/assets/code.png)Figure : Calls to first & second level cache
 
 This gives a very important insight, as we learned that hibernate has two levels of cache
 
@@ -93,7 +89,9 @@ Entity Framework provides caching but only first level one, since the stateManag
 
 ![](/assets/Caching.png)
 
-                                                                  Figure : Calls to first level cache
+```
+                                                              Figure : Calls to first level cache
+```
 
 when we try to fetch entity by identity key from the DbContext, the stateManager has an instance of IdentityMap, this class has basically a property which is a Dictionary that maps keys to entities, the entity is being fetched from there if already cached
 
