@@ -54,6 +54,8 @@ We were able to extract,  display the files per commits over the last two years.
 
 ![](/assets/screen_kibana.png)
 
+_Figure 1 : Our first result in Kibana._
+
 _**New Methodology:**_
 
 An idea suggested by one of our teachers  was to going back up to the source of our community : their forum. We then implemented a crawler in order to deduce relevant information \(or even piece of information\) like :
@@ -86,9 +88,25 @@ To summarize, our elasticsearch now contains :
 
 _**New results:**_
 
-We first extracted the messages from the forum in order to have an overview of distribution of the messages among all the users. It appears that the person named 'Cervator' produces or answering to most of messages of the forum. We found out that this person spearhead the Terasology project.
+We first extracted the messages from the forum in order to have an overview of distribution of the messages among all the users. It appears that the person named 'Cervator' produces or answering to most of messages of the forum. We found out that this person spearhead the Terasology project. Immortius is also well known by the community because he answers to a lots of demands, and lead some development.
 
 ![](/assets/community_1.png)
+
+_Figure 2 : The coarse grain distribution of users in the forum._
+
+We decided to dig among the 6.4% other person on the forum to see if the distribution of the messages becomes homogeneous.
+
+![](/assets/community_2.png)
+
+_Figure 3 : A more fined grain distribution of users in the forum._
+
+Here we can see that the distribution is a little bit more homogeneous. These people  \(up to 4%\) are quite active in the Terasology community.
+
+We then tried to know what were the principle discussions on the forum, by taking a look at this cloud words \(containing some of the main subject's title\) :
+
+![](/assets/words.png)
+
+_Figure 4 : Main words used as title in the forum._
 
 _**Major difficulties:**_
 
