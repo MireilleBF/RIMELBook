@@ -22,8 +22,6 @@ The importance of our question comes from the relation between the code changes 
 
 But are these beliefs well-founded?Is there evidence to support the belief that bug fixes, additions, and feature enhancements can increase or abbreviate code quality?
 
-
-
 ## Context and hypotheses
 
 ### Context
@@ -122,6 +120,29 @@ And we could answer all these issues relatively simply by smaller modification o
 -metrics
 
 -sonar
+
+### Sonar
+
+In order to be able to evaluate a code we will analyze it to know the quality and evolution in time of the code. For this we ill use Sonar.
+
+
+
+![](/assets/sonar.PNG)
+
+
+
+Sonar is an open source tool that supports the development and support of Sonar.
+
+The main purpose of this tool is to provide a complete analysis of the quality of an application by providing numerous statistics \(or metrics\).
+
+These data allow to evaluate the quality of the code, and to know the evolution during the development.
+
+The sonar tool will allow us to : 
+
+* Detecting a smell code
+* A quantitative measure of the class number and duplicate code
+* For projects where there are unit tests, sonar allows us to have a qualitative measure of coverage and success rate of tests
+* A history to see the evolution over time
 
 ## References
 
