@@ -54,8 +54,6 @@ We were able to extract,  display the files per commits over the last two years.
 
 ![](/assets/screen_kibana.png)
 
-
-
 _**New Methodology:**_
 
 An idea suggested by one of our teachers  was to going back up to the source of our community : their forum. We then implemented a crawler in order to deduce relevant information \(or even piece of information\) like :
@@ -86,6 +84,12 @@ To summarize, our elasticsearch now contains :
 * All github pull requests
 * All forum messages
 
+_**New results:**_
+
+We first extracted the messages from the forum in order to have an overview of distribution of the messages among all the users. It appears that the person named 'Cervator' produces or answering to most of messages of the forum. We found out that this person spearhead the Terasology project.
+
+![](/assets/community_1.png)
+
 _**Major difficulties:**_
 
 We encountered major difficulties in term of documentation. We didn't find anything on the subject.
@@ -107,8 +111,6 @@ We first thouugh of using Diggit but we realized that this tools wasn't fullfill
 _**References used:**_
 
 * Software modularity :  [Investigating software modularity using class and module level metrics M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
-
-
 
 _**Distribution of Work:**_
 
