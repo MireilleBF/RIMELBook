@@ -116,26 +116,20 @@ While our analysis provided an overview of the organizational metrics of a multi
 
 Eventually, we would like to deepen our analysis of the ownership pattern in order to generalize to other multi-language projects.
 
-
-
 ## Tools
 
-              [CodeMaat ](https://github.com/adamtornhill/code-maat)
+             [Codemaat](https://github.com/adamtornhill/code-maat)
 
-              [Parseur](https://drive.google.com/file/d/0B0A0gcBA0qpheHd1NTgwQk5jc0E/view?usp=sharing)
+             [Parseur](https://drive.google.com/drive/folders/0B0A0gcBA0qpha0JZMEhtZGFaNGM?usp=sharing)
 
-              Excel
+             Excel 
 
-
-
-
-
-## Authors:
+Authors:
 
 Balde Thierno
 
 Diallo Mahmoud
 
-**        
+**          
 **
 
