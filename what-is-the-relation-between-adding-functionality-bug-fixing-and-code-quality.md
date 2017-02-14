@@ -70,7 +70,7 @@ In order to answer this question we have put in place a process which allows to 
 
 We will first have to make the link between the commits and the tickets to which they respond, which allows us to have a link between the commit \(and thus the code\) and a nature of modification. Then for each commit a differential analysis between this commit and the commit directly preceding it will be launched with Sonar. This will give us a collection of differential analysis for each nature of modifications, then we can get out of the value by doing various statistical processing \(average, standard deviation, variance ...\).
 
-## Link between Code and Jira
+### Link between Code and Jira
 
 The first step in our process will be to link the commits to the 3600 tickets we are interested in. The information we will need for the rest of the process is the list of commits for each type of ticket and for each version. A commit will be represented only by its SHA and the previous commit's \("parent"\) SHA which is the information to retrieve the commit from Git for analysis.
 
@@ -81,6 +81,24 @@ We will then have to extract the tickets from the versions we have chosen to ana
 So we have at this moment a list of versions with each having three list of tickets represented by their key and a list of peers of commits, they are grouped by type.
 
 We gathered and coupled the information necessary to be able to analyze the code by the Sonar tool and to correlate the results with the information already obtained, that is to say the types of ticket.
+
+### Launch sonar analysis
+
+With the output of the first script, we compute a list of Pull Requests with some data. At this stage a PR do have a key, which is an identifier, a version, the linked version of the project, a type, the type of modification given by the linked ticket and the two SHA of the linked commits. The Parent commit, which is the commit just before the merge of the pull request, and the Merge commit that apply all the modifications done by the pull request.
+
+The script pass trough this list to setup Sonar properties and launch a sonar scanner. To make the gather of the Sonar data easier we decide to proccess as follow. For each Pull Request, we run two Sonar scanners, one for each commit. At the Parent commit we create a new sonar project with version number 1 and at the Merge commit we only change the version number. This way we can later retreive the number of issues closed and opened using the Since Leak Period. To acheive this behaviour the script, for the Parent commit, change the content of the 'sonar-project.properties' file on keys projectKey, projectName and projectVersion using the PR key identifer. Then using a 'git checkout SHA' we place the git repository at the Parent commit and we run a Sonar Scanner. For the Merge commit we do the same but we only change the version in the sonar properties file.
+
+A scanner of the projet takes about 1 minute and a half but the SonarQube must then Analyze the scanner and this takes about 4 minutes. This second analysis can be done in background but unfortunatly it happen to have conflicts between the analisys. So we decide to wait a bit between each Scanners.
+
+At the end of this script we write in a file the PRs that have been scanned in a json file used by the next Script.
+
+### Gather Sonar data using the web API
+
+In this script we first get the PRs scanned using the json file of the previous script. Then we do many calls to the SonarQube web API to gather number of new Sonar Issues, the number of Closed Sonar issues and the current total number of Sonar Issues \(after PR modification\).
+
+Those three calls are done 5 times, one for each severity level \(INFO, MINOR, MAJOR, CRITICAL, BLOCKER\).
+
+All this data is stored in a json output and a csv output. The json contains all the data gathered through all scripts. And the Csv only have the data we will use for graphic and data interpretation. Which is, for each line, the PR key identifier, the type of modification, the verion of the project, the severity of sonar issues, the number added Sonar issues, the number of removed sonar issues, and the current total number of issues.
 
 ## Problems
 
@@ -117,7 +135,7 @@ And we could answer all these issues relatively simply by smaller modification o
 
 -github
 
--metrics
+-Jira
 
 -sonar
 
@@ -125,19 +143,13 @@ And we could answer all these issues relatively simply by smaller modification o
 
 In order to be able to evaluate a code we will analyze it to know the quality and evolution in time of the code. For this we ill use Sonar.
 
-
-
-![](/assets/sonar.PNG)
-
-
-
 Sonar is an open source tool that supports the development and support of Sonar.
 
 The main purpose of this tool is to provide a complete analysis of the quality of an application by providing numerous statistics \(or metrics\).
 
 These data allow to evaluate the quality of the code, and to know the evolution during the development.
 
-The sonar tool will allow us to : 
+The sonar tool will allow us to :
 
 * Detecting a smell code
 * A quantitative measure of the class number and duplicate code
@@ -150,7 +162,9 @@ The sonar tool will allow us to :
 
 \[1\] Lehman, M. M.; J. F. Ramil; P. D. Wernick; D. E. Perry; W. M. Turski - Metrics and laws of software evolution—the nineties view [http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf](http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf)  -  1997
 
-> @mbf : Mettez en un plus moderne comme : Herraiz I, Rodriguez D, Robles G, Gonzalez-Barahona JM \(2013\) The Evolution of the Laws of Software Evolution: A Discussion Based on a Systematic Literature Review. ACM Comput Surv 46:28:1--28:28. Excellent !
+The evolution of the laws of software evolution. A discussion based on a systematic literature review
+
+[Herraiz I, Rodriguez D, Robles G, Gonzalez-Barahona JM \(2013\) The Evolution of the Laws of Software Evolution: A Discussion Based on a Systematic Literature Review. ACM Comput Surv 46:28:1--28:28.](http://www.cc.uah.es/drg/jif/2013HerraizRRG_CSUR.pdf)
 
 ## 
 
