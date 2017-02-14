@@ -52,7 +52,7 @@ Then we counted the occurrences of each word \(after having standardized their c
 
 ### Let's go ! :
 
-Then, all charts just appear below. At the top of the page, a table and a map, showing all the contributors retrieved from the spring page.
+With our extractor, at the top of the page, we can see a table and a map who shows all the contributors retrieved from the spring page.
 
 For each, we got :
 
