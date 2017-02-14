@@ -38,17 +38,13 @@ The projects studied here are either TDD or TL but how can we now the developmen
 
 In order to find a concrete answer, we had to find many projects built using a TDD approach and of at least thousands of commits:
 
-* FitNesse[^1]is a project from Robert C. Martin, also known as Uncle Bob,  who wrote many famous books[^2] about agile principles, code quality and best practices. It has more than 5000 commits.
+* FitNesse is a project from Robert C. Martin, also known as Uncle Bob, who wrote many famous books about agile principles, code quality and best practices. It has more than 5000 commits.
 
-* Madagascar[^3] is an open-source software package for multidimensional data analysis and reproducible computational experiments. It has more than 13 000 commits.
+* JUnit was written by Kent Beck and Erich Gamma using TDD throughout. We study JUnit4 \(around 2,000 commits\).
 
-* JUnit[^4] was written by Kent Beck and Erich Gamma using TDD throughout. We will study JUnit4 and JUnit5.
+* JFreeChart is a 2D chart library for Java applications \(around 3,000 commits\).
 
-* Fit. Written by Ward Cunningham, the progenitor of most current acceptance testing frameworks.
-
-* Rspec. Testing framework in Ruby. TDD throughout.
-
-* Cucumber
+* OpenCover is a code coverage tool for .NET \(around 1,200 commits\).
 
 There are other projects using TDD but those are the most interesting for our works. We are limited in time by our studies.
 
