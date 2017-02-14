@@ -39,11 +39,19 @@ As we can see, each new version extends the older one, to alter its behavior or 
 
 what about Entity Framework ?
 
-on Entity Framework side, SQL Server is the mantra, EF supports it and nothing else, there's some some connectors to use postgresql with EF but nothing official, this picture gives us the whole picture on how SQL Server Dialect is handled :
+using our usual method \(key work search\), we didn't find any dialects dedicated to known databases such as postgres or MySQL, 
+
+SQL Server is the mantra, EF supports it and nothing else, there are some connectors to use postgresql with EF but nothing official
+
+This is rather a big difference between the two frameworks
+
+To get more insight into the sql generation, we explored a little bit the classes we found:
 
 ![](/assets/AST.png)
 
-this is how it goes, we go through the DbContext \(which the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
+                                                         Figure : SQL generation logic 
+
+this is how it goes, we go through the DbContext \(which is the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
 
 ## **How **does **Entity Framework and Hibernate manage caching? **Are there any major differences?
 
@@ -53,11 +61,13 @@ let's start with hibernate:
 
 We used the same technique: searching by key word “cache”, we were able to find an interface defining various cache-related methods, but this leads us nowhere.
 
-The next thing we tried is taking a look at the class that talks to the database:”SessionImpl”,
+The next thing we tried is taking a look at the class that talks to the database:”SessionImpl”
 
 We used our IDE, and generated an UML to see if there are any references to cache classes:
 
-![](/assets/UML.png)  Figure : generated UML for SessionImpl
+![](/assets/UML.png)                 
+
+                                                       Figure : generated UML for SessionImpl
 
 As we can see, no references to cache
 
@@ -69,7 +79,9 @@ We found out, that en event approach was used, when the load method was called, 
 
 By examining the event listeners we found that, they also have a load method in which we can see:
 
-![](/assets/code.png)Figure : Calls to first & second level cache
+![](/assets/code.png) 
+
+                                                           Figure : Calls to first & second level cache
 
 This gives a very important insight, as we learned that hibernate has two levels of cache
 
@@ -79,13 +91,9 @@ What about Entity Framework ?
 
 Entity Framework provides caching but only first level one, since the stateManager is specific to DbContext \(but we don't have specific one on the DbContextFactory level\), so a DbContext caches only entities that it fetched so it cannot see entities cached by another instance of DbContext, let's see how it works :
 
-
-
 ![](/assets/Caching.png)
 
-
-
-
+                                                                  Figure : Calls to first level cache
 
 when we try to fetch entity by identity key from the DbContext, the stateManager has an instance of IdentityMap, this class has basically a property which is a Dictionary that maps keys to entities, the entity is being fetched from there if already cached
 
