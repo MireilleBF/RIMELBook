@@ -26,6 +26,14 @@ In this sub-chapter, we present our study of the impacts of the TDD method on co
 
 Test-Driven Development promotes the fact of producing a code of better quality and always valid. This study aims to verify if this assertion is real or not and in which way. There is not yet an answer to this question which divides the developer community. We think that it could be interesting to compare this method to a more common way of developing, which is to develop functionalities first, then write the tests, to bring an answer to this question with concrete arguments. This common method is also known as the Test-Last \(TL\) method. Also, many companies does not approve this method thinking that testing first cost more than having something which works first. It would be interesting to see if it is true or not by comparing maintenance cost \(i.e, number of issues, fixes ...\) and productivity \(i.e, number of lines added and deleted\) in test-first method \(TDD\) with test-last method.
 
+### Scope
+
+In this study, we compare TDD projects and TL projects only. Any other development method is not part of this study, we made this choice in order to narrow our field of research. As our main question is about code quality, we don’t study the impacts of TDD on development time compared to TL. We have restricted our analyses to some metrics defining the code quality of a project and described in the partProject Evaluation. So external factors as team size, team experience or language used are not part of our scope. Even if these factors can have impacts on code quality and code coverage, we lacked time and resources to take them into account, they are part of the limits of this study.
+
+Other concepts linked to the TDD method, like emerging software architecture, are not studied either, still in order to focus on answering our questions.
+
+The projects studied here are either TDD or TL but how can we now the development method used in a project ? To choose the projects, we do not have an automated tool capable of detecting the development method used. We rely on the project team and the developer community. Developing following the test-driven method is not a common choice, so usually the project team clearly state that the project is test-driven. In addition to this, we also checked manually if the commits of the TDD projects seems to follow the pattern test first, then code. But this is just a partial verification, the best would be a tool analysing the commits and finding this pattern.
+
 ### Projects Studied
 
 In order to find a concrete answer, we had to find many projects built using a TDD approach and of at least thousands of commits:
