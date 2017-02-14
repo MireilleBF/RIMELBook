@@ -4,7 +4,7 @@ Conway’s law it's a sociological based predicate, deduced by observations but 
 
 > _If you have four groups working on a compiler, you'll get a 4-pass compiler_
 
-Bigger an organization is, more social boundaries are produced: majors are caused by communication problem.
+The bigger an organization is, more social boundaries are produced: majors are caused by communication problem.
 
 Developers are not robots and they can’t work together perfectly because humans can’t share their mind: that’s why there is a conception phase before developing something. Working on the same code part means that you spend time on integrations and ensuring that the integration will be good enough, developers need to speak together. Sometimes the project are so big that we need a **big team**, dispatched all around the world and communication can be hard.
 
@@ -16,7 +16,7 @@ Generally, to avoid this lack of communication, organizations wich design a syst
 
 If companies tries to split the work between developers by adding some rules based on that Conway’s , we can imagine the job can be done **better and faster**.
 
-When you ask to a team of three developers to solve an easy problem such as creating a simple website: The first says “I know Node.js, you can simple add a server.ts file to route all requests”, while the second will say “Java allows you to create simple http-servlets to create a server” and the third will say “I’m not aware with backend programming, but there are a lot of online hoster to create a simple http server”. Each specialist find the way to answer to the question as it own, but with several ways.
+When you ask to a team of three developers to solve an easy problem such as creating a simple website: The first says “I know Node.js, you can simply add a server.js file to route all requests”, while the second will say “Java allows you to create simple http-servlets to create a server” and the third will say “I don't know backend programming, but there are a lot of online hoster to create a simple http server”. Each specialist find the way to answer to the question as it own, but with several ways.
 
 To avoid comprehension problems between team members, software architects are setted up to clarify which way to take in development. If the architect is far from the his team \(eg. 2-3 hours jet lag\) that can slow up the subject comprehension. Generally, the developers who shares the same module editing, must talk each other to clarify in which way progress: as you can see, proximity is the key and call reachability is essential.
 
@@ -31,10 +31,6 @@ Will will take two approaches :
 * The first one try to be more analytic on the actual Spring's team. To be more specific, on a module of Spring project \(we will talk about modules and submodules in the next part\).
 * The second one is a bottom to top approach : we start from code analysis and we end by creating an ideal team based on some metrics in accord to Conway's law.
 * The final part will consist to gather all that results and trying to prove the suitability of Conway's law.
-
-
-
-
 
 ### _**References :**_
 
