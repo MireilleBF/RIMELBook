@@ -28,7 +28,7 @@ Test-Driven Development promotes the fact of producing a code of better quality 
 
 ### Scope
 
-In this study, we compare TDD projects and TL projects only. Any other development method is not part of this study, we made this choice in order to narrow our field of research. As our main question is about code quality, we don’t study the impacts of TDD on development time compared to TL. We have restricted our analyses to some metrics defining the code quality of a project and described in the partProject Evaluation. So external factors as team size, team experience or language used are not part of our scope. Even if these factors can have impacts on code quality and code coverage, we lacked time and resources to take them into account, they are part of the limits of this study.
+In this study, we compare TDD projects and TL projects only. Any other development method is not part of this study, we made this choice in order to narrow our field of research. As our main question is about code quality, we don’t study the impacts of TDD on development time compared to TL. We have restricted our analysis to some metrics defining the code quality of a project and described in the part [Project Evaluation](#project-evaluation). So external factors as team size, team experience or language used are not part of our scope. Even if these factors can have impacts on code quality and code coverage, we lacked time and resources to take them into account, they are part of the limits of this study.
 
 Other concepts linked to the TDD method, like emerging software architecture, are not studied either, still in order to focus on answering our questions.
 
@@ -66,7 +66,7 @@ We compared TDD method projects with TL method projects based on:
 
 ### Expectations
 
-As Test-Driven Development is really driven by the tests, we expect TDD projects to have a high code coverage, of at least 80% and higher than TL projects. This method involve an important refactoring phase, so cleaning the code is an important part of it. Because of this, we expect a better code quality but also more commits about refactoring and less about fixing or patching bugs.
+As Test-Driven Development is really driven by the tests, we expect TDD projects to have a high code coverage, of at least 80% and higher than TL projects. This method involves an important refactoring phase, so cleaning the code is an important part of it. Because of this, we expect a better code quality but also more commits about refactoring and less about fixing or patching bugs.
 
 ## Project Evaluation
 
@@ -78,7 +78,7 @@ In order to answer our three sub-questions we used many metrics. All of our TDD 
 
 #### Code age
 
-The code age measures in month the last time a file has been modified. Because some of the projects are older than others, the real metric measured here is the average code age of each file relative to the project age. For example if a file hasn’t been modified for 10 months and the project is 12 month old, we can say it’s a pretty much stable file. If most of the project contains files that are currently being modified it means that the developers have a lot of file to maintain. In the opposite case, it means that the developers just have to focus on a few files which is a sign of good maintainability.
+The code age measures in month the last time a file has been modified. Because some of the projects are older than others, the real metric measured here is the average code age of each file relative to the project age. For example, if a file hasn’t been modified for 10 months and the project is 12 month old, we can say it’s a pretty much stable file. If most of the project contains files that are currently being modified it means that the developers have a lot of file to maintain. In the opposite case, it means that the developers just have to focus on a few files which is a sign of good maintainability.
 
 #### Code coverage
 
@@ -158,7 +158,7 @@ This report allows us to know the code coverage of each project, a metric we nee
 
 #### Sonar
 
-We scanned each project with SonarQube. Sonar allowed us to get the general quality of the code. Like JaCoCo, the reports generated are the same for each projects, which allows us to compare the projects easily. To be able to scan with SonarQube a project, one needs to add a file calledsonar-project.propertiesto a project. The file we used for all our project is the following :
+We scanned each project with SonarQube. Sonar allowed us to get the general quality of the code. Like JaCoCo, the reports generated are the same for each projects, which allows us to compare the projects easily. To be able to scan with SonarQube a project, one needs to add a file called _sonar-project.properties_ to a project. The file we used for all our project is the following :
 
 ```
 sonar.java.source=1.8
@@ -297,7 +297,7 @@ As expected, using a Test-Last method implies to have more fixes \(and so, have 
 
 Figure 14 : Stability of files
 
-The first four are TDD projects and others are TL projects. GSON is a TL project made by Google, this statistic shows that each file has been edited approximately 17 time \(in average\). We know there is a correlation between the number of revisions and the number of bugs proven by many researchers \(Thomas Zimmermann studied it in its researches: [https://goo.gl/eNVqAK](https://goo.gl/eNVqAK)\). So it seems that GSON, based on this metric, isn’t a clean project.
+The first four are TDD projects and others are TL projects. GSON is a TL project made by Google, this statistic shows that each file has been edited approximately 17 time \(in average\). We know there is a correlation between the number of revisions and the number of bugs proven by many researchers \(Thomas Zimmermann studied it in its researches : [https://goo.gl/eNVqAK](https://goo.gl/eNVqAK)\). So it seems that GSON, based on this metric, isn’t a clean project.
 
 Globally, TL projects are less stable \(more often edited\) than TDD projects and consequently more subjects to bugs.
 
@@ -307,7 +307,7 @@ Figure 15 : Stability and Test Coverage \(TDD compared to TL\)
 
 This graphic shows three important metrics. Globally, we can see that files in TDD projects are more stable and, consequently, less exposed to bugs. However it is interesting to see that the mean of TDD test coverage is under the mean of TL test coverage projects. Using the TDD method doesn’t mean to have more test, it is just a method where you have to write tests before the code.
 
-Visualizing the SoftVis3D representations, where the base is the cyclomatic complexity, the color is the number of sonar issues and the height the number of code duplication, it appears that projects using TDD have a lower cyclomatic complexity than TL projects, which is what we expected. This results may be a consequence of the process explained by Kent Beck \[ref\] during a TDD project :
+Visualizing the SoftVis3D representations, where the base is the cyclomatic complexity, the color is the number of sonar issues and the height the number of code duplication, it appears that projects using TDD have a lower cyclomatic complexity than TL projects, which is what we expected. This results may be a consequence of the process explained by Kent Beck during a TDD project :
 
 > The two rules imply an order to the tasks of programming:
 >
@@ -323,7 +323,7 @@ The refactor phase happens after every task during TDD, so developers are probab
 
 In our study, we investigated the impacts of Test-Driven Development on code quality and code coverage compared to projects following the Test-Last method. We analysed seven projects of similar size to evaluate these impacts. The results that we analysed shows that the TDD projects have an overall complexity and code quality better than TL projects, according to our expectations. However, the results gathered about code coverage are not matching our expectations. Half of the TDD projects have a code coverage lower than 60% and all the TL projects have a coverage higher than 80%.
 
-As we analysed just a few projects without a precisely defined context, we cannot generalize the results obtained beyond our scope. Still we can see that our results about code quality are similar to the ones of the study made by Bhat and Nagappan \[ref\] who also studied the impacts of TDD on development time \(which is not part of our scope\). So we hope that this study will contribute to the research in this field, especially about the confidence on the impacts on code quality while using the Test-Driven Development method.
+As we analysed just a few projects without a precisely defined context, we cannot generalize the results obtained beyond our scope. Still we can see that our results about code quality are similar to the ones of the study made by Bhat and Nagappan who also studied the impacts of TDD on development time \(which is not part of our scope\). So we hope that this study will contribute to the research in this field, especially about the confidence on the impacts on code quality while using the Test-Driven Development method.
 
 ## References
 
