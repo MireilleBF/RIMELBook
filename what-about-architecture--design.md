@@ -51,8 +51,6 @@ To get more insight into the sql generation, we explored a little bit the classe
 
 Figure : SQL generation logic
 
-&lt;center&gt;Centered text&lt;/center&gt;
-
 this is how it goes, we go through the DbContext \(which is the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
 
 ## **How **does **Entity Framework and Hibernate manage caching? **Are there any major differences?
@@ -92,4 +90,16 @@ Entity Framework provides caching but only first level one, since the stateManag
 ![](/assets/Caching.png)Figure : Calls to first level cache
 
 when we try to fetch entity by identity key from the DbContext, the stateManager has an instance of IdentityMap, this class has basically a property which is a Dictionary that maps keys to entities, the entity is being fetched from there if already cached
+
+## Conclusion
+
+Our goal was to see to what extent can we  use static analysis to compare hibernate and Entity Framework, this was relatively easy or hard depending on various factors: the feature in question \(dialects vs caching\), the product \(entity framework vs hibernate\) ...
+
+In general it is extremely hard to extract feature related information from the code, a lot of the work is rather manual, but despite the difficulty we managed to find some fundamental differences between the framework 
+
+
+
+
+
+
 
