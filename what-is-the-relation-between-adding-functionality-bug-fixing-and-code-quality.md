@@ -1,6 +1,6 @@
-# What is the relation between adding functionality, bug fixing, and code quality ?
+# _What is the relation between adding functionality, bug fixing, and code quality ?_
 
-## **authors**
+## _**authors**_
 
 BELHASSEN Issam
 
@@ -10,21 +10,21 @@ DESTORS Max
 
 MOULAYEELY Bezeid
 
-## Abstract
+## _Abstract_
 
 In this question we will try to highlight any relation between adding functionality, bug fixing, and degradation or improvement of code quality. We hope to highlight an overall trend in the quality of the code over time.
 
 The idea is that we take several criteria on the quality of the code that we are going to determine and we look at the evolution over time.We are looking for a correlation between the addition of functionalities or the correction of bugs and the quality of the code and looks at several curves if the evolution of the quality corresponds or not to the correction of bugs or the addition of functionalities, etc.
 
-## Problematic
+## _Problematic_
 
 The importance of our question comes from the relation between the code changes and its quality,we are trying to verify the rumors that say there  is a perception that when new features are added to a system that those added and modified parts of the  source-code are more fault prone. Many have argued that new code and new features are defect prone due to immaturity, lack of testing, as well unstable requirements also we find that frequently changed code is often buggy.
 
 But are these beliefs well-founded?Is there evidence to support the belief that bug fixes, additions, and feature enhancements can increase or abbreviate code quality?
 
-## Context and hypotheses
+## _Context and hypotheses_
 
-### Context
+### _Context_
 
 It is always annoying to see the progress of a project slow down, either because of the frequent occurrence of bugs or because of the degradation of code quality, which makes development much more complicated.
 
@@ -34,7 +34,7 @@ It is precisely this question that we have chosen to answer. While we know that 
 
 To do this we chose to base ourselves on the Scala project which is an open source project available on Github with a public ticket manager under Jira. It has a lot of the information we need but like all Open Source projects it suffers from a lack of compliance and rule, especially in commit messages. We will detail are point later.
 
-### Hypotheses
+### _Hypotheses_
 
 To answer this question we need a project that gives us access to a Git repository and to its ticket manager. In our case, we opted for an open source project under Github and Jira. But the process described and valid for all projects with a Git directory and a ticket manager. The tools and scripts developed are based on the Github and Jira APIs.
 
@@ -50,7 +50,7 @@ To be certain that the process described here works effortlessly to provide, it 
 * Tickets describing a Pull Requests must have the tag "has-pull-request" and have the Pull Request link in a comment.
 * Commits must include a ticket or Pull Request number in their message.
 
-## Target project
+## _Target project_
 
 Let's make a statement of what we have. So we have a Project, Scala, which has a Github with a core of contributors and external contributors. The project also has a Jira on which you will find all the tasks related to a version. Tickets can be of 3 types only:
 
@@ -64,13 +64,13 @@ External contributors are required to create Pull Requests to contribute to the 
 
 There are currently 26,000 commits and we initially chose to focus on versions ranging from 2.10.x to 2.12.x, or nearly 3600 Jira tasks.
 
-## Process
+## _Process_
 
 In order to answer this question we have put in place a process which allows to extract different metrics which will allow to put forward any correlation between the different nature of modification and the evolution of the quality of the code.
 
 We will first have to make the link between the commits and the tickets to which they respond, which allows us to have a link between the commit \(and thus the code\) and a nature of modification. Then for each commit a differential analysis between this commit and the commit directly preceding it will be launched with Sonar. This will give us a collection of differential analysis for each nature of modifications, then we can get out of the value by doing various statistical processing \(average, standard deviation, variance ...\).
 
-### Link between Code and Jira
+### _Link between Code and Jira_
 
 The first step in our process will be to link the commits to the 3600 tickets we are interested in. The information we will need for the rest of the process is the list of commits for each type of ticket and for each version. A commit will be represented only by its SHA and the previous commit's \("parent"\) SHA which is the information to retrieve the commit from Git for analysis.
 
@@ -82,7 +82,7 @@ So we have at this moment a list of versions with each having three list of tick
 
 We gathered and coupled the information necessary to be able to analyze the code by the Sonar tool and to correlate the results with the information already obtained, that is to say the types of ticket.
 
-### Launch sonar analysis
+### _Launch sonar analysis_
 
 With the output of the first script, we compute a list of Pull Requests with some data. At this stage a PR do have a key, which is an identifier, a version, the linked version of the project, a type, the type of modification given by the linked ticket and the two SHA of the linked commits. The Parent commit, which is the commit just before the merge of the pull request, and the Merge commit that apply all the modifications done by the pull request.
 
@@ -92,7 +92,7 @@ A scanner of the projet takes about 1 minute and a half but the SonarQube must t
 
 At the end of this script we write in a file the PRs that have been scanned in a json file used by the next Script.
 
-### Gather Sonar data using the web API
+### _Gather Sonar data using the web API_
 
 In this script we first get the PRs scanned using the json file of the previous script. Then we do many calls to the SonarQube web API to gather number of new Sonar Issues, the number of Closed Sonar issues and the current total number of Sonar Issues \(after PR modification\).
 
@@ -100,7 +100,7 @@ Those three calls are done 5 times, one for each severity level \(INFO, MINOR, M
 
 All this data is stored in a json output and a csv output. The json contains all the data gathered through all scripts. And the Csv only have the data we will use for graphic and data interpretation. Which is, for each line, the PR key identifier, the type of modification, the verion of the project, the severity of sonar issues, the number added Sonar issues, the number of removed sonar issues, and the current total number of issues.
 
-## Problems
+## _Problems_
 
 We encountered many problems in the process. One of the first was the lack of consistency in commit messages. This problem is probably related to the open source aspect of the project but it had a significant impact on the results obtained, in the end among the 3600 selected tickets we succeeded in finding the commit link in only 40% of the cases, which can Greatly distort the results and amputates us from much of our test data.
 
@@ -108,7 +108,7 @@ The second problem is related to the Sonar analysis of the commit. Our process, 
 
 And finally, we realized a little late, that the Scala project benefited from a regular Sonar analysis. This introduces a variable whose effects it is impossible to predict on our test set.
 
-## Results
+## _Results_
 
 Unfortunately, we have no interesting results. The problem posed is not in question, but rather the slowness of the process and the project chosen.
 
@@ -116,7 +116,7 @@ The project seemed to match our criteria: Open Source, with a ticket manager and
 
 The process is also involved, we not in its run but in its current execution time which is about 3-4 minutes for each couple of commit. It is a correctible defect, but unfortunately we did not have time.
 
-## Evolution
+## _Evolution_
 
 We realized that the process we put in place could answer a lot of other questions with relatively few changes.
 
@@ -131,7 +131,7 @@ Indeed by modifying the selection criteria of the commits which is today the dif
 
 And we could answer all these issues relatively simply by smaller modification of the process.
 
-## Tools used
+## _Tools used_
 
 -github
 
@@ -139,7 +139,7 @@ And we could answer all these issues relatively simply by smaller modification o
 
 -sonar
 
-### Sonar
+### _Sonar_
 
 In order to be able to evaluate a code we will analyze it to know the quality and evolution in time of the code. For this we ill use Sonar.
 
@@ -156,7 +156,7 @@ The sonar tool will allow us to :
 * For projects where there are unit tests, sonar allows us to have a qualitative measure of coverage and success rate of tests
 * A history to see the evolution over time
 
-## References
+## _References_
 
 \[0\] Meir M. Lehman - Programs, Life Cycles, and Laws of Software Evolution - [http://www.ifi.uzh.ch/seal/teaching/courses/archive/FS13/SWEvo13/lehman-IEEE-80.pdf](http://www.ifi.uzh.ch/seal/teaching/courses/archive/FS13/SWEvo13/lehman-IEEE-80.pdf)  - 1980
 
