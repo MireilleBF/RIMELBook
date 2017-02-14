@@ -37,9 +37,13 @@ Figure : generated UML for Dialect package
 
 As we can see, each new version extends the older one, to alter its behavior or to add something new.
 
-what about entity ?
+what about Entity Framework ?
+
+on Entity Framework side, SQL Server is the mantra, EF supports it and nothing else, there's some some connectors to use postgresql with EF but nothing official, this picture gives us the whole picture on how SQL Server Dialect is handled :
 
 ![](/assets/AST.png)
+
+this is how it goes, we go through the DbContext \(which the equivalent of session on hibernate side\),  calling a fetch method, the fetch method targets the cache, we have then a cache default, the id of the class of the entity and its id are delegated to the Linq which is an internal SQL DSL \(Domain Specific Language\), it builds the SQL query using the entity type and its id, the LinqAST parser parses the AST generating SQL Server compliant query and send it to the database.
 
 ## **How **does **Entity Framework and Hibernate manage caching? **Are there any major differences?
 
