@@ -122,6 +122,27 @@ The first thing we did was configuring the JaCoCo \(Java code coverage\) for eac
 
 JaCoCo is a free code coverage library for Java. The advantage of using JaCoCo was the uniformity of generated reports, and its compatibility with Maven and Gradle. All of our studied projects use either Maven or Gradle. We configured the plugin for each project.
 
+```
+<plugin>
+   <groupId>org.jacoco</groupId>
+   <artifactId>jacoco-maven-plugin</artifactId>
+   <version>0.7.5.201505241946</version>
+   <executions>
+       <execution>
+           <goals>
+               <goal>prepare-agent</goal>
+           </goals>
+       </execution>
+       <execution>
+           <id>report</id>
+           <phase>prepare-package</phase>
+           <goals>
+               <goal>report</goal>
+           </goals>
+           </execution>
+   </executions>
+</plugin>
+```
 
 
 ### Articles
