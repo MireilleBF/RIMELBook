@@ -24,6 +24,14 @@ Expectations:
 
 We expect to find the same team than the one extract from the other team \(the real team\) because they are paid to develop : they should have the most ownership from all the contributors \(they produced more code because they spent their workdays on the project\). We also expect to always have someone that stands out, the one that work on each component to link them to each other, the one that have the most hindsight on a project : the team leader.
 
+## References
+
+* N. Nagappan, B. Murphy, and V. Basili. [The Influence of Organizational Structure on Software Quality](https://www.cs.umd.edu/~basili/publications/proceedings/P125.pdf). International Conference on Software Engineering, Proceedings.
+
+* M. D’Ambros, M. Lanza, and H Gall. Fractal Figures: [Visualizing Development Effort for CVS Entities. Visualizing Software for Understanding and Analysis](http://www.inf.usi.ch/faculty/lanza/Downloads/DAmb05b.pdf), 2005. VISSOFT 2005. 3rd IEEE International Workshop on.
+
+* Conway, Melvin E. \(April 1968\), ["How do Committees Invent?"](http://www.melconway.com/Home/Committees_Paper.html), [Datamation](https://en.wikipedia.org/wiki/Datamation), 14 \(5\): 28–31, retrieved 2015-04-10
+
 ## Results
 
 Using those methodologies we extracted data from nine repositories which are part of the Spring organisations. These project aren’t chosen at random but are the one for which the other contributing team have the most data on. First of all, here are some numbers about the raw data we have extracted:
@@ -40,19 +48,19 @@ Here are some captures of what the team graph linked to component looks like
 
 ![](https://lh4.googleusercontent.com/qJphyZtNzGPipjY-0zc18lxnzcohtXZAxzxvrykG4kfmvpuvw_dpXVBZlljyN4xo3QPR5KWGuTNCPxk3MuuooGPvljD5lanu4adSV77mqk8Or45LqmYFiLnLotrSLn879RqevW_b "graph-spring-framework.png")
 
-Graph of spring-framework
+**Graph of spring-framework**
 
 We can see that on spring-framework we have a lot of component and a set of same main contributors to each of it.
 
 ![](https://lh6.googleusercontent.com/BEuw9hjnZGykRRFEPzSuyRsf0jzGGLQkuNqGNJMo960u-dVzGNP-33NFl-vke96-7mC0EZmjKvxRrzWpCqpNU_rKMxdzILAX0vMWCkpMhMQe03tNzG2eXAIINN0_nFb_hiM-7A1T "graph-spring-batch.png")
 
-Graph of spring-batch
+**Graph of spring-batch**
 
 Here, we have fewer components \(8\) but a large amount of main contributors \(26 persons\)
 
 ![](https://lh4.googleusercontent.com/E6Y4auUjgnDqapz02DMsWPjhboQB0VgokErJ-msrsu0c_sYBFv_Zem8ItLoZd0RMGtAO33szmoZUNkI3YLDqLtUyORfLUiQZrcsQKEILL9cOo7RmI_O8x4T-OZyOUl-K2vozbTvR "graph-spring-retry.png")
 
-Graph of spring-retry
+**Graph of spring-retry**
 
 Spring-retry contains only a few components \(3\) and only 12 contributors. It’s really few comparing to the two previous graph.
 
