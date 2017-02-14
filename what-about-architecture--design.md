@@ -95,11 +95,7 @@ when we try to fetch entity by identity key from the DbContext, the stateManager
 
 Our goal was to see to what extent can we  use static analysis to compare hibernate and Entity Framework, this was relatively easy or hard depending on various factors: the feature in question \(dialects vs caching\), the product \(entity framework vs hibernate\) ...
 
-In general it is extremely hard to extract feature related information from the code, a lot of the work is rather manual, but despite the difficulty we managed to find some fundamental differences between the framework 
+In general it is extremely hard to extract feature related information from the code, a lot of the work is rather manual, but despite the difficulty we managed to find some fundamental differences between the framework
 
-
-
-
-
-
+Static analysis can be useful as an entry point to do analysis, it gives a broad idea about the feature in question, but to go in depth, one has no choice but to resort to reading the code 
 
