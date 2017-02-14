@@ -32,13 +32,27 @@ in the extractor tool you can:
 
 * View the correlation between project and location
 
+### Locations_:_
+
+In the Spring.io website we can retrieve informations about developpers position. A project where all members work in the same building is different from a project where members can be scattered around the world. The consequences of huge separation may be a lack of communication due to jet lag, language or culture and it can have an impact productivity in a negative way.
+
+We were able to recover the latitude and longitude of each developer and thanks to the Google Map's GeoCode API we were able to retrieve geographical informations allowing to aggregate this data and to know the number of developer by country. \(in a donut chart\)
+
 So, to extract all the team on rimel.dobl.fr, just click on this button
 
-![](https://lh3.googleusercontent.com/OdO1j2Grncj3-haBsTvY_GYNPa8vEAbDX_w6yoI3JEu_IAEXDr2wGnMijeWiZUIZbf9fnYAEypbw-51c55qQAvbyiwn77EKLaPXb8xn58zJEDf8b544K1ET41ISn1-7BHv7LtflZ)
+### Team projects:
 
-Then, all charts just appear below.
+By analyzing the terms of each job description, we were able to group them and thus know the number of developer in each functional module \(company's way\)
 
-At the top of the page, a table and a map, showing all the contributors retrieved from the spring page.
+So in details :
+
+For each job description we have retrieved words separated by spaces, removed unnecessary terms like punctuation and link words and removed the term Spring \(because it does not have any specific meaning, every developer is at Spring\)
+
+Then we counted the occurrences of each word \(after having standardized their case\), and have weighted by several functions \(log, square or n, available in the settings the size of display of the word according to its number of occurrences\).
+
+### Let's go ! :
+
+Then, all charts just appear below. At the top of the page, a table and a map, showing all the contributors retrieved from the spring page.
 
 For each, we got :
 
@@ -54,9 +68,7 @@ For each, we got :
 
 ![](https://lh4.googleusercontent.com/XNjBt__q7qyj2oQRQYYQsms_j9f7t-jVGKYJvlooLSFkktaPU6FK_I-7hSyUkIaw-exooBIXBSD3bh0TwmlFNbzxqATB3VdD4UY3c1ttVibe0DtK41Tk_P2HYwgcTVVc859mSeEq)
 
-So we decided to made a words analysis on the terms found on the description of each collaborator.
-
-We create a cloud a word, where the bigger word is the most present word in all the positions.
+So we decided to made a words analysis on the terms found on the description of each collaborator. We create a cloud a word, where the bigger word is the most present word in all the positions.
 
 Interest of the words cloud :
 
@@ -65,9 +77,6 @@ Interest of the words cloud :
 * Word clouds can allow you to share back results from research in a way that doesn’t require an understanding of the technicalities.
 
 ![](https://lh3.googleusercontent.com/WcFoXPkRVInDtJSBld6hQYLIEi4hhcfSrJAEFkYFitvlOI1jWblhZ1LVUVq80y-Zaf9AQeDqbDFygNaTOuMvKDWnrcsb45oGkm5VlD75hNJ9MtlKgOrWGThWLqMJdlwQOlzBw_hz)
-
-    
-
 
 Then we tried to find similarities between collaborators in order to find the work relationship between them and then constitute the teams. But the position’s description are too blurred and two collaborator working in the same team describe their work so differently that we can’t find similarities.
 
