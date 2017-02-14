@@ -143,8 +143,6 @@ And we could answer all these issues relatively simply by smaller modification o
 
 In order to be able to evaluate a code we will analyze it to know the quality and evolution in time of the code. For this we ill use Sonar.
 
-![](/assets/sonar.PNG)
-
 Sonar is an open source tool that supports the development and support of Sonar.
 
 The main purpose of this tool is to provide a complete analysis of the quality of an application by providing numerous statistics \(or metrics\).
@@ -164,7 +162,7 @@ The sonar tool will allow us to :
 
 \[1\] Lehman, M. M.; J. F. Ramil; P. D. Wernick; D. E. Perry; W. M. Turski - Metrics and laws of software evolution—the nineties view [http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf](http://users.ece.utexas.edu/~perry/work/papers/feast1.pdf)  -  1997
 
- The evolution of the laws of software evolution. A discussion based on a systematic literature review 
+The evolution of the laws of software evolution. A discussion based on a systematic literature review
 
 [Herraiz I, Rodriguez D, Robles G, Gonzalez-Barahona JM \(2013\) The Evolution of the Laws of Software Evolution: A Discussion Based on a Systematic Literature Review. ACM Comput Surv 46:28:1--28:28.](http://www.cc.uah.es/drg/jif/2013HerraizRRG_CSUR.pdf)
 
