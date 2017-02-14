@@ -77,5 +77,15 @@ Granted, the analysis of caching is more manual that it is static, but we learne
 
 What about Entity Framework ?
 
-![](blob:file:///7ff295cb-f130-407d-8404-28dcc79ba115)
+Entity Framework provides caching but only first level one, since the stateManager is specific to DbContext \(but we don't have specific one on the DbContextFactory level\), so a DbContext caches only entities that it fetched so it cannot see entities cached by another instance of DbContext, let's see how it works :
+
+
+
+![](/assets/Caching.png)
+
+
+
+
+
+when we try to fetch entity by identity key from the DbContext, the stateManager has an instance of IdentityMap, this class has basically a property which is a Dictionary that maps keys to entities, the entity is being fetched from there if already cached
 
