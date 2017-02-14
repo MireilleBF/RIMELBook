@@ -2,46 +2,27 @@
 
 ## Introduction
 
-In this chapter, it will be discussed "_how can video games \(and more generally, software\) be modular thanks to the addition of 'mods' or 'plugins' ?_". This can be the wish of the development team, or driven by the community playing the video game \(or using the software\).
+In this chapter, it will be discussed "_how can a community drive the developpement of a software \(in our case a video game and 3d engine\) or at least some features? _". This can be the achieved by the development team, or driven by the community playing the video game \(or using the software\).
 
 _**Questions :**_
 
 * How can a community impact the development of some features ?
-* How can the addition of mod impact the architecture ?
+* How long does it take from the idea to the first realisation ?
 
 With these questions, we hope to retrieve and measure some information like :
 
-* the mean time between two major updates and the number of line of code implied
-* the number of user requests before a major update
+* the mean time between a demand and a commit
+* the number of user implied in the community 
 
 _**Projects to study :**_
 
-* [Terasology](https://github.com/MovingBlocks/Terasology)
-* [Intellij Idea Community](https://github.com/JetBrains/intellij-community)
+* [Terasology](https://github.com/MovingBlocks/Terasology) : Terasology is, in the first place, a clone of the well known game Minecraft. Now it is more like a 3D engine that you can use to make your own game.
 
 _**Methodology :**_
 
-* Analyze connection between component and plugin interface system.
-* Deduce if there is a strong connection or a loosely one.
+* Analyse the community.
+* Analyse the Git repository.
 * Attempt to find every pull request involving change in plugin interface system.
-
-_**References used:**_
-
-* _N/A_
-
-_**Tools used:**_
-
-* [Github API](https://developer.github.com/v3/)
-* [Diggit](https://github.com/jrfaller/diggit)
-
-_**Distribution of Work:**_
-
-* MANNOCCI Adrien \(M2\)
-* SARROCHE Nicolas \(SI5\)
-
-_**Articles:**_
-
-* Software modularity :  [Investigating software modularity using class and module level metrics M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
 
 ## Analysis
 
@@ -73,19 +54,7 @@ We were able to extract,  display the files per commits over the last two years.
 
 ![](/assets/screen_kibana.png)
 
-_**Major difficulties:**_
 
-We encountered major difficulties in term of documentation. We didn't find anything on the subject.
-
-Therefore, searching tools has also be a pain because there are too few researches about it.
-
-_**Tools used:**_
-
-We first thouugh of using Diggit but we realized that this tools wasn't fullfilling our needs : we don't know Ruby, and the possibilities are too limitied for our purpose. So we use homemade scripts and the ELK stack where we mainly use Elasticsearch  and Kibana.
-
-* Github API
-* Scripts
-* ELK
 
 _**New Methodology:**_
 
@@ -116,6 +85,35 @@ To summarize, our elasticsearch now contains :
 * All github issues
 * All github pull requests
 * All forum messages
+
+_**Major difficulties:**_
+
+We encountered major difficulties in term of documentation. We didn't find anything on the subject.
+
+Therefore, searching tools has also be a pain because there are too few researches about it.
+
+_**Tools used:**_
+
+We first thouugh of using Diggit but we realized that this tools wasn't fullfilling our needs : we don't know Ruby, and the possibilities are too limitied for our purpose. So we use homemade scripts and the ELK stack where we mainly use Elasticsearch  and Kibana. We also implemented our own crawler for the forum.
+
+* [Github API](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
+
+* Scripts
+
+* Homemade Crawler
+
+* ELK
+
+_**References used:**_
+
+* Software modularity :  [Investigating software modularity using class and module level metrics M English, J Buckley, JJ Collins - Software Quality Assurance: In …, 2015 - books.google.com](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
+
+
+
+_**Distribution of Work:**_
+
+* MANNOCCI Adrien \(M2\)
+* SARROCHE Nicolas \(SI5\)
 
 
 
