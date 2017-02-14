@@ -34,6 +34,10 @@ Other concepts linked to the TDD method, like emerging software architecture, ar
 
 The projects studied here are either TDD or TL but how can we now the development method used in a project ? To choose the projects, we do not have an automated tool capable of detecting the development method used. We rely on the project team and the developer community. Developing following the test-driven method is not a common choice, so usually the project team clearly state that the project is test-driven. In addition to this, we also checked manually if the commits of the TDD projects seems to follow the pattern test first, then code. But this is just a partial verification, the best would be a tool analysing the commits and finding this pattern.
 
+### Expectations
+
+As Test-Driven Development is really driven by the tests, we expect TDD projects to have a high code coverage, of at least 80% and higher than TL projects. This method involve an important refactoring phase, so cleaning the code is an important part of it. Because of this, we expect a better code quality but also more commits about refactoring and less about fixing or patching bugs.
+
 ### Projects Studied
 
 In order to find a concrete answer, we had to find many projects built using a TDD approach and of at least thousands of commits:
