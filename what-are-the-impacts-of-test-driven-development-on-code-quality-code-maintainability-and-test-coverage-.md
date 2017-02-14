@@ -34,10 +34,6 @@ Other concepts linked to the TDD method, like emerging software architecture, ar
 
 The projects studied here are either TDD or TL but how can we now the development method used in a project ? To choose the projects, we do not have an automated tool capable of detecting the development method used. We rely on the project team and the developer community. Developing following the test-driven method is not a common choice, so usually the project team clearly state that the project is test-driven. In addition to this, we also checked manually if the commits of the TDD projects seems to follow the pattern test first, then code. But this is just a partial verification, the best would be a tool analysing the commits and finding this pattern.
 
-### Expectations
-
-As Test-Driven Development is really driven by the tests, we expect TDD projects to have a high code coverage, of at least 80% and higher than TL projects. This method involve an important refactoring phase, so cleaning the code is an important part of it. Because of this, we expect a better code quality but also more commits about refactoring and less about fixing or patching bugs.
-
 ### Projects Studied
 
 In order to find a concrete answer, we had to find many projects built using a TDD approach and of at least thousands of commits:
@@ -68,7 +64,33 @@ We compared TDD method projects with TL method projects based on:
 * Number of lines added per commit or per week
 * Number of commits per week
 
-### Contribution
+### Expectations
+
+As Test-Driven Development is really driven by the tests, we expect TDD projects to have a high code coverage, of at least 80% and higher than TL projects. This method involve an important refactoring phase, so cleaning the code is an important part of it. Because of this, we expect a better code quality but also more commits about refactoring and less about fixing or patching bugs.
+
+## Project Evaluation
+
+The previous section described our research context, our goal and the red string for our project. In this section we present how to evaluate those project samples \(i.e, in what and how we are evaluating those projects\).
+
+### Metrics, a way to evaluate projects
+
+In order to answer our three sub-questions we used many metrics. All of our TDD and Test-Last projects are evaluated using the same metrics to compare them.
+
+#### Code age
+
+The code age measures in month the last time a file has been modified. Because some of the projects are older than others, the real metric measured here is the average code age of each file relative to the project age. For example if a file hasn’t been modified for 10 months and the project is 12 month old, we can say it’s a pretty much stable file. If most of the project contains files that are currently being modified it means that the developers have a lot of file to maintain. In the opposite case, it means that the developers just have to focus on a few files which is a sign of good maintainability.
+
+#### Code coverage
+
+The code coverage measures how much of a project has been tested.
+
+#### Cyclomatic complexity
+
+The cyclomatic complexity measures the number of paths through a function. Ideally there should be at least as much unit test as the cyclomatic complexity which should be as little as possible.
+
+#### Code smells
+
+Code smells are issues detected in the source code that can lead to a deeper problem. For example, Duplicated code, long methods and large class are code smells. The more code smells spotted in the source code, the more likely the project to be difficult to maintain.
 
 ### Articles
 
