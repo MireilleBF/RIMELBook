@@ -102,17 +102,29 @@ _Figure 3 : A more fined grain distribution of users in the forum._
 
 Here we can see that the distribution is a little bit more homogeneous. These people  \(up to 4%\) are quite active in the Terasology community.
 
-We then tried to know what were the principle discussions on the forum, by taking a look at this cloud words \(containing some of the main subject's title\) :
+We then tried to know what were the principle discussions on the forum, by taking a look at this wordcloud \(containing some of the main subject's title\) :
 
 ![](/assets/words.png)
 
 _Figure 4 : Main words used as title in the forum._
+
+We then decided to take a look at the git contributor in order to find an overlap with the people on the forum. And came out withh this graph :
+
+![](/assets/contributors.png)
+
+_Figure 5 : The distribution of contributors._
+
+We were facing a new problem : naming. While some person give their name both on Git and on the forum, most of the users have different name on both plateform. For instance "Rasmus Praestholm" is the "Cervator" named above. Here again, we had no automatic way to link the person on the forum with the person on Git. Therefore we did it manually.
+
+Then, we decided to take a look a the commits to see if we could find some commit name linked to the wordcloud just above.
 
 _**Major difficulties:**_
 
 We encountered major difficulties in term of documentation. We didn't find anything on the subject.
 
 Therefore, searching tools has also be a pain because there are too few researches about it.
+
+Language as also be complicated. While in the forum everybody use a natural language \(English most of the time\), the issues and the pull requests reference to the code itself so it was impossible to find an automatic way to match the natural language and the code.
 
 _**Tools used:**_
 
