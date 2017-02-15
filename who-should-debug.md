@@ -1,7 +1,5 @@
 # Who should debug ?
 
-## **auteurs**
-
 ## Problematic
 
 ![](/assets/RIMEL_IntroBis.jpg)

@@ -3,10 +3,6 @@
 * [Preface](README.md)
 * [Introduction](Introduction.md)
 * [Who should debug?](who-should-debug.md)
-* [How do developer introduce themselves to open source projects and correct bugs in them ?](how-do-developer-introduce-themselves-to-open-source-projects-and-correct-bugs-in-them-.md)
-  * [How do developers contribute to each others bug corrections?](how-do-developers-contribute-to-each-others-bug-corrections.md)
-  * [Does bug correction add complexity to the code when it isn't done by the former developer?](does-bug-correction-add-complexity-to-the-code-when-it-isnt-done-by-the-former-developer.md)
-  * [How long do bugs remain in open-source codes?](how-long-do-bugs-remain-in-open-source-codes.md)
 * [Analysis of a large-scale multi-language](node.md)
 * [Is Conway's law valid for an open source project?](what-is-the-impact-of-the-structure-teams-organisation-on-the-code-and-vice-versa-.md)
   * [What Conway's law is talking about ?](verify-the-suitability-between-the-ideal-teams-and-those-extracted-from-the-project-documentation.md)
@@ -18,6 +14,4 @@
   * [What about Architecture & Design](what-about-architecture--design.md)
 * [What is the relation between adding functionality, bug fixing, and code quality](what-is-the-relation-between-adding-functionality-bug-fixing-and-code-quality.md)
 * [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
-* [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
-* [Who should debug?](who-should-debug.md)
 
