@@ -14,7 +14,7 @@
 * VI. [How to do feature-driven comparisons ? application to ORMs](how-modern-orms-are-developed-nowadays-in-term-of-organization-architecture-and-design-.md) 
   * i. [What about Organization](what-about-organization.md)  
   * ii. [What about Architecture & Design](what-about-architecture--design.md)
-* VII. [Analysis of a large-scale multi-language](node.md)
+* VII. [Analysis of a large-scale multi-languages](node.md)
 
 
 
