@@ -10,11 +10,11 @@
   * ii. [Extract the real team](final-version-what-about-the-team-structure.md)     
   * iii. [How to create the perfect team considering the actual code base](o.md)?     
   * iv. [Results of our two teams](a.md)
-* V. [How can user request impact modular architectures ?](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
+* V. [How can user request impact modular architectures ?](how-can-user-request-impact-modular-architectures-.md)
 * VI. [How to do feature-driven comparisons ? application to ORMs](how-modern-orms-are-developed-nowadays-in-term-of-organization-architecture-and-design-.md) 
   * i. [What about Organization](what-about-organization.md)  
   * ii. [What about Architecture & Design](what-about-architecture--design.md)
-* VII. [Analysis of a large-scale multi-language](https://www.gitbook.com/book/mireillebf/uca-students-on-software-maintenance/edit#)
+* VII. [Analysis of a large-scale multi-language](node.md)
 
 
 
