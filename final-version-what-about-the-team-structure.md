@@ -12,7 +12,7 @@ There is an abstraction zone to not exceed, we are doing a top to bottom approac
 
 ## Extract the real team from the spring.io webpage about the major team \(most important collaborators\)
 
-First of all, we need to extract the team from the website project. To achieve this, we choose to develop our own extractor, in few word: given a webpage \(one extractor is write for one page\), we can by parsing the HTML tags and make analysis that catch the information needed. Then wegenerate some arrays and diagrams in order to evaluate the extracted organisations.
+First of all, we need to extract the team from the website project. To achieve this, we choose to develop our own extractor, in few word: given a webpage \(one extractor is written for one page\), we can by parsing the HTML tags and make analysis that catch the information needed. Then we generate some arrays and diagrams in order to evaluate the extracted organisations.
 
 ## How to do it
 
@@ -20,7 +20,7 @@ In the extractor tool you can:
 
 * Choose a project which reference a team \(e.g. [https://spring.io/team\](https://spring.io/team\)\)
 * See the list of team members
-* The Map will shows you their location
+* The Map will show you their location
 * The grid shows you their team position \(e.g. Developer\)
 * Sort by Name, Position, Location, Github name
 * View the most represented positions and locations
@@ -30,7 +30,7 @@ In the extractor tool you can:
 
 In the Spring.io website we can retrieve informations about developpers position. A project where all members work in the same building is different from a project where members can be scattered around the world. The consequences of huge separation may be a lack of communication due to jet lag, language or culture and it can have an impact productivity in a negative way.
 
-We were able to recover the latitude and longitude of each developer and thanks to the Google Map's GeoCode API we were able to retrieve geographical informations allowing to aggregate this data and to know the number of developer by country. \(in a donut chart\)
+We were able to recover the latitude and longitude of each developer and thanks to the Google Map's GeoCode API we were able to retrieve geographical informations allowing to aggregate this data and to know the number of developers by country. \(in a donut chart\)
 
 
 
