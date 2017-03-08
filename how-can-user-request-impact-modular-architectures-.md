@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this chapter, it will be discussed "_how can a community drive the developpement of a software \(in our case a video game and 3d engine\) or at least some features? _". This can be the achieved by the development team, or driven by the community playing the video game \(or using the software\).
+In this chapter, it will be discussed "_how can a community drive the developpement of a software \(in our case a video game and 3d engine\) or at least some features? _". This can be achieved by the development team, or driven by the community playing the video game \(or using the software\).
 
 _**Questions :**_
 
