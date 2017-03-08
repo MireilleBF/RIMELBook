@@ -22,7 +22,7 @@ Before answering the main question, we will give some organizational metrics in 
 
 * ### Contributors
 
-Below is the percentage of contributors per languag
+Below is the percentage of contributors per language
 
 ![](https://lh4.googleusercontent.com/MY0Xit7Z93aJTQamgyeNm2JK8UmYOo7ewZKfQ-srhS2SpQaxgxOIdhW8c3n2EW5WJ3OSyYdvEFG2c5ebri_vs9RmER8SoYz91ESP1kEIAOn8K7bxXMT7stRmrfMJL8B9uLsJXILC)
 
