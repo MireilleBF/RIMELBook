@@ -12,7 +12,7 @@ _**Questions :**_
 With these questions, we hope to retrieve and measure some information like :
 
 * the mean time between a demand and a commit
-* the number of user implied in the community 
+* the number of users implied in the community 
 
 _**Projects to study :**_
 
