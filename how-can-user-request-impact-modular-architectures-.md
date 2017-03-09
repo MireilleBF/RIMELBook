@@ -137,7 +137,7 @@ We came to the conclusion that this project was poorly driven by the community. 
 _**Major difficulties:**_
 
 We encountered major difficulties in term of documentation. Searching tools has also be a pain because there are too few researches about it.  
-Language as also be complicated. While in the forum everybody use a natural language \(English most of the time\), the issues and the pull requests reference to the code itself so it was impossible to find an automatic way to match the natural language and the code.
+Language has also be complicated. While in the forum everybody use a natural language \(English most of the time\), the issues and the pull requests reference to the code itself so it was impossible to find an automatic way to match the natural language and the code.
 
 _**Tools used:**_
 
