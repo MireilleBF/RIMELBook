@@ -12,21 +12,15 @@ We are four students in last year of Polytech' Nice-Sophia specialized in Softwa
 
 Nous vous demandons de poser et répondre à des questions à l’aide d’observations et d’expériences.
 
-
-
 **Les titres peuvent changer pour etre en adéquation avec votre étude**
 
 **de même il est possible de modifier la structure.**
 
 **Celle qui est proposée ici est là pour vous aider.**
 
-
-
-### Research context /Project 
+### Research context /Project
 
 Préciser ici votre contexte.
-
-
 
 ## II. Observations/General question
 
@@ -59,41 +53,25 @@ Préciser ici votre contexte.
 
 Préciser vos zones de recherches en fonction de votre projet, les articles ou documents utiles à votre projet
 
-## III. Hypothesis
+## III. Hypothesis & Experiences
 
-1. Il s'agit ici d'énoncer sous forme d' hypothèses ce que vous allez chercher à démontrer.
+1. Il s'agit ici d'énoncer sous forme d' hypothèses ce que vous allez chercher à démontrer. Vous devez définir vos hypothèses de façon à pouvoir les_ mesurer facilement._ Bien sûr, votre hypothèse devrait être construite de manière à v_ous aider à répondre à votre question initiale_.Explicitez ces différents points.
+2. Test de l’hypothèse par l’expérimentation.
+   1. Vos tests d’expérimentations permettent de vérifier si votre hypothèse est vraie ou fausse. 
+   2. Il est possible que vous deviez  répéter vos expérimentations pour vous assurer que les premiers résultats ne sont pas seulement un accident.
 
-1. Vous devez indiquer votre hypothèse d’une façon que vous pouvez mesurer facilement, et bien sûr, votre hypothèse devrait être construite de manière à vous aider à répondre à votre question initiale.
+1. Prenez garde à bien suivre les procédures d’une expérience, d’avoir un matériel fiable et qui convient aux expériences et respecter les marges de temps imposées par le sujet.
 
-2. Plus de variables sont intégrées, plus votre hypothèse sera précise et claire.
+1. Analyse des résultats & construction d’une conclusion
 
-1. Test de l’hypothèse par l’expérimentation
-
-2. 1. Lors des expérimentations, il est important de conserver des conditions identiques ou avec le maximum de facteurs.
-
-   2. Vos tests d’expérimentations permettent de vérifier si votre hypothèse est vraie ou fausse.
-
-   3. Il est important que votre expérience soit une épreuve juste. C’est-à-dire qu’elle doit prendre en compte le maximum ou la totalité des facteurs tout en décortiquant ces derniers un par un.
-
-   4. Chacun de ceux-ci doivent être enlevés ou ajoutés un par un pour que tout le reste ne soit pas « faussé ».
-
-   5. Vous devez également répéter vos expérimentations à plusieurs reprises pour s’assurer que les premiers résultats ne sont pas seulement un accident.
-
-   6. Prenez garde à bien suivre les procédures d’une expérience, d’avoir un matériel fiable et qui convient aux expériences et respecter les marges de temps imposées par le sujet.
-3. Analyse des résultats & construction d’une conclusion
-
-4. 1. Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse est tient la route. Les scientifiques constatent souvent que leur hypothèse était fausse, et dans ce cas, ils construisent une nouvelle hypothèse et reprennent la totalité de ce qu’ils ont fait et reviennent au début du processus de la Méthode Scientifique de nouveau.
+2. 1. Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse est tient la route. Les scientifiques constatent souvent que leur hypothèse était fausse, et dans ce cas, ils construisent une nouvelle hypothèse et reprennent la totalité de ce qu’ils ont fait et reviennent au début du processus de la Méthode Scientifique de nouveau.
 
    2. De même, s’ils trouvent que leur hypothèse était valide, ils recommencent bien souvent à la tester encore mais d’une manière nouvelle.
-5. Communication des résultats
+3. Communication des résultats
 
 Pour compléter votre projet, il faut maintenant communiquer vos résultats à d’autres dans un rapport final et/ou un tableau d’affichage.
 
 Les scientifiques professionnels font presque exactement la même chose en publiant leur rapport final dans une revue scientifique ou en présentant leurs résultats lors de réunions scientifiques.
 
-
-
-
-
-http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/
+[http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/](http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/)
 
