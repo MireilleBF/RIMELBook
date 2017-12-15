@@ -51,16 +51,17 @@ Préciser ici votre contexte.
 
 ## III. information gathering
 
-Préciser vos zones de recherches en fonction de votre projet, 
+Préciser vos zones de recherches en fonction de votre projet,
 
 1. les articles ou documents utiles à votre projet
 2. les outils
-3. 
+
 ## III. Hypothesis & Experiences
 
 1. Il s'agit ici d'énoncer sous forme d' hypothèses ce que vous allez chercher à démontrer. Vous devez définir vos hypothèses de façon à pouvoir les_ mesurer facilement._ Bien sûr, votre hypothèse devrait être construite de manière à v_ous aider à répondre à votre question initiale_.Explicitez ces différents points.
+
 2. Test de l’hypothèse par l’expérimentation.  
-   1. Vos tests d’expérimentations permettent de vérifier si vos hypothèses sont vraies ou fausses.   
+   1. Vos tests d’expérimentations permettent de vérifier si vos hypothèses sont vraies ou fausses.  
    2. Il est possible que vous deviez  répéter vos expérimentations pour vous assurer que les premiers résultats ne sont pas seulement un accident.
 
 3. Explicitez bien les outils utilisés et comment.
@@ -70,10 +71,6 @@ Préciser vos zones de recherches en fonction de votre projet,
 ## III. Result Analysis
 
 1. Analyse des résultats & construction d’une conclusion : Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse tient la route. 
-
-
-
-
 
 [http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/](http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/)
 
