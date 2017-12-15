@@ -51,27 +51,29 @@ Préciser ici votre contexte.
 
 ## III. information gathering
 
-Préciser vos zones de recherches en fonction de votre projet, les articles ou documents utiles à votre projet
+Préciser vos zones de recherches en fonction de votre projet, 
 
+1. les articles ou documents utiles à votre projet
+2. les outils
+3. 
 ## III. Hypothesis & Experiences
 
 1. Il s'agit ici d'énoncer sous forme d' hypothèses ce que vous allez chercher à démontrer. Vous devez définir vos hypothèses de façon à pouvoir les_ mesurer facilement._ Bien sûr, votre hypothèse devrait être construite de manière à v_ous aider à répondre à votre question initiale_.Explicitez ces différents points.
-2. Test de l’hypothèse par l’expérimentation.
-   1. Vos tests d’expérimentations permettent de vérifier si votre hypothèse est vraie ou fausse. 
+2. Test de l’hypothèse par l’expérimentation.  
+   1. Vos tests d’expérimentations permettent de vérifier si vos hypothèses sont vraies ou fausses.   
    2. Il est possible que vous deviez  répéter vos expérimentations pour vous assurer que les premiers résultats ne sont pas seulement un accident.
 
-1. Prenez garde à bien suivre les procédures d’une expérience, d’avoir un matériel fiable et qui convient aux expériences et respecter les marges de temps imposées par le sujet.
+3. Explicitez bien les outils utilisés et comment.
 
-1. Analyse des résultats & construction d’une conclusion
+4. Justifiez vos choix
 
-2. 1. Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse est tient la route. Les scientifiques constatent souvent que leur hypothèse était fausse, et dans ce cas, ils construisent une nouvelle hypothèse et reprennent la totalité de ce qu’ils ont fait et reviennent au début du processus de la Méthode Scientifique de nouveau.
+## III. Result Analysis
 
-   2. De même, s’ils trouvent que leur hypothèse était valide, ils recommencent bien souvent à la tester encore mais d’une manière nouvelle.
-3. Communication des résultats
+1. Analyse des résultats & construction d’une conclusion : Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse tient la route. 
 
-Pour compléter votre projet, il faut maintenant communiquer vos résultats à d’autres dans un rapport final et/ou un tableau d’affichage.
 
-Les scientifiques professionnels font presque exactement la même chose en publiant leur rapport final dans une revue scientifique ou en présentant leurs résultats lors de réunions scientifiques.
+
+
 
 [http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/](http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/)
 
