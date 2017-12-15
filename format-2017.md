@@ -56,7 +56,7 @@ Préciser vos zones de recherches en fonction de votre projet,
 1. les articles ou documents utiles à votre projet
 2. les outils
 
-## III. Hypothesis & Experiences
+## IV. Hypothesis & Experiences
 
 1. Il s'agit ici d'énoncer sous forme d' hypothèses ce que vous allez chercher à démontrer. Vous devez définir vos hypothèses de façon à pouvoir les_ mesurer facilement._ Bien sûr, votre hypothèse devrait être construite de manière à v_ous aider à répondre à votre question initiale_.Explicitez ces différents points.
 
@@ -68,9 +68,11 @@ Préciser vos zones de recherches en fonction de votre projet,
 
 4. Justifiez vos choix
 
-## III. Result Analysis
+## V. Result Analysis
 
 1. Analyse des résultats & construction d’une conclusion : Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse tient la route. 
+
+## VI. References
 
 [http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/](http://civilisation2.org/dossier-quest-ce-que-la-methode-scientifique/)
 
