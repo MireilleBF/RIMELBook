@@ -44,9 +44,13 @@ Préciser vos zones de recherches en fonction de votre projet,
 
 4. Justifiez vos choix
 
-## V. Result Analysis
+## V. Result Analysis and Conclusion
 
 1. Analyse des résultats & construction d’une conclusion : Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse tient la route. 
+
+## VI. Tools \(facultatif\)
+
+Précisez votre utilisation des outils ou les développements \(e.g. scripts\) réalisés pour atteindre vos objectifs. Ce chapitre doit viser à \(1\) pouvoir reproduire vos expériementations, \(2\) partager/expliquer à d'autres l'usage des outils.
 
 ## VI. References
 
