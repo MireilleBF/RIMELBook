@@ -18,12 +18,10 @@ Préciser ici votre contexte.
 
 Pourquoi c'est intéressant.
 
-
-
 ## II. Observations/General question
 
 1. Commencez par formuler une question sur quelque chose que vous observez ou constatez ou encore une idée émergente. Attention pour répondre à cette question vous devrez être capable de quantifier vos réponses.
-2. Préciser bien pourquoi cette question est intéresssante de votre point de vue et éventuellement en quoi la question est plus générale que le contexte de votre projet \(ex: Choisir une libraire de code est un problème récurrent qui se pose très diffférement cependant en fonction des objectifs\)
+2. Préciser bien pourquoi cette question est intéresssante de votre point de vue et éventuellement en quoi la question est plus générale que le contexte de votre projet \(ex: Choisir une libraire de code est un problème récurrent qui se pose très différement cependant en fonction des objectifs\)
 
 Cette première étape nécessite beaucoup de réflexion pour se définir la bonne question afin de poser les bonnes bases pour la suit.
 
