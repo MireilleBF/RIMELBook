@@ -1,10 +1,16 @@
-# Format 2017
+# Format 2017 \(à remplacer par le titre du chapitre\)
 
 **Date de rendu finale : March 2018 au plus tard**
 
-**Les titres peuvent changer pour etre en adéquation avec votre étude.**
 
-D**e même il est possible de modifier la structure, celle qui est proposée ici est là pour vous aider.**
+
+Remarques : 
+
+Les titres peuvent changer pour etre en adéquation avec votre étude.
+
+De même il est possible de modifier la structure, celle qui est proposée ici est là pour vous aider.
+
+Utilisez des références pour justifier votre argumentaire, vos choix etc.
 
 ## Authors
 
