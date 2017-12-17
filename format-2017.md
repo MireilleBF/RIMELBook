@@ -2,8 +2,6 @@
 
 **Date de rendu finale : March 2018 au plus tard**
 
-
-
 **Les titres peuvent changer pour etre en adéquation avec votre étude.**
 
 D**e même il est possible de modifier la structure, celle qui est proposée ici est là pour vous aider.**
@@ -14,19 +12,18 @@ We are four students in last year of Polytech' Nice-Sophia specialized in Softwa
 
 * .... &lt;xxx@gmail.com&gt;
 
-## I. Introduction
-
-Nous vous demandons de poser et répondre à des questions à l’aide d’observations et d’expériences.
-
-
-
-### Research context /Project
+## I. Research context /Project
 
 Préciser ici votre contexte.
+
+Pourquoi c'est intéressant.
+
+
 
 ## II. Observations/General question
 
 1. Commencez par formuler une question sur quelque chose que vous observez ou constatez ou encore une idée émergente. Attention pour répondre à cette question vous devrez être capable de quantifier vos réponses.
+2. Préciser bien pourquoi cette question est intéresssante de votre point de vue et éventuellement en quoi la question est plus générale que le contexte de votre projet \(ex: Choisir une libraire de code est un problème récurrent qui se pose très diffférement cependant en fonction des objectifs\)
 
 Cette première étape nécessite beaucoup de réflexion pour se définir la bonne question afin de poser les bonnes bases pour la suit.
 
