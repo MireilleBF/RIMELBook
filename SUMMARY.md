@@ -4,4 +4,5 @@
 * [Introduction](Introduction.md)
 * [Format 2017](format-2017.md)
 * [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
+* [Comment est organisé le développement d'un projet Open Source de Machine Learning ?](comment-est-organise-le-developpement-dun-projet-open-source-de-machine-learning.md)
 
