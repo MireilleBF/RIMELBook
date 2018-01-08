@@ -1,13 +1,12 @@
 ```text
-                                   
+
 ```
 
-##                                     Bibliothèques d’algorithmes de ML 
+## Bibliothèques d’algorithmes de ML
 
-##                                        Quelle organisation du projet ?
+## Quelle organisation du projet ?
 
 ```text
-
 
 ```
 
@@ -19,7 +18,7 @@
 
 * PASTOR Florent &lt;flopastor06@gmail.com&gt;
 
-* LEFEBRE  Jeremy &lt;efebvre.jeremyp@gmail.com&gt;
+* LEFEBRE  Jeremy &lt;lefebvre.jeremyp@gmail.com&gt;
 
 ## **Introduction & contexte:**
 
