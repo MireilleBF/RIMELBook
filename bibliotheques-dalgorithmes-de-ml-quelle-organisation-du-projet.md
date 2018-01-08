@@ -1,7 +1,14 @@
+```text
+                                   
 ```
-                                                    **Bibliothèques d’algorithmes de ML **
 
-                                                         **Quelle organisation du projet ?**
+##                                     Bibliothèques d’algorithmes de ML 
+
+##                                        Quelle organisation du projet ?
+
+```text
+
+
 ```
 
 ## Auteurs
@@ -24,7 +31,7 @@ Les logiciels de machine learning sont en général des logiciels open source à
 
 La réalisation d’un logiciel open source de bibliotheque machine learning nécessite beaucoup de considérations comme la paternité de code et le travail collaboratif, qui sont des acteurs clés dans une opensource à grande échelle systèmes.
 
-##  **Question Générale et son intérêt :**
+## **Question Générale et son intérêt :**
 
 Comment les scientifiques contribuent-ils aux différents types d'algorithmes des librairies de machine learning ? Est ce que chaque famille d'algorithme possède ses collaborateurs spécifiques ?
 
@@ -39,8 +46,6 @@ Nous allons pouvoir appréhender ces question sous deux points de vue différent
 Dans un second temps, on pourrait s'intéresser au côté architecturale du projet. Par exemple, une hypothèse pourrait être qu’une structure générale est établie en premier lieu puis les contributeurs viennent apporter leur briques en respectant la structure initiale. Ou essayer de voir si les scientifiques qui sont des contributeurs réguliers sur les différentes famille d’algorithmes établissent une structure propre à leur famille.
 
 ## ** KPI/Metrics**
-
-
 
 * Nombre de contributeurs différents
 
@@ -127,6 +132,4 @@ Dans un second temps, on pourrait s'intéresser au côté architecturale du proj
 [**Are developers aware of the architectural impact of their changes?**](http://www0.cs.ucl.ac.uk/staff/j.krinke/publications/ase17.pdf)
 
 [**Secure Open Source Collaboration : An Empirical Study of Linux' Law**](http://mireilleblayfornarino.i3s.unice.fr/lib/exe/fetch.php?media=teaching:reverse:ccs221-meneely.pdf)
-
-
 
