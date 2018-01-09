@@ -22,27 +22,27 @@
 
 ## I. Research context /Project
 
-
+_TODO_
 
 ## II. Observations/General question
 
-
+_TODO_
 
 ## III. information gathering
 
-
+_TODO_
 
 ## IV. Hypothesis & Experiences
 
-
+_TODO_
 
 ## V. Result Analysis and Conclusion
 
+_TODO_
 
+## VI. Tools
 
-## VI. Tools 
-
-
+_TODO_
 
 
 
