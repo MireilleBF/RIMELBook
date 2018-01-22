@@ -8,4 +8,5 @@
 * [Bibliothèques d’algorithmes de ML : Quelle organisation du projet ?](bibliotheques-dalgorithmes-de-ml-quelle-organisation-du-projet.md)
 * [Comment les utilisateurs de Docker Compose s'adaptent-ils aux changements de version selon les spécifications de leurs projets](comment-les-utilisateurs-de-docker-compose-sadaptent-ils-aux-changements-de-version-selon-les-specifications-de-leurs-projets.md)
 * [Caractériser et mesurer l'évolutivité d'une base de code](caracteriser-et-mesurer-levolutivite-dune-base-de-code.md)
+* [Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md)
 
