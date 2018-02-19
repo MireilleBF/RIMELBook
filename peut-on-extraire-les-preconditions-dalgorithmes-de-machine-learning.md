@@ -1,4 +1,4 @@
-## Peut-on extraire les préconditions d'algorithmes de machine learning ?
+## Peut-on extraire automatiquement toutes les préconditions d'algorithmes de machine learning ?
 
 ## Auteurs
 
@@ -33,6 +33,4 @@ _À remplir._
 ## VI. Références
 
 _À remplir._
-
-
 
