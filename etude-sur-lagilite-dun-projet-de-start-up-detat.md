@@ -74,10 +74,10 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   * Outil : RepoDriller
   * Résultat: Nous avons étudié les commits sur 2 Axes : La **langue** et le **format**
 
-  **La langue:**   
+  **La langue:**  
   Nous avons très vite repéré que certains commits étaient en anglais, et d'autres en français. C'est une des premières remarques que nous avons faites en analysant leur projet. Le problème étant qu'il est compliqué d'automatiser la détection d'une langue dans un script RepoDriller. Par manque de temps, nous avons étudié à la main un échantillon aléatoire de 100 commits. En voici le résultat par langue:  
   ![](/assets/import.png)  
-  On voit donc que même si la langue principale est le français, l'anglais est très présent, nous avons donc cherché à comprendre pourquoi certains commits étaient en anglais et en allant dans le détail, nous avons remarqué un certain type de commits que nous avons appelé les commits "automatisés".   
+  On voit donc que même si la langue principale est le français, l'anglais est très présent, nous avons donc cherché à comprendre pourquoi certains commits étaient en anglais et en allant dans le détail, nous avons remarqué un certain type de commits que nous avons appelé les commits "automatisés".  
   En effet, dans les IDE les plus récents, quand on réalise des actions nécessitant un commit \(Merge, Release etc\), l'IDE prend la liberté de créer lui même un message résumant l'action que l'on vient de faire. Par exemple : ![](/assets/commit)
 
   Nous avons donc revu les mêmes commits en retirant ces commits automatisés et voici le résultat sur les 88 commits restant:
@@ -95,7 +95,9 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   ...
 
 * Erreurs de build
+
   * Outil : CircleCI
+
 * Dette technique
   * Outil : CodeClimate
 * Releases
@@ -112,6 +114,8 @@ _À remplir._
 _À remplir._
 
 //On ne peut pas forcément respecter a 100% scrum
+
+//Pourquoi on ne peut pas faire un indicateur sur les releases \(Si c'est trop fréquent, fix, agile mais pas bien testé\)
 
 ## VI. Références
 
