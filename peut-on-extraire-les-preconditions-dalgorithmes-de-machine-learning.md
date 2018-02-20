@@ -5,9 +5,9 @@
 Nous sommes cinq étudiants en dernière année de Master 2 à Polytech Nice-Sophia Antipolis, spécialisés en Architecture Logicielle.
 
 * Maxime Dejeux
-* Guillaume Faguet
+* Guillaume Faguet &lt;faguet.guillaume@gmail.com&gt;
 * Mohammed Chennouf
-* Matthieu Génovèse
+* Matthieu Génovèse &lt;matthieu.genovese@gmail.com&gt;
 * Michael Liechtensteger &lt;lm203441@etu.unice.fr&gt;
 
 ## I. Contexte de recherche
