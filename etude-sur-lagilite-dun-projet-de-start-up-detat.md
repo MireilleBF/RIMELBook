@@ -58,9 +58,10 @@ Avant d'attaquer l'étude des indicateurs, nous avons voulu situer chronologique
 
 Nous nous sommes donc concentrés sur les indicateurs suivants:
 
-* Couverture de test
+* #### Couverture de test
 
   * Outil : Coveralls
+
   * Résultat: 
 
   Nous avons observé que la couverture de code est constante depuis le lancement de la première beta à 95%, à savoir un très bon chiffre. Néanmoins,  petit bémol, on observe avant le lancement de cette beta que la couverture n'était que d'environ 80%, ce qui est assez insuffisant.
@@ -69,7 +70,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
 * ![](/assets/coverage.png)
 
-* Commits
+* #### Commits
 
   * Outil : RepoDriller
   * Résultat: Nous avons étudié les commits sur 2 Axes : La **langue** et le **format**
@@ -94,15 +95,14 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   ...
 
-* Erreurs de build
+* #### Erreurs de build
 
   * Outil : CircleCI
-
-* Dette technique
+* #### Dette technique
 
   * Outil : CodeClimate
+* #### Releases
 
-* Releases
   * Outil: RepoDriller
 
 _À remplir. //Comment on a rassemblé, ce qu'on a rassemblé_
