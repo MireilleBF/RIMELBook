@@ -6,7 +6,7 @@ Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia Antipo
 
 * Alexandre Bar &lt;alexandre.bar83@gmail.com&gt;
 * Gaspard Lacroix &lt;gaspard.lacroix@etu.unice.fr&gt;
-* Anthonny Giroud &lt;anthonny.giroud@etu.unice.fr&gt;
+* Anthonny Giroud &lt;giroud.anthonny@gmail.com&gt;
 * Adrien Dengreville &lt;didienv2@gmail.com&gt;
 
 ## I. Contexte de recherche
@@ -99,7 +99,9 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   * Outil : CircleCI
 
 * Dette technique
+
   * Outil : CodeClimate
+
 * Releases
   * Outil: RepoDriller
 
