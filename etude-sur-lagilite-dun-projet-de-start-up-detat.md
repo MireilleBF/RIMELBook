@@ -56,8 +56,6 @@ Avant d'attaquer l'étude des indicateurs, nous avons voulu situer chronologique
 
 ![](/assets/timeline.png)
 
-
-
 Nous nous sommes donc concentrés sur les indicateurs suivants:
 
 * #### Couverture de test
@@ -81,7 +79,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   Nous avons très vite repéré que certains commits étaient en anglais, et d'autres en français. C'est une des premières remarques que nous avons faites en analysant leur projet. Le problème étant qu'il est compliqué d'automatiser la détection d'une langue dans un script RepoDriller. Par manque de temps, nous avons étudié à la main un échantillon aléatoire de 100 commits. En voici le résultat par langue:  
   ![](/assets/import.png)  
   On voit donc que même si la langue principale est le français, l'anglais est très présent, nous avons donc cherché à comprendre pourquoi certains commits étaient en anglais et en allant dans le détail, nous avons remarqué un certain type de commits que nous avons appelé les commits "automatisés".  
-  En effet, dans les IDE les plus récents, quand on réalise des actions nécessitant un commit \(Merge, Release etc\), l'IDE prend la liberté de créer lui même un message résumant l'action que l'on vient de faire. Par exemple : ![](/assets/commit)
+  En effet, dans les IDE les plus récents, quand on réalise des actions nécessitant un commit \(Merge, Release etc\), l'IDE prend la liberté de créer lui même un message résumant l'action que l'on vient de faire. Par exemple : ![](/assets/commit.png)
 
   Nous avons donc revu les mêmes commits en retirant ces commits automatisés et voici le résultat sur les 88 commits restant:
 
@@ -89,7 +87,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   Il restait donc des commits issus d’êtres humains étant rédigés en anglais. Nous avons donc voulu voir l'implication des membres dans cette incohérence en prenant un échantillon de commits aléatoires des contributeurs majoritaires. En voici le résultat:
 
-  ![](/assets/contrib)
+  ![](/assets/contrib.png)
 
   On voit donc que globalement la répartition des commits anglais est bien répartie sur chacun et non pas sur un seul contributeur étranger comme nous le pensions avant de récupérer ces chiffres.
 
