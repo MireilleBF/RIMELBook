@@ -83,7 +83,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   Nous avons donc revu les mêmes commits en retirant ces commits automatisés et voici le résultat sur les 88 commits restant:
 
-  ![](/assets/commits en)
+  ![](/assets/88com.png)
 
   Il restait donc des commits issus d’êtres humains étant rédigés en anglais. Nous avons donc voulu voir l'implication des membres dans cette incohérence en prenant un échantillon de commits aléatoires des contributeurs majoritaires. En voici le résultat:
 
