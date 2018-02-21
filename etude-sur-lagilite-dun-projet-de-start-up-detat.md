@@ -79,7 +79,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   Nous avons très vite repéré que certains commits étaient en anglais, et d'autres en français. C'est une des premières remarques que nous avons faites en analysant leur projet. Le problème étant qu'il est compliqué d'automatiser la détection d'une langue dans un script RepoDriller. Par manque de temps, nous avons donc étudié à la main un échantillon aléatoire de 100 commits récupérés par RepoDriller. En voici le résultat par langue:  
   ![](/assets/import.png)  
   On voit donc que même si la langue principale est le français, l'anglais est très présent, nous avons donc cherché à comprendre pourquoi certains commits étaient en anglais et en allant dans le détail, nous avons remarqué un certain type de commits que nous avons appelé les commits "automatisés".  
-  En effet, dans les IDE les plus récents, quand on réalise des actions nécessitant un commit \(Merge, Release etc\), l'IDE prend la liberté de créer lui même un message résumant l'action que l'on vient de faire. Par exemple : 
+  En effet, dans les IDE les plus récents, quand on réalise des actions nécessitant un commit \(Merge, Release etc\), l'IDE prend la liberté de créer lui même un message résumant l'action que l'on vient de faire. Par exemple :
 
   ![](/assets/commit.png)
 
@@ -117,19 +117,28 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   ![](/assets/format.png)
 
-  La majorité des commits sont donc bien formatés. Nous avons donc cherché à comprendre ce qui poussait l'équipe à ne pas respecter les critères d'un commit au bon format. 
+  La majorité des commits sont donc bien formatés. Nous avons donc cherché à comprendre ce qui poussait l'équipe à ne pas respecter les critères d'un commit au bon format. On a pu observer que pour la majorité de ces commits, on est sur des petits correctifs très mineurs pour lesquels il n'y a pas de taches associés et où ils n'ont même pas pris la peine d'ajouter un tag comme on peut le voir sur les commits ci-dessous:
+
+  ![](/assets/commit2)![](/assets/commit3import.png)
+
+  C'est une des limites pour nous de l'agilité. En effet, il faudrait que chaque commit soit associé à une tache, mais quand créer la tache prends plus de temps que de la réaliser, on peut se poser la question de l’intérêt de la créer.
 
 * #### Erreurs de build
 
-  * Outil : CircleCI
+  * Outil : [CircleCI](https://circleci.com/ "CircleCI")
+  * Résultat : L'un des principes de bases de l'agilité est de livrer de la valeur de façon continue et sans régression. CircleCI nous permet de voir sur chacun des commits, si une erreur de build \(test non passé, erreur de compil etc\). L’intérêt ici est de voir si il est fréquent d'avoir une régression sur un commit chez pix et si ce problème est réglé rapidement. Voici donc la proportion de builds avec erreurs.
+    ![](/assets/buildpassed)
+    On voit donc que la proportion d'erreurs de builds sont très faibles. On peut donc déjà imaginer que les erreurs de builds ne restent à priori pas sur de nombreux commits et qu'ils sont rapidement fixés en terme de commits. Nous avons cependant voulu savoir combien de temps restait une erreur de build en moyenne. Nous avons obtenu une moyenne de moins d'un jour.
 * #### Dette technique
 
-  * Outil : CodeClimate
+  * Outil : [CodeClimate](https://codeclimate.com/ "CodeClimate")
+  * Résultat:
 * #### Releases
 
-  * Outil: RepoDriller
+  * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
+  * Résultat:
 
-_À remplir. //Comment on a rassemblé, ce qu'on a rassemblé_
+/_/Comment on a rassemblé, ce qu'on a rassemblé_
 
 ## IV. Hypothèses et expériences
 
