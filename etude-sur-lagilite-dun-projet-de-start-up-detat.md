@@ -154,7 +154,7 @@ Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ram
 | % Build passe | 4 | Sur chaque commit |
 | Dette technique | 3 | 100 - Nombre de jours \(&gt; 0\) |
 | % Pertinance des tests | 5 | Estimé par l'architecte / Tech lead |
-| Outillage | 6 | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI \(Build passed ratio\) \(20%\)     - Dette Technique \(20%\)                          - Ticketage \(JIRA\) \(40%\) |
+| Outillage | 6 | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI ou autre \(20%\)                         - Dette Technique \(20%\)                          - Ticketage  \(40%\) |
 | Release | ? | ? |
 
 ## V. Analyse des résultats et conclusion
