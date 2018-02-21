@@ -144,18 +144,18 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
 Nous avons donc voulu, à partir des critères d'agilités que nous avons déterminés dans la partie précédente, obtenir un indice d'agilité permettant de dire à quel point un projet est agile.
 
-Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ramené chacun de nos critères d'agilité en une valeur allant de 1 à 100 et avons donné des coefficients à chacun d'entre eux pour obtenir une moyenne étant notre indice. Voici le détail:
+Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ramené chacun de nos critères d'agilité en une valeur allant de 1 à 100 et avons donné des coefficients à chacun d'entre eux en fonction de leur importance pour obtenir une moyenne étant notre indice. Voici le détail:
 
 | Critère d'agilité | Coefficient | Méthode de calcul |
 | :--- | :--- | :--- |
-| % Commit bien formaté | 4 |  |
-| % Commit dans la langue principale |  |  |
-|  |  |  |
-|  |  |  |
-
-
-
-
+| % Commit bien formaté | 4 | Si tag et rattaché à une tache |
+| % Commit dans la langue principale | 1 | La langue principale est la langue la + représentée |
+| % Couverture de test moyen | 4 | Si &gt; 95% on passe à 100% |
+| % Build passe | 4 | Sur chaque commit |
+| Dette technique | 3 | 100 - Nombre de jours \(&gt; 0\) |
+| % Pertinance des tests | 5 | Estimé par l'architecte / Tech lead  |
+| Outillage | 6 | On gagne des % par outil:                        - Couverture de test - 20%                      - CircleCI \(Build passed ratio\) - 20%      - Dette Technique - 20%                          - Ticketage \(JIRA\) - 40% |
+| Release | ? | ? |
 
 ## V. Analyse des résultats et conclusion
 
