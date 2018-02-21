@@ -54,7 +54,9 @@ Cependant, après avoir contacté l'équipe PIX, nous n'avons pas pu avoir accè
 
 Avant d'attaquer l'étude des indicateurs, nous avons voulu situer chronologiquement le projet, afin de faire la correspondance entre certains événements et l'évolutions des indicateurs. En voici la timeline:
 
-![](/assets/planning)
+![](/assets/timeline.png)
+
+
 
 Nous nous sommes donc concentrés sur les indicateurs suivants:
 
@@ -62,7 +64,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   * Outil : Coveralls
 
-  * Résultat: 
+  * Résultat:
 
   Nous avons observé que la couverture de code est constante depuis le lancement de la première beta à 95%, à savoir un très bon chiffre. Néanmoins,  petit bémol, on observe avant le lancement de cette beta que la couverture n'était que d'environ 80%, ce qui est assez insuffisant.
 
