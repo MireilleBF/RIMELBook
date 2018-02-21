@@ -142,7 +142,20 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
 ## IV. Hypothèses et expériences
 
-_À remplir._
+Nous avons donc voulu, à partir des critères d'agilités que nous avons déterminés dans la partie précédente, obtenir un indice d'agilité permettant de dire à quel point un projet est agile.
+
+Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ramené chacun de nos critères d'agilité en une valeur allant de 1 à 100 et avons donné des coefficients à chacun d'entre eux pour obtenir une moyenne étant notre indice. Voici le détail:
+
+| Critère d'agilité | Coefficient | Méthode de calcul |
+| :--- | :--- | :--- |
+| % Commit bien formaté | 4 |  |
+| % Commit dans la langue principale |  |  |
+|  |  |  |
+|  |  |  |
+
+
+
+
 
 ## V. Analyse des résultats et conclusion
 
