@@ -195,8 +195,6 @@ Afin de répondre à la question, nous avons fait un programe nous permettant de
 6. Learning : Est ce un algorithme d'apprentissage \(Cette colonne est verifié que pour le projet Scikit-learn\)
 7. NbOthors : Nombre total de contributeur du fichier
 
-
-
 ## V. Analyse des résultats et conclusion
 
 _À remplir._
@@ -237,9 +235,19 @@ Pour voir les détails de cette étude avec l'affichage des dataset veuillez cli
 
 ###### Keras \(629 contributors, 4372 commits,256 fichiers \)
 
+![](/assets/keras.png)
+
+Nous constatons que dans les 256 fichiers du projet, il y'a seulement que 3 fichier avec uxn seul auteur qui d'ailleurs le même pour les trois à savoir **François Chollet** \(à part les tests,documentations,benchmarks\).
+
 ###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
 
+![](/assets/Sckitilearn.png)
+
+Sur ce projet on en trouve 8 fichiers sur 1180 au total pour exactement 6 contributeurs sur le 1023 contributeurs.
+
 ###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
+
+![](/assets/tensorflow.png)
 
 #### Deuxième cas - Fichier avec trois contributeurs
 
