@@ -145,11 +145,11 @@ En ayant constaté que  dans le cadre des projets machine learning la plus part 
 
 * **Existe-t-il des fichiers avec un seul contributeur ?**
 
-       Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
+* Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
 
 * **Existe-t-il des fichiers avec deux ou plusieurs contributeurs où l'un d'entre eux est l'auteur principal ?**
 
-       Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
+* Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
 
 _**NB :**_
 
