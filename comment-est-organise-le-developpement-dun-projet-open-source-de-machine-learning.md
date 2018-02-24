@@ -41,9 +41,23 @@ Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxque
 
 ## Objets de l'étude
 
-Nous souhaitons qu
+Comme nous souhaitons observer des propriétés vraies pour les projets Open Source de Machine Learning en général, l'étude portera sur un ensemble de projets. 
 
-_À remplir._
+### Critères de sélection
+
+Nos critères de sélection sont arbitraires, ils nous permettent de ne pas nous disperser dans les outils d'analyse que nous produisons. Les critères sont les suivants :
+
+* Ces projets sont des bibliothèques d'algorithmes d'apprentissage automatique.
+* Ces projets sont écrits en majorité en Python. Python est en effet l'un des langages de prédilection dans ce domaine.
+* Ces projets sont hébergés sur GitHub.
+
+### Projets retenus
+
+Nous avons retenu trente-quatre projets qui respectent nos critères. 
+
+Les projets que nous avons sélectionné ont été trouvés sur la liste Awesome Machine Learning[^1]. 
+
+Ils sont au nombre de trente-quatre et couvrent divers domaines : _scikit-learn_, _theano_, _keras_, _scikit-image_, _simplecv_, _nltk_, _pattern_, _auto-ml_, _pylearn_, _pybrain_, _brainstorm_, _pyevolve_, _pytorch_, _cogitare_, _featureforge_, _metric-learn_, _simpleai_, _astroML_, _lasagne_, _hebel_, _chainer_, _prophet_, _gensim_, _surprise_, _crab_, _nilearn_, _pyhsmm_, _skll_, _spearmint_, _deap_, _mlxtend_, _tpot_, _pgmpy_ et _milk_.
 
 ## IV. Hypothèses et expériences
 
@@ -56,4 +70,6 @@ _À remplir._
 ## VI. Références
 
 _À remplir._
+
+[^1]: [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
