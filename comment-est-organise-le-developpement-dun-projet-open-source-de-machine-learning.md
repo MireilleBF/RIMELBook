@@ -25,11 +25,17 @@ _Source : _[_https://trends.google.fr/trends/explore?date=today%205-y&q=machine%
 
 Une brève investigation révèle qu'une communauté s'est créée autour de l'apprentissage automatique, autant pour diffuser le savoir \(des sites comme _DataCamp_\), pour collaborer autour d'ensemble de données publics \(_Kaggle_\) ou pour construire des logiciels et bibliothèques qui tiennent compte de l'avancée dans le domaine \(de nombreux projets open source sur _GitHub_ comme _scikit-learn_, ...\).
 
-## II. Observations et question générale
+## II. Questionnement
 
+L'apprentissage automatique est un domaine de pointe, que nous imaginons encore très proche de la recherche. Nous nous étonnons que, pourtant, les outils récurrents du Machine Learning \(nous entendons souvent parler de _Tensorflow_ et ses surcouches, _numpy_, ...\) soient des logiciels Open Source.
 
+Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning.
 
-_À remplir._
+Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxquels nous nous restreindrons dans cette étude. Leur formulation ci-suit concernent bien les projets Open Source de Machine Learning :
+
+* Ces projets sont-ils menés par des chercheurs ?
+* Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?
+* La qualité logicielle est-elle une préoccupation de ces projets ?
 
 ## III. Rassemblement d'informations
 
