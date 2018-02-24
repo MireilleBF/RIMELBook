@@ -195,8 +195,6 @@ Afin de répondre à la question, nous avons fait un programe nous permettant de
 6. Learning : Est ce un algorithme d'apprentissage \(Cette colonne est verifié que pour le projet Scikit-learn\)
 7. NbOthors : Nombre total de contributeur du fichier
 
-
-
 ## V. Analyse des résultats et conclusion
 
 _À remplir._
@@ -219,13 +217,13 @@ La Figure 4 montre que, d'après notre critère, notre hypothèse était fausse 
 
 Nous portons notre attention sur les deux groupes suivants :
 
-* Les projets qui comptent une majorité de chercheurs sont _scikit-image_, _pylearn_, _spearmint_, _simpleai_, _metric-learn_, _nilearn_, _pyhsmm_, _skll_, _astroML_ et _cogitare_.
-
-
-
 * Un projet ne compte aucun contributeur-chercheur : _auto-ml_, ce qui est étonnant car tous les autres projets étudiés comptent au moins 20% de contributeurs-chercheurs.
 
-Un aperçu du dépôt de _auto-ml_ sur GitHub montre que le projet est maintenu par une seule personne, Preston Parry \(qui n'est pas chercheur\), qui cumule 90% des _commits_, et accompagné de dix autres contributeurs qui, vus au cas par cas, ne semble eux non plus pas être des chercheurs. Il semble que nos résultats pour ce projet ne soient donc pas dûs aux biais de notre discrimination des chercheurs, mais plutôt que _auto-ml_ soit une exception.
+Un aperçu du dépôt de _auto-ml_ sur GitHub montre que le projet _auto-ml_ est maintenu par une seule personne, Preston Parry \(qui n'est pas chercheur\), qui cumule 90% des _commits_, et accompagné de dix autres contributeurs qui, vus au cas par cas, ne semble eux non plus pas être des chercheurs. Il semble que nos résultats pour ce projet ne soient donc pas dûs aux biais de notre discrimination des chercheurs, mais plutôt que _auto-ml_ soit une exception.
+
+* Les projets qui comptent une majorité de chercheurs sont _scikit-image_, _pylearn_, _spearmint_, _simpleai_, _metric-learn_, _nilearn_, _pyhsmm_, _skll_, _astroML_ et _cogitare_.
+
+Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astroML_, _cogitare_\), ils font partie des projets étudiés les plus petits. Ajouté à l'observation sur la proportion de chercheurs qui les développent, une hypothèse à tester serait que ces projets sont maintenus uniquement par une seule personne ou par une équipe d'un laboratoire de recherche, travaillant dans un cercle fermé donc peu accessible pour un non-chercheur. Par exemple, il s'avère que _cogitare_ est maintenu par une seule personne mais qui a _commité_ sous deux noms, le troisième contributeur a produit un unique _commit_ massif et est un outil d'intégration continue \(suggérant que le projet sur GitHub est peut-être un miroir\).
 
 #### V.1.2. _Les contributions viennent majoritairement de chercheurs._
 
