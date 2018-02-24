@@ -145,15 +145,11 @@ En ayant constaté que  dans le cadre des projets machine learning la plus part 
 
 * **Existe-t-il des fichiers avec un seul contributeur ?**
 
-  ```
-    Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
-  ```
+       Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
 
 * **Existe-t-il des fichiers avec deux ou plusieurs contributeurs où l'un d'entre eux est l'auteur principal ?**
 
-  ```
-   Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
-  ```
+       Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
 
 _**NB :**_
 
@@ -178,7 +174,7 @@ Pour cette questions nous avons étudier trois projets qui sont :
 Afin de répondre à la question, nous avons fait un programe nous permettant de parcourir un projet avec git blame, et nous produire à la sortie:
 
 1. File : Nom du fichier
-2.  Othor\[i\] : Nom de l'auteur i \(i représente le numero de l'auteur\)
+2. Othor\[i\] : Nom de l'auteur i \(i représente le numero de l'auteur\)
 3. LineOthor\[i\] : Nombre de ligne de l'auteur i
 4. Contribution\[i\] : Pourcentage de contribution de l'auteur i
 5. File Lines : Nombre total de lignes du fichier
@@ -187,17 +183,9 @@ Afin de répondre à la question, nous avons fait un programe nous permettant de
 
 Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs par fichier. Ces resultats se trouve dans le dossier DataResult dans notre repo github.
 
-
-
 |  |  |  |
 | :--- | :--- | :--- |
 |  |  |  |
-
-
-
-
-
-
 
 
 
