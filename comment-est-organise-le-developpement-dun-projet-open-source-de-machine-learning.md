@@ -229,9 +229,17 @@ Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astro
 
 ![](/assets/organisation_project_os_ml/researchers_commits.png)
 
-_Figure 5 - Une majorité de _commits_ proviennent de chercheurs dans la majorité des projets étudiés_
+_Figure 5 - Une majorité de \_commits_ proviennent de chercheurs dans la majorité des projets étudiés\_
 
-La Figure 5 montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des commits qui constituent les projets de Machine Learning étudiés.
+La _Figure 5_ montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des _commits_ qui constituent les projets de Machine Learning étudiés.
+
+![](/assets/organisation_project_os_ml/researchers_modified_lines.png)
+
+_Figure 6 - Les chercheurs produisent également la majorité des ajouts et retraits de lignes dans la majorité des projets_
+
+La Figure 6 corrobore les observations de la Figure 5.
+
+Compte tenu du critère d'invalidation que nous avons de l'hypothèse, nous la considérons valide et observons : **les contributions proviennent majoritairement de chercheurs**.
 
 #### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
