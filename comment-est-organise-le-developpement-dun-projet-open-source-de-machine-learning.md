@@ -29,15 +29,19 @@ Une brève investigation révèle qu'une communauté s'est créée autour de l'a
 
 L'apprentissage automatique est un domaine de pointe, que nous imaginons encore très proche de la recherche. Nous nous étonnons que, pourtant, les outils récurrents du Machine Learning \(nous entendons souvent parler de _Tensorflow_ et ses surcouches, _numpy_, ...\) soient des logiciels Open Source.
 
-Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning.
+Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning. À l'échelle d'un projet, de la réponse à cette question dépend la confiance que nous pouvons mettre en la qualité de leurs algorithmes et donc, d'une certaine manière, nous faire préférer un projet à un autre. Au niveau global, nous souhaitons déterminer s'ils existe des schémas récurrents dans l'ensemble de ces projets.
 
-Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxquels nous nous restreindrons dans cette étude. Leur formulation ci-suit concernent bien les projets Open Source de Machine Learning :
+Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxquels nous nous restreindrons dans cette étude. Leur formulation ci-suit concerne bien les projets Open Source de Machine Learning :
 
 * Ces projets sont-ils menés par des chercheurs ?
 * Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?
 * La qualité logicielle est-elle une préoccupation de ces projets ?
 
 ## III. Rassemblement d'informations
+
+## Objets de l'étude
+
+Nous souhaitons qu
 
 _À remplir._
 
