@@ -84,7 +84,7 @@ Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Fi
 
 ![](/assets/organisation_project_os_ml/contributions_cdf.png)
 
-_Figure 3 - Évolutions perpetuelles de la plupart des projets_
+_Figure 3 - Évolution perpetuelle de la plupart des projets_
 
 Nous pensons que cette diversité apparente entre les projets nous permettra d'obtenir des résultats moins biaisés. Le fait qu'ils soient en changement perpétuel donne son intérêt à l'étude qui s'intéresse à l'évolution des projets.
 
@@ -126,7 +126,7 @@ Chaque approche détermine si, oui ou non, un contributeur est un chercheur à s
 
 En définitive, nous considérons qu'un contributeur est un chercheur si au moins une des approches conclut qu'il en est un.
 
-####  Les contributeurs sont majoritairement des chercheurs.
+#### Les contributeurs sont majoritairement des chercheurs.
 
 Il s'agit de voir l'importance des chercheurs en quantité de contributeur
 
