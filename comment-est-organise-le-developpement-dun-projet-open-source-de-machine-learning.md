@@ -1,5 +1,7 @@
 # Comment est organisé le développement d'un projet Open Source de Machine Learning ?
 
+_Février 2018_
+
 ## Auteurs
 
 Nous sommes quatre étudiants en dernier année à Polytech Nice-Sophia Antipolis, spécialisés en Architecture Logicielle.
@@ -13,9 +15,9 @@ Nous sommes quatre étudiants en dernier année à Polytech Nice-Sophia Antipoli
 
 Ce chapitre présente le travail de recherche produit par notre groupe dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des Logiciels \(RIMÉL\). Nous présenterons successivement notre contexte de recherche, la question que nous avons posé accompagnée de nos hypothèses, puis la démarche à laquelle nous avons procédé ; nous poursuivrons par une analyse des résultats obtenus en faisant le lien avec nos hypothèses, puis concluerons.
 
-## I. Contexte : Apprentissage Automatique, une communauté qui grandit
+## I. Contexte : Apprentissage Automatique, une communauté grandissante
 
-L'apprentissage automatique \(Machine Learning, ML\) est une science sous-jacente à l'intelligence artificielle qui définit des méthodes pour prédire des caractéristiques à partir d'un ensemble de données.
+L'**apprentissage automatique** \(Machine Learning, ML\) est une science sous-jacente à l'intelligence artificielle qui définit des méthodes pour prédire des caractéristiques à partir d'un ensemble de données.
 
 Cette discipline ne cesse d'intéresser de nouveaux adeptes, autant les entreprises qui souhaitent exploiter les très grands volumes de données qu'elles génèrent, que les chercheurs qui ne cessent de publier de nouveaux travaux à ce sujet.![](/assets/organisation_project_os_ml/machine_learning_trends.png)
 
@@ -27,15 +29,29 @@ Une brève investigation révèle qu'une communauté s'est créée autour de l'a
 
 ## II. Questionnement
 
+### Observations et question générale
+
 L'apprentissage automatique est un domaine de pointe, que nous imaginons encore très proche de la recherche. Nous nous étonnons que, pourtant, les outils récurrents du Machine Learning \(nous entendons souvent parler de _Tensorflow_ et ses surcouches, _numpy_, ...\) soient des logiciels Open Source.
 
 Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning. À l'échelle d'un projet, de la réponse à cette question dépend la confiance que nous pouvons mettre en la qualité de leurs algorithmes et donc, d'une certaine manière, nous faire préférer un projet à un autre. Au niveau global, nous souhaitons déterminer s'ils existe des schémas récurrents dans l'ensemble de ces projets.
+
+### Sous-questions
 
 Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxquels nous nous restreindrons dans cette étude. Leur formulation ci-suit concerne bien les projets Open Source de Machine Learning :
 
 * Ces projets sont-ils menés par des chercheurs ?
 * Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?
 * La qualité logicielle est-elle une préoccupation de ces projets ?
+
+### Objet de l'étude
+
+Comme nous souhaitons observer des propriétés vraies pour les projets Open Source de Machine Learning en général, l'étude portera sur un ensemble de projets.
+
+Nos critères de sélection sont arbitraires, ils nous permettent de ne pas nous disperser dans les outils d'analyse que nous produisons. Les critères sont les suivants :
+
+* Ces projets sont des bibliothèques d'algorithmes d'apprentissage automatique.
+* Ces projets sont écrits en majorité en Python. Python est en effet l'un des langages de prédilection dans ce domaine.
+* Ces projets sont hébergés sur GitHub.
 
 ## III. Rassemblement d'informations
 
@@ -50,19 +66,7 @@ Nous avons également produit une série de scripts Bash, Javascript et Python p
 
 Les figures présentes dans le document ont été produites par nos soins, la plupart avec la bibliothèques Pygal.
 
-### Objets de l'étude
-
-Comme nous souhaitons observer des propriétés vraies pour les projets Open Source de Machine Learning en général, l'étude portera sur un ensemble de projets.
-
-#### Critères de sélection
-
-Nos critères de sélection sont arbitraires, ils nous permettent de ne pas nous disperser dans les outils d'analyse que nous produisons. Les critères sont les suivants :
-
-* Ces projets sont des bibliothèques d'algorithmes d'apprentissage automatique.
-* Ces projets sont écrits en majorité en Python. Python est en effet l'un des langages de prédilection dans ce domaine.
-* Ces projets sont hébergés sur GitHub.
-
-#### Projets retenus
+### Projets retenus
 
 Nous avons retenu trente-quatre projets qui respectent nos critères.
 
