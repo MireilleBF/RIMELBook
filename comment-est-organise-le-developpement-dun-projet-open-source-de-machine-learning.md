@@ -87,7 +87,7 @@ Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Fi
 
 _Figure 3 - Évolution perpetuelle de la plupart des projets_
 
-Nous pensons que cette diversité apparente entre les projets nous permettra d'obtenir des résultats moins biaisés. Le fait qu'ils soient en changement perpétuel donne son intérêt à l'étude qui s'intéresse à l'évolution des projets.
+Nous pensons que cette diversité apparente entre les projets nous permettra d'obtenir des résultats moins biaisés, et donc nous faisons l'hypothèse que les résultats obtenus sur cet échantillon de projets Open Source de Machine Learning seront généralisables à tous les projets similaires. Le fait qu'ils soient en changement perpétuel donne son intérêt à l'étude qui s'intéresse à l'évolution des projets.
 
 ## IV. Hypothèses et expériences
 
@@ -137,7 +137,7 @@ Nous considérons que cette hypothèse serait réfutée si la part des chercheur
 
 Il s'agit de voir l'importance des chercheurs en nombre de contributions.
 
-Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions représentait moins de 50%.
+Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions, en termes de _commits_ ou de lignes de codes modifiées, représentait moins de 50%.
 
 #### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
@@ -207,13 +207,13 @@ Les trente-quatre projets cumulent 4376 contributeurs uniques \(uniques par leur
 
 L'approche avec les adresses mails a conclu que 527 contributeurs étaient des chercheurs, soit 3849 ne l'étaient pas. L'approche qui utilise Google Scholar a conclu que 1537 contributeurs étaient des chercheurs, soit 2839 ne l'étaient pas. Seuls 251 contributeurs ont été considérés chercheurs par les deux approches à la fois, ce qui corrobore ce que nous attendions : il y a de nombreux faux négatifs pour les deux approches.
 
-#### V.1.1. _Les contributeurs sont majoritairement des chercheurs._
+#### V.1.1. _Les contributeurs sont majoritairement des chercheurs._ {#contrib}
 
 ![](/assets/organisation_project_os_ml/researchers_per_project.png)
 
 _Figure 4 - Une minorité de projets compte une majorité de chercheurs_
 
-La Figure 4 montre que, d'après notre critère, notre hypothèse était fausse : **dans la majorité des projets Open Source de Machine Learning, les chercheurs sont minoritaires**.
+La _Figure 4_ montre que, d'après notre critère, notre hypothèse était fausse : **dans la majorité des projets Open Source de Machine Learning, les chercheurs sont minoritaires**.
 
 Nous portons notre attention sur les deux groupes suivants :
 
@@ -226,6 +226,12 @@ Un aperçu du dépôt de _auto-ml_ sur GitHub montre que le projet _auto-ml_ est
 Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astroML_, _cogitare_\), ils font partie des projets étudiés les plus petits. Ajouté à l'observation sur la proportion de chercheurs qui les développent, une hypothèse à tester serait que ces projets sont maintenus uniquement par une seule personne ou par une équipe d'un laboratoire de recherche, travaillant dans un cercle fermé donc peu accessible pour un non-chercheur. Par exemple, il s'avère que _cogitare_ est maintenu par une seule personne mais qui a _commité_ sous deux noms, le troisième contributeur a produit un unique _commit_ massif et est un outil d'intégration continue \(suggérant que le projet sur GitHub est peut-être un miroir\).
 
 #### V.1.2. _Les contributions viennent majoritairement de chercheurs._
+
+![](/assets/organisation_project_os_ml/researchers_commits.png)
+
+_Figure 5 - Une majorité de _commits_ proviennent de chercheurs dans la majorité des projets étudiés_
+
+La Figure 5 montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des commits qui constituent les projets de Machine Learning étudiés.
 
 #### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
