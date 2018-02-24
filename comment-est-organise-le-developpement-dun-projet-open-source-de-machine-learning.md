@@ -195,11 +195,41 @@ Afin de répondre à la question, nous avons fait un programe nous permettant de
 6. Learning : Est ce un algorithme d'apprentissage \(Cette colonne est verifié que pour le projet Scikit-learn\)
 7. NbOthors : Nombre total de contributeur du fichier
 
+
+
+## V. Analyse des résultats et conclusion
+
+_À remplir._
+
+### V.1. Ces projets sont-ils menés par des chercheurs ?
+
+#### Discriminer les chercheurs
+
+Les trente-quatre projets cumulent 4376 contributeurs uniques \(uniques par leur nom\).
+
+L'approche avec les adresses mails a conclu que 527 contributeurs étaient des chercheurs, soit 3849 ne l'étaient pas. L'approche qui utilise Google Scholar a conclu que 1537 contributeurs étaient des chercheurs, soit 2839 ne l'étaient pas. Seuls 251 contributeurs ont été considérés chercheurs par les deux approches à la fois, ce qui corrobore ce que nous attendions : il y a de nombreux faux négatifs pour les deux approches.
+
+#### V.1.1. _Les contributeurs sont majoritairement des chercheurs._
+
+![](/assets/organisation_project_os_ml/researchers_per_project.png)
+
+_Figure 4 - Une minorité de projets compte une majorité de chercheurs_
+
+La Figure 4 montre que, d'après notre critère, notre hypothèse était fausse : **dans la majorité des projets Open Source de Machine Learning, les chercheurs sont minoritaires**.
+
+#### V.1.2. _Les contributions viennent majoritairement de chercheurs._
+
+#### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
+
+#### Conclusion partielle
+
+### V.2. **Qui écrit les algorithmes automatiques dans ces projets ?**
+
 Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs . Ces resultats se trouve dans le dossier DataResult dans notre repo [github](https://github.com/AntoineAube/reace-study/tree/master/ownership-algorithm/DataResult).
 
 Malgrès que nous avons fais de 1 à 10 contributeurs pour chaque projet , nous allons vous exposer 5 cas pour chacun des trois projets.
 
-Les tableaux sont triés par les fichiers qui ont plus de lignes de codes et après par le pourcentage de contributions le plus élévé \(ordre d'affichage décroissant\) 
+Les tableaux sont triés par les fichiers qui ont plus de lignes de codes et après par le pourcentage de contributions le plus élévé \(ordre d'affichage décroissant\)
 
 Pour voir les détails de cette étude avec l'affichage des dataset veuillez cliquer[ ici](https://github.com/AntoineAube/reace-study/blob/master/ownership-algorithm/find-ownership-algorithm.ipynb)
 
@@ -242,36 +272,6 @@ Pour voir les détails de cette étude avec l'affichage des dataset veuillez cli
 ###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
 
 ###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
-
-|  |  |  |
-| :--- | :--- | :--- |
-|  |  |  |
-
-## V. Analyse des résultats et conclusion
-
-_À remplir._
-
-### V.1. Ces projets sont-ils menés par des chercheurs ?
-
-#### Discriminer les chercheurs
-
-Les trente-quatre projets cumulent 4376 contributeurs uniques \(uniques par leur nom\).
-
-L'approche avec les adresses mails a conclu que 527 contributeurs étaient des chercheurs, soit 3849 ne l'étaient pas. L'approche qui utilise Google Scholar a conclu que 1537 contributeurs étaient des chercheurs, soit 2839 ne l'étaient pas. Seuls 251 contributeurs ont été considérés chercheurs par les deux approches à la fois, ce qui corrobore ce que nous attendions : il y a de nombreux faux négatifs pour les deux approches.
-
-#### V.1.1. _Les contributeurs sont majoritairement des chercheurs._
-
-![](/assets/organisation_project_os_ml/researchers_per_project.png)
-
-_Figure 4 - Une minorité de projets compte une majorité de chercheurs_
-
-La Figure 4 montre que, d'après notre critère, notre hypothèse était fausse : **dans la majorité des projets Open Source de Machine Learning, les chercheurs sont minoritaires**.
-
-#### V.1.2. _Les contributions viennent majoritairement de chercheurs._
-
-#### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
-
-#### Conclusion partielle
 
 ## VI. Références
 
