@@ -61,6 +61,7 @@ Pour rassembler les informations utilisés dans cette étude, nous avons utilis�
 
 * [RepoDriller](https://github.com/mauricioaniche/repodriller) pour analyser les contributions successives des projets.
 * [SonarQube](https://www.sonarqube.org/) pour analyser la qualité des projets.
+* [GitBlame](https://www.npmjs.com/package/git-blame) pour trouver les algorithmes avec un auteur principal
 
 Nous avons également produit une série de scripts Bash, Javascript et Python pour des tâches plus spécifiques et pour automatiser la récolte des informations, afin d'améliorer la reproductibilité de l'étude et de repérer les possibles erreurs dans le protocole que nous suivons.
 
@@ -131,6 +132,12 @@ En définitive, nous considérons qu'un contributeur est un chercheur si au moin
 Il s'agit de voir l'importance des chercheurs en quantité de contributeur
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représente moins de 50%.
+
+
+
+### IV.2. **Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?**
+
+
 
 ## V. Analyse des résultats et conclusion
 
