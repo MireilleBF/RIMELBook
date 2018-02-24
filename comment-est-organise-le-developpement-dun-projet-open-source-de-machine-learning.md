@@ -48,6 +48,8 @@ Pour rassembler les informations utilisés dans cette étude, nous avons utilis�
 
 Nous avons également produit une série de scripts Bash, Javascript et Python pour des tâches plus spécifiques et pour automatiser la récolte des informations, afin d'améliorer la reproductibilité de l'étude et de repérer les possibles erreurs dans le protocole que nous suivons.
 
+Les figures présentes dans le document ont été produites par nos soins, la plupart avec la bibliothèques Pygal.
+
 ### Objets de l'étude
 
 Comme nous souhaitons observer des propriétés vraies pour les projets Open Source de Machine Learning en général, l'étude portera sur un ensemble de projets.
@@ -91,10 +93,4 @@ _À remplir._
 ## VI. Références
 
 _À remplir._
-
-
-
-[^1]: [https://github.com/mauricioaniche/repodriller](https://github.com/mauricioaniche/repodriller)
-
-[^2]: [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
