@@ -29,21 +29,21 @@ Une brève investigation révèle qu'une communauté s'est créée autour de l'a
 
 ## II. Questionnement
 
-### Observations et question générale
+### II.1. Observations et question générale
 
 L'apprentissage automatique est un domaine de pointe, que nous imaginons encore très proche de la recherche. Nous nous étonnons que, pourtant, les outils récurrents du Machine Learning \(nous entendons souvent parler de _Tensorflow_ et ses surcouches, _numpy_, ...\) soient des logiciels Open Source.
 
 Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning. À l'échelle d'un projet, de la réponse à cette question dépend la confiance que nous pouvons mettre en la qualité de leurs algorithmes et donc, d'une certaine manière, nous faire préférer un projet à un autre. Au niveau global, nous souhaitons déterminer s'ils existe des schémas récurrents dans l'ensemble de ces projets.
 
-### Sous-questions
+### II.2. Sous-questions
 
 Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxquels nous nous restreindrons dans cette étude. Leur formulation ci-suit concerne bien les projets Open Source de Machine Learning :
 
-* Ces projets sont-ils menés par des chercheurs ?
-* Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?
-* La qualité logicielle est-elle une préoccupation de ces projets ?
+1. **Ces projets sont-ils menés par des chercheurs ?**
+2. **Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?**
+3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
-### Objet de l'étude
+### II.3. Objet de l'étude
 
 Comme nous souhaitons observer des propriétés vraies pour les projets Open Source de Machine Learning en général, l'étude portera sur un ensemble de projets.
 
@@ -55,7 +55,7 @@ Nos critères de sélection sont arbitraires, ils nous permettent de ne pas nous
 
 ## III. Rassemblement d'informations
 
-### Outils utilisés
+### III.1. Outils utilisés
 
 Pour rassembler les informations utilisés dans cette étude, nous avons utilisé les outils suivants :
 
@@ -66,7 +66,7 @@ Nous avons également produit une série de scripts Bash, Javascript et Python p
 
 Les figures présentes dans le document ont été produites par nos soins, la plupart avec la bibliothèque [Pygal](http://pygal.org/en/stable/).
 
-### Projets retenus
+### III.2. Projets retenus
 
 Nous avons retenu trente-quatre projets qui respectent nos critères.
 
@@ -91,6 +91,38 @@ Nous pensons que cette diversité apparente entre les projets nous permettra d'o
 ## IV. Hypothèses et expériences
 
 _À remplir._
+
+Nous avons décomposé notre question générale en sous-questions qui fixent les limites que nous souhaitons étudier. Dans cette partie, nous détaillons pour chaque sous-questions nos hypothèses et la méthode que nous allons employer pour les vérifier ou les invalider.
+
+Nos hypothèses de travail communes à l'ensemble de l'étude est que les contributeurs sont de bonne foi :
+
+* Ils sont auteur du code qu'ils ont mis en ligne.
+* Le nom, prénom et l'adresse mail spécifiés dans les contributions leur appartiennent.
+
+### IV.1. Ces projets sont-ils menés par des chercheurs ?
+
+Nous avons l'intuition que les projets de Machine Learning sont le fruit du travail des chercheurs, soit parce qu'ils sont des réalisations produites à l'aboutissement de leurs travaux, soit parce qu'ils sont les mieux à même de contribuer sur ces projets.
+
+Nous souhaitons évaluer trois hypothèses :
+
+1. **Les contributeurs sont majoritairement des chercheurs.**
+2. **Les contributions viennent majoritairement de chercheurs.**
+3. **Un chercheur qui contribue s'investit sur le long terme.**
+
+Pour répondre à ces trois hypothèses, nous avons récolté des informations pour chaque _commit_ de chaque dépôt : auteur \(nom et adresse mail\), nombre de fichiers modifiés, lignes ajoutées et retirées.
+
+Dans un premier temps, il convient de définir comment nous avons déterminé qu'un contributeur est un chercheur.
+
+#### Comment reconnaître un contributeur-chercheur ?
+
+Nous avons développé deux approches qui chacune fournit des résultats partiels :
+
+* **Un chercheur possède une adresse mail dont le domaine appartient à une académie ou à un établissement de recherche. **Cette approche présente comme biais de potentiellement considérer comme chercheur un étudiant universitaire. Elle est très peu exhaustive car la majorité des utilisateurs contribuent avec une adresse _@gmail_ de laquelle nous ne pouvons pas conclure.
+* **Un chercheur possède un profil de chercheur sur Google Scholar.** Cette approche a comme désavantage la non-complétude de Google Scholar, qui ne contient pas tous les articles de recherche et qui ne crée pas systématiquement un profil pour chaque chercheur.
+
+Chaque approche détermine si, oui ou non, un contributeur est un chercheur à son sens \(pas de position intermédiaire\).
+
+En définitive, nous considérons qu'un contributeur est un chercheur si au moins une des approches conclut qu'il en est un.
 
 ## V. Analyse des résultats et conclusion
 
