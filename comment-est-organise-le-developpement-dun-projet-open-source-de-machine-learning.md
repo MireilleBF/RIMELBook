@@ -82,6 +82,8 @@ Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Fi
 
 _Figure 3 - Évolutions perpetuelles de la plupart des projets_
 
+Nous pensons que cette diversité apparente entre les projets nous permettra d'obtenir des résultats moins biaisés. Le fait qu'ils soient en changement perpétuel donne son intérêt à l'étude qui s'intéresse à l'évolution des projets.
+
 ## IV. Hypothèses et expériences
 
 _À remplir._
