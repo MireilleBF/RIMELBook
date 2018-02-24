@@ -110,11 +110,13 @@ Nous souhaitons évaluer trois hypothèses :
 
 Chaque hypothèse traite une façon de représenter l'importance des chercheurs dans ces projets : en nombre de contributeurs, en nombre de contributions, en qualité de maintenance. Si les chercheurs sont significativement importants pour la tenue du projet, nous estimons raisonnable de conclure que ces projets sont le fruit du travail des chercheurs.
 
-Pour répondre à ces trois hypothèses, nous avons récolté des informations pour chaque _commit_ de chaque dépôt : auteur \(nom et adresse mail\), nombre de fichiers modifiés, lignes ajoutées et retirées.
+Pour répondre à ces trois hypothèses, nous avons récolté des informations pour chaque _commit_ de chaque dépôt : auteur \(nom et adresse mail\), nombre de fichiers modifiés, lignes ajoutées et retirées. Pour cette question, nous avons étudié l'ensemble des projets sélectionnés.
 
 Dans un premier temps, il convient de définir comment nous avons déterminé qu'un contributeur est un chercheur.
 
 #### Comment reconnaître un contributeur-chercheur ?
+
+Il s'agit dans un premier temps de lister les contributeurs des projets étudiés \(par le nom\), puis pour chacun lister les adresses mail qu'il a utilisé.
 
 Nous avons développé deux approches qui chacune fournit des résultats partiels :
 
@@ -219,7 +221,9 @@ _À remplir._
 
 #### Discriminer les chercheurs
 
+Les trente-quatre projets cumulent 4376 contributeurs uniques \(uniques par leur nom\).
 
+L'approche avec les adresses mails a conclu que 527 contributeurs étaient des chercheurs, soit 3849 ne l'étaient pas. L'approche qui utilise Google Scholar a conclu que 1537 contributeurs étaient des chercheurs, soit 2839 ne l'étaient pas. Seuls 251 contributeurs ont été considérés chercheurs par les deux approches à la fois, ce qui corrobore ce que nous attendions : il y a de nombreux faux négatifs pour les deux approches. 
 
 #### V.1.1. _Les contributeurs sont majoritairement des chercheurs._
 
@@ -227,15 +231,9 @@ _À remplir._
 
 #### V.1.2. _Les contributions viennent majoritairement de chercheurs._
 
-
-
 #### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
-
-
 #### Conclusion partielle
-
-
 
 ## VI. Références
 
