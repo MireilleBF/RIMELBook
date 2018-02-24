@@ -61,7 +61,7 @@ Pour rassembler les informations utilisés dans cette étude, nous avons utilis�
 
 * [RepoDriller](https://github.com/mauricioaniche/repodriller) pour analyser les contributions successives des projets.
 * [SonarQube](https://www.sonarqube.org/) pour analyser la qualité des projets.
-* [GitBlame](https://www.npmjs.com/package/git-blame) pour trouver les algorithmes avec un auteur principal
+* Le package NodeJS [GitBlame](https://www.npmjs.com/package/git-blame) pour étudier l'état d'un projet à un instant donné.
 
 Nous avons également produit une série de scripts Bash, Javascript et Python pour des tâches plus spécifiques et pour automatiser la récolte des informations, afin d'améliorer la reproductibilité de l'étude et de repérer les possibles erreurs dans le protocole que nous suivons.
 
@@ -108,7 +108,7 @@ Nous souhaitons évaluer trois hypothèses :
 
 1. **Les contributeurs sont majoritairement des chercheurs.**
 2. **Les contributions viennent majoritairement de chercheurs.**
-3. **Un chercheur qui contribue s'investit sur le long terme.**
+3. **Les chercheurs contribuent plus individuellement que les autres contributeurs.**
 
 Chaque hypothèse traite une façon de représenter l'importance des chercheurs dans ces projets : en nombre de contributeurs, en nombre de contributions, en qualité de maintenance. Si les chercheurs sont significativement importants pour la tenue du projet, nous estimons raisonnable de conclure que ces projets sont le fruit du travail des chercheurs.
 
@@ -129,9 +129,23 @@ En définitive, nous considérons qu'un contributeur est un chercheur si au moin
 
 #### Les contributeurs sont majoritairement des chercheurs.
 
-Il s'agit de voir l'importance des chercheurs en quantité de contributeur
+Il s'agit de voir l'importance des chercheurs en quantité de contributeurs.
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représente moins de 50%.
+
+#### Les contributions viennent majoritairement de chercheurs.
+
+Il s'agit de voir l'importance des chercheurs en nombre de contributions.
+
+Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions représente moins de 50%.
+
+#### Les chercheurs contribuent plus individuellement que les autres contributeurs.
+
+Il s'agit de voir l'importance des chercheurs par la place de mainteneurs du projet qu'ils pourraient éventuellement avoir.
+
+Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, l
+
+La contribution en termes de _commits_ serait plutôt un indicateur de contribution sur le long terme tandis que la contribution en termes de lignes de code modifiées indiquerait l'appartenance du projet au contributeur.
 
 ### IV.2. **Qui écrit les algorithmes automatiques dans ces projets ?**
 
@@ -187,5 +201,10 @@ Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 �
 | :--- | :--- | :--- |
 |  |  |  |
 
+## V. Analyse des résultats et conclusion
 
+_À remplir._
 
+## VI. Références
+
+_À remplir._
