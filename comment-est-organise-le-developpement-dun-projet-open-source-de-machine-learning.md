@@ -231,7 +231,7 @@ Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astro
 
 #### Conclusion partielle
 
-### V.2. **Qui écrit les algorithmes automatiques dans ces projets ?**
+### V.2. **Qui écrit les algorithmes d'apprentissage automatique dans ces projets ?**
 
 Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs . Ces resultats se trouve dans le dossier DataResult dans notre repo [github](https://github.com/AntoineAube/reace-study/tree/master/ownership-algorithm/DataResult).
 
