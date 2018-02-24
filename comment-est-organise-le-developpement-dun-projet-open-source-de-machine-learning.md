@@ -39,6 +39,15 @@ Notre intuition suggère plusieurs pistes que nous souhaitons explorer et auxque
 
 ## III. Rassemblement d'informations
 
+### Outils utilisés
+
+Pour rassembler les informations utilisés dans cette étude, nous avons utilisé les outils suivants :
+
+* RepoDriller[^1] pour analyser les contributions successives des projets.
+* SonarQube pour analyser la qualité des projets.
+
+Nous avons également produit une série de scripts Bash, Javascript et Python pour des tâches plus spécifiques et pour automatiser la récolte des informations, afin d'améliorer la reproductibilité de l'étude et de repérer les possibles erreurs dans le protocole que nous suivons.
+
 ### Objets de l'étude
 
 Comme nous souhaitons observer des propriétés vraies pour les projets Open Source de Machine Learning en général, l'étude portera sur un ensemble de projets.
@@ -55,7 +64,7 @@ Nos critères de sélection sont arbitraires, ils nous permettent de ne pas nous
 
 Nous avons retenu trente-quatre projets qui respectent nos critères.
 
-Les projets que nous avons sélectionné ont été trouvés sur la liste Awesome Machine Learning[^1].
+Les projets que nous avons sélectionné ont été trouvés sur la liste Awesome Machine Learning[^2].
 
 Ils sont au nombre de trente-quatre : _scikit-learn_, _theano_, _keras_, _scikit-image_, _simplecv_, _nltk_, _pattern_, _auto-ml_, _pylearn_, _pybrain_, _brainstorm_, _pyevolve_, _pytorch_, _cogitare_, _featureforge_, _metric-learn_, _simpleai_, _astroML_, _lasagne_, _hebel_, _chainer_, _prophet_, _gensim_, _surprise_, _crab_, _nilearn_, _pyhsmm_, _skll_, _spearmint_, _deap_, _mlxtend_, _tpot_, _pgmpy_ et _milk_.
 
@@ -65,7 +74,11 @@ Ces projets sont différents entre notamment au niveau des domaines auxquels ils
 
 _Figure 2 - Grandes disparités de la maturité des projets étudiés_
 
-Nous observerons néanmoins que ces projets très actifs pour la plupart. La Figure 3 présente la fonction de répartition cumulative \(Cumulative Distribution Function - CDF\) des contributions apportés aux projets en 2017 et montre que, nonobstant de rares projets qui n'évoluent plus ou très peu, les projets évoluent en continu dans l'année.
+Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Figure 3_ présente la fonction de répartition cumulative \(Cumulative Distribution Function - CDF\) des contributions apportés aux projets en 2017 et montre que, nonobstant de rares projets qui n'évoluent plus ou très peu, les projets évoluent en continu dans l'année.
+
+![](/assets/organisation_project_os_ml/contributions_cdf.png)
+
+_Figure 3 - Évolutions perpetuelles de la plupart des projets_
 
 ## IV. Hypothèses et expériences
 
@@ -78,4 +91,10 @@ _À remplir._
 ## VI. Références
 
 _À remplir._
+
+
+
+[^1]: [https://github.com/mauricioaniche/repodriller](https://github.com/mauricioaniche/repodriller)
+
+[^2]: [https://github.com/josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)
 
