@@ -125,19 +125,19 @@ Chaque approche détermine si, oui ou non, un contributeur est un chercheur à s
 
 En définitive, nous considérons qu'un contributeur est un chercheur si au moins une des approches conclut qu'il en est un.
 
-#### Les contributeurs sont majoritairement des chercheurs.
+#### IV.1.1. _Les contributeurs sont majoritairement des chercheurs._
 
 Il s'agit de voir l'importance des chercheurs en quantité de contributeurs.
 
-Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représente moins de 50%.
+Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représentait moins de 50%.
 
-#### Les contributions viennent majoritairement de chercheurs.
+#### IV.1.2. _Les contributions viennent majoritairement de chercheurs._
 
 Il s'agit de voir l'importance des chercheurs en nombre de contributions.
 
-Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions représente moins de 50%.
+Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions représentait moins de 50%.
 
-#### Les chercheurs contribuent plus individuellement que les autres contributeurs.
+#### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
 Il s'agit de voir l'importance des chercheurs par la place de mainteneurs du projet qu'ils pourraient éventuellement avoir.
 
@@ -214,6 +214,28 @@ Malgrès que nous avons fais de 1 à 10 contributeurs pour chaque projet , nous 
 ## V. Analyse des résultats et conclusion
 
 _À remplir._
+
+### V.1. Ces projets sont-ils menés par des chercheurs ?
+
+#### Discriminer les chercheurs
+
+
+
+#### V.1.1. _Les contributeurs sont majoritairement des chercheurs._
+
+
+
+#### V.1.2. _Les contributions viennent majoritairement de chercheurs._
+
+
+
+#### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
+
+
+
+#### Conclusion partielle
+
+
 
 ## VI. Références
 
