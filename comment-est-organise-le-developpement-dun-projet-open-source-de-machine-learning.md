@@ -199,7 +199,7 @@ Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 �
 
 Malgrès que nous avons fais de 1 à 10 contributeurs pour chaque projet , nous allons vous exposer 5 cas pour chacun des trois projets.
 
-Les tableaux sont triés par les fichiers qui ont plus de lignes de codes et après par le pourcentage de contributions le plus élévé \(ordre d'affichage décroissant\) 
+Les tableaux sont triés par les fichiers qui ont plus de lignes de codes et après par le pourcentage de contributions le plus élévé \(ordre d'affichage décroissant\)
 
 Pour voir les détails de cette étude avec l'affichage des dataset veuillez cliquer[ ici](https://github.com/AntoineAube/reace-study/blob/master/ownership-algorithm/find-ownership-algorithm.ipynb)
 
@@ -266,6 +266,16 @@ L'approche avec les adresses mails a conclu que 527 contributeurs étaient des c
 _Figure 4 - Une minorité de projets compte une majorité de chercheurs_
 
 La Figure 4 montre que, d'après notre critère, notre hypothèse était fausse : **dans la majorité des projets Open Source de Machine Learning, les chercheurs sont minoritaires**.
+
+Nous portons notre attention sur les deux groupes suivants :
+
+* Les projets qui comptent une majorité de chercheurs sont _scikit-image_, _pylearn_, _spearmint_, _simpleai_, _metric-learn_, _nilearn_, _pyhsmm_, _skll_, _astroML_ et _cogitare_.
+
+
+
+* Un projet ne compte aucun contributeur-chercheur : _auto-ml_, ce qui est étonnant car tous les autres projets étudiés comptent au moins 20% de contributeurs-chercheurs.
+
+Un aperçu du dépôt de _auto-ml_ sur GitHub montre que le projet est maintenu par une seule personne, Preston Parry \(qui n'est pas chercheur\), qui cumule 90% des _commits_, et accompagné de dix autres contributeurs qui, vus au cas par cas, ne semble eux non plus pas être des chercheurs. Il semble que nos résultats pour ce projet ne soient donc pas dûs aux biais de notre discrimination des chercheurs, mais plutôt que _auto-ml_ soit une exception.
 
 #### V.1.2. _Les contributions viennent majoritairement de chercheurs._
 
