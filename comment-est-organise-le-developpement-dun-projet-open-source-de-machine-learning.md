@@ -23,7 +23,7 @@ Cette discipline ne cesse d'intéresser de nouveaux adeptes, autant les entrepri
 
 _Figure 1 - Intérêt croissant pour le Machine Learning lors des cinq dernières années_
 
-_Source des données : _[_Google Trend_](https://trends.google.fr/trends/explore?date=today%205-y&q=machine%20learning,deep%20learning,artificial%20intelligence)
+_Source des données : _[_Google Trends_](https://trends.google.fr/trends/explore?date=today 5-y&q=machine learning,deep learning,artificial intelligence)
 
 Une brève investigation révèle qu'une communauté s'est créée autour de l'apprentissage automatique, autant pour diffuser le savoir \(des sites comme _DataCamp_\), pour collaborer autour d'ensemble de données publics \(_Kaggle_\) ou pour construire des logiciels et bibliothèques qui tiennent compte de l'avancée dans le domaine \(de nombreux projets open source sur _GitHub_ comme _scikit-learn_, ...\).
 
