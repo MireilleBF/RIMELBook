@@ -229,7 +229,7 @@ Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astro
 
 ![](/assets/organisation_project_os_ml/researchers_commits.png)
 
-_Figure 5 - Une majorité de _commits_ proviennent de chercheurs dans la majorité des projets étudiés_
+_Figure 5 - Une majorité de \_commits_ proviennent de chercheurs dans la majorité des projets étudiés\_
 
 La Figure 5 montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des commits qui constituent les projets de Machine Learning étudiés.
 
@@ -257,13 +257,13 @@ Nous constatons que dans les 256 fichiers du projet, il y'a seulement que 3 fich
 
 ###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
 
-![](/assets/Sckitilearn.png)
+![](/assets/sckiti-learn.png)
 
 Sur ce projet on en trouve 8 fichiers sur 1180 au total pour exactement 6 contributeurs sur le 1023 contributeurs.
 
 ###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
 
-![](/assets/tensorflow.png)
+![](/assets/tensor.png)
 
 #### Deuxième cas - Fichier avec trois contributeurs
 
