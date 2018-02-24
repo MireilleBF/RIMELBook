@@ -181,7 +181,19 @@ Afin de répondre à la question, nous avons fait un programe nous permettant de
 6. Learning : Est ce un algorithme d'apprentissage \(Cette colonne est verifié que pour le projet Scikit-learn\)
 7. NbOthors : Nombre total de contributeur du fichier
 
-Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs par fichier. Ces resultats se trouve dans le dossier DataResult dans notre repo github.
+Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs . Ces resultats se trouve dans le dossier DataResult dans notre repo [github](https://github.com/AntoineAube/reace-study/tree/master/ownership-algorithm/DataResult).
+
+Malgrès que nous avons fais de 1 à 10 contributeurs pour chaque projet , nous allons vous exposer 5 cas pour chacun des trois projets.
+
+#### Première cas - Fichier avec un seul contributeur
+
+#### Deuxième cas - Fichier avec trois contributeurs
+
+#### Troisième cas - Fichier avec cinq contributeurs
+
+#### Quatrième cas - Fichier avec huit contributeurs
+
+#### Cinquième cas - Fichier avec 10 contributeurs
 
 |  |  |  |
 | :--- | :--- | :--- |
