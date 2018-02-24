@@ -143,7 +143,7 @@ Nous considérons que cette hypothèse serait réfutée si la part des chercheur
 
 Il s'agit de voir l'importance des chercheurs par la place de mainteneurs du projet qu'ils pourraient éventuellement avoir.
 
-Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, l
+Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, la majorité des contributeurs-chercheurs s'investit moins que les autres contributeurs.
 
 La contribution en termes de _commits_ serait plutôt un indicateur de contribution sur le long terme tandis que la contribution en termes de lignes de code modifiées indiquerait l'appartenance du projet au contributeur.
 
@@ -208,3 +208,4 @@ _À remplir._
 ## VI. Références
 
 _À remplir._
+
