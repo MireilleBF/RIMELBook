@@ -1,4 +1,4 @@
-# Comment est organisé le développement d'un projet Open Source de Machine Learning ?
+# omment est organisé le développement d'un projet Open Source de Machine Learning ?
 
 _Février 2018_
 
@@ -199,15 +199,49 @@ Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 �
 
 Malgrès que nous avons fais de 1 à 10 contributeurs pour chaque projet , nous allons vous exposer 5 cas pour chacun des trois projets.
 
+Les tableaux sont triés par les fichiers qui ont plus de lignes de codes et après par le pourcentage de contributions le plus élévé \(ordre d'affichage décroissant\) 
+
+Pour voir les détails de cette étude avec l'affichage des dataset veuillez cliquer[ ici](https://github.com/AntoineAube/reace-study/blob/master/ownership-algorithm/find-ownership-algorithm.ipynb)
+
 #### Première cas - Fichier avec un seul contributeur
+
+###### Keras \(629 contributors, 4372 commits,256 fichiers \)
+
+###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
+
+###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
 
 #### Deuxième cas - Fichier avec trois contributeurs
 
+###### Keras \(629 contributors, 4372 commits,256 fichiers \)
+
+###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
+
+###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
+
 #### Troisième cas - Fichier avec cinq contributeurs
+
+###### Keras \(629 contributors, 4372 commits,256 fichiers \)
+
+###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
+
+###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
 
 #### Quatrième cas - Fichier avec huit contributeurs
 
+###### Keras \(629 contributors, 4372 commits,256 fichiers \)
+
+###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
+
+###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
+
 #### Cinquième cas - Fichier avec 10 contributeurs
+
+###### Keras \(629 contributors, 4372 commits,256 fichiers \)
+
+###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
+
+###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
 
 |  |  |  |
 | :--- | :--- | :--- |
@@ -220,3 +254,4 @@ _À remplir._
 ## VI. Références
 
 _À remplir._
+
