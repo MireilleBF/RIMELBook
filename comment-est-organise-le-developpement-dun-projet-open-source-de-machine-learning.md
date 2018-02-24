@@ -223,11 +223,15 @@ _À remplir._
 
 Les trente-quatre projets cumulent 4376 contributeurs uniques \(uniques par leur nom\).
 
-L'approche avec les adresses mails a conclu que 527 contributeurs étaient des chercheurs, soit 3849 ne l'étaient pas. L'approche qui utilise Google Scholar a conclu que 1537 contributeurs étaient des chercheurs, soit 2839 ne l'étaient pas. Seuls 251 contributeurs ont été considérés chercheurs par les deux approches à la fois, ce qui corrobore ce que nous attendions : il y a de nombreux faux négatifs pour les deux approches. 
+L'approche avec les adresses mails a conclu que 527 contributeurs étaient des chercheurs, soit 3849 ne l'étaient pas. L'approche qui utilise Google Scholar a conclu que 1537 contributeurs étaient des chercheurs, soit 2839 ne l'étaient pas. Seuls 251 contributeurs ont été considérés chercheurs par les deux approches à la fois, ce qui corrobore ce que nous attendions : il y a de nombreux faux négatifs pour les deux approches.
 
 #### V.1.1. _Les contributeurs sont majoritairement des chercheurs._
 
+![](/assets/organisation_project_os_ml/researchers_per_project.png)
 
+_Figure 4 - Une minorité de projets compte une majorité de chercheurs_
+
+La Figure 4 montre que, d'après notre critère, notre hypothèse était fausse : **dans la majorité des projets Open Source de Machine Learning, les chercheurs sont minoritaires**.
 
 #### V.1.2. _Les contributions viennent majoritairement de chercheurs._
 
