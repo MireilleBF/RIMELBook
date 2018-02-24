@@ -109,6 +109,8 @@ Nous souhaitons évaluer trois hypothèses :
 2. **Les contributions viennent majoritairement de chercheurs.**
 3. **Un chercheur qui contribue s'investit sur le long terme.**
 
+Chaque hypothèse traite une façon de représenter l'importance des chercheurs dans ces projets : en nombre de contributeurs, en nombre de contributions, en qualité de maintenance. Si les chercheurs sont significativement importants pour la tenue du projet, nous estimons raisonnable de conclure que ces projets sont le fruit du travail des chercheurs.
+
 Pour répondre à ces trois hypothèses, nous avons récolté des informations pour chaque _commit_ de chaque dépôt : auteur \(nom et adresse mail\), nombre de fichiers modifiés, lignes ajoutées et retirées.
 
 Dans un premier temps, il convient de définir comment nous avons déterminé qu'un contributeur est un chercheur.
@@ -123,6 +125,12 @@ Nous avons développé deux approches qui chacune fournit des résultats partiel
 Chaque approche détermine si, oui ou non, un contributeur est un chercheur à son sens \(pas de position intermédiaire\).
 
 En définitive, nous considérons qu'un contributeur est un chercheur si au moins une des approches conclut qu'il en est un.
+
+####  Les contributeurs sont majoritairement des chercheurs.
+
+Il s'agit de voir l'importance des chercheurs en quantité de contributeur
+
+Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représente moins de 50%.
 
 ## V. Analyse des résultats et conclusion
 
