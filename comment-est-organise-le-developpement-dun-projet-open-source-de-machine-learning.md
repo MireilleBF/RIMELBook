@@ -145,9 +145,59 @@ En ayant constaté que  dans le cadre des projets machine learning la plus part 
 
 * **Existe-t-il des fichiers avec un seul contributeur ?**
 
-      Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
+  ```
+    Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
+  ```
 
 * **Existe-t-il des fichiers avec deux ou plusieurs contributeurs où l'un d'entre eux est l'auteur principal ?**
 
-      Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de       contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
+  ```
+   Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
+  ```
+
+_**NB :**_
+
+Nous avons établi cette deuxième hypothèse après avoir constaté que dans les projets opens sources en générale , il peut existe plusieurs contributeurs dans un fichier, mais si on regarde en profondeur on peut y trouver que la grande majorité du fichier est faite par une seul personne , et que les autres contributeurs ont fixé des bugs, modifier ou supprimer une ligne,etc..
+
+#### Métriques :
+
+* **Le nombre de lignes par auteur**
+
+* ** Le pourcentage de contributions par auteur**
+
+#### Projets :
+
+Pour cette questions nous avons étudier trois projets qui sont :
+
+1. Keras \(256 fichiers\)
+2. Scikit-learn \(1180 fichiers\)
+3. Tensorflow \(10136 fichiers\)
+
+#### Démarches :
+
+Afin de répondre à la question, nous avons fait un programe nous permettant de parcourir un projet avec git blame, et nous produire à la sortie:
+
+1. File : Nom du fichier
+2.  Othor\[i\] : Nom de l'auteur i \(i représente le numero de l'auteur\)
+3. LineOthor\[i\] : Nombre de ligne de l'auteur i
+4. Contribution\[i\] : Pourcentage de contribution de l'auteur i
+5. File Lines : Nombre total de lignes du fichier
+6. Learning : Est ce un algorithme d'apprentissage \(Cette colonne est verifié que pour le projet Scikit-learn\)
+7. NbOthors : Nombre total de contributeur du fichier
+
+Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs par fichier. Ces resultats se trouve dans le dossier DataResult dans notre repo github.
+
+
+
+|  |  |  |
+| :--- | :--- | :--- |
+|  |  |  |
+
+
+
+
+
+
+
+
 
