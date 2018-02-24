@@ -91,8 +91,6 @@ Nous pensons que cette diversité apparente entre les projets nous permettra d'o
 
 ## IV. Hypothèses et expériences
 
-_À remplir._
-
 Nous avons décomposé notre question générale en sous-questions qui fixent les limites que nous souhaitons étudier. Dans cette partie, nous détaillons pour chaque sous-questions nos hypothèses et la méthode que nous allons employer pour les vérifier ou les invalider.
 
 Nos hypothèses de travail communes à l'ensemble de l'étude est que les contributeurs sont de bonne foi :
