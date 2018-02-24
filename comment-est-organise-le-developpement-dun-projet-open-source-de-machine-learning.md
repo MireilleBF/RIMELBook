@@ -120,7 +120,7 @@ Dans un premier temps, il convient de définir comment nous avons déterminé qu
 
 Nous avons développé deux approches qui chacune fournit des résultats partiels :
 
-* **Un chercheur possède une adresse mail dont le domaine appartient à une académie ou à un établissement de recherche. **Cette approche présente comme biais de potentiellement considérer comme chercheur un étudiant universitaire. Elle est très peu exhaustive car la majorité des utilisateurs contribuent avec une adresse _@gmail_ de laquelle nous ne pouvons pas conclure.
+* **Un chercheur possède une adresse mail dont le domaine appartient à une académie ou à un établissement de recherche. **Cette approche présente comme biais de potentiellement considérer comme chercheur un étudiant universita%ire. Elle est très peu exhaustive car la majorité des utilisateurs contribuent avec une adresse _@gmail_ de laquelle nous ne pouvons pas conclure.
 * **Un chercheur possède un profil de chercheur sur Google Scholar.** Cette approche a comme désavantage la non-complétude de Google Scholar, qui ne contient pas tous les articles de recherche et qui ne crée pas systématiquement un profil pour chaque chercheur.
 
 Chaque approche détermine si, oui ou non, un contributeur est un chercheur à son sens \(pas de position intermédiaire\).
@@ -133,17 +133,21 @@ Il s'agit de voir l'importance des chercheurs en quantité de contributeur
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représente moins de 50%.
 
+### IV.2. **Qui écrit les algorithmes automatiques dans ces projets ?**
 
+Sur cette partie nous allons essayé de répondre s'il existe des algorithmes avec un contributeurs principal.
 
-### IV.2. **Qui écrit les algorithmes d'apprentissage automatiques dans ces projets ?**
+Pour y arrivé nous avons défini des hypothèses et des métriques .
 
+#### Hypothèses :
 
+En ayant constaté que  dans le cadre des projets machine learning la plus part des temps qu'un fichier possède un seul algorithme\(machine learning\), alors nous avons posé ces différents hypothèses qui sont :
 
-## V. Analyse des résultats et conclusion
+* **Existe-t-il des fichiers avec un seul contributeur ?**
 
-_À remplir._
+      Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
 
-## VI. Références
+* **Existe-t-il des fichiers avec deux ou plusieurs contributeurs où l'un d'entre eux est l'auteur principal ?**
 
-_À remplir._
+      Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de       contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
 
