@@ -23,7 +23,7 @@ Cette discipline ne cesse d'intéresser de nouveaux adeptes, autant les entrepri
 
 _Figure 1 - Intérêt croissant pour le Machine Learning lors des cinq dernières années_
 
-_Source des données : _[_https://trends.google.fr/trends/explore?date=today%205-y&q=machine%20learning,deep%20learning,artificial%20intelligence_](https://trends.google.fr/trends/explore?date=today 5-y&q=machine learning,deep learning,artificial intelligence)
+_Source des données : _[_Google Trend_](https://trends.google.fr/trends/explore?date=today%205-y&q=machine%20learning,deep%20learning,artificial%20intelligence)
 
 Une brève investigation révèle qu'une communauté s'est créée autour de l'apprentissage automatique, autant pour diffuser le savoir \(des sites comme _DataCamp_\), pour collaborer autour d'ensemble de données publics \(_Kaggle_\) ou pour construire des logiciels et bibliothèques qui tiennent compte de l'avancée dans le domaine \(de nombreux projets open source sur _GitHub_ comme _scikit-learn_, ...\).
 
@@ -59,18 +59,18 @@ Nos critères de sélection sont arbitraires, ils nous permettent de ne pas nous
 
 Pour rassembler les informations utilisés dans cette étude, nous avons utilisé les outils suivants :
 
-* RepoDriller[^1] pour analyser les contributions successives des projets.
-* SonarQube pour analyser la qualité des projets.
+* [RepoDriller](https://github.com/mauricioaniche/repodriller) pour analyser les contributions successives des projets.
+* [SonarQube](https://www.sonarqube.org/) pour analyser la qualité des projets.
 
 Nous avons également produit une série de scripts Bash, Javascript et Python pour des tâches plus spécifiques et pour automatiser la récolte des informations, afin d'améliorer la reproductibilité de l'étude et de repérer les possibles erreurs dans le protocole que nous suivons.
 
-Les figures présentes dans le document ont été produites par nos soins, la plupart avec la bibliothèques Pygal.
+Les figures présentes dans le document ont été produites par nos soins, la plupart avec la bibliothèque [Pygal](http://pygal.org/en/stable/).
 
 ### Projets retenus
 
 Nous avons retenu trente-quatre projets qui respectent nos critères.
 
-Les projets que nous avons sélectionné ont été trouvés sur la liste Awesome Machine Learning[^2].
+Les projets que nous avons sélectionné ont été trouvés sur la liste [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning).
 
 Ils sont au nombre de trente-quatre : _scikit-learn_, _theano_, _keras_, _scikit-image_, _simplecv_, _nltk_, _pattern_, _auto-ml_, _pylearn_, _pybrain_, _brainstorm_, _pyevolve_, _pytorch_, _cogitare_, _featureforge_, _metric-learn_, _simpleai_, _astroML_, _lasagne_, _hebel_, _chainer_, _prophet_, _gensim_, _surprise_, _crab_, _nilearn_, _pyhsmm_, _skll_, _spearmint_, _deap_, _mlxtend_, _tpot_, _pgmpy_ et _milk_.
 
