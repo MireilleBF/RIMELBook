@@ -65,7 +65,7 @@ Ces projets sont différents entre notamment au niveau des domaines auxquels ils
 
 _Figure 2 - Grandes disparités de la maturité des projets étudiés_
 
-Nous observerons néanmoins que ces projets très actifs pour la plupart. La Figure 3 présente la distribution 
+Nous observerons néanmoins que ces projets très actifs pour la plupart. La Figure 3 présente la fonction de répartition cumulative \(Cumulative Distribution Function - CDF\) des contributions apportés aux projets en 2017 et montre que, nonobstant de rares projets qui n'évoluent plus ou très peu, les projets évoluent en continu dans l'année.
 
 ## IV. Hypothèses et expériences
 
