@@ -8,6 +8,7 @@ Nous somme quatre étudiants en cinquième année de science informatique à l'�
 * Rami Ajroud &lt;rami.ajroud@etu.unice.fr&gt;
 * Danial Aswad &lt;danial-aswad.bin-ahmad-fazlan@etu.unice.fr&gt;
 * Ahmed Fezai &lt;ahmed.fezai@etu.unice.fr&gt;
+* Thomas Suignard &lt;thomas.suignard@etu.unice.fr&gt;
 
 ## I. Contexte de recherche
 
