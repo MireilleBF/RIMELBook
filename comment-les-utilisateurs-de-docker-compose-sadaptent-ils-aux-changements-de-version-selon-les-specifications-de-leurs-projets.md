@@ -11,13 +11,18 @@ Nous somme cinq étudiants en cinquième année de science informatique à l'éc
 * Thomas Suignard &lt;thomas.suignard@etu.unice.fr&gt;
 
 ## Introduction
-Dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des Logiciels (RIMÉL), ce chapitre présente le travail que nous avons réalisé durant ce semestre. Ce document montre explicitement le contexte de notre travail et le problématique évoqué suivie par nos hypothèses, la démarche effectuée et les résultats. À la fin de ce document nous établissons une relation entre les résultats obtenus avec nos hypothèses.
+
+Dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des Logiciels \(RIMÉL\), ce chapitre présente le travail que nous avons réalisé durant ce semestre. Ce document montre explicitement le contexte de notre travail et le problématique évoqué suivie par nos hypothèses, la démarche effectuée et les résultats. À la fin de ce document nous établissons une relation entre les résultats obtenus avec nos hypothèses.
 
 ## I. Contexte de recherche
+
+Docker Compose est un outil permettant de définir les comportements des conteneurs \(écrit dans le fichier docker-compose.yml\) et de lancer plusieurs conteneurs d'application docker avec une seule commande. Comme Docker ne garantit aucune manière de la rétro compatibilité d’une version à une autre, à la manière de Python entre sa version 2.X et 3.X, le résultat est donc le fichier docker-compose.yml écrit sous la syntaxe de la version 2 ne peuvent être utilisés sous la version 3 sans apporter certaines modification.
 
 _TODO_
 
 ## II. Observations et question générale
+
+Nous souhaitons donc étudier la manière dont les utilisateurs de cet outil réagit face à la mise à jour du Docker. Afin d’élargir les perspectives de nos études, nous avons choisi de chercher à voir s’il était possible de définir certains comportements lors de ces mise à jours en fonction de certains critère. En nous appuyant sur un sample de dépôt sur GitHub, et en les classifiants selon leurs caractéristiques disponibles telles que : le nombre de collaborateurs, le nombre de lignes de codes, le langage source, les technologie utilisés.
 
 _TODO_
 
