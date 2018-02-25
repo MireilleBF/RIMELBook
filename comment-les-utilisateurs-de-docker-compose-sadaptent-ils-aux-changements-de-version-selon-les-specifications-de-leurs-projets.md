@@ -10,6 +10,9 @@ Nous somme cinq étudiants en cinquième année de science informatique à l'éc
 * Ahmed Fezai &lt;ahmed.fezai@etu.unice.fr&gt;
 * Thomas Suignard &lt;thomas.suignard@etu.unice.fr&gt;
 
+## Introduction
+Dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des Logiciels (RIMÉL), ce chapitre présente le travail que nous avons réalisé durant ce semestre. Ce document montre explicitement le contexte de notre travail et le problématique évoqué suivie par nos hypothèses, la démarche effectuée et les résultats. À la fin de ce document nous établissons une relation entre les résultats obtenus avec nos hypothèses.
+
 ## I. Contexte de recherche
 
 _TODO_
