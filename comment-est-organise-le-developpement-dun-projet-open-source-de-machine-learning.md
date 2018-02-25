@@ -183,7 +183,7 @@ Nous considerons qu'un contributeur est majeur sur un algorithme si et seulement
 
 #### IV.2.1. **Des algorithmes avec un seul contributeur principal**
 
-Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
+Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire\(contributeur majeur\) de cet algorithme.
 
 #### IV.2.2. **Des algorithmes avec un contributeur qui a un pourcentage de contribution majoritaire**
 
@@ -281,19 +281,17 @@ Pour voir les détails de cette étude avec l'affichage des dataset veuillez cli
 
 ###### Keras \(629 contributors, 4372 commits,256 fichiers \)
 
-![](/assets/keras.png)
+![](/assets/Keras.png)
 
 Nous constatons que dans les 256 fichiers du projet, il y'a seulement que 3 fichier avec uxn seul auteur qui d'ailleurs le même pour les trois à savoir **François Chollet** \(à part les tests,documentations,benchmarks\).
 
 ###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
 
-![](/assets/sckiti-learn.png)
+![](/assets/Scikit-learn.png)
 
 Sur ce projet on en trouve 8 fichiers sur 1180 au total pour exactement 6 contributeurs sur le 1023 contributeurs.
 
-###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
-
-![](/assets/tensor.png)
+###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)![](/assets/tensor.png)
 
 #### Deuxième cas - Fichier avec trois contributeurs
 
