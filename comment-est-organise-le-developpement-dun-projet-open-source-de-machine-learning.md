@@ -158,7 +158,7 @@ Pour y arrivé nous avons défini des hypothèses et des métriques .
 En ayant constaté que  dans le cadre des projets machine learning la plus part des temps qu'un fichier possède un seul algorithme\(machine learning\), alors nous avons posé ces différents hypothèses qui sont :
 
 1. **Les algorithmes sont majoritairement maintenus par une seule personne**
-2. **Des algorithmes avec un contributeur qui a un pourcentage de contribution majoritaire**
+2. L**es algorithmes maintenus par un contributeur majeur sont elle majoritaire**
 
 Ces deux hypothèses nous permet de montrer l'importance d'avoir sur un projet machine learning des algorithmes avec plus de  contributeurs majeurs, pour pouvoir conclure ou pas de niveau de bug sur ces algorithmes de machine learning.
 
