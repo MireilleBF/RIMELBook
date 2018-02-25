@@ -157,8 +157,8 @@ Pour y arrivé nous avons défini des hypothèses et des métriques .
 
 En ayant constaté que  dans le cadre des projets machine learning la plus part des temps qu'un fichier possède un seul algorithme\(machine learning\), alors nous avons posé ces différents hypothèses qui sont :
 
-1. **Les algorithmes sont majoritairement maintenus par une seule personne**
-2. L**es algorithmes maintenus par un contributeur majeur sont elle majoritaire**
+1. **Tous les algorithmes sont majoritairement maintenus par une seule personne**
+2. L**es algorithmes maintenus par un contributeur majeur sont majoritaire**
 
 Ces deux hypothèses nous permet de montrer l'importance d'avoir sur un projet machine learning des algorithmes avec plus de  contributeurs majeurs, pour pouvoir conclure ou pas de niveau de bug sur ces algorithmes de machine learning.
 
@@ -181,11 +181,11 @@ Pour la seconde hypothèse , nous regardons toute les fichiers avec deux ou plus
 
 Nous considerons qu'un contributeur est majeur sur un algorithme si et seulement il repond à l'une de ces deux approches.
 
-#### IV.2.1. **Des algorithmes avec un seul contributeur principal**
+#### IV.2.1. **Tous les algorithmes sont majoritairement maintenus par une seule personne**
 
 Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire\(contributeur majeur\) de cet algorithme.
 
-#### IV.2.2. **Des algorithmes avec un contributeur qui a un pourcentage de contribution majoritaire**
+#### IV.2.2. L**es algorithmes maintenus par un contributeur majeur sont majoritaire**
 
 Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage  superieur à 95% alors ce contributeur est majeur pour cet algorithme.
 
