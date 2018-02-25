@@ -162,7 +162,7 @@ En ayant constaté que  dans le cadre des projets machine learning la plus part 
 
 Ces deux hypothèses nous permet de montrer l'importance d'avoir sur un projet machine learning des algorithmes avec plus de  contributeurs majeurs, pour pouvoir conclure ou pas de niveau de bug sur ces algorithmes de machine learning.
 
-En partant de l'hypothèse propriété et bug sur le cours de Monsieur Xavier Blanc 
+En partant de l'hypothèse propriété et bug sur le cours de Monsieur Xavier Blanc
 
 * un composant\(un algorithme de machine learning dans notre cas\) avec essentiellement des contributeurs majeurs a moins de bug.
 * Un composant avec beaucoup de contributeurs mineurs a plus de bug.
@@ -189,7 +189,7 @@ Si un fichier a été développé par un seul contributeur alors ce contributeur
 
 Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage  superieur à 95% alors ce contributeur est majeur pour cet algorithme.
 
-_**NB :**_Nous avons établi cette deuxième hypothèse après avoir constaté que dans les projets opens sources en générale , il peut existe plusieurs contributeurs dans un fichier, mais si on regarde en profondeur on peut y trouver que la grande majorité du fichier est faite par une seul personne , et que les autres contributeurs ont fixé des bugs, modifier ou supprimer une ligne,etc..
+**NB : ** Nous avons établi cette deuxième hypothèse après avoir constaté que dans les projets opens sources en générale , il peut existe plusieurs contributeurs dans un fichier, mais si on regarde en profondeur on peut y trouver que la grande majorité du fichier est faite par une seul personne , et que les autres contributeurs ont fixé des bugs, modifier ou supprimer une ligne,etc..
 
 #### Métriques :
 
