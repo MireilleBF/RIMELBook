@@ -16,7 +16,7 @@ Dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des L
 
 ## I. Contexte de recherche
 
-Docker Compose est un outil permettant de définir les comportements des conteneurs \(écrit dans le fichier docker-compose.yml\) et de lancer plusieurs conteneurs d'application docker avec une seule commande. Comme Docker ne garantit aucune manière de la rétro compatibilité d’une version à une autre, à la manière de Python entre sa version 2.X et 3.X, le résultat est donc le fichier docker-compose.yml écrit sous la syntaxe de la version 2 ne peuvent être utilisés sous la version 3 sans apporter certaines modification.
+Docker Compose est un outil permettant de définir les comportements des conteneurs \(écrit dans le fichier docker-compose.yml\) et de lancer plusieurs conteneurs d'application docker avec une seule commande. Comme Docker ne garantit aucune manière de la rétro compatibilité d’une version à une autre, à la manière de Python entre sa version 2.X et 3.X, le résultat est donc le fichier docker-compose.yml écrit sous la syntaxe de la version 2 ne peuvent être utilisés sous la version 3 sans apporter certaines modification.![](/assets/docker_compose_study_project_files/docker-compose-version-release.png)
 
 _TODO_
 
