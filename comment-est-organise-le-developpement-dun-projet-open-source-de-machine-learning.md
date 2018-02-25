@@ -157,17 +157,39 @@ Pour y arrivé nous avons défini des hypothèses et des métriques .
 
 En ayant constaté que  dans le cadre des projets machine learning la plus part des temps qu'un fichier possède un seul algorithme\(machine learning\), alors nous avons posé ces différents hypothèses qui sont :
 
-* **Existe-t-il des fichiers avec un seul contributeur ?**
+1. **Des algorithmes avec un seul contributeur principal**
+2. **Des algorithmes avec un contributeur qui a un pourcentage de contribution majoritaire**
+
+Ces deux hypothèses nous permet de montrer l'importance d'avoir sur un projet machine learning des algorithmes avec plus de  contributeurs majeurs, pour pouvoir conclure ou pas de niveau de bug sur ces algorithmes de machine learning.
+
+En partant de l'hypothèse propriété et bug sur le cours de Monsieur Xavier Blanc 
+
+* un composant\(un algorithme de machine learning dans notre cas\) avec essentiellement des contributeurs majeurs a moins de bug.
+* Un composant avec beaucoup de contributeurs mineurs a plus de bug.
+
+Si dans les projets que nous allons etudier il y'a un grand nombre de contributeurs majeurs sur les algorithme , alors nous pouvons deduire que ce projet contient des algorithmes avec moins de bugs.
+
+Afin de repondre a ces deux hypothèses, nous nous somme focalisé sur la notion d'ownerShip de chaque fichier, le nombre de ligne par contributeur dans un fichier , et le calcul de pourcentage de chaque contributeur dans un fichier.
+
+#### **Comment determiner qu'un algorithme a un contributeur majeur ? **
+
+En général dans les projets de machine learning , chaque algorithme est dévéloppé dans un seul fichier .
+
+Pour la prémière hypothèse, nous considerons que toute fichier qui n'a qu'un seul contributeur, alors nous pourrons conclure que cet algorithme à un seul contributeur qui est donc majeur . \( Dans notre étude nous écartons toute les fichiers de tests,de documentations,de benchmarks\).
+
+Pour la seconde hypothèse , nous regardons toute les fichiers avec deux ou plusieurs contributeurs , on calcule leurs pourcentage de contributions sur chacun de fichier afin de pouvoir conclure s'il existe ou pas un contributeur majeur sur ces algorithmes corespondant au fichiers.
+
+Nous considerons qu'un contributeur est majeur sur un algorithme si et seulement il repond à l'une de ces deux approches.
+
+#### IV.2.1. **Des algorithmes avec un seul contributeur principal**
 
 Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire de ce algorithme.
 
-* **Existe-t-il des fichiers avec deux ou plusieurs contributeurs où l'un d'entre eux est l'auteur principal ?**
+#### IV.2.2. **Des algorithmes avec un contributeur qui a un pourcentage de contribution majoritaire**
 
-Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage de contribution superieur à 95% alors ce contributeur est l'auteur principal de cet algorithme.
+Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage  superieur à 95% alors ce contributeur est majeur pour cet algorithme.
 
-_**NB :**_
-
-Nous avons établi cette deuxième hypothèse après avoir constaté que dans les projets opens sources en générale , il peut existe plusieurs contributeurs dans un fichier, mais si on regarde en profondeur on peut y trouver que la grande majorité du fichier est faite par une seul personne , et que les autres contributeurs ont fixé des bugs, modifier ou supprimer une ligne,etc..
+_**NB :**_Nous avons établi cette deuxième hypothèse après avoir constaté que dans les projets opens sources en générale , il peut existe plusieurs contributeurs dans un fichier, mais si on regarde en profondeur on peut y trouver que la grande majorité du fichier est faite par une seul personne , et que les autres contributeurs ont fixé des bugs, modifier ou supprimer une ligne,etc..
 
 #### Métriques :
 
