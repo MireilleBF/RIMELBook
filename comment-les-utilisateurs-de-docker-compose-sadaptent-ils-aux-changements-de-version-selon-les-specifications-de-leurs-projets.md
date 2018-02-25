@@ -2,12 +2,13 @@
 
 ## Auteurs
 
-Nous somme quatre étudiants en cinquième année de science informatique à l'école Polytech Nice-Sophia Antipolis, et nous nous spécialisons en Architecture Logicielle.
+Nous somme cinq étudiants en cinquième année de science informatique à l'école Polytech Nice-Sophia Antipolis, et nous nous spécialisons en Architecture Logicielle.
 
 * Maxime Carlier &lt;maxime.carlier@etu.unice.fr&gt;
 * Rami Ajroud &lt;rami.ajroud@etu.unice.fr&gt;
 * Danial Aswad &lt;danial-aswad.bin-ahmad-fazlan@etu.unice.fr&gt;
 * Ahmed Fezai &lt;ahmed.fezai@etu.unice.fr&gt;
+* Thomas Suignard &lt;thomas.suignard@etu.unice.fr&gt;
 
 ## I. Contexte de recherche
 
