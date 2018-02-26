@@ -142,7 +142,7 @@ Il s'agit de voir l'importance des chercheurs en nombre de contributions.
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions, en termes de _commits_ ou de lignes de codes modifiées, représentait moins de 50%.
 
-Nous procéderons en étudiant la répartition des commits et des lignes modifiées entre les chercheurs et les non-chercheurs de chaque projet.
+Nous procéderons en étudiant la répartition des _commits_ et des lignes modifiées entre les chercheurs et les non-chercheurs de chaque projet.
 
 #### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
@@ -226,8 +226,6 @@ Afin de répondre à la question, nous avons fait un programe nous permettant de
 
 ## V. Analyse des résultats et conclusion
 
-_À remplir._
-
 ### V.1. Ces projets sont-ils menés par des chercheurs ?
 
 #### Discriminer les chercheurs
@@ -271,6 +269,20 @@ La Figure 6 corrobore les observations de la Figure 5.
 Compte tenu du critère d'invalidation que nous avons de l'hypothèse, nous la considérons valide et observons : **les contributions proviennent majoritairement de chercheurs**.
 
 #### V.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
+
+Les graphiques que nous présentons dans ce paragraphe représentent des statistiques de statistiques. Pour chaque projet, nous avons calculé des statistiques \(moyenne, quartiles\) sur le nombre de commits et de lignes modifiées individuellement par un contributeur. Les boîtes à moustaches \(éléments des graphiques suivants\) sont centrées sur la moyenne de chaque statistique \(par exemple la moyenne des moyennes du nombre de commits\) ; la taille de la boîte dépend de l'écart interquartile ; la longueur des barres de part et d'autre est fonction de l'écart-type.
+
+Pour limiter l'influence de la taille des projets sur nos mesures, nous avons normalisé les mesures \(le nombre de _commits_ individuels par le nombre total de _commits_ du projet, ...\).
+
+##### Nombre de _commits_ : investissement sur le long terme
+
+Dans un premier temps, nous étudions cette hypothèse en observant le nombre de _commits_. Le nombre de commits permet d'inférer l'investissement sur le long terme d'un contributeur, en supposant que ces contributions sont étalées sur la durée. Ceci constitue un biais de notre méthode, qui pourrait être corrigé en utilisant un outil statistique \(dont nous n'avons pour l'instant pas connaissance\) qui nous permettrait de croiser le nombre de _commits_ et la répartition de ces _commits_ dans le temps.
+
+![](/assets/organisation_project_os_ml/commits_median.png)
+
+_Figure 7 - La majorité des contributeurs, aussi bien chercheurs que non-chercheurs, contribuent peu_
+
+La _Figure 7_ montre que la majorité des contributeurs, indépendamment de leur type, sont des contributeurs ponctuels \(un ou deux _commits_\). Le grand écart-type sur la boîte des chercheurs est dû aux petits projets qui comptent peu de contributeurs mais une grande proportion de chercheurs.
 
 #### Conclusion partielle
 
