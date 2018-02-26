@@ -1,4 +1,4 @@
-# omment est organisé le développement d'un projet Open Source de Machine Learning ?
+# Comment est organisé le développement d'un projet Open Source de Machine Learning ?
 
 _Février 2018_
 
@@ -33,7 +33,7 @@ Une brève investigation révèle qu'une communauté s'est créée autour de l'a
 
 L'apprentissage automatique est un domaine de pointe, que nous imaginons encore très proche de la recherche. Nous nous étonnons que, pourtant, les outils récurrents du Machine Learning \(nous entendons souvent parler de _Tensorflow_ et ses surcouches, _numpy_, ...\) soient des logiciels Open Source.
 
-Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning. À l'échelle d'un projet, de la réponse à cette question dépend la confiance que nous pouvons mettre en la qualité de leurs algorithmes et donc, d'une certaine manière, nous faire préférer un projet à un autre. Au niveau global, nous souhaitons déterminer s'ils existe des schémas récurrents dans l'ensemble de ces projets.
+Dans ces conditions, nous nous demandons comment est organisé le développement d'un projet open source de Machine Learning. À l'échelle d'un projet, de la réponse à cette question dépend la confiance que nous pouvons mettre en la qualité de leurs algorithmes et donc, d'une certaine manière, diriger notre choix quand nous en aurons besoin. Au niveau global, nous souhaitons déterminer s'ils existe des schémas récurrents dans l'ensemble de ces projets.
 
 ### II.2. Sous-questions
 
@@ -61,9 +61,10 @@ Pour rassembler les informations utilisés dans cette étude, nous avons utilis�
 
 * [RepoDriller](https://github.com/mauricioaniche/repodriller) pour analyser les contributions successives des projets.
 * [SonarQube](https://www.sonarqube.org/) pour analyser la qualité des projets.
-* Le package NodeJS [GitBlame](https://www.npmjs.com/package/git-blame) pour étudier l'état d'un projet à un instant donné.
 
 Nous avons également produit une série de scripts Bash, Javascript et Python pour des tâches plus spécifiques et pour automatiser la récolte des informations, afin d'améliorer la reproductibilité de l'étude et de repérer les possibles erreurs dans le protocole que nous suivons.
+
+Nous utilisons également des bibliothèques comme [scholarly](https://github.com/percolator/scholarly), qui nous permettent d'écrire des outils plus simples pour récolter nos données.
 
 Les figures présentes dans le document ont été produites par nos soins, la plupart avec la bibliothèque [Pygal](http://pygal.org/en/stable/).
 
