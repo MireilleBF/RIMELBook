@@ -180,19 +180,21 @@ Ci-suivent les critères que nous avons retenu pour chaque projet pour détermin
 ##### Critères pour _scikit-learn_
 
 * Le fichier a pour extension ".py" ou ".pyx".
+* Le fichier est dans un dossier dont l'arborescence débute par "sklearn".
 * Le fichier contient "def fit\(self". Il s'agit d'un morceau du prototype de la fonction qui entraîne un modèle sur un ensemble de données, elle est commune à tous les algorithmes de _scikit-learn_. Seul le début du prototype nous paraît sûr d'être recherché car la suite peut présenter des variations avec les espaces, ...
 
 ##### Critères pour scikit-image
 
 * Le fichier a pour extension ".py" ou ".pyx".
-* Le fichier est dans un dossier dans le dossier "skimage".
+* Le fichier est dans un dossier dont l'arborescence débute par "skimage".
+* Le fichier n'a pas de dossier "util", "scripts" ou "utils" dans son arborescence.
 * Le nom du fichier ne commence pas par "\_".
 * Le nom du fichier n'est pas "setup.py" ou "util.py".
 
 ##### Critère pour nltk
 
 * Le fichier a pour extension ".py" ou ".pyx".
-* Le fichier est dans un dossier dans le dossier "nltk".
+* Le fichier est dans un dossier dont l'arborescence débute par "nltk".
 * Le fichier est dans un dossier qui contient un fichier "api.py".
 * Le nom du fichier ne commence pas par "\_".
 * Le nom du fichier n'est pas "api.py", "setup.py" ou "util.py".
