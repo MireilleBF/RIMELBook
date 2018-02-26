@@ -321,7 +321,7 @@ Outre le résultat pour les conditions que nous avons posé, nous avons évalué
 
 ![](/assets/organisation_project_os_ml/algorithms_have_major_contributor.png)
 
-_Figure 12 - _scikit-image_ et _nltk_ présentent un très fort _ownership_ sur ses algorithmes_
+_Figure 12 - _scikit-image_ et _nltk_ présentent un très fort _ownership_ sur ses algorithmes\__
 
 Nous observons sur la _Figure 12_ que pour notre définition d'un contributeur majeur \(50% de _code ownership_ sur un algorithme\), l'hypothèse est invalidée que pour _scikit-learn_ \(47% des algorithmes ont un contributeur majeur\) alors qu'elle est très largement vérifiée sur les deux autres projets \(82% des algorithmes de _scikit-image_ et 85% des algorithmes de _nltk_\).
 
