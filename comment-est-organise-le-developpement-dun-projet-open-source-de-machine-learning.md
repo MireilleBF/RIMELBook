@@ -249,7 +249,7 @@ La _Figure 5_ montre que, malgré la minorité de chercheurs dans ces projets é
 
 _Figure 6 - Les chercheurs produisent également la majorité des ajouts et retraits de lignes dans la majorité des projets_
 
-La Figure 6 corrobore les observations de la Figure 5.
+La _Figure 6_ corrobore les observations de la _Figure 5_.
 
 Compte tenu du critère d'invalidation que nous avons de l'hypothèse, nous la considérons valide et observons : **les contributions proviennent majoritairement de chercheurs**.
 
@@ -311,11 +311,7 @@ Nous avons établi la liste des algorithmes de chaque projet, en voici un résum
 
 #### V.2.1. _La majorité des algorithmes est maintenue par un contributeur majeur._
 
-
-
 #### V.2.2. _Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme._
-
-
 
 ## VI. Références
 
