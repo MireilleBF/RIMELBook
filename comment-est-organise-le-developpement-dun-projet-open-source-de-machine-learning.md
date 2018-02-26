@@ -290,7 +290,7 @@ _Figure 8 - Il y a proportionnellement moins de chercheurs ponctuels que de non-
 
 ![](/assets/organisation_project_os_ml/commits_mean.png)
 
-_Figure 9 - En moyenne, les chercheurs fournissent beaucoup plus de _commits_ que les non-chercheurs_
+_Figure 9 - En moyenne, les chercheurs fournissent beaucoup plus de \_commits_ que les non-chercheurs\_
 
 La _Figure 8_ montre qu'en proportion il y a moins de chercheurs ponctuels \(dans le sens "qui ne contribuent qu'une fois"\) que de non-chercheurs ponctuels. La _Figure 9_ montre très clairement que, en moyenne, les chercheurs fournissent plus de commits que les non-chercheurs ce qui, d'après notre hypothèse sur la répartition des commits dans le temps, indique que **les chercheurs sont des contributeurs qui s'investissent sur un plus long terme que les autres contributeurs**.
 
@@ -300,11 +300,17 @@ Notre hypothèse de travail est qu'un contributeur qui a modifié de nombreuses 
 
 ![](/assets/organisation_project_os_ml/modified_lines_third_quartile.png)
 
-Figure 10 - 
+_Figure 10 - Les chercheurs sont plus nombreux à s'approprier leur projet que les autres contributeurs_
 
-Si la médiane des nombres de lignes modifiées par contributeur est proche de zéro avec un faible écart-type pour les deux classes de contributeurs, la Figure 10 montre que cet écart-type augmente au troisième quartile, ce qui signifie qu'à proportion égale les chercheurs s'approprient plus le projet que les non-chercheurs, de par une plus grande contribution en lignes de code.
+Si la médiane des nombres de lignes modifiées par contributeur est proche de zéro avec un faible écart-type pour les deux classes de contributeurs, la _Figure 10_ montre que cet écart-type augmente au troisième quartile, ce qui signifie qu'à proportion égale les chercheurs s'approprient plus le projet que les non-chercheurs, de par une plus grande contribution en lignes de code. La _Figure 11_ renforce cette analyse en montrant que le volume moyen de lignes modifiées par un chercheur est bien plus grand que celui des autres types de contributeurs. En d'autres termes, **un chercheur qui contribue est un chercheur qui s'approprie plus le projet  que les autres contributeurs**.
+
+![](/assets/organisation_project_os_ml/modified_lines_mean.png)
+
+_Figure 11 - En moyenne, les chercheurs contribuent plus en volume que les autres contributeurs_
 
 #### Conclusion partielle
+
+Nous avons vu que les chercheurs ne sont pas majoritaires dans l'élaboration des logiciels Open Source de Machine Learning, leur contribution est néanmoins plus importante et ces contributeurs sont plus investis dans l'évolution de ces projets que les autres contributeurs. En somme, une grande partie de la valeur de ces projets a été apportée par des chercheurs, d'où la conclusion qui nous semble raisonnable : **ces projets sont surtout menés par des chercheurs**.
 
 ### V.2. **Qui écrit les algorithmes d'apprentissage automatique dans ces projets ?**
 
