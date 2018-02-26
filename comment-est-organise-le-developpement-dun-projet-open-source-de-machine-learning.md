@@ -82,11 +82,11 @@ Ces projets sont différents entre eux notamment au niveau des domaines auxquels
 
 _Figure 2 - Grandes disparités de la maturité des projets étudiés_
 
-Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Figure 3_ présente la fonction de répartition cumulative \(Cumulative Distribution Function - CDF\) des contributions apportés aux projets en 2017 et montre que, nonobstant de rares projets qui n'évoluent plus ou très peu, les projets évoluent en continu dans l'année.
+Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Figure 3_ présente la fonction de répartition cumulative \(Cumulative Distribution Function - CDF\) des contributions apportés aux projets en 2017 et montre que, nonobstant de rares projets qui n'évoluent plus ou très peu, les projets évoluent en continu dans l'année \(la plupart des courbes sont approximativement linéaires\).
 
 ![](/assets/organisation_project_os_ml/contributions_cdf.png)
 
-_Figure 3 - Évolution perpetuelle de la plupart des projets_
+_Figure 3 - Évolution perpétuelle de la plupart des projets_
 
 Nous pensons que cette diversité apparente entre les projets nous permettra d'obtenir des résultats moins biaisés, et donc nous faisons l'hypothèse que les résultats obtenus sur cet échantillon de projets Open Source de Machine Learning seront généralisables à tous les projets similaires. Le fait qu'ils soient en changement perpétuel donne son intérêt à l'étude qui s'intéresse à l'évolution des projets.
 
@@ -94,7 +94,7 @@ Nous pensons que cette diversité apparente entre les projets nous permettra d'o
 
 Nous avons décomposé notre question générale en sous-questions qui fixent les limites que nous souhaitons étudier. Dans cette partie, nous détaillons pour chaque sous-questions nos hypothèses et la méthode que nous allons employer pour les vérifier ou les invalider.
 
-Nos hypothèses de travail communes à l'ensemble de l'étude est que les contributeurs sont de bonne foi :
+Notre hypothèse de travail commune à l'ensemble de l'étude est que les contributeurs sont de bonne foi :
 
 * Ils sont auteur du code qu'ils ont mis en ligne.
 * Le nom, prénom et l'adresse mail spécifiés dans les contributions leur appartiennent.
