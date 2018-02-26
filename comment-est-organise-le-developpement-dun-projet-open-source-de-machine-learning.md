@@ -199,7 +199,7 @@ Ci-suivent les critères que nous avons retenu pour chaque projet pour détermin
 
 #### IV.2.1. _Une majorité d'algorithmes sont maintenus par un contributeur majeur._
 
-Nous allons lister les algorithmes qui sont maintenus par un contributeur majeur et comparer leur nombre au nombre d'algorithmes du projet. 
+Nous allons lister les algorithmes qui sont maintenus par un contributeur majeur et comparer leur nombre au nombre d'algorithmes du projet.
 
 L'hypothèse est réfutée si moins de 50% des algorithmes sont maintenus par un contributeur majeur.
 
@@ -297,7 +297,25 @@ _Figure 11 - En moyenne, les chercheurs contribuent plus en volume que les autre
 
 Nous avons vu que les chercheurs ne sont pas majoritaires dans l'élaboration des logiciels Open Source de Machine Learning, leur contribution est néanmoins plus importante et ces contributeurs sont plus investis dans l'évolution de ces projets que les autres contributeurs. En somme, une grande partie de la valeur de ces projets a été apportée par des chercheurs, d'où la conclusion qui nous semble raisonnable : **ces projets sont surtout menés par des chercheurs**.
 
-### V.2. **Qui écrit les algorithmes d'apprentissage automatique dans ces projets ?**
+### V.2. Qui écrit les algorithmes d'apprentissage automatique dans ces projets ?
+
+#### Distinguer les algorithmes
+
+Nous avons établi la liste des algorithmes de chaque projet, en voici un résumé :
+
+| Projet | Nombre de fichiers | Nombre d'algorithmes |
+| :--- | :--- | :--- |
+| scikit-learn | 1144 |  |
+| scikit-image | 803 |  |
+| nltk | 479 |  |
+
+#### V.2.1. _Une majorité d'algorithmes sont maintenus par un contributeur majeur._
+
+
+
+#### V.2.2. _Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme._
+
+
 
 Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs . Ces resultats se trouve dans le dossier DataResult dans notre repo [github](https://github.com/AntoineAube/reace-study/tree/master/ownership-algorithm/DataResult).
 
