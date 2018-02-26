@@ -284,6 +284,26 @@ _Figure 7 - La majorité des contributeurs, aussi bien chercheurs que non-cherch
 
 La _Figure 7_ montre que la majorité des contributeurs, indépendamment de leur type, sont des contributeurs ponctuels \(un ou deux _commits_\). Le grand écart-type sur la boîte des chercheurs est dû aux petits projets qui comptent peu de contributeurs mais une grande proportion de chercheurs.
 
+![](/assets/organisation_project_os_ml/commits_third_quartile.png)
+
+_Figure 8 - Il y a proportionnellement moins de chercheurs ponctuels que de non-chercheur ponctuels_
+
+![](/assets/organisation_project_os_ml/commits_mean.png)
+
+_Figure 9 - En moyenne, les chercheurs fournissent beaucoup plus de _commits_ que les non-chercheurs_
+
+La _Figure 8_ montre qu'en proportion il y a moins de chercheurs ponctuels \(dans le sens "qui ne contribuent qu'une fois"\) que de non-chercheurs ponctuels. La _Figure 9_ montre très clairement que, en moyenne, les chercheurs fournissent plus de commits que les non-chercheurs ce qui, d'après notre hypothèse sur la répartition des commits dans le temps, indique que **les chercheurs sont des contributeurs qui s'investissent sur un plus long terme que les autres contributeurs**.
+
+##### Nombre de lignes modifiées : appropriation du projet
+
+Notre hypothèse de travail est qu'un contributeur qui a modifié de nombreuses lignes \(ajout, retrait\) dans le code du projet est un contributeur qui a une bonne maîtrise du projet et qui se l'est approprié.
+
+![](/assets/organisation_project_os_ml/modified_lines_third_quartile.png)
+
+Figure 10 - 
+
+Si la médiane des nombres de lignes modifiées par contributeur est proche de zéro avec un faible écart-type pour les deux classes de contributeurs, la Figure 10 montre que cet écart-type augmente au troisième quartile, ce qui signifie qu'à proportion égale les chercheurs s'approprient plus le projet que les non-chercheurs, de par une plus grande contribution en lignes de code.
+
 #### Conclusion partielle
 
 ### V.2. **Qui écrit les algorithmes d'apprentissage automatique dans ces projets ?**
