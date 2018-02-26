@@ -213,6 +213,13 @@ L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur m
 
 ### IV.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
+La qualité logicielle représente la santé du projet en terme de maintenabilité, d'extension et de durée de vie. Cette caractéristique est directement liée à la dette technique qu'un projet accumule avec le temps.
+
+
+
+1. **La dette technique grandit en même temps que le projet**
+2. **La dette technique normalisée diminue durant l'évolution du projet**
+
 ## V. Analyse des résultats et conclusion
 
 ### V.1. Ces projets sont-ils menés par des chercheurs ?
