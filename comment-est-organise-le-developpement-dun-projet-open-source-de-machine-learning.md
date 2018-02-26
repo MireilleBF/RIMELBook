@@ -307,11 +307,11 @@ Nous avons vu que les chercheurs ne sont pas majoritaires dans l'élaboration de
 
 Nous avons établi la liste des algorithmes de chaque projet, en voici un résumé :
 
-| Projet | Nombre de fichiers | Nombre d'algorithmes |
-| :--- | :--- | :--- |
-| scikit-learn | 1144 | 114 |
-| scikit-image | 803 | 96 |
-| nltk | 479 | 148 |
+| Projet | Nombre de contributeurs | Nombre de fichiers | Nombre d'algorithmes |
+| :--- | :--- | :--- | :--- |
+| scikit-learn | 1025 | 1144 | 114 |
+| scikit-image | 247 | 803 | 96 |
+| nltk | 229 | 479 | 148 |
 
 Le nombre d'algorithmes pour scikit-learn et scikit-image nous paraîssent faible vis-à-vis de la taille du projet. Cela peut-être dû à nos critères trop restrictifs qui causent de nombreux faux négatifs, il s'agirait donc d'un biais de notre étude qui peut impacter les observations que nous ferons ci-suit.
 
@@ -323,9 +323,23 @@ Outre le résultat pour les conditions que nous avons posé, nous avons évalué
 
 _Figure 12 - Les algorithmes de_ scikit-image _et de_ nltk _présentent un fort_ code ownership
 
-Nous observons sur la _Figure 12_ que pour notre définition d'un contributeur majeur \(50% de _code ownership_ sur un algorithme\), l'hypothèse est invalidée que pour _scikit-learn_ \(47% des algorithmes ont un contributeurmajeur\) alors qu'elle est très largement vérifiée sur les deux autres projets \(82% des algorithmes de _scikit-image_ et 85% des algorithmes de _nltk_\).
+La _Figure 12_ présente le nombre de contributeurs majeurs en fonction du seuil, normalisé par le nombre d'algorithmes de chaque projet \(pour que nous puissions comparer les projets entre eux\).
+
+Nous observons que la proportion de contributeurs majeurs pour _scikit-learn_ en fonction du seuil décrit quasiment une droite alors que la chute est beaucoup plus lente pour _nltk_ et _scikit-image_ avant 50% de _code ownership_ par algorithme avant de s'accélérer. Cela peut s'expliquer par le ratio "nombre de contributeurs/nombre d'algorithmes" qui est bien plus élevé pour _scikit-learn_ que pour les deux autres projets.
+
+Nous observons que pour notre définition d'un contributeur majeur \(50% de _code ownership_ sur un algorithme\), l'hypothèse est invalidée que pour _scikit-learn_ \(47% des algorithmes ont un contributeurmajeur\) alors qu'elle est très largement vérifiée sur les deux autres projets \(82% des algorithmes de _scikit-image_ et 85% des algorithmes de _nltk_\). Comme l'hypothèse est vérifiée pour deux projets étudiés sur trois, nous concluons que **la majorité des algorithmes possèdent un contributeur majeur**, en n'oubliant pas le biais de ce résultat qui se vérifie sur un petit ensemble des projets étudiés. D'après notre hypothèse, cela signifie que la tâche du développement d'un algorithme dans les projets Open Source de Machine Learning revient à un seul expert de cet algorithme.
 
 #### V.2.2. _Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme._
+
+À nouveau, nous avons étudié l'évolution des résultats obtenus en variant le seuil de _algorithm ownership_.
+
+![](/assets/organisation_project_os_ml/contributors_have_multiple_algorithms.png)
+
+_Figure 13 - Peu importe le seuil, il existe des contributeurs qui sont contributeurs majeurs de plusieurs algorithmes dans les projets étudiés_
+
+La _Figure 13_ présente le nombre de contributeurs qui sont contributeurs majeurs d'au moins deux algorithmes. Ce nombre a été normalisé par le nombre de contributeurs du dépôt.
+
+La figure montre bien que peu importe le seuil, il existe au moins un contributeur qui est contributeur majeur de plusieurs algorithmes, notre hypothèse était fausse : un contributeur peut être contributeur majeur de plusieurs algorithmes. Cela peut signifier soit qu'il existe des experts qui se spécialisent dans plusieurs algorithmes, soit que certains algorithmes sont suffisamment simples ou connus pour être développés par une même personne.
 
 ## VI. Références
 
