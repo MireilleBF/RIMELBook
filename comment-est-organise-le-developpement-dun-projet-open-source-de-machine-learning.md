@@ -211,6 +211,8 @@ Nous allons reprendre la liste des algorithmes maintenus par un contributeur maj
 
 L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur majeur sur au moins deux algorithmes.
 
+### IV.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
+
 ## V. Analyse des résultats et conclusion
 
 ### V.1. Ces projets sont-ils menés par des chercheurs ?
