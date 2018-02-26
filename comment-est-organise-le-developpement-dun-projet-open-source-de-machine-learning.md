@@ -307,11 +307,15 @@ Nous avons établi la liste des algorithmes de chaque projet, en voici un résum
 
 | Projet | Nombre de fichiers | Nombre d'algorithmes |
 | :--- | :--- | :--- |
-| scikit-learn | 1144 |  |
-| scikit-image | 803 |  |
-| nltk | 479 |  |
+| scikit-learn | 1144 | 114 |
+| scikit-image | 803 | 96 |
+| nltk | 479 | 148 |
+
+Le nombre d'algorithmes pour scikit-learn et scikit-image nous paraîssent faible vis-à-vis de la taille du projet. Cela peut-être dû à nos critères trop restrictifs qui causent de nombreux faux négatifs, il s'agirait donc d'un biais de notre étude qui peut impacter les observations que nous ferons ci-suit.
 
 #### V.2.1. _La majorité des algorithmes est maintenue par un contributeur majeur._
+
+Outre le résultat pour les conditions que nous avons posé, nous avons 
 
 #### V.2.2. _Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme._
 
