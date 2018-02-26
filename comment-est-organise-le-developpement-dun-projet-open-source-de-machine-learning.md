@@ -161,61 +161,53 @@ Nous avons l'intuition que les algorithmes de Machine Learning demandent une exp
 Nous souhaitons évaluer les hypothèses suivantes :
 
 1. **Une majorité d'algorithmes sont maintenus par un contributeur majeur.**
-2. **Un contributeur majeur d'un algorithme n'est contributeur majeur que sur cet algorithme.**
+2. **Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme.**
 
 L'intérêt de cette question et de ces hypothèses est liée aux conclusions de l'équipe de Xavier Blanc qui indiquent qu'un morceau de logiciel \(pour nous, un algorithme\) présente moins d'erreur s'il est écrit par un petit nombre de contributeurs fortement investis dans cet algorithme.
 
 Il convient avant de poursuivre de préciser notre définition d'un contributeur majeur. Il s'agit pour nous d'un contributeur qui détient au moins 50% du code d'un algorithme dans la version la plus récente du projet. Cette définition présente un biais car un contributeur unique a tout à fait pu produire un algorithme entièrement mais par des modifications successives et non fonctionnelles \(formatage du code pour suivre une convention, ...\), il peut être considéré comme contributeur non-majeur de cet algorithme.
 
-#### Comment reconnaître les algorithmes ?
+#### Comment reconnaître un algorithme ?
 
-Reconnaître un algorithme d'apprentissage automatique dans un projet n'est pas un problème trivial, sa résolution dépend du projet que nous étudions.
+Reconnaître un algorithme d'apprentissage automatique dans un projet est un problème difficile, sa résolution dépend du projet que nous étudions.
 
-#### **Comment determiner qu'un algorithme a un contributeur majeur ? **
+Connaissant cette difficulté, nous avons restreint cette partie de l'étude à trois projets : _scikit-learn_, _scikit-image_ et _nltk_.
 
-En général dans les projets de machine learning , chaque algorithme est dévéloppé dans un seul fichier .
+Dans ces projets, nous observons que chaque algorithme est isolé dans son fichier, ce qui va nous simplifier l'étude du code ownership \(nous la ferons à l'échelle du fichier, sans découper dans le fichier les lignes qui nous intéressent\).
 
-Pour la prémière hypothèse, nous considerons que toute fichier qui n'a qu'un seul contributeur, alors nous pourrons conclure que cet algorithme à un seul contributeur qui est donc majeur . \( Dans notre étude nous écartons toute les fichiers de tests,de documentations,de benchmarks\).
+Ci-suivent les critères que nous avons retenu pour chaque projet pour déterminer qu'un fichier est un "fichier-algorithme". IL faut que tous les critères soient validés pour qu'un fichier soit retenu.
 
-Pour la seconde hypothèse , nous regardons toute les fichiers avec deux ou plusieurs contributeurs , on calcule leurs pourcentage de contributions sur chacun de fichier afin de pouvoir conclure s'il existe ou pas un contributeur majeur sur ces algorithmes corespondant au fichiers.
+##### Critères pour _scikit-learn_
 
-Nous considerons qu'un contributeur est majeur sur un algorithme si et seulement il repond à l'une de ces deux approches.
+* Le fichier a pour extension ".py" ou ".pyx".
+* Le fichier contient "def fit\(self". Il s'agit d'un morceau du prototype de la fonction qui entraîne un modèle sur un ensemble de données, elle est commune à tous les algorithmes de _scikit-learn_. Seul le début du prototype nous paraît sûr d'être recherché car la suite peut présenter des variations avec les espaces, ...
 
-#### IV.2.1. **Tous les algorithmes sont majoritairement maintenus par une seule personne**
+##### Critères pour scikit-image
 
-Si un fichier a été développé par un seul contributeur alors ce contributeur est l'unique proprètaire\(contributeur majeur\) de cet algorithme.
+* Le fichier a pour extension ".py" ou ".pyx".
+* Le fichier est dans un dossier dans le dossier "skimage".
+* Le nom du fichier ne commence pas par "\_".
+* Le nom du fichier n'est pas "setup.py" ou "util.py".
 
-#### IV.2.2. L**es algorithmes maintenus par un contributeur majeur sont majoritaire**
+##### Critère pour nltk
 
-Nous avons défini l'hypothèse que si dans un fichier , il existe deux ou plusieurs contributeurs, de regarder le pourcentage de             contribution de chacun d'eux et de dire s'il existe un contributeur avec un pourcentage  superieur à 95% alors ce contributeur est majeur pour cet algorithme.
+* Le fichier a pour extension ".py" ou ".pyx".
+* Le fichier est dans un dossier dans le dossier "nltk".
+* Le fichier est dans un dossier qui contient un fichier "api.py".
+* Le nom du fichier ne commence pas par "\_".
+* Le nom du fichier n'est pas "api.py", "setup.py" ou "util.py".
 
-**NB : ** Nous avons établi cette deuxième hypothèse après avoir constaté que dans les projets opens sources en générale , il peut existe plusieurs contributeurs dans un fichier, mais si on regarde en profondeur on peut y trouver que la grande majorité du fichier est faite par une seul personne , et que les autres contributeurs ont fixé des bugs, modifier ou supprimer une ligne,etc..
+#### IV.2.1. _Une majorité d'algorithmes sont maintenus par un contributeur majeur._
 
-#### Métriques :
+Nous allons lister les algorithmes qui sont maintenus par un contributeur majeur et comparer leur nombre au nombre d'algorithmes du projet. 
 
-* **Le nombre de lignes par auteur**
+L'hypothèse est réfutée si moins de 50% des algorithmes sont maintenus par un contributeur majeur.
 
-* ** Le pourcentage de contributions par auteur**
+#### IV.2.2. _Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme._
 
-#### Projets :
+Nous allons reprendre la liste des algorithmes maintenus par un contributeur majeur et rassembler les algorithmes par nom d'auteur.
 
-Pour cette questions nous avons étudier trois projets qui sont :
-
-1. Keras \(256 fichiers\)
-2. Scikit-learn \(1180 fichiers\)
-3. Tensorflow \(10136 fichiers\)
-
-#### Démarches :
-
-Afin de répondre à la question, nous avons fait un programe nous permettant de parcourir un projet avec git blame, et nous produire à la sortie:
-
-1. File : Nom du fichier
-2. Othor\[i\] : Nom de l'auteur i \(i représente le numero de l'auteur\)
-3. LineOthor\[i\] : Nombre de ligne de l'auteur i
-4. Contribution\[i\] : Pourcentage de contribution de l'auteur i
-5. File Lines : Nombre total de lignes du fichier
-6. Learning : Est ce un algorithme d'apprentissage \(Cette colonne est verifié que pour le projet Scikit-learn\)
-7. NbOthors : Nombre total de contributeur du fichier
+L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur majeur sur au moins deux algorithmes.
 
 ## V. Analyse des résultats et conclusion
 
