@@ -154,29 +154,22 @@ La contribution en termes de _commits_ serait plutôt un indicateur de contribut
 
 Nous procéderons en étudiant les statistiques individuelles \(moyenne, quartiles\) des chercheurs et non-chercheurs de chaque projet.
 
-### IV.2. **Qui écrit les algorithmes automatiques dans ces projets ?**
+### IV.2. **Qui écrit les algorithmes d'apprentissage automatique dans ces projets ?**
 
-Sur cette partie nous allons essayé de répondre s'il existe des algorithmes avec un contributeurs principal.
+Nous avons l'intuition que les algorithmes de Machine Learning demandent une expertise pour en comprendre les mécaniques, et donc donc que chaque algorithme est maintenu surtout par un seul contributeur, expert de cet algorithme. Dans l'autre sens, nous pensons que l'apprentissage automatique est un domaine très vaste et qu'il est peu probable qu'un expert d'un algorithme possède une expertise équivalente dans d'autres algorithmes.
 
-Pour y arrivé nous avons défini des hypothèses et des métriques .
+Nous souhaitons évaluer les hypothèses suivantes :
 
-#### Hypothèses :
+1. **Une majorité d'algorithmes sont maintenus par un contributeur majeur.**
+2. **Un contributeur majeur d'un algorithme n'est contributeur majeur que sur cet algorithme.**
 
-En ayant constaté que  dans le cadre des projets machine learning la plus part des temps qu'un fichier possède un seul algorithme\(machine learning\), alors nous avons posé ces différents hypothèses qui sont :
+L'intérêt de cette question et de ces hypothèses est liée aux conclusions de l'équipe de Xavier Blanc qui indiquent qu'un morceau de logiciel \(pour nous, un algorithme\) présente moins d'erreur s'il est écrit par un petit nombre de contributeurs fortement investis dans cet algorithme.
 
-1. **Tous les algorithmes sont majoritairement maintenus par une seule personne**
-2. L**es algorithmes maintenus par un contributeur majeur sont majoritaire**
+Il convient avant de poursuivre de préciser notre définition d'un contributeur majeur. Il s'agit pour nous d'un contributeur qui détient au moins 50% du code d'un algorithme dans la version la plus récente du projet. Cette définition présente un biais car un contributeur unique a tout à fait pu produire un algorithme entièrement mais par des modifications successives et non fonctionnelles \(formatage du code pour suivre une convention, ...\), il peut être considéré comme contributeur non-majeur de cet algorithme.
 
-Ces deux hypothèses nous permet de montrer l'importance d'avoir sur un projet machine learning des algorithmes avec plus de  contributeurs majeurs, pour pouvoir conclure ou pas de niveau de bug sur ces algorithmes de machine learning.
+#### Comment reconnaître les algorithmes ?
 
-En partant de l'hypothèse propriété et bug sur le cours de Monsieur Xavier Blanc
-
-* un composant\(un algorithme de machine learning dans notre cas\) avec essentiellement des contributeurs majeurs a moins de bug.
-* Un composant avec beaucoup de contributeurs mineurs a plus de bug.
-
-Si dans les projets que nous allons etudier il y'a un grand nombre de contributeurs majeurs sur les algorithme , alors nous pouvons deduire que ce projet contient des algorithmes avec moins de bugs.
-
-Afin de repondre a ces deux hypothèses, nous nous somme focalisé sur la notion d'ownerShip de chaque fichier, le nombre de ligne par contributeur dans un fichier , et le calcul de pourcentage de chaque contributeur dans un fichier.
+Reconnaître un algorithme d'apprentissage automatique dans un projet n'est pas un problème trivial, sa résolution dépend du projet que nous étudions.
 
 #### **Comment determiner qu'un algorithme a un contributeur majeur ? **
 
