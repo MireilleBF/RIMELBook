@@ -134,11 +134,15 @@ Il s'agit de voir l'importance des chercheurs en quantité de contributeurs.
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représentait moins de 50%.
 
+Nous procéderons en étudiant la proportion de chercheurs dans les contributeurs de chaque projet.
+
 #### IV.1.2. _Les contributions viennent majoritairement de chercheurs._
 
 Il s'agit de voir l'importance des chercheurs en nombre de contributions.
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions, en termes de _commits_ ou de lignes de codes modifiées, représentait moins de 50%.
+
+Nous procéderons en étudiant la répartition des commits et des lignes modifiées entre les chercheurs et les non-chercheurs de chaque projet.
 
 #### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
@@ -147,6 +151,8 @@ Il s'agit de voir l'importance des chercheurs par la place de mainteneurs du pro
 Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, la majorité des contributeurs-chercheurs s'investit moins que les autres contributeurs.
 
 La contribution en termes de _commits_ serait plutôt un indicateur de contribution sur le long terme tandis que la contribution en termes de lignes de code modifiées indiquerait l'appartenance du projet au contributeur.
+
+Nous procéderons en étudiant les statistiques individuelles \(moyenne, quartiles\) des chercheurs et non-chercheurs de chaque projet.
 
 ### IV.2. **Qui écrit les algorithmes automatiques dans ces projets ?**
 
