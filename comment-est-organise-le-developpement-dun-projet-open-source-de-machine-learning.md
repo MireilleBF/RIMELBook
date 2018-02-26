@@ -76,7 +76,7 @@ Les projets que nous avons sélectionné ont été trouvés sur la liste [Awesom
 
 Ils sont au nombre de trente-quatre : _scikit-learn_, _theano_, _keras_, _scikit-image_, _simplecv_, _nltk_, _pattern_, _auto-ml_, _pylearn_, _pybrain_, _brainstorm_, _pyevolve_, _pytorch_, _cogitare_, _featureforge_, _metric-learn_, _simpleai_, _astroML_, _lasagne_, _hebel_, _chainer_, _prophet_, _gensim_, _surprise_, _crab_, _nilearn_, _pyhsmm_, _skll_, _spearmint_, _deap_, _mlxtend_, _tpot_, _pgmpy_ et _milk_.
 
-Ces projets sont différents entre notamment au niveau des domaines auxquels ils sont dédiés \(certains sont généralistes, d'autres spécifiques à certains domaines\) ainsi que de leur maturité \(en terme de nombre de contributions, nombre de contributeurs\).
+Ces projets sont différents entre eux notamment au niveau des domaines auxquels ils sont dédiés \(certains sont généralistes, d'autres spécifiques à certains domaines\) ainsi que de leur maturité \(en terme de nombre de contributions, nombre de contributeurs\).
 
 ![](/assets/organisation_project_os_ml/contributions_per_project.png)
 
