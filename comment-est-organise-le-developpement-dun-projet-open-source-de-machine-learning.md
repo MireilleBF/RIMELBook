@@ -160,7 +160,7 @@ Nous avons l'intuition que les algorithmes de Machine Learning demandent une exp
 
 Nous souhaitons évaluer les hypothèses suivantes :
 
-1. **Une majorité d'algorithmes sont maintenus par un contributeur majeur.**
+1. **La majorité des algorithmes sont maintenus par un contributeur majeur.**
 2. **Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme.**
 
 L'intérêt de cette question et de ces hypothèses est liée aux conclusions de l'équipe de Xavier Blanc qui indiquent qu'un morceau de logiciel \(pour nous, un algorithme\) présente moins d'erreur s'il est écrit par un petit nombre de contributeurs fortement investis dans cet algorithme.
@@ -309,69 +309,13 @@ Nous avons établi la liste des algorithmes de chaque projet, en voici un résum
 | scikit-image | 803 |  |
 | nltk | 479 |  |
 
-#### V.2.1. _Une majorité d'algorithmes sont maintenus par un contributeur majeur._
+#### V.2.1. _La majorité des algorithmes est maintenue par un contributeur majeur._
 
 
 
 #### V.2.2. _Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme._
 
 
-
-Pour chacun de ces trois projets nous avons étudier les fichiers qui ont de 1 à 10 contributeurs, donc pour les resultats nous prendrons par nombre de contributeurs . Ces resultats se trouve dans le dossier DataResult dans notre repo [github](https://github.com/AntoineAube/reace-study/tree/master/ownership-algorithm/DataResult).
-
-Malgrès que nous avons fais de 1 à 10 contributeurs pour chaque projet , nous allons vous exposer 5 cas pour chacun des trois projets.
-
-Les tableaux sont triés par les fichiers qui ont plus de lignes de codes et après par le pourcentage de contributions le plus élévé \(ordre d'affichage décroissant\)
-
-Pour voir les détails de cette étude avec l'affichage des dataset veuillez cliquer[ ici](https://github.com/AntoineAube/reace-study/blob/master/ownership-algorithm/find-ownership-algorithm.ipynb)
-
-#### Première cas - Fichier avec un seul contributeur
-
-###### Keras \(629 contributors, 4372 commits,256 fichiers \)
-
-![](/assets/Keras.png)
-
-Nous constatons que dans les 256 fichiers du projet, il y'a seulement que 3 fichier avec uxn seul auteur qui d'ailleurs le même pour les trois à savoir **François Chollet** \(à part les tests,documentations,benchmarks\).
-
-###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
-
-![](/assets/Scikit-learn.png)
-
-Sur ce projet on en trouve 8 fichiers sur 1180 au total pour exactement 6 contributeurs sur le 1023 contributeurs.
-
-###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)![](/assets/tensor.png)
-
-#### Deuxième cas - Fichier avec trois contributeurs
-
-###### Keras \(629 contributors, 4372 commits,256 fichiers \)
-
-###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
-
-###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
-
-#### Troisième cas - Fichier avec cinq contributeurs
-
-###### Keras \(629 contributors, 4372 commits,256 fichiers \)
-
-###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
-
-###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
-
-#### Quatrième cas - Fichier avec huit contributeurs
-
-###### Keras \(629 contributors, 4372 commits,256 fichiers \)
-
-###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
-
-###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
-
-#### Cinquième cas - Fichier avec 10 contributeurs
-
-###### Keras \(629 contributors, 4372 commits,256 fichiers \)
-
-###### ScikitLearn \(1023 contributeurs , 22 605 commits,1180 fichiers\)
-
-###### Tensorflow \(1346 contributeurs , 29 096 commits,10136 fichiers\)
 
 ## VI. Références
 
