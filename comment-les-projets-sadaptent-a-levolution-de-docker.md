@@ -69,15 +69,15 @@ La forte utilisation d’une commande est un indicateur de son importance. Aussi
 
 Grâce à cette métrique, il s’agit de savoir si les nouvelles commandes disponibles sont rapidement adoptées dans la communauté. L’intérêt ici est de constater notre hypothèse de départ \(renforcée par les résultats précédents\) que le noyau de commande est suffisant et que les nouvelles commandes n’étaient pour la plupart, pas nécessaires.
 
-**          
+**            
 **
 
-**          
+**            
 **
 
 ![](https://lh5.googleusercontent.com/ePSnnP63B1bLdV2mMOrb0NApKT5-AKzQ3Ox-9cTS460J3-rntxq1mLG4jP8OlviG8Q8UCzfkCpda-3e38_h7cFljiYVR4sX0gYsLH8Be7jEOaIR5BD1aBnBwhUjwSdMrEmEEI46i)
 
-**          
+**            
 **
 
 ![](https://lh4.googleusercontent.com/dZ-3oT-a8-hlg2bMjStVDkKUmz2DpVRIVZyX0ypZzguvbBQjrWH0A3gIn-a7prChmDzpuTU5xw-PcrOSXc0KgLvvRDmdRzrHgKXRVP9TMl27pmdA_wmqFLrs-BvrEAfMo1b1bSYI)
@@ -100,9 +100,9 @@ Contrairement à ce que nous pensions, l’adoption de nouvelles commandes est a
 
 Nous avons exécuté un algorithme de clustering sur les set de commande utilisé par les Dockerfile. Nous avons pu identifier deux catégories bien distinctes, nous ne montrerons cependant pas les graphiques pour cause de difficultés techniques.
 
-* Projet Web : FROM, RUN, EXPOSE, CMD,
+* Projet Web : FROM, RUN, EXPOSE, CMD, COPY
 
-* Projet autre : FROM, RUN, VOLUME, LABEL, ENV
+* Projet autre : FROM, RUN, VOLUME, LABEL, ENV, ADD
 
 # Tools
 
@@ -118,7 +118,7 @@ Afin de pouvoir automatiser le clonage des dépôts, nous avons utilisé le clie
 
 Toute nos expériences sont basées essentiellement sur l’utilisation de repo-driller. Repo-driller nous a permis notamment de pouvoir filtrer les commits provenant des dépôts afin de se concentrer seulement sur ceux impactant un dockerfile.
 
-Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**                
+Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**                  
 **
 
 ## **V. Result Analysis and Conclusion**
