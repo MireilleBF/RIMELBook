@@ -119,6 +119,8 @@ Nous constatons enfin que les repos mettent en moyenne environ 268 jours pours p
 
 ![](https://lh3.googleusercontent.com/aNNflAoSkYlEeprebtz1gCVn57vhwp28KP6-FQfriwjzK-SOgo3hQtvpT98tod7uny7TH1WC_OF7MSEkKOGG_l8J6ovVla_KeCReOiAUdiceGutaqlcbIYybG6TXmP3Wv1XbAUM)Pour répondre à l’hypothèse 2, nous avons mesuré la proportion de repository ayant effectué au moins une mise à jour de fichier docker compose au cours de son existence. Si, chaque repository effectuez une mise à jour régulièrement, on s’attend à ce que leurs proportion augmente dans le temps. La figure 2 nous suggère le contraire, la répartition des repository ayant effectué au moins une mise à jour reste assez stable au alentour de 60%. Cette tendance nous permet de déduire qu’environ 40% des repository n'effectuent et n’effectuerons jamais de mise à jour, quelque soit leurs âge.
 
+![](https://lh4.googleusercontent.com/Gni2Qsw1Aeqc_uLfsNAT3nquvP0ohHSNFKyhNr2510wEc-538QLjtdFfXO6G933-kLe51vy7hZs1UoX4LNHWgyrlzPYDS5_6ljFqrqtpYXbudiH2oH1zHIf4kBoSFItDaLLicd8)
+
 ![](https://lh4.googleusercontent.com/lcMf1GSC2mupGCvBmH35F7rGHw-jPiAN0k6GIhboeGCWAQQ-yu1C6t71q9HPIJ82hNKUi0O2vKZhSGzxtlv6CpsB9VyO0Xf0CeEwGBTEywhIMa7gQVEeH-fJ05ibpjLBUh8NTOU)
 
 La proportion des non augmente légèrement avec l'âge à partir de 1440 jours. Les repository concerné sont donc ceux qui ont connus la première versions de docker-compose \(il y a 1530 jours\). On peut penser que ces repository ont adopté la technologie rapidement puis n’y ont pas vu d'intérêt et ont donc décidé de ne plus la mettre à jour. Ils ont cependant gardé leurs fichiers docker-compose, probablement pour des raisons de stabilité ou car la livraison de fonctionnalitées étant plus importante, la priorité n’a pas était donnée à cette migration de versions.
