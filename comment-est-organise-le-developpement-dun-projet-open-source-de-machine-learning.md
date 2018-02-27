@@ -392,7 +392,7 @@ Le montant de dette technique est représenté sous SonarQube par l'indice SQALE
 
 Nous pouvons observer plusieurs tendances. Les projets _nilearn, scikit-image et scikit-learn_ suivent la courbe que nous avions supposé, c'est-à-dire une dette technique globalement croissante dans le temps.![](assets/organisation_project_os_ml/scikit-learn-loc.png)_Figure 14 - Courbes de l'évolution des lignes de codes et de l'index SQALE de scikit-learn. ncloc représente le nombre de lignes de code non commentées_
 
-Néanmoins, sur les projets _pattern, pybrain, pyhsmm et theano_, nous pouvons observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
+Néanmoins, sur les projets _pattern, pybrain et theano_, nous pouvons observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
 
 ![](assets/organisation_project_os_ml/theano-loc.png)_Figure 15 - Courbes de l'évolution des lignes de codes et de l'index SQALE de theano. On observe une tendance décroissante de la dette technique dans le temps._
 
@@ -400,27 +400,47 @@ Nous pouvons observer, sur la courbe de l'indice SQALE \(verte\), deux _refactor
 
 Nous voyons que la dette technique était plus importante en 2013, quand le nombre de lignes de code était à 150k, qu'en 2018 avec 220k lignes de codes.
 
-L'hypothèse est invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**. D'après les lois de Lehman, nous faisons cette observation si un effort est produit pour maintenir la qualité, ce qui est le cas pour theano \(Figure 15\), par exemple. Cependant, la solidité de cette conclusion est à mettre en perspective avec le nombre de projets étudiés qui est bas, d'autant plus que nous sommes à la frontière de notre condition de réfutation : prolonger l'étude sur d'autres projets nous permettrait sans doute de fonder une conclusion plus solide.
+Afin de comparer les tendances des différents projets, nous faisons un test de Mann-Kendall sur les évolutions des différentes dettes techniques. Un valeur fortement positive indique une croissance monotone, une valeur fortement positive indique une décroissance monotone, et une valeur en dessus d'un seuil absolu, ici choisi a 3, indique qu'aucune tendance réelle ne peut être déduite.
+
+![](assets/organisation_project_os_ml/mann-kendall-td.png)
+
+_Figure 16 - Représentation des tendances d'évolution de la dette technique pour les différents projets._
+
+Ici on voit que pour le projet pyhsmm, dont la valeur est entre 0 et +1, on ne peut déduire de tendance sur l'évolution de la dette technique. On a ensuite trois projets avec une tendance clairement positive et trois avec une tendance clairement négative.
+
+L'hypothèse est donc invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**. D'après les lois de Lehman, nous faisons cette observation si un effort est produit pour maintenir la qualité, ce qui est le cas pour theano \(Figure 15\), par exemple. Cependant, la solidité de cette conclusion est à mettre en perspective avec le nombre de projets étudiés qui est bas, d'autant plus que nous sommes à la frontière de notre condition de réfutation : prolonger l'étude sur d'autres projets nous permettrait sans doute de fonder une conclusion plus solide.
 
 #### V.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
 
 Nous allons maintenant observer la dette technique normalisée au nombre de lignes de code, c'est-à-dire observer si la dette technique grandit à la même vitesse que le nombre de lignes de code.
 
-Pour les quatre projets étudiés qui ont une dette technique décroissante dans le temps, nous nous attendons à ce que la dette technique normalisée diminue.![](assets/organisation_project_os_ml/theano-sqale.png)_Figure 16 - Dette technique normalisée du projet Theano. _
+Pour les quatre projets étudiés qui ont une dette technique décroissante dans le temps, nous nous attendons à ce que la dette technique normalisée diminue.![](assets/organisation_project_os_ml/theano-sqale.png)_Figure 17 - Dette technique normalisée du projet Theano. _
 
 Nous pouvons observer une grande chute au milieu de 2015, là où a eu lieu un des deux _refactors_ mentionnés auparavant. C'est parce que la dette technique a soudainement chuté sans que le nombre de lignes de code ne diminue. Le _refactor_ de 2017 n'apparaît pas aussi clairement car la chute de la dette technique a été accompagnée d'une baisse du nombre de lignes de code tout aussi importante.
 
 Les courbes de _pattern, pybrain et pyhsmm_ sont similaires.
 
-Il est plus intéressant de regarder les courbes des dettes techniques normalisées des trois projets ayant une dette technique croissante dans le temps.![](assets/organisation_project_os_ml/scikit-learn-sqale.png)_Figure 17 - Dette technique normalisée du projet scikit-learn. _
+Il est plus intéressant de regarder les courbes des dettes techniques normalisées des trois projets ayant une dette technique croissante dans le temps.![](assets/organisation_project_os_ml/scikit-learn-sqale.png)_Figure 18 - Dette technique normalisée du projet scikit-learn. _
 
 Le projet _scikit-learn_, bien qu'ayant une dette croissante dans le temps, présente une dette normalisée décroissante dans le temps. Cela signifie que la technique de développement assure que la dette ne grandit pas au même rythme que le projet, et qu'elle est de plus en plus petite relativement à la taille du projet.
 
-En revanche, les dettes techniques normalisées des projets _scikit-image et nilearn_ ne décroissent pas.![](assets/organisation_project_os_ml/nilearn-sqale.png)_Figure 18 - Dette technique normalisée du projet nilearn. _
+En revanche, les dettes techniques normalisées des projets _scikit-image et nilearn_ ne décroissent pas.![](assets/organisation_project_os_ml/nilearn-sqale.png)_Figure 19 - Dette technique normalisée du projet nilearn. _
 
-Nous observons que la dette technique relative à la taille du projet ne décroit pas ni n'augmente sur cinq ans.![](assets/organisation_project_os_ml/scikit-image-sqale.png)_Figure 19 - Dette technique normalisée du projet scikit-image. _
+Nous observons que la dette technique relative à la taille du projet ne décroit pas ni n'augmente sur cinq ans.![](assets/organisation_project_os_ml/scikit-image-sqale.png)_Figure 20 - Dette technique normalisée du projet scikit-image. _
 
 Le seul projet avec dont la dette technique suit une tendance croissante, _scikit-image_, possède une dette technique normalisée croissante dans le temps. Cela signifie que si cette tendance se poursuit, éventuellement la dette technique pourra arriver à un point critique \(car la dette technique grandit plus vite que le code\). Cependant, cette dette normalisée se situe entre 0,07 et 0,105, ce qui est très inférieur à la dette technique d'autre projets open source, tel que Apache Sling, pour lequel elle se situe en 0,55 et 0,45 \[3\]. Donc bien qu'elle soit croissante, cette croissance est très faible.
+
+Nous réalisons un autre test Mann-Kendall pour observer les tendances de la dette technique normalisée.
+
+
+
+
+
+![](assets/organisation_project_os_ml/mann-kendall-normalized-td.png)
+
+_Figure 21 - Représentation des tendances d'évolution de la dette technique normalisée pour les différents projets._
+
+Nous pouvons observer que le projet nilearn a une valeur de tendance inférieure à 3, donc nous estimons qu'il n'est pas possible d'estimer si la tendance est positive ou négative. Pour le reste, tous les projets ont une tendance négative à part scikit-image.
 
 L'hypothèse est donc validée, avec cinq projets ayant une dette technique normalisée décroissante dans le temps, un projet qui stagne, et un projet où elle est croissante : **la dette technique normalisée par le nombre de lignes de code décroît au fil du temps dans les projets Open Source**.
 
