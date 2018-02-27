@@ -432,10 +432,6 @@ Le seul projet avec dont la dette technique suit une tendance croissante, _sciki
 
 Nous réalisons un autre test Mann-Kendall pour observer les tendances de la dette technique normalisée.
 
-
-
-
-
 ![](assets/organisation_project_os_ml/mann-kendall-normalized-td.png)
 
 _Figure 21 - Représentation des tendances d'évolution de la dette technique normalisée pour les différents projets._
@@ -454,11 +450,17 @@ En somme, nous concluons que **la qualité semble être une réelle préoccupati
 
 ### **Conclusion**
 
+L'étude des sous-questions que nous avons posées nous a permis de traiter une partie des aspects de notre question générale "Comment est organisée le développement d'un projet Open Source de Machine Learning ?". Successivement, nous avons observé l'importance de la contribution du monde de la recherche dans ces projets, de l'existence d'un fort _code ownership_ des algorithmes et d'un effort particulier pour maintenir une bonne qualité.
+
+En croisant les parties, nous pourrions observer des comportements particuliers. Par exemple, la _Figure 20_ montre que la majorité des contributeurs majeurs des algorithmes des trois projets étudiés sont des chercheurs, ce qui corrobore notre hypothèse que les algorithmes sont développés par des experts du domaine.
+
 ![](/assets/major_contributors_researchers.png)
 
 _Figure 20 - La majorité des personnes contribuant majoritairement à au moins un algorithme sont des chercheurs_
 
-Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur qui est le plus souvent un chercheur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et qu'environ la moitié d'entre eux contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante.
+Poursuivre les croisements entre les parties de l'étude ne pourrait mener qu'à des observations car elles n'ont été réalisées que sur un infime échantillon de projets ; ces questions pourraient mener à de nouvelles interrogations pour une étude future.
+
+En particulier, nous nous demandons ce que nous pourrions inférer sur la qualité et le _code ownership_ des projets menés par des chercheurs. En effet, _scikit-image_ est un projet qui compte une majorité de contributeurs-chercheurs, qui présente un très grand code ownership de ses algorithmes ainsi qu'une qualité qui décroit en permanence. Nous nous interrogeons sur la possible généralisation de ces observations aux autres projets dont les contributeurs sont en majorité des chercheurs.
 
 ## VI. Références
 
