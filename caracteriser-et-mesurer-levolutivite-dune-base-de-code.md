@@ -1,6 +1,6 @@
 # Caractériser et mesurer l'évolutivité d'une base de code
 
-## Authors
+## Auteurs
 
 Nous sommes 4 étudiants à Polytech' Nice-Sophia specialisés en Architecture Logicielle que voici :
 
@@ -9,7 +9,7 @@ Nous sommes 4 étudiants à Polytech' Nice-Sophia specialisés en Architecture L
 * Gning Khadim &lt;khgning@gmail.com&gt;
 * Jungbluth Günther &lt;gunther.jungbluth.poirier@gmail.com&gt;
 
-## I. Research context /Project
+## I. Contexte du projet et de la recherche
 
 ### Qu'est-ce donc que PIX?
 
@@ -19,7 +19,7 @@ Dans sa manière d’être, le projet PIX se présente tel que Agile avec les m�
 
 Nous allons donc étudier et travailler autour de cette supposée évolutivité afin de pouvoir la remettre en question et de voir comment cela a été mis, ou non, en place. C’est un sujet qui est intéressant sur de nombreux points de vues et c’est pour cela que nous l’avons choisi. En effet nous pouvons discerner dans la politique gouvernementale actuelle un réel souhait de modernisation, d’ouverture, et un désir de se réaliser à travers différents outils et projets liés de près ou de loin à l’informatique, qui est finalement le cadre dans lequel on retrouve le projet PIX. Nous pouvons même associer PIX à deux catégories, la première dûe à sa nature de projet transparent dans son évolution, et la seconde liée à la promesse de réalisation d’une plateforme en ligne d’évaluation et de certification des compétences numériques. En d’autre mots, PIX souhaite aider les élèves et étudiants au niveau de leurs rapports avec l’informatique et sa prédominance dans le monde actuel en renforçant leurs différentes compétences allant de l’utilisabilité aux notions de sécurité.
 
-## II. Observations/General question
+## II. Observations et question générale
 
 Nous nous sommes donc demandé comment caractériser cette évolutivité dont se targue PIX. Cette notion d’évolutivité est particulièrement intéressante dans le contexte actuelle où de plus en plus de projet se disant agile et évolutif voient le jour. Les entreprises prennent conscience de la plus value qu’apporte de tels projets. Dans les grands groupes, notamment, on observe un grand nombre de projet de migration d’outil spécifique, utilisant des technologies anciennes vers de nouvelles technologies en suivant les concepts d’agilité et d’évolutivité. Le but de cette démarche étant de concevoir et développer des solutions s’adaptant, autant que faire se peut, aux évolutions des métiers pour lesquels elles sont conçues.
 
@@ -53,7 +53,7 @@ Le deuxième point à aborder est évidemment le côté co-construction, mais du
 
 Malgré tout, ce projet est soumis aux desideratas d’entités hiérarchiquement supérieures aux développeurs, puisque le mandataire n’est évidemment autre que le ministère de l’enseignement, et ce malgré les revendications contraires qui cherchent parfois à potentiellement masquer ceci. L’objectif étant comme on a pu le dire, de remplacer les B2I, C2I, et autres certifications légales informatiques qui n’ont plus de réelle valeur dans le monde volatil d’aujourd’hui, et même si cette fois la finalité ne sera pas “certification ou non-certification” mais sera un score ou une grille de score pour échelonner les résultats, les contraintes “légales” sont quand même là. Les Français doivent en effet pouvoir répondre aux attentes, et ces attentes doivent aussi être suffisamment élevées pour qu’elles fassent sens par rapport à l’informatique de nos jours.
 
-## IV. Hypothesis & Experiences
+## IV. Hypothèses et axes d'analyses
 
 L'évolutivité est la capacité d'un système à grandir pour répondre à des demandes à venir. Cette évolutivité peut être décrite sous différents aspects pour différents buts. Tout d’abord, l'architecture doit pouvoir gérer et indiquer comment le système prendra en compte une augmentation des exigences en termes de débit et à répondre aux besoins de réduire les temps d'attente par exemple. Cette capacité à monter en charge est une première définition d’évolutivité pour un logiciel.
 
@@ -63,7 +63,21 @@ Afin de répondre à notre problématique, pour notre cas, nous avons décidé d
 
 Nous sommes donc partie sur cette hypothèse pour faire l'analyse et en tirer une conclusion sur si oui PIX respecte ce critère, et dans le cas contraire, si non, pourquoi il ne le respecte pas.
 
-## V. Result Analysis and Conclusion
+## **V. Outils et expérimentations**
+
+De multitudes d'outils nous ont permis d’enquêter sur l’architecture globale du projet et sur l’organisation des différentes parties impliquées. Nous avons utilisé des outils tels que CodeCity, RepoDriller ou d’autres consorts pour l’analyse de code et l’analyse du repository. L’objectif étant dans un premier temps de se faire un avis global, cela a révélé très rapidement certains points que nous avons étudié par la suite, tel qu’un couplage très fort entre 2 parties du code qui se trouve être relativement massives et qui semblent dans un premier temps être un véritable frein à la philosophie “évolutive” du projet.
+
+Bien évidemment, notre première approche était resté très globale et relativement superficielle. Il reste néanmoins intéressant de noter que de potentiels pistes se sont révélées très rapidement avec des analyses utilisant les paramètres “de base” de certains outils, nul doute quant aux potentialités d’analyses poussées avec les différents outils d’analyse de code et de repository.
+
+Nous avons donc procédé à cette phase de tests poussées notamment principalement avec les outils CodeCity et CodeScene tout en comparant le projet PIX avec d’autre projets du même type et qui partagent la même philosophie de développement. Ces deux outils utilisent donc les bases de code disponibles via Git pour analyser les projet selon différents aspects qui sont principalement la modularité, la complexité et d’autres éléments comme la duplication de code ou bien le pourcentage de refactoring et le pourcentage de dette technique accumulé par exemple.
+
+Pour l’utilisation de CodeScene, on commence par “fork”le GitHub du repository qu’on veut analyser sur notre propre compte c’est-à-dire dans notre propre repository. On connecte ensuite notre repository à CodeScene ce qui va nous permettre d’importer le projet visé dans l’outil. Une fois le projet importé, on lance la phase de test et d’analyse. Suite à cela, nous allons avoir différents métriques sur le projet dans sa globalité et ils nous restera plus qu’à faire des constats et retenir les informations pertinentes utile pour répondre à notre problématique. On peut grâce à cet outil faire des analyses en détail classe par classe et constater les différents problème auquel le projet fait face. Cette phase d’analyse via CodeScene à été faite également sur d’autre projet afin d’avoir des éléments de comparaison et appuyer nos arguments sur les différents constat qu’on a pu établir en ce qui concerne si PIX est évolutif ou pas. CodeScene va nous renseigner sur l'évolution du code. Cela nous donnera la possibilité de prédire son avenir et de trouver le code qui est difficile à développer et sujettes à des défauts.
+
+CodeCity nous permet d'analyser des logiciels, dans lequel les projets sont visualisés en tant que des villes en 3D. C’est un outils clé dans notre analyse de PIX dans la mesure ou on peut constater, selon la forme de la ville, la complexité et la modularité du projet qui sont deux éléments clé dans l’étude de l’évolutivité. Les classes sont représentées comme des bâtiments dans la ville, tandis que les paquets sont représentés comme les districts dans lesquels les bâtiments résident. La hauteur des bâtiment est mappé sur le nombre de méthodes pour une classe en question et le nombre d'attributs sur la taille de base. Le niveau d'imbrication d'un paquet quand à elle est mappé sur la saturation des couleurs du quartier, c'est-à-dire que les paquets profondément imbriqués sont colorés en bleu foncé, tandis que les paquets peu profonds sont en bleu clair. Pour son utilisation, rien de plus simple. Il suffit de cloner le repository que nous voulons investiguer sur notre ordinateur et lancer le programme CodeCity avec la source le chemin du projet en question. Pour une analyse plus poussé, CodeCity nous propose de multitude option qui peuvent nous permettre d’approfondir les résultats si nécessaire.
+
+Nous avons egalement CodeClimate qui nous renseigne sur la qualité du code en intégrant des données de couverture de test et de maintenabilité. Il s’utilise comme CodeScene via GitHub. Nous obtenons ainsi des informations sur le statut global du projet notamment le nombre de duplication présente, le pourcentage de “code smells” et l’analyse de la dette technique.
+
+## VI. Analyse des résultats et conclusion
 
 ### Résultats
 
@@ -79,21 +93,9 @@ On peut clairement voir via nos différents outils d’analyse, un très fort co
 
 ### Conclusion
 
-## VI. Tools
 
-De multitudes d'outils nous ont permis d’enquêter sur l’architecture globale du projet et sur l’organisation des différentes parties impliquées. Nous avons utilisé des outils tels que CodeCity, RepoDriller ou d’autres consorts pour l’analyse de code et l’analyse du repository. L’objectif étant dans un premier temps de se faire un avis global, cela a révélé très rapidement certains points que nous avons étudié par la suite, tel qu’un couplage très fort entre 2 parties du code qui se trouve être relativement massives et qui semblent dans un premier temps être un véritable frein à la philosophie “évolutive” du projet.
 
-Bien évidemment, notre première approche était resté très globale et relativement superficielle. Il reste néanmoins intéressant de noter que de potentiels pistes se sont révélées très rapidement avec des analyses utilisant les paramètres “de base” de certains outils, nul doute quant aux potentialités d’analyses poussées avec les différents outils d’analyse de code et de repository.
-
-Nous avons donc procédé à cette phase de tests poussées notamment principalement avec les outils CodeCity et CodeScene tout en comparant le projet PIX avec d’autre projets du même type et qui partagent la même philosophie de développement. Ces deux outils utilisent donc les bases de code disponibles via Git pour analyser les projet selon différents aspects qui sont principalement la modularité, la complexité et d’autres éléments comme la duplication de code ou bien le pourcentage de refactoring et le pourcentage de dette technique accumulé par exemple.
-
-Pour l’utilisation de CodeScene, on commence par “fork”le GitHub du repository qu’on veut analyser sur notre propre compte c’est-à-dire dans notre propre repository. On connecte ensuite notre repository à CodeScene ce qui va nous permettre d’importer le projet visé dans l’outil. Une fois le projet importé, on lance la phase de test et d’analyse. Suite à cela, nous allons avoir différents métriques sur le projet dans sa globalité et ils nous restera plus qu’à faire des constats et retenir les informations pertinentes utile pour répondre à notre problématique. On peut grâce à cet outil faire des analyses en détail classe par classe et constater les différents problème auquel le projet fait face. Cette phase d’analyse via CodeScene à été faite également sur d’autre projet afin d’avoir des éléments de comparaison et appuyer nos arguments sur les différents constat qu’on a pu établir en ce qui concerne si PIX est évolutif ou pas. CodeScene va nous renseigner sur l'évolution du code. Cela nous donnera la possibilité de prédire son avenir et de trouver le code qui est difficile à développer et sujettes à des défauts.
-
-CodeCity nous permet d'analyser des logiciels, dans lequel les projets sont visualisés en tant que des villes en 3D. C’est un outils clé dans notre analyse de PIX dans la mesure ou on peut constater, selon la forme de la ville, la complexité et la modularité du projet qui sont deux éléments clé dans l’étude de l’évolutivité. Les classes sont représentées comme des bâtiments dans la ville, tandis que les paquets sont représentés comme les districts dans lesquels les bâtiments résident. La hauteur des bâtiment est mappé sur le nombre de méthodes pour une classe en question et le nombre d'attributs sur la taille de base. Le niveau d'imbrication d'un paquet quand à elle est mappé sur la saturation des couleurs du quartier, c'est-à-dire que les paquets profondément imbriqués sont colorés en bleu foncé, tandis que les paquets peu profonds sont en bleu clair. Pour son utilisation, rien de plus simple. Il suffit de cloner le repository que nous voulons investiguer sur notre ordinateur et lancer le programme CodeCity avec la source le chemin du projet en question. Pour une analyse plus poussé, CodeCity nous propose de multitude option qui peuvent nous permettre d’approfondir les résultats si nécessaire.
-
-Nous avons egalement CodeClimate qui nous renseigne sur la qualité du code en intégrant des données de couverture de test et de maintenabilité. Il s’utilise comme CodeScene via GitHub. Nous obtenons ainsi des informations sur le statut global du projet notamment le nombre de duplication présente, le pourcentage de “code smells” et l’analyse de la dette technique.
-
-## VI. References
+## VII. Références
 
 * **PIX :**
   * [**https://pix.beta.gouv.fr/**](https://pix.beta.gouv.fr/)
