@@ -223,9 +223,9 @@ Il s'agit donc de trouver un juste équilibre entre écrire efficacement du code
 
 Nous prenons donc comme indicateur de cet équilibre d'un projet, la dette technique, qui représente le temps qu'il faudrait passer sur le projet pour le rendre moins complexe, sans pour autant rajouter de fonctionnalité.
 
-Plusieurs aspects d'un projet permettent de mesurer sa dette technique. L'existence de morceaux de codes très complexes, comme par exemple une fonction de plusieurs milliers de ligne contenant de nombreuses boucles et tests conditionnels imbriqués. Cela entraîne une difficulté à relire le code dans le futur, et donc augmentera le temps nécessaire pour le faire évoluer.
+Plusieurs aspects d'un projet permettent de mesurer sa dette technique. L'existence de morceaux de codes très complexes, comme par exemple une fonction de plusieurs milliers de ligne contenant de nombreuses boucles et tests conditionnels imbriqués, entraîne une difficulté à relire le code dans le futur, et donc augmentera le temps nécessaire pour le faire évoluer. Le manque de documentation, prenant du temps à créer, produira le même effet.
 
-
+Certains choix architecturaux peuvent permettre de rapidement ajouter de la valeur au programme, au prix d'un réfactor futur lorsqu'il faudra l'étendre. 
 
 On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité.
 
