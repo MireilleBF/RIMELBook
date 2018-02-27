@@ -424,7 +424,7 @@ L'hypothèse est donc validée, avec cinq projets ayant une dette technique norm
 
 Notre hypothèse selon laquelle la dette technique grandit obligatoirement dans le temps est donc invalidée. On obtient des résultats inverses à ceux obtenus dans l'étude sur les projets open source d'Apache, où la dette technique avait clairement une tendance croissante. Ces résultats sont peut-être liés au faible nombre de projets que nous avons étudiés. Nous pourrions facilement relancer nos analyses sur un plus grand nombre de projets avec les outils que nous avons mis en place.
 
-
+La dette technique normalisée, en revanche, évolue bien comme on s'y attendait, avec une tendance à décroître dans le temps. Cela semble confirmer notre hypothèse comme quoi les méthodes de développement open source \(principalement le système de pull request et leur reviews\) permettent d'assurer une constance de la qualité logicielle dans le temps.
 
 ## VI. Références
 
