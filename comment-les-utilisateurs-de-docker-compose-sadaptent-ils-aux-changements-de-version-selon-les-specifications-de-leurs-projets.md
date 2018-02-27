@@ -83,6 +83,24 @@ _TODO_
 
 ## IV. Hypothèses et expériences
 
+En nous appuyant sur un sample de dépôt GitHub, et en les classifiants selon leurs caractéristiques disponibles telles que : le nombre de collaborateurs, le nombre de lignes de codes, le langage source, les technologies utilisées. nous tenterons donc d’établir la présence ou l’absence du lien de causalité décrits précédemment.
+
+Intuitivement, nous sommes en mesure de formuler plusieurs hypothèses qui ont un lien direct avec la question générale, et qui ne traitent que d’une caractéristique spécifique.
+
+**H1 : Les projet avec peu de collaborateurs ont une vélocité de mise à jour élevée.**
+
+Nous pensons qu’en effet les projets avec peu de collaborateurs ont une dynamique différente d’un projet contenant de nombreux collaborateurs. Si ces dernier nécessite un grand nombre de personnes, c’est que les projets sont de grande envergure, et ainsi, la charge de travail nécessaire un faire évoluer un composant \(Docker Compose dans notre cas\) vers une nouvelle version n’utilisant pas les même commande, est trop importante, apporte peu de bénéfice, et n’est parfois simplement pas envisageable \(Compose File très complexes\).
+
+**H2 : Les projets anciens \(+ 2 ans\) ne mette plus à jours leurs Compose File**
+
+Nous avons l'intuitions que des projets ayant atteint leurs maturité et se trouvant à présent dans le cycle de maintenance n’ont aucun intérêt à aller chercher le “petit plus” de la version suivante. Concrètement, nous nous attendons à observer que les projets datant de plus de 730 jours n'effectuent plus aucune mise à jour de la version de leurs compose file.
+
+**H3 : La mise à jour V2.X -&gt; V3.X est peu implémentée**
+
+La célèbre introduction de la syntaxe V3 des compose file qui supprimait tout bonnement l’utilisation de certaine commande liée au volume \(volume\_driver, volume\_from\) n’a pas été grandement implémentée.
+
+Nous pensons que ces options sont indispensable pour certain projet les utilisants, et que par conséquent, la mise à jour vers la version 3.X qui supprime ces commandes n’a pas été grandement implémentée.
+
 _TODO_
 
 ## V. Analyse des résultats et conclusion
