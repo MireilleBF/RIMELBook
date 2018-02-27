@@ -55,14 +55,6 @@ Grâce à la répartition des commandes, il nous est possible d’identifier les
 
 ### 
 
-### ![](/assets/name.png)
-
-![](https://lh4.googleusercontent.com/rgVSJ-BjmS1btKgyOi5fDkR8m5v-ERLoWcf-Mq-imhgc-lcYBWkSJQaNUFo0PvqbbJofu4GCp-gKh9vFpblJFJSDCR5kC2L1INY0RHBsYBi1QL2hf3YA7TA-P3snQdIsUQr4KPCF)
-
-![](https://lh5.googleusercontent.com/vbgKta6OF4uo3T27OG_UAcHmASPWmB1OMSzKCQIM8Zv2KEHlFxw-2kAQ9KXegVaTrSLRznxGAoYLQmPCaZg-vpbl6ABV4nVeO0VSuKT-k5ZYeXpelHk59I5FqS57XYY1PCfg9MlG)
-
-![](https://lh5.googleusercontent.com/eOGlPvM9SlCgKEu0v54nFUdI_sYNT1XGuFFBnahQmevENNiLABJx_RhJNK-N0ec7FN--zfvbdX-W2OQVQXxDBOttwHhAQ-0KP6oNhtH5E2BWYKDQ9vk4HAsyBhmIeOnrIgoGynzM)
-
 ### **Commentaires sur les résultats**
 
 Sur ce graphique, on peut constater qu’un noyau de commandes très utilisées, composé deFROMetRUNexiste. Aussi, les commandes les plus utilisées sont des commandes déjà disponible dès le début de Docker \(ou dans les mois qui suivent sa sortie\), il s’agit de WORKDIR, CMD, ENV, COPY, EXPOSE, ENTRYPOINT, ADD, MAINTAINER \(maintenant dépréciée\), etc. Les nouvelles commandes \(arrivées plus récemment comme ONBUILD, HEALTHCHECK ou LABEL\) sont peu utilisées.
@@ -70,6 +62,39 @@ Sur ce graphique, on peut constater qu’un noyau de commandes très utilisées,
 On peut alors se demander si les nouvelles commandes proposées apportent des fonctionnalités suffisamment intéressantes pour être utilisées plus largement. Par exemple la commande MAINTAINER est plus utilisée que la commande LABEL \(alors que MAINTAINER est dépréciée au profit de LABEL\)
 
 La forte utilisation d’une commande est un indicateur de son importance. Aussi, un noyau composé uniquement de commandes anciennes \(c’est-à-dire présentes depuis la création de Docker, comme FROM, RUN, etc.\)
+
+## **Adoption de nouvelles commandes**
+
+### **Latence d’utilisation des commandes**
+
+Grâce à cette métrique, il s’agit de savoir si les nouvelles commandes disponibles sont rapidement adoptées dans la communauté. L’intérêt ici est de constater notre hypothèse de départ \(renforcée par les résultats précédents\) que le noyau de commande est suffisant et que les nouvelles commandes n’étaient pour la plupart, pas nécessaires.
+
+**    
+**
+
+**    
+**
+
+![](https://lh5.googleusercontent.com/ePSnnP63B1bLdV2mMOrb0NApKT5-AKzQ3Ox-9cTS460J3-rntxq1mLG4jP8OlviG8Q8UCzfkCpda-3e38_h7cFljiYVR4sX0gYsLH8Be7jEOaIR5BD1aBnBwhUjwSdMrEmEEI46i)
+
+**    
+**
+
+![](https://lh4.googleusercontent.com/dZ-3oT-a8-hlg2bMjStVDkKUmz2DpVRIVZyX0ypZzguvbBQjrWH0A3gIn-a7prChmDzpuTU5xw-PcrOSXc0KgLvvRDmdRzrHgKXRVP9TMl27pmdA_wmqFLrs-BvrEAfMo1b1bSYI)
+
+### ![](https://lh6.googleusercontent.com/1eOx8ncO_jSj5c_YYjTOz5cMR6yvEj6U9J4zgGrSJ4V_xZdJrjej0PCAacwo9aWRp5ljtHpJqQ3gX0VYi25EAA1gUPBev9VDOpRThTcqDBUJqEnsftRW-0UZZmXuglglWvuFh-20)
+
+![](https://lh6.googleusercontent.com/MnlSoMv31guG7TdOP5hHiiWHkywRBZz2eyUbx7pDLgGSJ2pkWVj-W19GhGwLBkcq0ZioXERJCqJr1hETKjbGlH_ijgNvO_Iv4MAXSJdoVurRget3PB-FLqqRp5KInR39m4dhKHDh)![](https://lh3.googleusercontent.com/UHg5-1HrqynMOpEmICgIXTlRnFdumavrVCEmrPEo2uD3wnEybEisryIoWw_yyOArZS2grvnGIYgmZ3s3mSD-hJazZI_4vUCSr7T6nTn8LKyuj53DowtOaPqJQbqFI_sc7VXHp-lH)
+
+![](https://lh6.googleusercontent.com/144PcmnhMPDg0hyIs8D1wVfSdzjPunewb_9Qqjz39nB8uPRvMCY4svtw_q7P8Ws0-m1cTEYxdXw88JTBrJjV7ygrjQJ3kL-IwBPM0X_yLMQNUnPc17nPAyae-CdDm3L3xup9_uVh)
+
+![](https://lh5.googleusercontent.com/3qzRh1vxJ9R8D_i3U-yAa7WqTuoz5s7nyBndoQgT9agaFsiybPMCAOTE-6ruagNwhQXgpc24Ch3JOAXM1JMtJiNrWg-QcRNKSh5Cg3ewUl7R3naeMM54jjCDAMHeimzC7qJ5PwMH)
+
+### **Commentaires sur les résultats**
+
+Nous rappelons que les commandes les plus récentes de docker sont **: LABEL \(2016\), SHELL \(2016\), HEALTHCHECK \(2016\)**
+
+Contrairement à ce que nous pensions, l’adoption de nouvelles commandes est assez rapide, cela peut alors signifier deux choses : soit les nouvelles commandes apportent des fonctionnalités répondant à un réel besoin, soit la communauté d’utilisateurs de Docker sont victimes de la “mode” et utilisent rapidement les nouvelles fonctionnalités. Le fait de ne s’intéresser qu’à des projets Open Source peut dans notre cas biaiser notre interprétation. En effet, l’adoption rapide de nouvelles commandes \(par exemple LABEL à la place de MAINTAINER\) peut correspondre à une volonté de suivre les bonnes pratiques, caractéristique souvent rencontrée dans les projets open source \(pull request systématique, code review etc.\).
 
 # Tools
 
@@ -85,7 +110,7 @@ Afin de pouvoir automatiser le clonage des dépôts, nous avons utilisé le clie
 
 Toute nos expériences sont basées essentiellement sur l’utilisation de repo-driller. Repo-driller nous a permis notamment de pouvoir filtrer les commits provenant des dépôts afin de se concentrer seulement sur ceux impactant un dockerfile.
 
-Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**    
+Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**          
 **
 
 ## **V. Result Analysis and Conclusion**
