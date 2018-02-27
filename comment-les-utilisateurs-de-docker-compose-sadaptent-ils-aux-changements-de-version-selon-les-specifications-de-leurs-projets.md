@@ -23,7 +23,7 @@ C’est ainsi que l’encyclopédie libre à choisie de présenter ce logiciel a
 
 Ainsi, Docker est un logiciel qui permet de déployer une stack logicielle indépendamment de la plateforme, mais qui offre en plus, d’autres outils permettant d’étendre au delà les capacités de base de la plateforme. Docker-Compose permet ainsi de déployer de manière groupé un ensemble de container pour contrôler de manière centralisé, le déploiement de plusieurs stack logicielle fonctionnant ensemble ou encore Docker Swarm qui vise à répondre au problématique de d'orchestration de plusieurs machines.
 
-A l’heure actuelle, Docker est utilisé dans environs 10.000 projets Github, à levé environs 250 Millions de Dollar de fond et effectué déjà 8 acquisition \([https://www.crunchbase.com/organization/docker\](https://www.crunchbase.com/organization/docker\)\). Son succès, plus qu’académique pour les problématiques qu’il cherche à résoudre à su atteindre le monde industriel et attirer le regard de nombreux investisseurs. L’avenir semble donc radieux pour la boîte Californienne, et pourtant, une récente affaire vient ternire le blason de la baleine bleue.
+A l’heure actuelle, Docker est utilisé dans environs 10.000 projets Github, à levé environs 250 Millions de Dollar de fond et effectué déjà 8 acquisition \([https://www.crunchbase.com/organization/docker\](https://www.crunchbase.com/organization/docker%29\). Son succès, plus qu’académique pour les problématiques qu’il cherche à résoudre à su atteindre le monde industriel et attirer le regard de nombreux investisseurs. L’avenir semble donc radieux pour la boîte Californienne, et pourtant, une récente affaire vient ternire le blason de la baleine bleue.
 
 Passé le domaine des conteneur dans lequel Docker à su s’imposer comme Leader incontesté, c’est au niveau de l'orchestration multi machine que la guerre fait rage. Pendant les deux années précédentes, ce sont Docker Swarm, Kubernetes et Mesos qui se sont livré bataille pour assouvir leurs règne. Et bien que Kubernetes soit clairement plus appréciés des utilisateurs \(33k star et 11.626 fork sur github contre 5k star et 1.023 fork pour Swarm\) c’est toujours Docker qui a la main sur le produit sous jacent.
 
@@ -56,6 +56,28 @@ Ce résultat intermédiaire nous permettrait ainsi de conclure si le pari fait p
 _TODO_
 
 ## III. Rassemblement d'informations
+
+Afin de procéder à cette étude, nous nous somme appuyé sur l’API Github. En l’intégrant au sein d’un projet Java disponible à l’URL suivante : [https://github.com/Maxime-Carlier/RIMEL-Docker](https://github.com/Maxime-Carlier/RIMEL-Docker), nous avons produit une application capable de récupérer un ensemble de projets nous servant de supports pour notre étude, puis d’appliquer pour chacun d’eux, un certains nombre de processeurs permettant d'en extraire des informations clé \(âge du repo, technologie, historique des commits\).
+
+Le déroulement formel du rassemblement d’information est ainsi :
+
+* Dans un premier temps, sélectionner l’ensemble des repository portant letopicDocker, et ayant la visibilité publique. \(n=1020\).
+
+* A partir de ce premier ensemble, nous avons effectué un tris visant à écarter les projet, ne contenant pas au moins 1 fichierdocker-compose.yml.
+
+* Nous avons extraits des répo restant des informations pertinentes pour qualifier ces dernier \(nombre de commit, nombre de collaborateur etc…\)
+
+* Sur la base des fichiers restant, nous avons par la suite effectué un processus dedrillingnous permettant pour chaque fichier Docker Compose d’un repository, d’en extraire l’ensemble des versions différentes ayant existé par le biais des commits qui les ont modifié.
+
+* Une fois l’ensemble de ces version récupéré, nous avons récupéré pour chacune des versions du fichier ayant existé, la version spécifié dans contenu par le champ “version” du fichier docker-compose.
+
+* Nous avons ensuite comparé un à un \(par ordonnancement chronologique\), chacune des version de docker compose, et lorsque celle-ci changeait d’un commit à un autre, nous avons sauvegardé la date du commit apportant ce changement
+
+* Enfin nous avons calculé la durée en jours séparant la sortie de la version par Docker, et la date du commit sauvegardé précédemment.
+
+* Sauvegarde des données au format JSON pour leurs exploitation
+
+Une fois ces données produite, nous avons pu poursuivre notre étude en cherchant donc si cette durée en jours \(vélocité de mise à jour\) pouvait être reliée à un des critères.
 
 _TODO_
 
