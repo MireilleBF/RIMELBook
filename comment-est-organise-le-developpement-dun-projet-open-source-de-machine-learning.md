@@ -96,7 +96,7 @@ Nous avons décomposé notre question générale en sous-questions qui fixent le
 
 Notre hypothèse de travail commune à l'ensemble de l'étude est que les contributeurs sont de bonne foi :
 
-* Ils sont auteur du code qu'ils ont mis en ligne.
+* Ils sont auteurs du code qu'ils ont mis en ligne.
 * Le nom, prénom et l'adresse mail spécifiés dans les contributions leur appartiennent.
 
 ### IV.1. Ces projets sont-ils menés par des chercheurs ?
