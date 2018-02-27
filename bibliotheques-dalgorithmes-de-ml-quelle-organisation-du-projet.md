@@ -1,6 +1,3 @@
-
----
-
 # Machine Learning algorithms libraries
 
 ## Is it possible to automatically detect the location of algorithm families in a machine learning project ? {#docs-internal-guid-a600e294-d88e-72f7-9e75-2aa43b92bb25}
@@ -334,4 +331,6 @@ To conclude, it seems very difficult to automate the process of finding machines
 * Mark Hall Eibe Frank, Geoffrey Holmes, Bernhard Pfahringer, Peter Reutemann, Ian H. Witten. \(2009\). The WEKA Data Mining Software: An Update.
 
 * Lars Buitinck \(ILPS\), Gilles Louppe, Mathieu Blondel, Fabian Pedregosa \(INRIA Saclay - Ile de France\), Andreas Mueller, Olivier Grisel, Vlad Niculae, Peter Prettenhofer, Alexandre Gramfort \(INRIA Saclay - Ile de France, LTCI\), Jaques Grobler \(INRIA Saclay - Ile de France\), Robert Layton, Jake Vanderplas, Arnaud Joly, Brian Holt, Gaël Varoquaux \(INRIA Saclay - Ile de France\). \(2013\). API design for machine learning software: experiences from the scikit-learn project.
+
+
 
