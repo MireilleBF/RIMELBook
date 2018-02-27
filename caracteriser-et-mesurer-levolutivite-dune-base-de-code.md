@@ -71,7 +71,7 @@ L'évolutivité est la capacité d'un système à grandir pour répondre à des 
 
 L'évolutivité peut aussi désigner la capacité d’une application à subir des évolutions fonctionnelles rapidement, au moindre coût, de manière rapide et fiable, c'est-à-dire sans régression des fonctionnalités déjà présentes aussi bien au niveau de leurs fiabilités que de leurs performances.
 
-Afin de répondre à notre problématique, pour notre cas, nous avons décidé de définir l'évolutivité comme suite : s'assurer que l'architecture et l'implémentation sont en concordance l'un avec l'autre tout en leur permettant d'évoluer indépendamment est un critère qui définit si un projet est évolutif. 
+Afin de répondre à notre problématique, pour notre cas, nous avons décidé de définir l'évolutivité comme suite : s'assurer que l'architecture et l'implémentation sont en concordance l'un avec l'autre tout en leur permettant d'évoluer indépendamment est un critère qui définit si un projet est évolutif.
 
 Pour notre expérimentation, nous avons donc posées les hypothèses suivantes, un projet évolutif doit être synonyme de :
 
@@ -92,7 +92,7 @@ Dans l’espoir de confirmer ces découvertes encourageante, nous avons donc dé
 ![](https://lh4.googleusercontent.com/V249v-ocYB2HrEwSN_-YWeWSFW4PVS1XorwnpaJXVIBXRqI9HKaNm5RiJvZfv8-a7VJe73ohsEwgOCNyCqa54SHF5sMJ0606QvjfyYaFFeQwBtIR2ssyKv1WaWbhWLUaDbzoq33p)_Figure 4 - Durée de vie de branches à partir d'une analyse CodeScene_
 
 En utilisant CodeScene et RepoDriller, on a aussi pu identifier d’autres points qui paraissaient contraires aux hypothèses que nous avions posés.  
-![](https://lh4.googleusercontent.com/9DyOle3x94RIvCIdzAFK0ZtN8tMOK06KJNzM7o5BLf5ys_h6wFdfjIVqOmIZpmQByRZ4vJYVs6x8ElFGyWL5CJ70QifKS38rs-dA6lzjs1HdqlJ4XM4uZdevrQC23y0GuxeZ8I0r)_Figure 5 - Couplage temporel de différentes composants du système_
+![](/assets/2.png)_Figure 5 - Couplage temporel de différentes composants du système_
 
 Nous sommes donc partie sur cette hypothèse pour faire l'analyse et en tirer une conclusion sur si oui PIX respecte ce critère, et dans le cas contraire, si non, pourquoi il ne le respecte pas.
 
@@ -105,6 +105,36 @@ Bien évidemment, notre première approche était resté très globale et relati
 Nous avons donc procédé à cette phase de tests poussées notamment principalement avec les outils CodeCity et CodeScene tout en comparant le projet PIX avec d’autre projets du même type et qui partagent la même philosophie de développement. Ces deux outils utilisent donc les bases de code disponibles via Git pour analyser les projet selon différents aspects qui sont principalement la modularité, la complexité et d’autres éléments comme la duplication de code ou bien le pourcentage de refactoring et le pourcentage de dette technique accumulé par exemple.
 
 Pour l’utilisation de CodeScene, on commence par “fork”le GitHub du repository qu’on veut analyser sur notre propre compte c’est-à-dire dans notre propre repository. On connecte ensuite notre repository à CodeScene ce qui va nous permettre d’importer le projet visé dans l’outil. Une fois le projet importé, on lance la phase de test et d’analyse. Suite à cela, nous allons avoir différents métriques sur le projet dans sa globalité et ils nous restera plus qu’à faire des constats et retenir les informations pertinentes utile pour répondre à notre problématique. On peut grâce à cet outil faire des analyses en détail classe par classe et constater les différents problème auquel le projet fait face. Cette phase d’analyse via CodeScene à été faite également sur d’autre projet afin d’avoir des éléments de comparaison et appuyer nos arguments sur les différents constat qu’on a pu établir en ce qui concerne si PIX est évolutif ou pas. CodeScene va nous renseigner sur l'évolution du code. Cela nous donnera la possibilité de prédire son avenir et de trouver le code qui est difficile à développer et sujettes à des défauts.
+
+Après connexion de notre compte et l’importation des projets dans CodeScene nous obtenons le panneau suivant avec les différents projets analysable :
+
+![](/assets/1.png)
+
+_Figure 6 - Vue de l'outil CodeScene_
+
+On peut donc procéder à l’analyse de l’un des projets, ce qui va nous diriger vers le dashboard général récapitulant les informations générales :
+
+![](/assets/3.png)
+
+_Figure 7 - Vue de l'outil CodeScene_
+
+Nous avons, à partir de la, accès à l’ensemble du menu qui nous permet d’approfondir notre analyse. Nous avons à disposition différentes rubriques pour pouvoir se focaliser sur un aspect précis :
+
+![](/assets/4.png)
+
+_Figure 8 - Vues de l'outil CodeScene_
+
+Nous pouvons donc nous focaliser pour analyser la complexité fichier par fichier ou bien le couplage entre les différents classes du projet. Il ne reste plus qu'à bien structurer nos processus d’investigation afin d’en extraire le maximum d’information rentable :
+
+![](/assets/5.png)
+
+_Figure 9 - Couplage interclasses_
+
+![](/assets/6.png)
+
+_Figure 10 - Complexité temporelle d'une classe extraite du système_
+
+Nous avons par exemple après exécution de CodeCity sur le projet PIX \(respectivement JSCity puisque c'est le langage principal du projet\), la représentation suivante :![](/assets/7.png)_Figure 11 - JSCity \(CodeCity\) sur l'ensemble du projet PIX_
 
 CodeCity nous permet d'analyser des logiciels, dans lequel les projets sont visualisés en tant que des villes en 3D. C’est un outils clé dans notre analyse de PIX dans la mesure ou on peut constater, selon la forme de la ville, la complexité et la modularité du projet qui sont deux éléments clé dans l’étude de l’évolutivité. Les classes sont représentées comme des bâtiments dans la ville, tandis que les paquets sont représentés comme les districts dans lesquels les bâtiments résident. La hauteur des bâtiment est mappé sur le nombre de méthodes pour une classe en question et le nombre d'attributs sur la taille de base. Le niveau d'imbrication d'un paquet quand à elle est mappé sur la saturation des couleurs du quartier, c'est-à-dire que les paquets profondément imbriqués sont colorés en bleu foncé, tandis que les paquets peu profonds sont en bleu clair. Pour son utilisation, rien de plus simple. Il suffit de cloner le repository que nous voulons investiguer sur notre ordinateur et lancer le programme CodeCity avec la source le chemin du projet en question. Pour une analyse plus poussé, CodeCity nous propose de multitude option qui peuvent nous permettre d’approfondir les résultats si nécessaire.
 
