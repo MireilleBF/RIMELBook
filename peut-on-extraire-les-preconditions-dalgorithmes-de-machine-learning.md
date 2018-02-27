@@ -32,16 +32,19 @@ Ce sujet nous a semblé intéressant pour plusieurs raisons :
 
 Pour appréhender notre sujet, nous avons imaginé un scénario en nous mettant dans la peau d’un utilisateur d’une librairie de Machine Learning.
 
-Scénario
+**Scénario**
 
 Je suis un développeur dans une entreprise, pour réaliser à bien mon projet je dois utiliser une librairie de machine learning, je me suis renseigné sur les différentes librairies et j’ai choisi d’utiliser Weka qui est une librairie de ML en Java. Je dispose donc d’un certain jeu de données et je me heurte à un problème : weka dispose de très nombreux algorithmes cependant tous ces algorithmes ne peuvent pas résoudre mon problème car leurs actions et leurs résultats dépendent du jeu de données en entrée et de certaines préconditions. Je me demande alors s’il n’existe pas un moyen d’extraire automatiquement toutes les préconditions d’un algorithme de Weka.
 
-Cette question nous semble très importante car si un outil permettant d’extraire ces préconditions existe, il fera gagner un temps non négligeable à tous les utilisateurs “novices” de Weka. Cette question peut également être étendue à d’autres librairies \(de machine learning ou même d’autres librairies proposant des algorithmes\) cependant dans notre projet nous allons y répondre dans le cadre de Weka.  
-
+Cette question nous semble très importante car si un outil permettant d’extraire ces préconditions existe, il fera gagner un temps non négligeable à tous les utilisateurs “novices” de Weka. Cette question peut également être étendue à d’autres librairies \(de machine learning ou même d’autres librairies proposant des algorithmes\) cependant dans notre projet nous allons y répondre dans le cadre de Weka.
 
 ## III. Rassemblement d'informations
 
-Pour répondre à ce sujet, la documentation de Weka a été indispensable pour avoir des informations sur les préconditions. Nous avons également cherché dans le code source de la librairie Weka si nous pouvions trouver des préconditions.
+Pour répondre à ce sujet, nous nous sommes appuyés principalement sur la documentation de Weka. La lecture de cette documentation a principalement pour but d’en apprendre plus sur le fonctionnement de la librairie Weka, et de trouver d’éventuelles informations sur les préconditions.
+
+Nos recherches dans la documentation nous ont menés à des objets appelés les Capabilities.
+
+Nous avons également cherché dans le code source de la librairie Weka si nous pouvions trouver des préconditions.
 
 ## IV. Hypothèses et expériences
 
@@ -49,19 +52,19 @@ Nous avons pu observer que certaines préconditions sont liées à des objets ap
 
 Capabilities dans le code de Weka. Les Capabilities permettent de spécifier le type que doit avoir une donnée avant d’être utilisée par un algorithme de machine learning de la librairie Weka.
 
-* IV.1 Nous pouvons extraire des préconditions de la classe “Capabilities”
+* **IV.1 Nous pouvons extraire des préconditions de la classe “Capabilities”**
 
   Suite à nos recherches, nous avons fait l’hypothèse que nous pouvons extraire certaines préconditions d’un algorithme de Weka grâce à la classe “Capabilities” vu précédemment.
 
   Pour réaliser à bien cette tâche, nous avons décidé de développer nous même un outil nous permettant de “tester” les algorithmes de Weka avec différents types de données en entrée en se basant sur le contenu de la classe Capabilities de chacun des algorithmes testés.
 
-* IV.2 Il existe des préconditions non définies dans les Capabilities
+* **IV.2 Il existe des préconditions non définies dans les Capabilities**
 
   Si Weka propose le système des capabilities regroupant des préconditions, nous ne pouvons pas affirmer que toutes les préconditions sur les données sont explicitement définies dans ces capabilities. Il est possible qu’il existe des préconditions implicitement définies dans le code source, gérées par exemple par des exceptions. Pour vérifier cela, nous avons cherché dans le code source \(notamment le dossier Classifier\) les exceptions définies, et notamment si certaines n’étaient pas dûes à des conditions sur les données en entrée, autres que les capabilities.
 
-* IV.3 Nous pouvons extraire certaines préconditions des Exceptions propagées dans le code Weka
+* **IV.3 Nous pouvons extraire certaines préconditions des Exceptions propagées dans le code Weka**
 
-  En analysant le code des algorithmes de Weka, nous avons remarqué qu’un certain type d’Exception avait était créer \(les WekaException\) Nous pensons que certains appels de ces exceptions peuvent correspondrent à certaines préconditions qui ne seraient pas présentes dans les Capabilities.  
+  En analysant le code des algorithmes de Weka, nous avons remarqué qu’un certain type d’Exception avait était créer \(les WekaException\) Nous pensons que certains appels de ces exceptions peuvent correspondrent à certaines préconditions qui ne seraient pas présentes dans les Capabilities.
 
 ## V. Analyse des résultats et conclusion
 
@@ -71,9 +74,11 @@ Nous avons pu développer le programme dont nous avons parlé précédemment, il
 
 Nous constatons bien que le contenu de la classe Capabilities renseigne bien sur certaines préconditions des algorithmes. Afin de vérifier ce résultat, nous avons par la suite testé les algorithmes avec des données en entrée correspondant à la classe Capabilities de chacun d’eux.
 
+Nous avons développé un programme en Java permettant d’analyser le code source et d’y ressortir des exceptions et de ressortir des statistiques dessus.. Dans le cadre du projet, nous nous sommes concentrés sur les classes contenues dans le dossier Classifier de la librairie Weka.
+
 ## VI. Références
 
-À remplir.
+[https://www.cs.waikato.ac.nz/ml/weka/documentation.html](https://www.cs.waikato.ac.nz/ml/weka/documentation.html)
 
-
+[http://weka.sourceforge.net/doc.dev/weka/core/Capabilities.html](http://weka.sourceforge.net/doc.dev/weka/core/Capabilities.html)
 
