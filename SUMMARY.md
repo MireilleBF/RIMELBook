@@ -10,4 +10,5 @@
 * [Caractériser et mesurer l'évolutivité d'une base de code](caracteriser-et-mesurer-levolutivite-dune-base-de-code.md)
 * [Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md)
 * [Peut-on extraire automatiquement toutes les préconditions d'algorithmes de machine learning ?](peut-on-extraire-les-preconditions-dalgorithmes-de-machine-learning.md)
+* [Comment les projets s’adaptent à l’évolution de Docker ?](comment-les-projets-sadaptent-a-levolution-de-docker.md)
 
