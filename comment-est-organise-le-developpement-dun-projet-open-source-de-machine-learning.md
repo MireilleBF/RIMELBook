@@ -1,4 +1,4 @@
-# Comment est organisé le développement d'un projet Open Source de Machine Learning ?
+Un biais de cette mesure est que SonarQube ne peut pas évaluer un choix d'architecture de haut niveau, alors que nous avons l'intuition que l'un des facteurs les plus importants de la dette technique : un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.# Comment est organisé le développement d'un projet Open Source de Machine Learning ?
 
 _Février 2018_
 
@@ -226,7 +226,7 @@ Notre intuition est que la dette technique de ces projets augmente au fil des é
 
 #### Comment mesurer la dette technique ?
 
-SonarQube permet d'analyser le code source d'un projet et d'estimer la dette technique, représentée en la durée qu'il faudrait pour complètement nullifier la dette technique. SonarQube est incapable d'évaluer si des choix architecturaux haut niveau sont corrects, alors que c'est probablement le facteur le plus impactant de la dette technique. Un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.
+SonarQube permet d'analyser le code source d'un projet et d'estimer la dette technique, représentée en la durée qu'il faudrait pour complètement nullifier la dette technique. Un biais de cette mesure est que SonarQube ne peut pas évaluer un choix d'architecture de haut niveau, alors que nous avons l'intuition que l'un des facteurs les plus importants de la dette technique : un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.
 
 L'analyse SonarQube est basée sur des facteurs directement mesurables: la duplication de code, la complexité des fonctions, la complexité des appels des modules entre eux, des patterns de code identifiables réputés pour être mauvais... Ce n'est donc pas une analyse absolue de la dette technique, mais c'est un outil très utile pour avoir une estimation de la santé d'un projet.
 
