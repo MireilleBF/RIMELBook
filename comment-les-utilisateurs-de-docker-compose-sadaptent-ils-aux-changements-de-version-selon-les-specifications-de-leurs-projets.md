@@ -23,7 +23,7 @@ C’est ainsi que l’encyclopédie libre à choisie de présenter ce logiciel a
 
 Ainsi, Docker est un logiciel qui permet de déployer une stack logicielle indépendamment de la plateforme, mais qui offre en plus, d’autres outils permettant d’étendre au delà les capacités de base de la plateforme. Docker-Compose permet ainsi de déployer de manière groupé un ensemble de container pour contrôler de manière centralisé, le déploiement de plusieurs stack logicielle fonctionnant ensemble ou encore Docker Swarm qui vise à répondre au problématique de d'orchestration de plusieurs machines.
 
-A l’heure actuelle, Docker est utilisé dans environs 10.000 projets Github, à levé environs 250 Millions de Dollar de fond et effectué déjà 8 acquisition \(https://www.crunchbase.com/organization/docker\). Son succès, plus qu’académique pour les problématiques qu’il cherche à résoudre à su atteindre le monde industriel et attirer le regard de nombreux investisseurs. L’avenir semble donc radieux pour la boîte Californienne, et pourtant, une récente affaire vient ternire le blason de la baleine bleue.
+A l’heure actuelle, Docker est utilisé dans environs 10.000 projets Github, à levé environs 250 Millions de Dollar de fond et effectué déjà 8 acquisition \([https://www.crunchbase.com/organization/docker\](https://www.crunchbase.com/organization/docker\)\). Son succès, plus qu’académique pour les problématiques qu’il cherche à résoudre à su atteindre le monde industriel et attirer le regard de nombreux investisseurs. L’avenir semble donc radieux pour la boîte Californienne, et pourtant, une récente affaire vient ternire le blason de la baleine bleue.
 
 Passé le domaine des conteneur dans lequel Docker à su s’imposer comme Leader incontesté, c’est au niveau de l'orchestration multi machine que la guerre fait rage. Pendant les deux années précédentes, ce sont Docker Swarm, Kubernetes et Mesos qui se sont livré bataille pour assouvir leurs règne. Et bien que Kubernetes soit clairement plus appréciés des utilisateurs \(33k star et 11.626 fork sur github contre 5k star et 1.023 fork pour Swarm\) c’est toujours Docker qui a la main sur le produit sous jacent.
 
@@ -37,14 +37,21 @@ Mais au vu du revers de la politique de Docker sur Kubernetes, qu’adviendrait-
 
 Ce sont ce type de questions auxquelles nous allons tenter d’apporter une réponse.
 
-  
 ![](/assets/docker_compose_study_project_files/docker-compose-version-release.png)
 
 _TODO_
 
 ## II. Observations et question générale
 
-Nous souhaitons donc étudier la manière dont les utilisateurs de cet outil réagit face à la mise à jour du Docker. Afin d’élargir les perspectives de nos études, nous avons choisi de chercher à voir s’il était possible de définir certains comportements lors de ces mise à jours en fonction de certains critère. En nous appuyant sur un sample de dépôt sur GitHub, et en les classifiants selon leurs caractéristiques disponibles telles que : le nombre de collaborateurs, le nombre de lignes de codes, le langage source, les technologie utilisés.
+Pour faire suite aux problématiques soulevées dans notre contexte, nous commencerons par formuler une question de haut niveau, autour de laquelle nous construirons notre étude.
+
+**Question générale : Comments les utilisateurs s'adaptent-ils aux mise à jour de Docker Compose en fonction des caractéristiques de leurs projets ?**
+
+L’objectifs ainsi fixé, il s’agira donc pour nous, dans la suite de ce document de chercher si oui ou non il existe des critères propres à un projet, qui permettraient d’établir un lien de causalité entre leurs présence \(ou leur absence\) valué, et le dynamisme de changement de version desCompose File.
+
+L'intérêt étant ici, que si il existe bel est bien un lien entre un tel critère, et cette action de mettre à jour son Docker Compose, nous serions en mesure de qualifier le groupe d’utilisateurs qui bénéficie le plus \(ou pas du tout\) de la politique de mise à jour adopté par Docker.
+
+Ce résultat intermédiaire nous permettrait ainsi de conclure si le pari fait par Docker pour son outil Compose va à l’encontre ou non de l’usage qu’en font les utilisateurs.
 
 _TODO_
 
