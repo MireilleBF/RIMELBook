@@ -392,11 +392,7 @@ Néanmoins, sur les projets _pattern, pybrain, pyhsmm et theano_, on peut observ
 
 ![](assets/organisation_project_os_ml/theano-loc.png)_Figure 15 - Courbes de l'évolution des lignes de codes et de l'index SQALE de theano. On observe une tendance décroissante de la dette technique dans le temps._
 
-On peut observer deux refactors ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celle de 2017 est accompagnée d'une importante baisse de lignes de code.
-
-On peut observer deux \_refactors \_ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celle de 2017 est accompagnée d'une importante baisse de lignes de code.
-
-On peut observer deux _refactors_ ayant eu pour but
+On peut observer deux _refactors_ ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celui de 2017 est accompagné d'une importante baisse du nombre de lignes de code.
 
 On voit que la dette technique était plus importante en 2013 où le nombre de lignes de code était a 150k qu'en 2018 avec 220k lignes de codes.
 
