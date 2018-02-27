@@ -394,13 +394,17 @@ Néanmoins, sur les projets _pattern, pybrain, pyhsmm et theano_, on peut observ
 
 On peut observer deux refactors ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celle de 2017 est accompagnée d'une importante baisse de lignes de code.
 
-On peut observer deux _refactors _ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celle de 2017 est accompagnée d'une importante baisse de lignes de code.
+On peut observer deux \_refactors \_ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celle de 2017 est accompagnée d'une importante baisse de lignes de code.
 
 On voit que la dette technique était plus importante en 2013 où le nombre de lignes de code était a 150k qu'en 2018 avec 220k lignes de codes.
 
 L'hypothèse est invalide sur quatre projets, et valide sur trois. On s'attendait à trouver la même tendance croissante sur tous les projets, donc notre hypothèse est invalidée. Cependant
 
 #### V.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
+
+### **Conclusion**
+
+Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et que parfois, ces contributeurs contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante. 
 
 ## VI. Références
 
