@@ -146,7 +146,7 @@ Nous procéderons en étudiant la répartition des _commits_ et des lignes modif
 
 #### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
-Il s'agit de voir l'importance des chercheurs par la place de mainteneurs du projet qu'ils pourraient éventuellement avoir.
+Il s'agit ici d'étudier l'investissement de chaque contributeurs-chercheurs dans le développement comparé aux autres contributeurs. \(Contribuent-ils plus ou moins que les autres?\) 
 
 Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, la majorité des contributeurs-chercheurs s'investit moins que les autres contributeurs.
 
