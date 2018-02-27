@@ -432,11 +432,52 @@ Dans notre étude, nous avons pu montrer que les projets Open Source de Machine 
 
 ## VI. Références
 
+### Documents
+
 \[1\] Cours de X. Blanc du 16 janvier 2018.
 
-\[2\] TODO Article du partiel
+\[2\] N. Ernst, S. Bellomo, I. Ozkaya, R. Nord, I. Gorton \(2015\). Measure It? Manage It? Ignore It? Software Practitioners and Technical Debt, ESEC/FSE.
 
 \[3\] G. Digkas, M. Lungu, A. Chatzigeorgiou, P. Avgeriou \(2017\). The Evolution of Technical Debt in the Apache Ecosystem, Springer International Publishing.
 
-_À remplir._
+### Projets étudiés
+
+| Projet | Lien |
+| :--- | :--- |
+| scikit-learn | [https://github.com/scikit-learn/scikit-learn.git](https://github.com/scikit-learn/scikit-learn.git) |
+| theano | [https://github.com/Theano/Theano.git](https://github.com/Theano/Theano.git) |
+| keras | [https://github.com/keras-team/keras.git](https://github.com/keras-team/keras.git) |
+| scikit-image | [https://github.com/scikit-image/scikit-image](https://github.com/scikit-image/scikit-image) |
+| simplecv | [https://github.com/sightmachine/SimpleCV](https://github.com/sightmachine/SimpleCV) |
+| nltk | [https://github.com/nltk/nltk](https://github.com/nltk/nltk) |
+| pattern | [https://github.com/clips/pattern](https://github.com/clips/pattern) |
+| auto-ml | [https://github.com/ClimbsRocks/auto\_ml](https://github.com/ClimbsRocks/auto_ml) |
+| pylearn | [https://github.com/lisa-lab/pylearn2](https://github.com/lisa-lab/pylearn2) |
+| pybrain | [https://github.com/pybrain/pybrain](https://github.com/pybrain/pybrain) |
+| brainstorm | [https://github.com/IDSIA/brainstorm](https://github.com/IDSIA/brainstorm) |
+| pyevolve | [https://github.com/perone/Pyevolve](https://github.com/perone/Pyevolve) |
+| pytorch | [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch) |
+| cogitare | [https://github.com/cogitare-ai/cogitare](https://github.com/cogitare-ai/cogitare) |
+| featureforge | [https://github.com/machinalis/featureforge](https://github.com/machinalis/featureforge) |
+| metric-learn | [https://github.com/metric-learn/metric-learn](https://github.com/metric-learn/metric-learn) |
+| simpleai | [https://github.com/metric-learn/metric-learn](https://github.com/metric-learn/metric-learn) |
+| astroML | [https://github.com/astroML/astroML](https://github.com/astroML/astroML) |
+| lasagne | [https://github.com/Lasagne/Lasagne](https://github.com/Lasagne/Lasagne) |
+| hebel | [https://github.com/hannes-brt/hebel](https://github.com/hannes-brt/hebel) |
+| chainer | [https://github.com/chainer/chainer](https://github.com/chainer/chainer) |
+| prophet | [https://github.com/facebook/prophet](https://github.com/facebook/prophet) |
+| gensim | [https://github.com/RaRe-Technologies/gensim](https://github.com/RaRe-Technologies/gensim) |
+| surprise | [https://github.com/NicolasHug/Surprise](https://github.com/NicolasHug/Surprise) |
+| crab | [https://github.com/muricoca/crab](https://github.com/muricoca/crab) |
+| nilearn | [https://github.com/nilearn/nilearn](https://github.com/nilearn/nilearn) |
+| pyhsmm | [https://github.com/mattjj/pyhsmm](https://github.com/mattjj/pyhsmm) |
+| skll | [https://github.com/EducationalTestingService/skll](https://github.com/EducationalTestingService/skll) |
+| spearmint | [https://github.com/JasperSnoek/spearmint](https://github.com/JasperSnoek/spearmint) |
+| deap | [https://github.com/deap/deap](https://github.com/deap/deap) |
+| mlxtend | [https://github.com/rasbt/mlxtend](https://github.com/rasbt/mlxtend) |
+| tpot | [https://github.com/EpistasisLab/tpot](https://github.com/EpistasisLab/tpot) |
+| pgmpy | [https://github.com/pgmpy/pgmpy](https://github.com/pgmpy/pgmpy) |
+| milk | [https://github.com/luispedro/milk](https://github.com/luispedro/milk) |
+
+
 
