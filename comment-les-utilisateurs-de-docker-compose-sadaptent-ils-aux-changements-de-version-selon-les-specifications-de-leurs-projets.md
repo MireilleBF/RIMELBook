@@ -139,7 +139,7 @@ En conclusion, et en nous appuyant sur les hypothèse formulé précédemment, a
 
 Néanmoins, ayant observé un temps moyens de mise à jours \(tout repository confondus\) de 268 jours, nous somme en mesure d’affirmer que la stratégie adopté par Docker sortir beaucoup de version par année \(8 en 2017, soit une version tout les 46 jours environs\) avec parfois des changements non rétrocompatible, et en opposition directe avec l’utilisation qu’en font les utilisateurs. Cette opposition peut s’avérer risqué pour Docker comme expliquée dans le contexte, et pourrait amener à d’autres opposition dans le futur voir à l’abandon de la technologie docker-compose.
 
-#### e. Limites de l’études
+#### e. Limites de l’étude
 
 Bien qu’un effort est été fait afin de fournir un grand nombre de projets sample en entrés \(1.020\) \(topic:Docker et visibilité:public\) au détriment parfois du temps nécessaire à processer toute les informations \(35.000 commits par repository parfois\), , après application de tous nos filtres, notre sample se retrouve à 175 projets, dont seulement 108 ont fait au moins un changement de version.
 
