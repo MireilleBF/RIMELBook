@@ -69,15 +69,15 @@ La forte utilisation d’une commande est un indicateur de son importance. Aussi
 
 Grâce à cette métrique, il s’agit de savoir si les nouvelles commandes disponibles sont rapidement adoptées dans la communauté. L’intérêt ici est de constater notre hypothèse de départ \(renforcée par les résultats précédents\) que le noyau de commande est suffisant et que les nouvelles commandes n’étaient pour la plupart, pas nécessaires.
 
-**    
+**      
 **
 
-**    
+**      
 **
 
 ![](https://lh5.googleusercontent.com/ePSnnP63B1bLdV2mMOrb0NApKT5-AKzQ3Ox-9cTS460J3-rntxq1mLG4jP8OlviG8Q8UCzfkCpda-3e38_h7cFljiYVR4sX0gYsLH8Be7jEOaIR5BD1aBnBwhUjwSdMrEmEEI46i)
 
-**    
+**      
 **
 
 ![](https://lh4.googleusercontent.com/dZ-3oT-a8-hlg2bMjStVDkKUmz2DpVRIVZyX0ypZzguvbBQjrWH0A3gIn-a7prChmDzpuTU5xw-PcrOSXc0KgLvvRDmdRzrHgKXRVP9TMl27pmdA_wmqFLrs-BvrEAfMo1b1bSYI)
@@ -110,12 +110,12 @@ Afin de pouvoir automatiser le clonage des dépôts, nous avons utilisé le clie
 
 Toute nos expériences sont basées essentiellement sur l’utilisation de repo-driller. Repo-driller nous a permis notamment de pouvoir filtrer les commits provenant des dépôts afin de se concentrer seulement sur ceux impactant un dockerfile.
 
-Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**          
+Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**            
 **
 
 ## **V. Result Analysis and Conclusion**
 
-En conclusion, lorsque l’on observe la répartition de l’ensemble des commandes docker, à travers les projets les plus populaires de github, on peut constater que
+Par rapport aux questions que nous nous posions au début de cette étude, nous nous sommes rendus compte \(et avons pu chiffrer\) la lenteur qu'avait Docker à ajouter de nouvelles fonctionnalités pertinentes. Cependant, les utilisateurs de Docker semblent utiliser un ensemble de commande fixe et stable, formant ainsi le noyau dont on supposait l’existence intuitivement.
 
 ## **VI. References**
 
