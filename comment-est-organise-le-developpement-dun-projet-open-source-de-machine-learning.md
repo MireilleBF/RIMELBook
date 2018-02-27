@@ -416,7 +416,7 @@ En revanche, les dettes techniques normalisées des projets _scikit-image et nil
 
 On peut observer que la dette technique relative à la taille du projet ne décroit pas ni n'augmente sur cinq ans.![](assets/organisation_project_os_ml/scikit-image-sqale.png)_Figure 19 - Dette technique normalisée du projet scikit-image. _
 
-Le seul projet avec cette tendance, _scikit-image_ possède une dette technique normalisée croissante dans le temps. Cela signifie que si cette tendance se poursuit, éventuellement la dette technique pourra arriver à un point critique. Cependant, cette dette normalisée se situe entre 0,07 et 0,105, ce qui est très inférieur à la dette technique d'autre projets open source, tel que Apache Sling, pour lequel elle se situe en 0,55 et 0,45. Donc bien qu'elle soit croissante, cette croissance est très faible.
+Le seul projet avec cette tendance croissante, _scikit-image_ possède une dette technique normalisée croissante dans le temps. Cela signifie que si cette tendance se poursuit, éventuellement la dette technique pourra arriver à un point critique. Cependant, cette dette normalisée se situe entre 0,07 et 0,105, ce qui est très inférieur à la dette technique d'autre projets open source, tel que Apache Sling, pour lequel elle se situe en 0,55 et 0,45. Donc bien qu'elle soit croissante, cette croissance est très faible.
 
 L'hypothèse est donc validée, avec cinq projets ayant une dette technique normalisée décroissante dans le temps, un projet qui stagne, et un projet où elle est croissante.
 
@@ -428,7 +428,7 @@ La dette technique normalisée, en revanche, évolue bien comme on s'y attendait
 
 ### **Conclusion**
 
-Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et que parfois, ces contributeurs contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante. 
+Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et que parfois, ces contributeurs contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante.
 
 ## VI. Références
 
