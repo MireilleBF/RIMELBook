@@ -94,6 +94,8 @@ Dans l’espoir de confirmer ces découvertes encourageante, nous avons donc dé
 En utilisant CodeScene et RepoDriller, on a aussi pu identifier d’autres points qui paraissaient contraires aux hypothèses que nous avions posés.  
 ![](/assets/2.png)_Figure 5 - Couplage temporel de différentes composants du système_
 
+On a notamment, identifié un fort couplage de fichier nommés assessment-\*.js. On peut d’ailleur voire sur l’autre schéma sur le couplage temporel \(présenté dans la partie suivante\) que ces fichiers semblent être un véritable goulot d’étranglement des qu’ils doivent être modifié. Parmis les autres points négatifs, on a trouvé un faible nombre de collaborateurs actifs, une complexité exponentielle des fichiers de test \(observable sur le schéma extrait de CodeCity dans la partie suivante\) et des variations de complexité pour le moins étrange.
+
 Nous sommes donc partie sur cette hypothèse pour faire l'analyse et en tirer une conclusion sur si oui PIX respecte ce critère, et dans le cas contraire, si non, pourquoi il ne le respecte pas.
 
 ## **V. Outils et expérimentations**
