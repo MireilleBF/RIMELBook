@@ -388,7 +388,7 @@ On peut observer plusieurs tendances. Les projets _nilearn, scikit-image \_et \_
 
 ![](assets/organisation_project_os_ml/scikit-learn-loc.png)_Figure 14 - Courbes de l'évolution des lignes de codes et de l'index SQALE de scikit-learn. ncloc représente le nombre de lignes de code non commentées_
 
-Néanmoins, sur les projets _pattern, pybrain, pyhsmm _et_ theano_, on peut observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
+Néanmoins, sur les projets _pattern, pybrain, pyhsmm et theano_, on peut observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
 
 ![](assets/organisation_project_os_ml/theano-loc.png)_Figure 15 - Courbes de l'évolution des lignes de codes et de l'index SQALE de theano. On observe une tendance décroissante de la dette technique dans le temps._
 
