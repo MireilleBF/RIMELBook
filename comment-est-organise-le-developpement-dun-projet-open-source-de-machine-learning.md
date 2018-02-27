@@ -412,6 +412,20 @@ Il est plus intéressant de regarder les courbes des dettes techniques normalis�
 
 Le projet _scikit-learn_, bien qu'ayant une dette croissante dans le temps, présente une dette normalisée décroissante dans le temps. Cela signifie que la technique de développement assure que la dette ne grandit pas au même rythme que le projet, et qu'elle est de plus en plus petite relativement à la taille du projet.
 
+En revanche, les dettes techniques normalisées des projets _scikit-image et nilearn_ ne décroissent pas.![](assets/organisation_project_os_ml/nilearn-sqale.png)_Figure 18 - Dette technique normalisée du projet nilearn. _
+
+On peut observer que la dette technique relative à la taille du projet ne décroit pas ni n'augmente sur cinq ans.![](assets/organisation_project_os_ml/scikit-image-sqale.png)_Figure 19 - Dette technique normalisée du projet scikit-image. _
+
+Le seul projet avec cette tendance, _scikit-image_ possède une dette technique normalisée croissante dans le temps. Cela signifie que si cette tendance se poursuit, éventuellement la dette technique pourra arriver à un point critique. Cependant, cette dette normalisée se situe entre 0,07 et 0,105, ce qui est très inférieur à la dette technique d'autre projets open source, tel que Apache Sling, pour lequel elle se situe en 0,55 et 0,45. Donc bien qu'elle soit croissante, cette croissance est très faible.
+
+L'hypothèse est donc validée, avec cinq projets ayant une dette technique normalisée décroissante dans le temps, un projet qui stagne, et un projet où elle est croissante.
+
+#### Conclusion partielle
+
+Notre hypothèse selon laquelle la dette technique grandit obligatoirement dans le temps est donc invalidée. On obtient des résultats inverses à ceux obtenus dans l'étude sur les projets open source d'Apache, où la dette technique avait clairement une tendance croissante. Ces résultats sont peut-être liés au faible nombre de projets que nous avons étudiés. Nous pourrions facilement relancer nos analyses sur un plus grand nombre de projets avec les outils que nous avons mis en place.
+
+
+
 ## VI. Références
 
 \[1\] Cours de X. Blanc du 16 janvier 2018.
