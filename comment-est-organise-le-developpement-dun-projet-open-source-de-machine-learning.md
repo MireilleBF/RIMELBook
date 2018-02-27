@@ -163,7 +163,7 @@ Nous souhaitons évaluer les hypothèses suivantes :
 1. **La majorité des algorithmes sont maintenus par un contributeur majeur.**
 2. **Un contributeur majeur d'un algorithme n'est contributeur majeur que de cet algorithme.**
 
-L'intérêt de cette question et de ces hypothèses est liée aux conclusions de l'équipe de Xavier Blanc qui indiquent qu'un morceau de logiciel \(pour nous, un algorithme\) présente moins d'erreur s'il est écrit par un petit nombre de contributeurs fortement investis dans cet algorithme.
+L'intérêt de cette question et de ces hypothèses est liée aux conclusions de l'équipe de Xavier Blanc qui indiquent qu'un morceau de logiciel \(pour nous, un algorithme\) présente moins d'erreur s'il est écrit par un petit nombre de contributeurs fortement investis dans cet algorithme \[1\].
 
 Il convient avant de poursuivre de préciser notre définition d'un contributeur majeur. Il s'agit pour nous d'un contributeur qui détient au moins 50% du code d'un algorithme dans la version la plus récente du projet. Cette définition présente un biais car un contributeur unique a tout à fait pu produire un algorithme entièrement mais par des modifications successives et non fonctionnelles \(formatage du code pour suivre une convention, ...\), il peut être considéré comme contributeur non-majeur de cet algorithme.
 
@@ -380,9 +380,11 @@ Cela soulève une question : les algorithmes qui partagent le même contributeur
 
 ## VI. Références
 
-\[1\] TODO Article de Xavier Blanc
+\[1\] Cours de X. Blanc du 16 janvier 2018.
 
-\[2\] G. Digkas, M. Lungu, A. Chatzigeorgiou, P. Avgeriou \(2017\). The Evolution of Technical Debt in the Apache Ecosystem, Springer International Publishing.
+\[2\] TODO Article du partiel
+
+\[3\] G. Digkas, M. Lungu, A. Chatzigeorgiou, P. Avgeriou \(2017\). The Evolution of Technical Debt in the Apache Ecosystem, Springer International Publishing.
 
 _À remplir._
 
