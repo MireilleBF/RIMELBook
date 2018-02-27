@@ -1,4 +1,4 @@
-Un biais de cette mesure est que SonarQube ne peut pas évaluer un choix d'architecture de haut niveau, alors que nous avons l'intuition que l'un des facteurs les plus importants de la dette technique : un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.# Comment est organisé le développement d'un projet Open Source de Machine Learning ?
+# Comment est organisé le développement d'un projet Open Source de Machine Learning ?
 
 _Février 2018_
 
@@ -234,7 +234,7 @@ Pour un projet donné, nous sélectionnerons, sur une durée de cinq ans, un com
 
 #### IV.3.1. **La dette technique grandit en même temps que le projet.**
 
-Nous nous attendons à ce que la dette technique grandisse en même temps que la taille d'un projet \(représentée par son nombre de ligne de codes\), comme le prévoit la loi de Lehman. 
+Nous nous attendons à ce que la dette technique grandisse en même temps que la taille d'un projet \(représentée par son nombre de ligne de codes\), comme le prévoit la loi de Lehman.
 
 L'hypothèse est réfutée s'il s'avère que la dette technique suit une courbe stagnante, voire diminue dans le temps.
 
