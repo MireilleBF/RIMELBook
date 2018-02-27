@@ -366,7 +366,13 @@ _Figure 13 - Peu importe le seuil, il existe des contributeurs qui sont contribu
 
 La _Figure 13_ présente le nombre de contributeurs qui sont contributeurs majeurs d'au moins deux algorithmes. Ce nombre a été normalisé par le nombre de contributeurs du dépôt.
 
-La figure montre bien que peu importe le seuil, il existe au moins un contributeur qui est contributeur majeur de plusieurs algorithmes, notre hypothèse était fausse : un contributeur peut être contributeur majeur de plusieurs algorithmes. Cela peut signifier soit qu'il existe des experts qui se spécialisent dans plusieurs algorithmes, soit que certains algorithmes sont suffisamment simples ou connus pour être développés par une même personne.
+La figure montre bien que peu importe le seuil, il existe au moins un contributeur qui est contributeur majeur de plusieurs algorithmes, notre hypothèse était fausse : **un contributeur peut être contributeur majeur de plusieurs algorithmes**. Cela peut signifier soit qu'il existe des experts qui se spécialisent dans plusieurs algorithmes, soit que certains algorithmes sont suffisamment simples ou connus pour être développés par une même personne.
+
+#### Conclusion partielle
+
+Dans les projets étudiés et d'après l'interprétation de nos hypothèses, la majorité des algorithmes de Machine Learning sont écrits et maintenus par un seul contributeur expert de cet algorithme. Nous avons observé également qu'une partie de ces contributeurs experts d'un algorithme sont experts d'au moins un autre algorithme présenté dans le projet.
+
+Cela soulève une question : les algorithmes qui partagent le même contributeur majeur sont-elles les variantes d'un même algorithme ? Une réponse positive à cette question permettrait de regrouper les variantes de l'algorithme et évaluer si l'une des variantes produit systématiquement des résultats plus fiables.
 
 ## VI. Références
 
