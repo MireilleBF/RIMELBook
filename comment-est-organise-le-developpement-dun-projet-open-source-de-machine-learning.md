@@ -213,13 +213,13 @@ L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur m
 
 ### IV.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
-La qualité logicielle représente la santé du projet en terme de maintenabilité, d'extension et de durée de vie. Cette caractéristique est directement liée à la dette technique qu'un projet accumule avec le temps. 
+La qualité logicielle représente la santé du projet en terme de maintenabilité, d'extension et de durée de vie. Cette caractéristique est directement liée à la dette technique qu'un projet accumule avec le temps.
 
 On écrit du code pour arriver à un résultat fonctionnel. Qu'on veuille créer une librairie, un logiciel final, ou autre, il faut que le temps investi dans le projet ne soit pas déraisonnablement long par rapport au résultat attendu. Il n'est pas viable de chercher à produire le code le plus parfait possible car cela revient à prendre du temps pour perfectionner quelque chose qui existe déjà, au lieu de chercher à rajouter des fonctionnalités nouvelles.
 
 Cependant, il n'est pas non plus viable de n'avoir pour but que l'aspect fonctionnel du programme, en accumulant de la dette technique sans jamais se soucier de comment la manière dont on écrit le code va impacter son évolution future.
 
-Il s'agit donc de trouver un juste équilibre entre écrire efficacement du code en ayant pour but de créer quelque chose d'utile pour un utilisateur final, et faire attention à ne pas rendre le projet si complexe qu'il n'est plus maintenable.
+Il s'agit donc de trouver un juste équilibre entre écrire efficacement du code en ayant pour but de créer quelque chose d'utile pour un utilisateur final, et faire attention à ne pas rendre le projet si complexe à force d'écrire des solutions rapides qu'il n'est plus maintenable.
 
 Nous prenons donc comme indicateur de cet équilibre d'un projet la dette technique, qui représente le temps qu'il faudrait passer sur le projet pour le rendre moins complexe, sans pour autant rajouter de fonctionnalité.
 
