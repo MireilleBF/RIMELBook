@@ -25,7 +25,7 @@ Nous nous sommes donc demandé comment caractériser cette évolutivité dont se
 
 PIX est d’autant plus intéressant pour notre étude car il s’attaque à un domaine en perpétuelle évolution: l’informatique. De plus, il s’adresse à des profils aussi divers que variés. L’évolutivité doit donc faire partie intégrante de sa conception sans quoi ce projet est voué à l’échec. En outre, la transparence dont fait preuve l’équipe qui développe PIX quant au développement de leur produit est un atout non négligeable pour notre étude.
 
-## III. Information Gathering
+## III. Collecte d'informations préalable
 
 Il s’agit tout d’ abord d’étudier, avant de rentrer dans le code, la documentation et la définition de PIX ainsi que ses possibilités fonctionnelles offertes par la version beta de l'application.
 
@@ -92,8 +92,6 @@ Nous avons également de gros refactorings ce qui implique surement une grosse d
 On peut clairement voir via nos différents outils d’analyse, un très fort couplage entre différentes parties du code, ce qui est un très gros frein à l’évolutivité. Lorsque nous regardons de plus près, nous constatons également que la connaissance est regroupé autour d’une ou deux personne. En effet, le nombre de collaborateur actifs dans le projet est insatisfaisante pour une équipe d'environs plus de 8 personnes.On peut également faire le constat qu’il y a un “bad smell” au niveau des tests. En effet, on peut constater que nous avons de gros fichier de test, qui induit une très grosse complexité et couplage dans le projet.
 
 ### Conclusion
-
-
 
 ## VII. Références
 
