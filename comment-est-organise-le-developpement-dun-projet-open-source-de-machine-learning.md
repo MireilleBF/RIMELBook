@@ -426,6 +426,10 @@ Notre hypothèse selon laquelle la dette technique grandit obligatoirement dans 
 
 La dette technique normalisée, en revanche, évolue bien comme on s'y attendait, avec une tendance à décroître dans le temps. Cela semble confirmer notre hypothèse comme quoi les méthodes de développement open source \(principalement le système de pull request et leur reviews\) permettent d'assurer une constance de la qualité logicielle dans le temps.
 
+### **Conclusion**
+
+Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et que parfois, ces contributeurs contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante. 
+
 ## VI. Références
 
 \[1\] Cours de X. Blanc du 16 janvier 2018.
