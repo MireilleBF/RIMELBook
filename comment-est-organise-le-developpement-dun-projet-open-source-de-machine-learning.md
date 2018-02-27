@@ -225,14 +225,20 @@ Nous prenons donc comme indicateur de cet équilibre d'un projet, la dette techn
 
 Plusieurs aspects d'un projet permettent de mesurer sa dette technique. L'existence de morceaux de codes très complexes, comme par exemple une fonction de plusieurs milliers de ligne contenant de nombreuses boucles et tests conditionnels imbriqués, entraîne une difficulté à relire le code dans le futur, et donc augmentera le temps nécessaire pour le faire évoluer. Le manque de documentation, prenant du temps à créer, produira le même effet.
 
-Certains choix architecturaux peuvent permettre de rapidement ajouter de la valeur au programme, au prix d'un réfactor futur lorsqu'il faudra l'étendre. 
+Certains choix architecturaux peuvent permettre de rapidement ajouter de la valeur au programme, au prix d'un réfactor futur lorsqu'il faudra l'étendre. Enfin, un dernier aspect pouvant impacter l'évolutivité du programme est le manque de tests: on n'est plus sur qu'après une modification le programme fonctionne toujours comme il le devrait, donc son évolution est limitée.
 
-On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité.
+On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité, donc d'essayer de ne pas faire grandir cette dette à tout instant de la vie du projet. La deuxième est de périodiquement faire des réfactors ayant spécifiquement pour but de réduire la dette du projet.
 
-Réfactors souvent, ca explique les pics de baisse
+Lorsque nous allons étudier l'évolution de la dette technique dans le temps de certains projets, nous nous attendons à trouver des augmentations soudaines de la dette, qui représenteraient le moment où des fonctionnalités ont été ajoutées, et des diminutions soudaines, qui représenteraient les réfactors de maintenance pour réduire la dette.
 
-1. **La dette technique grandit en même temps que le projet**
-2. **La dette technique normalisée diminue durant l'évolution du projet**
+Nous étudierons les hypothèses suivantes:
+
+1. **La dette technique grandit en même temps que le projet.**
+2. **La dette technique normalisée diminue durant l'évolution du projet.**
+
+#### IV.3.1. **La dette technique grandit en même temps que le projet.**
+
+#### IV.3.2. **La dette technique normalisée diminue durant l'évolution du projet.**
 
 ## V. Analyse des résultats et conclusion
 
