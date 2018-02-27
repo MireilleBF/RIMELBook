@@ -276,7 +276,7 @@ Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astro
 
 ![](/assets/organisation_project_os_ml/researchers_commits.png)
 
-_Figure 5 - Une majorité de \_commits_ proviennent de chercheurs dans la majorité des projets étudiés\_
+_Figure 5 - Une majorité de_ commits _proviennent de chercheurs dans la majorité des projets étudiés._
 
 La _Figure 5_ montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des _commits_ qui constituent les projets de Machine Learning étudiés.
 
