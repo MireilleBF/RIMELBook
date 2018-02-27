@@ -53,6 +53,16 @@ Grâce à la répartition des commandes, il nous est possible d’identifier les
 
 ![](https://lh4.googleusercontent.com/jsgJAKKjPTIR_u2KOT5Y7hJNlxONJeeDFYCJ4tAeNMWCD9iENB9447efANHhXMsJEa6OOUP4090KXoCroF48wDYy_cmCeRVjZTbWURtMF7JdUblcAUscYqW6puORE8Oej8SVvz4q)
 
+### 
+
+### ![](/assets/name.png)
+
+![](https://lh4.googleusercontent.com/rgVSJ-BjmS1btKgyOi5fDkR8m5v-ERLoWcf-Mq-imhgc-lcYBWkSJQaNUFo0PvqbbJofu4GCp-gKh9vFpblJFJSDCR5kC2L1INY0RHBsYBi1QL2hf3YA7TA-P3snQdIsUQr4KPCF)
+
+![](https://lh5.googleusercontent.com/vbgKta6OF4uo3T27OG_UAcHmASPWmB1OMSzKCQIM8Zv2KEHlFxw-2kAQ9KXegVaTrSLRznxGAoYLQmPCaZg-vpbl6ABV4nVeO0VSuKT-k5ZYeXpelHk59I5FqS57XYY1PCfg9MlG)
+
+![](https://lh5.googleusercontent.com/eOGlPvM9SlCgKEu0v54nFUdI_sYNT1XGuFFBnahQmevENNiLABJx_RhJNK-N0ec7FN--zfvbdX-W2OQVQXxDBOttwHhAQ-0KP6oNhtH5E2BWYKDQ9vk4HAsyBhmIeOnrIgoGynzM)
+
 ### **Commentaires sur les résultats**
 
 Sur ce graphique, on peut constater qu’un noyau de commandes très utilisées, composé deFROMetRUNexiste. Aussi, les commandes les plus utilisées sont des commandes déjà disponible dès le début de Docker \(ou dans les mois qui suivent sa sortie\), il s’agit de WORKDIR, CMD, ENV, COPY, EXPOSE, ENTRYPOINT, ADD, MAINTAINER \(maintenant dépréciée\), etc. Les nouvelles commandes \(arrivées plus récemment comme ONBUILD, HEALTHCHECK ou LABEL\) sont peu utilisées.
@@ -75,7 +85,7 @@ Afin de pouvoir automatiser le clonage des dépôts, nous avons utilisé le clie
 
 Toute nos expériences sont basées essentiellement sur l’utilisation de repo-driller. Repo-driller nous a permis notamment de pouvoir filtrer les commits provenant des dépôts afin de se concentrer seulement sur ceux impactant un dockerfile.
 
-Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**  
+Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**    
 **
 
 ## **V. Result Analysis and Conclusion**
