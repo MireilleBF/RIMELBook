@@ -71,7 +71,7 @@ L'évolutivité est la capacité d'un système à grandir pour répondre à des 
 
 L'évolutivité peut aussi désigner la capacité d’une application à subir des évolutions fonctionnelles rapidement, au moindre coût, de manière rapide et fiable, c'est-à-dire sans régression des fonctionnalités déjà présentes aussi bien au niveau de leurs fiabilités que de leurs performances.
 
-Afin de répondre à notre problématique, pour notre cas, nous avons décidé de définir l'évolutivité comme suite : s'assurer que l'architecture et l'implémentation sont en concordance l'un avec l'autre tout en leur permettant d'évoluer indépendamment est un critère qui définit si un projet est évolutif. 
+Afin de répondre à notre problématique, pour notre cas, nous avons décidé de définir l'évolutivité comme suite : s'assurer que l'architecture et l'implémentation sont en concordance l'un avec l'autre tout en leur permettant d'évoluer indépendamment est un critère qui définit si un projet est évolutif.
 
 Pour notre expérimentation, nous avons donc posées les hypothèses suivantes, un projet évolutif doit être synonyme de :
 
@@ -145,7 +145,7 @@ Cependant l’évolutivité d’un point de vue fonctionnel est par exemple resp
   * [**https://www.codebasehq.com/**](https://www.codebasehq.com/)
   * [**https://github.com/aserg-ufmg/JSCity**](https://github.com/aserg-ufmg/JSCity)
   * [**https://github.com/mauricioaniche/repodriller**](https://github.com/mauricioaniche/repodriller)
-* **Repositorys utilisés à titre de comparaison :**
+* **Repositories utilisés à titre de comparaison :**
   * **Balanced dashboard :**
     * **URL: **[**github.com/balanced/balanced-dashboard**](https://github.com/balanced/balanced-dashboard)
     * **Github: **[**balanced/balanced-dashboard**](https://github.com/balanced/balanced-dashboard)
