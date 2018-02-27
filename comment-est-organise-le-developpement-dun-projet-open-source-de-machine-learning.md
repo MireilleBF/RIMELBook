@@ -213,9 +213,9 @@ L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur m
 
 ### IV.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
-La qualité logicielle est synonyme de santé du projet ; la maintenabilité et l'extensibilité sur le long terme en dépendent. Nous mesurons cette caractéristiques à travers la dette technique.
+La qualité logicielle est synonyme de santé du projet ; la maintenabilité et l'extensibilité sur le long terme en dépendent. Nous mesurons cette caractéristiques à travers la dette technique ; cette dernière est une métaphore des fautes de conception et d'écriture du code \(duplication, gestion des exceptions, mauvaise utilisation des patrons de conception, ...\) qui s'accumulent au cours de la vie d'un projet, le rendant plus difficile la maintenance et l'évolution sur le long terme \[2\]. 
 
-La septième loi de Lehman stipule qu'un projet qui évolue est un projet dont la qualité se dégrade sauf si un effort est produit pour la maintenir. Cette dégradation dans les projets Open Source est une conséquence de l'absence de processus qualité et des délais que les contributeurs s'imposent \[2\].
+La septième loi de Lehman stipule qu'un projet qui évolue est un projet dont la qualité se dégrade sauf si un effort est produit pour la maintenir. Cette dégradation dans les projets Open Source est une conséquence de l'absence de processus qualité et des délais que les contributeurs s'imposent \[3\].
 
 Nous nous intéressons à l'évolution de la dette technique des projets Open Source de Machine Learning à travers les hypothèses suivantes :
 
