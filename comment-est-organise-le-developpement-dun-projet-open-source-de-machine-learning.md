@@ -380,7 +380,9 @@ La figure montre bien que peu importe le seuil, il existe au moins un contribute
 
 Dans les projets étudiés et d'après l'interprétation de nos hypothèses, la majorité des algorithmes de Machine Learning sont écrits et maintenus par un seul contributeur expert de cet algorithme. Nous avons observé également qu'une partie de ces contributeurs experts d'un algorithme sont experts d'au moins un autre algorithme présenté dans le projet.
 
-Cela soulève une question : les algorithmes qui partagent le même contributeur majeur sont-elles les variantes d'un même algorithme ? Une réponse positive à cette question permettrait de regrouper les variantes de l'algorithme et évaluer si l'une des variantes produit systématiquement des résultats plus fiables.V.1. Ces projets sont-ils menés par des chercheurs ?
+Notre conclusion est que ces algorithmes ne sont pas écrit par n'importe qui, **ce sont des experts de ces algorithmes qui les écrivent et s'approprient les implémentations sur chaque projet**.
+
+Cela soulève une question : les algorithmes qui partagent le même contributeur majeur sont-elles les variantes d'un même algorithme ? Une réponse positive à cette question permettrait de regrouper les variantes de l'algorithme et évaluer si l'une des variantes produit systématiquement des résultats plus fiables.
 
 ### V.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
