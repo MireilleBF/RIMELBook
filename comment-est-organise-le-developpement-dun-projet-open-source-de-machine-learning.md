@@ -368,6 +368,10 @@ Nous observons que pour notre définition d'un contributeur majeur \(50% de _cod
 
 _Figure 13 - Peu importe le seuil, il existe des contributeurs qui sont contributeurs majeurs de plusieurs algorithmes dans les projets étudiés_
 
+![](/assets/at-least-one-algorithm.png)
+
+_Figure 13 bis - On peut d'ailleurs constater que les contributeurs majeurs pour plusieurs algorithmes représentent environ la moitié des contributeurs majeurs pour au moins un algorithme_
+
 La _Figure 13_ présente le nombre de contributeurs qui sont contributeurs majeurs d'au moins deux algorithmes. Ce nombre a été normalisé par le nombre de contributeurs du dépôt.
 
 La figure montre bien que peu importe le seuil, il existe au moins un contributeur qui est contributeur majeur de plusieurs algorithmes, notre hypothèse était fausse : **un contributeur peut être contributeur majeur de plusieurs algorithmes**. Cela peut signifier soit qu'il existe des experts qui se spécialisent dans plusieurs algorithmes, soit que certains algorithmes sont suffisamment simples ou connus pour être développés par une même personne.
