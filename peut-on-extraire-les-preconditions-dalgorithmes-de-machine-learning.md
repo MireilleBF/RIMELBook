@@ -132,8 +132,6 @@ Le résultat de cette catégorisation est la suivant :
 
 **Résultat des préconditions dans le répertoire classifiers**
 
-
-
 Dans classifiers , nous avons 238 exceptions, dont 11 viennent des class Weka et 227 dont des erreurs Java. Parmi ces erreurs nous avons pu catégorisé certaine d’entre elles :
 
 -Préconditions Arithmetic : 5 erreurs : soit 2.2% des erreurs
@@ -146,7 +144,7 @@ Dans classifiers , nous avons 238 exceptions, dont 11 viennent des class Weka et
 
 En ce qui concerne le reste des erreurs , nous n’avons pas réussi à les catégorisés. Nous avons donc réussi à catégoriser environ 25% des erreurs lié au exception grâce à notre logiciel. Les 75 % restant sont des exceptions inexploitable car ce sont des exceptions beaucoup trop génériques pour pouvoir les catégoriser.
 
-**V.3 Conclusion**
+### **V.3 Conclusion**
 
 Nous pouvons en conclure que notre hypothèse numéro 2 est valide, car nous sommes parvenus à trouver des préconditions non définies dans les capabilities.
 
