@@ -52,26 +52,19 @@ Nous avons pu observer que certaines préconditions sont liées à des objets ap
 
 Capabilities dans le code de Weka. Les Capabilities permettent de spécifier le type que doit avoir une donnée avant d’être utilisée par un algorithme de machine learning de la librairie Weka.
 
-
-
 **IV.1 Nous pouvons extraire des préconditions de la classe “Capabilities”**
 
 Suite à nos recherches, nous avons fait l’hypothèse que nous pouvons extraire certaines préconditions d’un algorithme de Weka grâce à la classe “Capabilities” vu précédemment.
 
-Pour réaliser à bien cette tâche, nous avons décidé de développer nous même un outil nous permettant de “tester” les algorithmes de Weka avec différents types de données en entrée en se basant sur le contenu de la classe Capabilities de chacun des algorithmes testés. Il a fallu également tester le fait que violer ces capability entraînait bien une erreur de la part des l’algorithmes.  
-
+Pour réaliser à bien cette tâche, nous avons décidé de développer nous même un outil nous permettant de “tester” les algorithmes de Weka avec différents types de données en entrée en se basant sur le contenu de la classe Capabilities de chacun des algorithmes testés. Il a fallu également tester le fait que violer ces capability entraînait bien une erreur de la part des l’algorithmes.
 
 **IV.2 Il existe des préconditions non définies dans les Capabilities**
 
 Si Weka propose le système des capabilities regroupant des préconditions, nous ne pouvons pas affirmer que toutes les préconditions sur les données sont explicitement définies dans ces capabilities. Il est possible qu’il existe des préconditions implicitement définies dans le code source, gérées par exemple par des exceptions. Pour vérifier cela, nous avons cherché dans le code source \(notamment le dossier Classifier\) les exceptions définies, et notamment si certaines n’étaient pas dues à des conditions sur les données en entrée, autres que les capabilities.
 
-
-
 **IV.3 Nous pouvons extraire certaines préconditions des Exceptions propagées dans le code Weka**
 
 En analysant le code des algorithmes de Weka, nous avons remarqué qu’un certain type d’Exception avait était créer \(les WekaException\) Nous pensons que certains appels de ces exceptions peuvent correspondrent à certaines préconditions qui ne seraient pas présentes dans les Capabilities.
-
-
 
 **IV.4 Nous pouvons extraire toutes les préconditions dans le code Weka**
 
@@ -79,15 +72,11 @@ Il est possible que les capabilities représentent la totalité des préconditio
 
 ## V. Analyse des résultats et conclusion
 
-
-
 **V.1 les préconditions dans les Capabilities**
 
 Nous avons pu développer le programme dont nous avons parlé précédemment, il arrive à extraire toutes les préconditions inscrites dans les Capabilities de chacun des algorithmes, voici un extrait du fichier de sortie que nous obtenons :
 
 ![](https://lh6.googleusercontent.com/7NyzSmD0isLuKkMHvLtSE1PuJRo6v2_78zLzR0MzALBSlrUl9p1S_zoV66wjls3tiKO7yvXw4w1H4ZIt71S5xd4xZ53IFoOGX6e1qbfyMrgGNF46Bk3ZP2Ja17E9vR3cbfSu1Krn)
-
-
 
 Nous constatons que le contenu de la classe Capabilities renseigne bien sur certaines préconditions des algorithmes. Afin de vérifier ce résultat, nous avons par la suite testé les algorithmes avec des données en entrée correspondant à la classe Capabilities de chacun d’eux.
 
@@ -121,8 +110,7 @@ Cependant, même si les capabilities de Weka indiquent des préconditions, nous 
 
 Pour pouvoir vérifier notre hypothèse numéro 2, il nous faut pouvoir tester les préconditions d’une autre façon, car il est possible qu’il existe des préconditions autres que les capabilities.
 
-Pour cela, nous avons développé un programme en Java permettant d’analyser le code source et d’y ressortir des exceptions et de ressortir des statistiques dessus.. Dans le cadre du projet, nous nous sommes concentrés sur les classes contenues dans le dossier Classifier de la librairie Weka.  
-
+Pour cela, nous avons développé un programme en Java permettant d’analyser le code source et d’y ressortir des exceptions et de ressortir des statistiques dessus.. Dans le cadre du projet, nous nous sommes concentrés sur les classes contenues dans le dossier Classifier de la librairie Weka.
 
 **V.2 les préconditions non définies dans les Capabilities**
 
@@ -132,21 +120,19 @@ Pour les préconditions non définies par les Capabilities , nous avons récupé
 
 **Json File : Données extraite dans le répertoire classifiers**
 
-
-
 Ces exceptions sont ensuite exploitées par un logiciel Javascript avec un serveur NodeJs qui lit ce fichier Json , catégorise ces exceptions et les affichent sous forme de graphique.
 
-Par exemple l’ erreur : 
+Par exemple l’ erreur :
 
 ArithmeticException est catégorisé en une précondition de type Arithmetic. C’est une exception qui intervient lors d’une opération arithmetic impossible \(un entier divisé par zéro…\).
 
 Le résultat de cette catégorisation est la suivant :
 
-
-
 ![](https://lh6.googleusercontent.com/M1uotmRfeagrnzm0vMa6oGJsxLL_Fs6JRovwHLAHuGl7p2ehxzhOdyjAVgxFlqIrea53P9FZMgkrhiw8VtxejMB4JqTYB9cpL_7GUrBrkAwBV7WnfV2EYxQtZIUyyeEoW7jxXKcu)
 
-## **Résultat des préconditions dans le répertoire classifiers**
+**Résultat des préconditions dans le répertoire classifiers**
+
+
 
 Dans classifiers , nous avons 238 exceptions, dont 11 viennent des class Weka et 227 dont des erreurs Java. Parmi ces erreurs nous avons pu catégorisé certaine d’entre elles :
 
