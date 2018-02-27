@@ -43,8 +43,6 @@ Ensuite, nous avons filtré les projets contenant au moins 1 Dockerfile \(afin d
 
 Ensuite, nous avons trié les projets les plus importants en deux catégories : ceux qui sont fortement liés à Docker \(tel que Traefik\) et ceux qui l’utilisent simplement pour avoir une image de leur application \(tel qu’une application web standard\).
 
-
-
 # **IV. Hypothesis & Experiences**
 
 ## **Identifier les commandes les plus utilisées**
@@ -63,9 +61,30 @@ On peut alors se demander si les nouvelles commandes proposées apportent des fo
 
 La forte utilisation d’une commande est un indicateur de son importance. Aussi, un noyau composé uniquement de commandes anciennes \(c’est-à-dire présentes depuis la création de Docker, comme FROM, RUN, etc.\)
 
-  
+# Tools
 
+## **GitHub Javascript Client**
 
-  
+[**https://github.com/pksunkara/octonode**](https://github.com/pksunkara/octonode)
 
+Afin de pouvoir automatiser le clonage des dépôts, nous avons utilisé le client Github en JavaScript \(NodeJS\) qui nous a permis de récupérer une liste de dépôts à partir d’une recherche \(sur un topic particulier, comme par exemple Java ou Go\).
+
+## **Repo-driller**
+
+[**https://github.com/mauricioaniche/repodriller**](https://github.com/mauricioaniche/repodriller)
+
+Toute nos expériences sont basées essentiellement sur l’utilisation de repo-driller. Repo-driller nous a permis notamment de pouvoir filtrer les commits provenant des dépôts afin de se concentrer seulement sur ceux impactant un dockerfile.
+
+Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**  
+**
+
+## **V. Result Analysis and Conclusion**
+
+En conclusion, lorsque l’on observe la répartition de l’ensemble des commandes docker, à travers les projets les plus populaires de github, on peut constater que
+
+## **VI. References**
+
+[**https://www.infoq.com/articles/docker-future**](https://www.infoq.com/articles/docker-future)
+
+[**http://www.redbooks.ibm.com/redpapers/pdfs/redp5461.pdf**](http://www.redbooks.ibm.com/redpapers/pdfs/redp5461.pdf)**\(p. 55-56-57\)**
 
