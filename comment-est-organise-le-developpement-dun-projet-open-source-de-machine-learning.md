@@ -390,19 +390,17 @@ Le montant de dette technique est représenté sous SonarQube par l'indice SQALE
 
 #### V.3.1. _**La dette technique grandit en même temps que le projet.**_
 
-On peut observer plusieurs tendances. Les projets _nilearn, scikit-image et scikit-learn_ suivent la courbe qu'on avait supposé, c'est-à-dire une dette technique globalement croissante dans le temps.
+Nous pouvons observer plusieurs tendances. Les projets _nilearn, scikit-image et scikit-learn_ suivent la courbe que nous avions supposé, c'est-à-dire une dette technique globalement croissante dans le temps.![](assets/organisation_project_os_ml/scikit-learn-loc.png)_Figure 14 - Courbes de l'évolution des lignes de codes et de l'index SQALE de scikit-learn. ncloc représente le nombre de lignes de code non commentées_
 
-![](assets/organisation_project_os_ml/scikit-learn-loc.png)_Figure 14 - Courbes de l'évolution des lignes de codes et de l'index SQALE de scikit-learn. ncloc représente le nombre de lignes de code non commentées_
-
-Néanmoins, sur les projets _pattern, pybrain, pyhsmm et theano_, on peut observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
+Néanmoins, sur les projets _pattern, pybrain, pyhsmm et theano_, nous pouvons observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
 
 ![](assets/organisation_project_os_ml/theano-loc.png)_Figure 15 - Courbes de l'évolution des lignes de codes et de l'index SQALE de theano. On observe une tendance décroissante de la dette technique dans le temps._
 
-On peut observer deux _refactors_ ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celui de 2017 est accompagné d'une importante baisse du nombre de lignes de code.
+Nous pouvons observer, sur la courbe de l'indice SQALE \(verte\), deux _refactors_ ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celui de 2017 est accompagné d'une importante baisse du nombre de lignes de code \(courbe bleue\).
 
-On voit que la dette technique était plus importante en 2013 où le nombre de lignes de code était a 150k qu'en 2018 avec 220k lignes de codes.
+Nous voyons que la dette technique était plus importante en 2013, quand le nombre de lignes de code était à 150k, qu'en 2018 avec 220k lignes de codes.
 
-L'hypothèse est invalide sur quatre projets, et valide sur trois. On s'attendait à trouver la même tendance croissante sur tous les projets, donc notre hypothèse est invalidée. Cependant le nombre de projets étudiés est relativement bas \(sept\), donc cette tendance générale n'en est peut-être pas une.
+L'hypothèse est invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**. D'après les lois de Lehman, nous faisons cette observation si un effort est produit pour maintenir la qualité, ce qui est le cas pour theano \(Figure 15\), par exemple. Cependant, la solidité de cette conclusion est à mettre en perspective avec le nombre de projets étudiés qui est bas, d'autant plus que nous sommes à la frontière de notre condition de réfutation : prolonger l'étude sur d'autres projets nous permettrait sans doute de fonder une conclusion plus solide.
 
 #### V.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
 
