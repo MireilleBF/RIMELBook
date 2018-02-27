@@ -396,11 +396,11 @@ Néanmoins, sur les projets _pattern, pybrain et theano_, nous pouvons observer 
 
 ![](assets/organisation_project_os_ml/theano-loc.png)_Figure 15 - Courbes de l'évolution des lignes de codes et de l'index SQALE de theano. On observe une tendance décroissante de la dette technique dans le temps._
 
-Nous pouvons observer, sur la courbe de l'indice SQALE \(verte\), deux _refactors_ ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celui de 2017 est accompagné d'une importante baisse du nombre de lignes de code \(courbe bleue\).
+Nous observons, sur la courbe de l'indice SQALE \(verte\), deux _refactors_ ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celui de 2017 est accompagné d'une importante baisse du nombre de lignes de code \(courbe bleue\).
 
 Nous voyons que la dette technique était plus importante en 2013, quand le nombre de lignes de code était à 150k, qu'en 2018 avec 220k lignes de codes.
 
-Afin de comparer les tendances des différents projets, nous faisons un test de Mann-Kendall sur les évolutions des différentes dettes techniques. Un valeur fortement positive indique une croissance monotone, une valeur fortement positive indique une décroissance monotone, et une valeur en dessus d'un seuil absolu, ici choisi a 3, indique qu'aucune tendance réelle ne peut être déduite.
+Afin de comparer les tendances des différents projets, nous effectuons un test de Mann-Kendall sur les évolutions des différentes dettes techniques. Un valeur fortement positive indique une croissance monotone, une valeur fortement positive indique une décroissance monotone, et une valeur dont la valeur absolue est en deça d'un seuil \(ici, le seuil choisi est 3\) indique que la série temporelle n'a pas de tendance particulière.
 
 ![](assets/organisation_project_os_ml/mann-kendall-td.png)
 
