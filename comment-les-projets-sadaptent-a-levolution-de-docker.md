@@ -59,9 +59,15 @@ Grâce à la répartition des commandes, il nous est possible d’identifier les
 
 ![](https://lh4.googleusercontent.com/rgVSJ-BjmS1btKgyOi5fDkR8m5v-ERLoWcf-Mq-imhgc-lcYBWkSJQaNUFo0PvqbbJofu4GCp-gKh9vFpblJFJSDCR5kC2L1INY0RHBsYBi1QL2hf3YA7TA-P3snQdIsUQr4KPCF)
 
-![](https://lh5.googleusercontent.com/vbgKta6OF4uo3T27OG_UAcHmASPWmB1OMSzKCQIM8Zv2KEHlFxw-2kAQ9KXegVaTrSLRznxGAoYLQmPCaZg-vpbl6ABV4nVeO0VSuKT-k5ZYeXpelHk59I5FqS57XYY1PCfg9MlG)
+![](https://lh5.googleusercontent.com/vbgKta6OF4uo3T27OG_UAcHmASPWmB1OMSzKCQIM8Zv2KEHlFxw-2kAQ9KXegVaTrSLRznxGAoYLQmPCaZg-vpbl6ABV4nVeO0VSuKT-k5ZYeXpelHk59I5FqS57XYY1PCfg9MlG)![](https://lh6.googleusercontent.com/hSW3Dr8xz8lzbSbnd2ftT7_7fFcUF7Obk3VVaj5oEgOPZ8N0tt7JUrxqcLotM5TnjOJiai_i3zzwMw7qJHhjJQqtuGDMreBVzwbc8dspVTf_rDl6aYccRtSmSFdq8IfqG58IWG6P)
+
+![](https://lh4.googleusercontent.com/zIEHfR8l8AFJZuGZqZu_0bPlN2Ok6UNtKZGhG-Xywuil4UZ4ILK0bF_awWXSmEKRiOJOIxezUvzBd6Pj0Tlt8BetDwtnZE_y5-3bkGTCsQ3KgIY1-oKpWfP3Vrzqamv5yXdpT-b-)
 
 ![](https://lh5.googleusercontent.com/eOGlPvM9SlCgKEu0v54nFUdI_sYNT1XGuFFBnahQmevENNiLABJx_RhJNK-N0ec7FN--zfvbdX-W2OQVQXxDBOttwHhAQ-0KP6oNhtH5E2BWYKDQ9vk4HAsyBhmIeOnrIgoGynzM)
+
+
+
+
 
 ### **Commentaires sur les résultats**
 
@@ -85,7 +91,7 @@ Afin de pouvoir automatiser le clonage des dépôts, nous avons utilisé le clie
 
 Toute nos expériences sont basées essentiellement sur l’utilisation de repo-driller. Repo-driller nous a permis notamment de pouvoir filtrer les commits provenant des dépôts afin de se concentrer seulement sur ceux impactant un dockerfile.
 
-Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**    
+Sur ces commits, nous avons pu récupérer toutes les modifications et à quelle date elles ont été faites. Ces données ont ensuite été traité par un module d’analyse externe.**      
 **
 
 ## **V. Result Analysis and Conclusion**
