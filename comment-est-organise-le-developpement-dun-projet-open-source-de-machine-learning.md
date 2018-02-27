@@ -384,7 +384,7 @@ Le montant de dette technique est représenté sous SonarQube par l'indice SQALE
 
 #### V.3.1. _**La dette technique grandit en même temps que le projet.**_
 
-On peut observer plusieurs tendances. Les projets _nilearn, scikit-image \_et \_scikit-learn_ suivent la courbe qu'on avait supposé, c'est a dire une dette technique globalement croissante dans le temps.
+On peut observer plusieurs tendances. Les projets _nilearn, scikit-image et scikit-learn_ suivent la courbe qu'on avait supposé, c'est-à-dire une dette technique globalement croissante dans le temps.
 
 ![](assets/organisation_project_os_ml/scikit-learn-loc.png)_Figure 14 - Courbes de l'évolution des lignes de codes et de l'index SQALE de scikit-learn. ncloc représente le nombre de lignes de code non commentées_
 
@@ -396,9 +396,21 @@ On peut observer deux _refactors_ ayant eu pour but de réduire la dette techniq
 
 On voit que la dette technique était plus importante en 2013 où le nombre de lignes de code était a 150k qu'en 2018 avec 220k lignes de codes.
 
-L'hypothèse est invalide sur quatre projets, et valide sur trois. On s'attendait à trouver la même tendance croissante sur tous les projets, donc notre hypothèse est invalidée. Cependant
+L'hypothèse est invalide sur quatre projets, et valide sur trois. On s'attendait à trouver la même tendance croissante sur tous les projets, donc notre hypothèse est invalidée. Cependant le nombre de projets étudiés est relativement bas \(sept\), donc cette tendance générale n'en est peut-être pas une.
 
 #### V.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
+
+On va maintenant observer la dette technique normalisée au nombre de lignes de code, c'est à dire observer si la dette technique grandit au même rythme que le nombre de lignes de code.
+
+Pour les quatre projets vus précédemment avec une dette technique décroissante dans le temps, on s'attend évidemment à ce que la dette technique normalisée diminue.![](assets/organisation_project_os_ml/theano-sqale.png)_Figure 16 - Dette technique normalisée du projet Theano. _
+
+On peut observer une grande chute au milieu de 2015, là où a eu lieu un des deux _refactors_ mentionnés auparavant. C'est parce que la dette technique a soudainement chuté sans que le nombre de lignes de code diminue. Le _refactor_ de 2017 n'apparaît pas aussi clairement car la chute de la dette technique a été accompagné d'une baisse du nombre de lignes de code tout aussi importante.
+
+Les courbes de _pattern, pybrain et pyhsmm_ sont similaires.
+
+Il est plus intéressant de regarder les courbes des dettes techniques normalisées des trois projets ayant une dette technique croissante dans le temps.![](assets/organisation_project_os_ml/scikit-learn-sqale.png)_Figure 17 - Dette technique normalisée du projet scikit-learn. _
+
+Le projet _scikit-learn_, bien qu'ayant une dette croissante dans le temps, présente une dette normalisée décroissante dans le temps. Cela signifie que la technique de développement assure que la dette ne grandit pas au même rythme que le projet, et qu'elle est de plus en plus petite relativement à la taille du projet.
 
 ## VI. Références
 
