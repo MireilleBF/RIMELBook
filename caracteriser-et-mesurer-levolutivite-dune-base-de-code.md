@@ -71,7 +71,28 @@ L'évolutivité est la capacité d'un système à grandir pour répondre à des 
 
 L'évolutivité peut aussi désigner la capacité d’une application à subir des évolutions fonctionnelles rapidement, au moindre coût, de manière rapide et fiable, c'est-à-dire sans régression des fonctionnalités déjà présentes aussi bien au niveau de leurs fiabilités que de leurs performances.
 
-Afin de répondre à notre problématique, pour notre cas, nous avons décidé de définir l'évolutivité comme suite : s'assurer que l'architecture et l'implémentation sont en concordance l'un avec l'autre tout en leur permettant d'évoluer indépendamment est un critère qui définit si un projet est évolutif.
+Afin de répondre à notre problématique, pour notre cas, nous avons décidé de définir l'évolutivité comme suite : s'assurer que l'architecture et l'implémentation sont en concordance l'un avec l'autre tout en leur permettant d'évoluer indépendamment est un critère qui définit si un projet est évolutif. 
+
+Pour notre expérimentation, nous avons donc posées les hypothèses suivantes, un projet évolutif doit être synonyme de :
+
+* Changement continu
+
+* Complexité maîtrisée
+
+* Développement constant
+
+* Livrable sous forme de versions de taille similaire \(constance\)
+
+* Modularité : couplage aussi faible que possible entre ses composants.
+
+Le caractère public du projet PIX nous a permis d’accéder à plusieurs outils d’analyse d’emblée. En analysant le répertoire Git du projet on a pu se rendre compte que le projet était modulaire, qu’il utilisait des outils permettant de suivre sa couverture de test et de le build automatiquement. En outre, le projet paraissait être bien suivis avec 122 issues ouvertes au moment de notre analyse. Les outils intégrés sur la plateforme Git ont été particulièrement utile puisqu’on a également pu s’apercevoir qu’une branche était créée pour chaque issue en cours de résolution. Enfin, les tags des différentes versions indiquent une livraison en continue à un rythme régulier. Nous avons été agréablement surpris par tous ces indicateurs positifs qui semblent aller dans le sens des hypothèses une, trois, quatre et cinq.
+
+Dans l’espoir de confirmer ces découvertes encourageante, nous avons donc décidé de pousser notre analyse un peu plus loins. Pour ce faire nous avons utilisé les outils CodeCity, CodeScene et RepoDriller dont l’utilisation est explicitée plus bas. Ces outils ont contrasté notre vision, nous nous sommes ainsi rendu compte que certaines branches ont des durées de vie élevées \(jusqu’à plus d’un mois\) or le risque de livraison croît avec la durée de vie d’une branche.
+
+![](https://lh4.googleusercontent.com/V249v-ocYB2HrEwSN_-YWeWSFW4PVS1XorwnpaJXVIBXRqI9HKaNm5RiJvZfv8-a7VJe73ohsEwgOCNyCqa54SHF5sMJ0606QvjfyYaFFeQwBtIR2ssyKv1WaWbhWLUaDbzoq33p)_Figure 4 - Durée de vie de branches à partir d'une analyse CodeScene_
+
+En utilisant CodeScene et RepoDriller, on a aussi pu identifier d’autres points qui paraissaient contraires aux hypothèses que nous avions posés.  
+![](https://lh4.googleusercontent.com/9DyOle3x94RIvCIdzAFK0ZtN8tMOK06KJNzM7o5BLf5ys_h6wFdfjIVqOmIZpmQByRZ4vJYVs6x8ElFGyWL5CJ70QifKS38rs-dA6lzjs1HdqlJ4XM4uZdevrQC23y0GuxeZ8I0r)_Figure 5 - Couplage temporel de différentes composants du système_
 
 Nous sommes donc partie sur cette hypothèse pour faire l'analyse et en tirer une conclusion sur si oui PIX respecte ce critère, et dans le cas contraire, si non, pourquoi il ne le respecte pas.
 
