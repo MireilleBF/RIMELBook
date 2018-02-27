@@ -19,7 +19,7 @@ Nous avons donc voulu voir comment fonctionnait un projet agile \(en l'occurence
 
 ## II. Observations et question générale
 
-Malgré le fait que ce projet soit financé par l'état comme startup suivant les principes de l'agilité. Nous avons assez rapidement repéré des anomalies, en effets, certains principes de cette méthodologies ne sont pas toujours respectés. Par exemple...
+Malgré le fait que ce projet soit financé par l'état comme startup suivant les principes de l'agilité, nous avons assez rapidement repéré des anomalies. En effet, certains principes de cette méthodologies ne sont pas toujours respectés. Par exemple...
 
 Nous avons donc orienté notre étude sur la question suivante:
 
@@ -31,7 +31,7 @@ Pour affirmer cela, nous aimerions avoir un indicateur d'agilité, nous permetta
 
 ### A - Recherche d'indicateurs
 
-Nous avons donc commencé par regrouper un certains nombre d'indicateurs ressorties de brainstormings. Deux catégories d'indicateurs sont ressorties:
+Nous avons donc commencé par regrouper un certains nombre d'indicateurs ressortis de brainstormings. Deux catégories d'indicateurs sont ressorties:
 
 * Les indicateurs humains
 
@@ -64,7 +64,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   * Résultat:
 
-  Nous avons observé que la couverture de code est constante depuis le lancement de la première beta à 95%, à savoir un très bon chiffre. Néanmoins,  petit bémol, on observe avant le lancement de cette beta que la couverture n'était que d'environ 80%, ce qui est assez insuffisant.
+  Nous avons observé que la couverture de code est constante depuis le lancement de la première beta. Elle reste à 95%, c'est à dire un très bon chiffre. Néanmoins,  petit bémol, on observe avant le lancement de cette beta que la couverture n'était que d'environ 80%, ce qui est assez insuffisant.
 
   On peut aussi se poser la question de savoir si ils n'ont pas boosté leur couverture de test en appelant des méthodes qui ne sont pas vraiment testés dans le détail afin de faire bonne figure vu le nombre très important d'utilisateurs pendant cette beta. Néanmoins en étudiant certains de leurs tests \(de manière aléatoire et non exhaustive\), nous n'avons jamais rencontré de cas semblables.
 
@@ -95,7 +95,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   **La forme:**
 
-  Nous avons ensuite étudié la forme des messages de commits. Dans le forme donc compris les tags, le message et la tache liée. On dénombre 5 tags dans leur projet:
+  Nous avons ensuite étudié la forme des messages de commits. Dans la forme sont compris les tags, le message et la tache liée. On dénombre 5 tags dans leur projet:
 
   * \[RELEASE\] - Tag présent à chaque commit de release
 
@@ -117,7 +117,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   ![](/assets/format.png)
 
-  La majorité des commits sont donc bien formatés. Nous avons donc cherché à comprendre ce qui poussait l'équipe à ne pas respecter les critères d'un commit au bon format. On a pu observer que pour la majorité de ces commits, on est sur des petits correctifs très mineurs pour lesquels il n'y a pas de taches associés et où ils n'ont même pas pris la peine d'ajouter un tag comme on peut le voir sur les commits ci-dessous:
+  La majorité des commits sont donc bien formatés. Nous avons donc chercher à comprendre ce qui poussait l'équipe à ne pas respecter les critères d'un commit au bon format. On a pu observer que pour la majorité de ces commits, on est sur des petits correctifs très mineurs pour lesquels il n'y a pas de taches associés et où ils n'ont même pas pris la peine d'ajouter un tag comme on peut le voir sur les commits ci-dessous:
 
   ![](/assets/commit2)![](/assets/commit3import.png)
 
@@ -141,7 +141,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
   * Résultat:
-    Nous avons étudié la fréquence des releases afin d'observer d'éventuelles inconsistances ou des comportements réguliers. Il se trouve que leurs releases se font à une fréquence assez irrégulière sur un représentation par semaine mais qu'une certaine régularité se retrouve chaque mois. Seuls les mois d'octobre et de décembre se trouvent pourvus de  plus de releases. Cela est du au fait que certaines bugs se sont retrouvés sur la production et qu'ils ont du effectuer des fixs très rapidement.
+    Nous avons étudié la fréquence des releases afin d'observer d'éventuelles inconsistances ou des comportements réguliers. Il se trouve que leurs releases se font à une fréquence assez irrégulière sur une représentation par semaine mais qu'une certaine régularité peut être constatée chaque mois. Seuls les mois d'octobre et de décembre se trouvent pourvus de  plus de releases. Cela est du au fait que certaines bugs se sont retrouvés sur la production et qu'ils ont du effectuer des fixs très rapidement.
 
   ![](/assets/releases.png)
 
@@ -160,7 +160,7 @@ Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ram
 | % Couverture de test moyenne | 4 | Si &gt; 95% on passe à 100% |
 | % Build passe | 4 | Sur chaque commit |
 | Dette technique | 3 | 100 - Nombre de jours \(&gt; 0\) |
-| % Pertinance des tests | 5 | Estimé par l'architecte / Tech lead |
+| % Pertinence des tests | 5 | Estimé par l'architecte / Tech lead |
 | Outillage | 6 \(Sans outillage on navigue à l'aveugle et il est impossible de s'assurer du reste\) | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI ou autre \(20%\)                         - Dette Technique \(20%\)                          - Ticketage  \(40%\) |
 | Release | 4 | Si &gt;= 2/mois 100%, si 1/mois 50%, sinon 0%. -1% pour chaque jour où il y a plus d'une release. |
 
@@ -184,7 +184,7 @@ Nous avons donc calculé l'indice d'agilité de pix :
 
 \*: Arrondi à l'unité
 
-L'indice d'agilité de PIX est donc de **88.75. **Ce score représente le respect de l'agilité sous le plan technique et non humain comme expliqué précédemment \(III-A\). Pix respecte globalement les principes clés de l'agilité. Avec des releases fréquentes, une gestion très bonne de leur repository et un code résilient \(Testé et buildé à chaque commit\), le tout renforcé par des outils permettant d'apporter une visibilité sur le projet.
+L'indice d'agilité de PIX est donc de **88.75. **Ce score représente le respect de l'agilité sur le plan technique et non humain comme expliqué précédemment \(III-A\). Pix respecte globalement les principes clés de l'agilité. Avec des releases fréquentes, une gestion très bonne de leur repository et un code résilient \(Testé et buildé à chaque commit\), le tout renforcé par des outils permettant d'apporter une visibilité sur le projet.
 
 Malgré tout, PIX n'obtient pas un score de 100. Cela s'explique par le fait que l'agilité est un idéal qui est quasiment inatteignable sans que cela coûte un temps élevé en création de taches atomiques ou en réduction au maximum de la dette technique par exemple.
 
