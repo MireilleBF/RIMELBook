@@ -133,10 +133,11 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   * Outil : [CodeClimate](https://codeclimate.com/ "CodeClimate")
   * Résultat:
-    La dette technique a été étudié par 
+    La dette technique a été étudié en fonction du temps. On voit très clairement qu'un effort constant et très important est consenti par l’équipe PIX sur la dette technique. En effet, elle est en constante baisse depuis près d'un an et elle s'est stabilisée à 14 jours ces 4 derniers mois. C'est d'autant plus un exploit car la base de code augmente. En effet, de nombreuses recherches s'accordent à dire que la dette technique est vouée à augmenter au fur et à mesure qu'un projet grandit en lignes de codes \(cf: The Evolution of Technical Debt in the Apache Ecosystem\).
 
   ![](/assets/dtech.png)
-* #### Releases
+
+* * #### Releases
 
   * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
   * Résultat:
@@ -202,4 +203,6 @@ Malgré tout, PIX n'obtient pas un score de 100. Cela s'explique par le fait que
 _Méthode Agile: Controverses et reflexions _: [http://www.entreprise-agile.com/AgileControverses.pdf](http://www.entreprise-agile.com/AgileControverses.pdf)
 
 _Agile Software Development_ : [http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf](http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf)
+
+ The Evolution of Technical Debt in the Apache Ecosystem : [http://www.cs.rug.nl/~paris/papers/ECSA17a.pdf](http://www.cs.rug.nl/~paris/papers/ECSA17a.pdf)
 
