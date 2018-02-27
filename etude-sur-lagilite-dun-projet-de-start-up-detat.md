@@ -19,7 +19,7 @@ Nous avons donc voulu voir comment fonctionnait un projet agile \(en l'occurence
 
 ## II. Observations et question générale
 
-Malgré le fait que ce projet soit financé par l'état comme startup suivant les principes de l'agilité, nous avons assez rapidement repéré des anomalies. En effet, certains principes de cette méthodologies ne sont pas toujours respectés. 
+Malgré le fait que ce projet soit financé par l'état comme startup suivant les principes de l'agilité, nous avons assez rapidement repéré des anomalies. En effet, certains principes de cette méthodologies ne sont pas toujours respectés.
 
 Nous avons donc orienté notre étude sur la question suivante:
 
@@ -140,7 +140,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 * * #### Releases
   * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller")
 
-  * Résultat:
+  * Résultat:  
     Nous avons étudié la fréquence des releases afin d'observer d'éventuelles inconsistances ou des comportements réguliers. Il se trouve que leurs releases se font à une fréquence assez irrégulière sur une représentation par semaine mais qu'une certaine régularité peut être constatée chaque mois. Seuls les mois d'octobre et de décembre se trouvent pourvus de  plus de releases. Cela est du au fait que certaines bugs se sont retrouvés sur la production et qu'ils ont du effectuer des fixs très rapidement.
 
   ![](/assets/releases.png)
@@ -177,7 +177,7 @@ Nous avons donc calculé l'indice d'agilité de pix :
 | % Couverture de test moyenne | 4 | 100 |
 | % Build passe | 4 | 92 |
 | Dette technique | 3 | 76 |
-| % Pertinance des tests | 5 | 80 |
+| % Pertinence des tests | 5 | 80 |
 | Outillage | 6 | 100 |
 | Release | 4 | 95 |
 |  | **TOTAL** | 88.75 / 100 |
