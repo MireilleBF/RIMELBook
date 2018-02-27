@@ -1,4 +1,4 @@
-# Caractériser et mesurer l'évolutivité d'une base de code
+# Caractériser et mesurer l'évolutivité d'une base de code - PIX
 
 ## Auteurs
 
@@ -92,6 +92,10 @@ Nous avons également de gros refactorings ce qui implique surement une grosse d
 On peut clairement voir via nos différents outils d’analyse, un très fort couplage entre différentes parties du code, ce qui est un très gros frein à l’évolutivité. Lorsque nous regardons de plus près, nous constatons également que la connaissance est regroupé autour d’une ou deux personne. En effet, le nombre de collaborateur actifs dans le projet est insatisfaisante pour une équipe d'environs plus de 8 personnes.On peut également faire le constat qu’il y a un “bad smell” au niveau des tests. En effet, on peut constater que nous avons de gros fichier de test, qui induit une très grosse complexité et couplage dans le projet.
 
 ### Conclusion
+
+Finalement, à travers certains critères, il est possible de caractériser et de mesurer approximativement l’évolutivité d’une base de code. Il est cependant très important de préciser que ces métriques et autres mesures forment une base de connaissances empiriques autour d’un projet, mais pas forcément d’une grande précision. L’évolutivité dépend énormément du cadre métier, des contraintes du projet, de la manière dont il est réalisé et aussi de ses objectifs, et finalement tout un ensemble d’autres critères. Il faut donc, afin d’être le plus objectif possible, adapter ces critères au projet que l’on souhaite évaluer et à son environnement. Dans le cas de PIX, certains freins semblent se poser à une réelle évolutivité tant vantée, la connaissance par exemple n’est pas nécessairement partagée équitablement, et certains choix d’implémentations sont discutables.
+
+Cependant l’évolutivité d’un point de vue fonctionnel est par exemple respecté selon leurs critères, puisque la base des questions et exercices est facilement modifiable et devra suivre une base européenne régulièrement mise à jour. PIX pallie ainsi aux principales faiblesses des B2I et C2I actuellement en vigueur, qui étaient liées à une obsolescence avérée. Concrètement, et on peut associer et retrouver quelques analogies avec la dette technique, puisque cette évolutivité dépend énormément des ambitions du projet et de son environnement, et se caractérise donc de manière propre au sujet d’étude.
 
 ## VII. Références
 
