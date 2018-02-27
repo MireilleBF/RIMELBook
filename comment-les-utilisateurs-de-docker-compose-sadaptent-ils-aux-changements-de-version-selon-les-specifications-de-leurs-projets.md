@@ -77,6 +77,17 @@ Le déroulement formel du rassemblement d’information est ainsi :
 
 Une fois ces données produite, nous avons pu poursuivre notre étude en cherchant donc si cette durée en jours \(vélocité de mise à jour\) pouvait être reliée à un des critères.
 
+Les figures suivantes montrent les caractéristiques principales de notre échantillon \(caractéristiques parmis nos critères choisis pour valider nos hypothèses\).
+
+![](https://lh3.googleusercontent.com/AsMvXxqwjRnaLkxFeOn4nJczXegqjvkvAtqWpM9EDYQktfk8DQUqcyVMXG8pZvxHyldCyWviW-aXqw9aozKQ6Iak4Qd7j5NIdYnjgiwGh8h_Jq15tFLRAfXG3FcWMUEv6ZOZFrU)
+
+![](https://lh5.googleusercontent.com/kIVT5nNwokQIee2IVzTdstvpTXYcNGesDlCFImxjRIFrUW8oxCk_gn-3RKfJ9XUuuBEKU2oU6r8I1ONavJhMXBwh64V2Occ_3MRL145B_vJj8PqxvzgITe1Mup7qTa_1g44rwoQ)
+
+
+
+  
+
+
 ## IV. Hypothèses et expériences
 
 En nous appuyant sur un sample de dépôt GitHub, et en les classifiants selon leurs caractéristiques disponibles telles que : le nombre de collaborateurs, le nombre de lignes de codes, le langage source, les technologies utilisées. nous tenterons donc d’établir la présence ou l’absence du lien de causalité décrits précédemment.
@@ -113,7 +124,7 @@ Nous constatons enfin que les repos mettent en moyenne environ 268 jours pours p
 
 #### b. Répartition des mises à jours en fonction de l'âge des repository
 
-![](https://lh3.googleusercontent.com/aNNflAoSkYlEeprebtz1gCVn57vhwp28KP6-FQfriwjzK-SOgo3hQtvpT98tod7uny7TH1WC_OF7MSEkKOGG_l8J6ovVla_KeCReOiAUdiceGutaqlcbIYybG6TXmP3Wv1XbAUM)**    
+![](https://lh3.googleusercontent.com/aNNflAoSkYlEeprebtz1gCVn57vhwp28KP6-FQfriwjzK-SOgo3hQtvpT98tod7uny7TH1WC_OF7MSEkKOGG_l8J6ovVla_KeCReOiAUdiceGutaqlcbIYybG6TXmP3Wv1XbAUM)**      
 **
 
 Pour répondre à l’hypothèse 2, nous avons mesuré la proportion de repository ayant effectué au moins une mise à jour de fichier docker compose au cours de son existence. Si, chaque repository effectuez une mise à jour régulièrement, on s’attend à ce que leurs proportion augmente dans le temps. La figure 2 nous suggère le contraire, la répartition des repository ayant effectué au moins une mise à jour reste assez stable au alentour de 60%. Cette tendance nous permet de déduire qu’environ 40% des repository n'effectuent et n’effectuerons jamais de mise à jour, quelque soit leurs âge.
