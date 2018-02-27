@@ -344,7 +344,7 @@ Nous avons établi la liste des algorithmes de chaque projet, en voici un résum
 | scikit-image | 247 | 803 | 96 |
 | nltk | 229 | 479 | 148 |
 
-Le nombre d'algorithmes pour scikit-learn et scikit-image nous paraîssent faible vis-à-vis de la taille du projet. Cela peut-être dû à nos critères trop restrictifs qui causent de nombreux faux négatifs, il s'agirait donc d'un biais de notre étude qui peut impacter les observations que nous ferons ci-suit.
+Le nombre d'algorithmes pour _scikit-learn_ et _scikit-image_ nous paraîssent faible vis-à-vis de la taille du projet. Cela peut-être dû à nos critères trop restrictifs qui causent de nombreux faux négatifs, il s'agirait donc d'un biais de notre étude qui peut impacter les observations que nous ferons ci-suit.
 
 #### V.2.1. _La majorité des algorithmes est maintenue par un contributeur majeur._
 
