@@ -152,7 +152,7 @@ Nous avons notamment un développement constant, avec une branche par issue ou p
 
 Nous avons également de gros refactorings ce qui implique surement une grosse dette technique accumulée dont l’équipe essaye de se défaire. Nous trouvons en relation surement du problème précedent, beaucoup de duplications de code. Ici nous avons notre outil qui nous indique 62 code dupliqués au sein du projet, ce qui n’est pas dans l’optique du développement évolutif.
 
-On peut clairement voir via nos différents outils d’analyse, un très fort couplage entre différentes parties du code, ce qui est un très gros frein à l’évolutivité. Lorsque nous regardons de plus près, nous constatons également que la connaissance est regroupé autour d’une ou deux personne. En effet, le nombre de collaborateur actifs dans le projet est insatisfaisante pour une équipe d'environs plus de 8 personnes.On peut également faire le constat qu’il y a un “bad smell” au niveau des tests. En effet, on peut constater que nous avons de gros fichier de test, qui induit une très grosse complexité et couplage dans le projet.
+On peut clairement voir via nos différents outils d’analyse, un très fort couplage entre différentes parties du code, ce qui est un très gros frein à l’évolutivité. On peut également faire le constat qu’il y a un “bad smell” au niveau des tests. En effet, on peut constater que nous avons de gros fichier de test, qui induit une très grosse complexité et couplage dans le projet.
 
 ### Conclusion
 
