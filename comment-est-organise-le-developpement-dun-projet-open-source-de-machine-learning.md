@@ -221,22 +221,34 @@ Cependant, il n'est pas non plus viable de n'avoir pour but que l'aspect fonctio
 
 Il s'agit donc de trouver un juste équilibre entre écrire efficacement du code en ayant pour but de créer quelque chose d'utile pour un utilisateur final, et faire attention à ne pas rendre le projet si complexe qu'il n'est plus maintenable.
 
-Nous prenons donc comme indicateur de cet équilibre d'un projet, la dette technique, qui représente le temps qu'il faudrait passer sur le projet pour le rendre moins complexe, sans pour autant rajouter de fonctionnalité.
+Nous prenons donc comme indicateur de cet équilibre d'un projet la dette technique, qui représente le temps qu'il faudrait passer sur le projet pour le rendre moins complexe, sans pour autant rajouter de fonctionnalité.
 
 Plusieurs aspects d'un projet permettent de mesurer sa dette technique. L'existence de morceaux de codes très complexes, comme par exemple une fonction de plusieurs milliers de ligne contenant de nombreuses boucles et tests conditionnels imbriqués, entraîne une difficulté à relire le code dans le futur, et donc augmentera le temps nécessaire pour le faire évoluer. Le manque de documentation, prenant du temps à créer, produira le même effet.
 
 Certains choix architecturaux peuvent permettre de rapidement ajouter de la valeur au programme, au prix d'un réfactor futur lorsqu'il faudra l'étendre. Enfin, un dernier aspect pouvant impacter l'évolutivité du programme est le manque de tests: on n'est plus sur qu'après une modification le programme fonctionne toujours comme il le devrait, donc son évolution est limitée.
-
-On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité, donc d'essayer de ne pas faire grandir cette dette à tout instant de la vie du projet. La deuxième est de périodiquement faire des réfactors ayant spécifiquement pour but de réduire la dette du projet.
-
-Lorsque nous allons étudier l'évolution de la dette technique dans le temps de certains projets, nous nous attendons à trouver des augmentations soudaines de la dette, qui représenteraient le moment où des fonctionnalités ont été ajoutées, et des diminutions soudaines, qui représenteraient les réfactors de maintenance pour réduire la dette.
 
 Nous étudierons les hypothèses suivantes:
 
 1. **La dette technique grandit en même temps que le projet.**
 2. **La dette technique normalisée diminue durant l'évolution du projet.**
 
+On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité, donc d'essayer de ne pas faire grandir cette dette à tout instant de la vie du projet. La deuxième est de périodiquement faire des réfactors ayant spécifiquement pour but de réduire la dette du projet.
+
+Lorsque nous allons étudier l'évolution de la dette technique dans le temps de certains projets, nous nous attendons à trouver des augmentations soudaines de la dette, qui représenteraient le moment où des fonctionnalités ont été ajoutées, et des diminutions soudaines, qui représenteraient les réfactors de maintenance pour réduire la dette.
+
 #### IV.3.1. **La dette technique grandit en même temps que le projet.**
+
+Nous supposons qu'il n'est pas possible de garder une dette technique nulle alors qu'un projet grandit, et qu'il ne serait d'ailleurs pas souhaitables d'essayer d'y arriver, compte tenu du temps passé uniquement en maintenance que cela demanderait.
+
+Afin de confirmer cette hypothèse, nous allons analyser plusieurs projets sur une longue période grâce à l'outil SonarQube. Nous avons sélectionné huit projets qui ont une durée de vie suffisante pour les étudier sur cinq années de développement. Ces projets sont: _nilearn, pattern, pybrain, pyhsmm, pytorch, scikit-image, scikit-learn, theano_.
+
+SonarQube permet d'analyser le code source d'un projet et d'estimer la dette technique, représentée en la durée qu'il faudrait pour complètement nullifier la dette technique. SonarQube est incapable d'évaluer si des choix architecturaux haut niveau sont corrects, alors que c'est probablement le facteur le plus impactant de la dette technique. Un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.
+
+L'analyse SonarQube est basée sur des facteurs directement mesurables: la duplication de code, la complexité des fonctions, la complexité des appels des modules entre eux, des patterns de code identifiables réputés pour être mauvais... Ce n'est donc pas une analyse absolue de la dette technique, mais c'est un outil très utile pour avoir une estimation de la santé d'un projet.
+
+Pour un projet donné, nous sélectionnerons, sur une durée de cinq ans, un commit git par période de cinq semaines et exécuterons les analyses SonarQube sur ces commits dans leur ordre chronologique, afin de voir l'évolution dans le temps de la taille d'un projet et de sa dette technique.
+
+Nous nous attendons donc à ce que la dette technique grandisse en même temps que la taille d'un projet, représentée par son nombre de ligne de codes. L'hypothèse est réfutée s'il s'avère que la dette technique suit une courbe stagnante, voire diminue dans le temps.
 
 #### IV.3.2. **La dette technique normalisée diminue durant l'évolution du projet.**
 
