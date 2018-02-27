@@ -19,7 +19,7 @@ Nous avons donc voulu voir comment fonctionnait un projet agile \(en l'occurence
 
 ## II. Observations et question générale
 
-Malgré le fait que ce projet soit financé par l'état comme startup suivant les principes de l'agilité, nous avons assez rapidement repéré des anomalies. En effet, certains principes de cette méthodologies ne sont pas toujours respectés. Par exemple...
+Malgré le fait que ce projet soit financé par l'état comme startup suivant les principes de l'agilité, nous avons assez rapidement repéré des anomalies. En effet, certains principes de cette méthodologies ne sont pas toujours respectés. 
 
 Nous avons donc orienté notre étude sur la question suivante:
 
@@ -138,8 +138,8 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   ![](/assets/dtech.png)
 
 * * #### Releases
+  * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller")
 
-  * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
   * Résultat:
     Nous avons étudié la fréquence des releases afin d'observer d'éventuelles inconsistances ou des comportements réguliers. Il se trouve que leurs releases se font à une fréquence assez irrégulière sur une représentation par semaine mais qu'une certaine régularité peut être constatée chaque mois. Seuls les mois d'octobre et de décembre se trouvent pourvus de  plus de releases. Cela est du au fait que certaines bugs se sont retrouvés sur la production et qu'ils ont du effectuer des fixs très rapidement.
 
@@ -204,5 +204,5 @@ _Méthode Agile: Controverses et reflexions _: [http://www.entreprise-agile.com/
 
 _Agile Software Development_ : [http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf](http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf)
 
- The Evolution of Technical Debt in the Apache Ecosystem : [http://www.cs.rug.nl/~paris/papers/ECSA17a.pdf](http://www.cs.rug.nl/~paris/papers/ECSA17a.pdf)
+The Evolution of Technical Debt in the Apache Ecosystem : [http://www.cs.rug.nl/~paris/papers/ECSA17a.pdf](http://www.cs.rug.nl/~paris/papers/ECSA17a.pdf)
 
