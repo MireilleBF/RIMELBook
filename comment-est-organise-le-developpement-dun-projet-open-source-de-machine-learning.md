@@ -130,7 +130,7 @@ En définitive, nous considérons qu'un contributeur est un chercheur si au moin
 
 #### IV.1.1. _Les contributeurs sont majoritairement des chercheurs._
 
-Il s'agit de voir l'importance des chercheurs en quantité de contributeurs.
+Il s'agit d'étudier l'implication des chercheurs dans le développement d'un projet Open Source de Machine Learning vis-à-vis de leur nombre proportionnellement au nombre de contributeurs total.
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributeurs représentait moins de 50%.
 
@@ -138,7 +138,7 @@ Nous procéderons en étudiant la proportion de chercheurs dans les contributeur
 
 #### IV.1.2. _Les contributions viennent majoritairement de chercheurs._
 
-Il s'agit de voir l'importance des chercheurs en nombre de contributions.
+Contrairement au paragraphe précédent, nous étudierons ici l'implication des chercheurs vis-à-vis de leur nombre de contributions.
 
 Nous considérons que cette hypothèse serait réfutée si la part des chercheurs dans l'ensemble des contributions, en termes de _commits_ ou de lignes de codes modifiées, représentait moins de 50%.
 
