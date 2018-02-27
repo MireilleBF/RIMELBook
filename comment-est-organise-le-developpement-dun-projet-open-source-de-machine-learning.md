@@ -322,7 +322,7 @@ Notre hypothèse de travail est qu'un contributeur qui a modifié de nombreuses 
 
 _Figure 10 - Les chercheurs sont plus nombreux à s'approprier leur projet que les autres contributeurs_
 
-Si la médiane des nombres de lignes modifiées par contributeur est proche de zéro avec un faible écart-type pour les deux classes de contributeurs, la _Figure 10_ montre que cet écart-type augmente au troisième quartile, ce qui signifie qu'à proportion égale les chercheurs s'approprient plus le projet que les non-chercheurs, de par une plus grande contribution en lignes de code. La _Figure 11_ renforce cette analyse en montrant que le volume moyen de lignes modifiées par un chercheur est bien plus grand que celui des autres types de contributeurs. En d'autres termes, **un chercheur qui contribue est un chercheur qui s'approprie plus le projet  que les autres contributeurs**.
+Si la médiane des nombres de lignes modifiées par contributeur est proche de zéro avec un faible écart-type pour les deux classes de contributeurs, la _Figure 10_ montre que cet écart-type augmente au troisième quartile, ce qui signifie qu'à proportion égale les chercheurs s'approprient plus le projet que les non-chercheurs, de par une plus grande contribution en lignes de code. La _Figure 11_ renforce cette analyse en montrant que le volume moyen de lignes modifiées par un chercheur est bien plus grand que celui des autres types de contributeurs. En d'autres termes, **un chercheur qui contribue est un chercheur qui s'approprie plus le projet que les autres contributeurs**.
 
 ![](/assets/organisation_project_os_ml/modified_lines_mean.png)
 
