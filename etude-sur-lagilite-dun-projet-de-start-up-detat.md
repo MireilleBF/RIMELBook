@@ -134,6 +134,8 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
   * Outil : [CodeClimate](https://codeclimate.com/ "CodeClimate")
   * Résultat:
     La dette technique a été étudié par 
+
+  ![](/assets/dtech.png)
 * #### Releases
 
   * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
@@ -142,7 +144,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   ![](/assets/releases.png)
 
-  La fréquence des releases est importante pour assurer l'agilité d'un projet mais il faut aussi faire attention à ce que les releases ne soient pas faite par obligation mais aient une vraie valeur pour le projet. Nous avons défini que 2 releases par mois est une bonne fréquence et que sortir plusieurs releases dans la même journée est un mauvais point car indique que certaines releases contiennent des problèmes. 
+  La fréquence des releases est importante pour assurer l'agilité d'un projet mais il faut aussi faire attention à ce que les releases ne soient pas faite par obligation mais aient une vraie valeur pour le projet. Nous avons défini que 2 releases par mois est une bonne fréquence et que sortir plusieurs releases dans la même journée est un mauvais point car indique que certaines releases contiennent des problèmes.
 
 ## IV. Hypothèses et expériences
 
@@ -165,7 +167,7 @@ Evidemment, ces coefficients ont été définis selon notre expérience personne
 
 ## V. Analyse des résultats et conclusion
 
-Nous avons donc calculé l'indice d'agilité de pix : 
+Nous avons donc calculé l'indice d'agilité de pix :
 
 | Critère d'agilité | Coefficient | Score\* |
 | :--- | :--- | :--- |
