@@ -144,7 +144,7 @@ Dans classifiers , nous avons 238 exceptions, dont 11 viennent des class Weka et
 
 En ce qui concerne le reste des erreurs , nous n’avons pas réussi à les catégorisés. Nous avons donc réussi à catégoriser environ 25% des erreurs lié au exception grâce à notre logiciel. Les 75 % restant sont des exceptions inexploitable car ce sont des exceptions beaucoup trop génériques pour pouvoir les catégoriser.
 
-### **V.3 Conclusion**
+### **Conclusion**
 
 Nous pouvons en conclure que notre hypothèse numéro 2 est valide, car nous sommes parvenus à trouver des préconditions non définies dans les capabilities.
 
