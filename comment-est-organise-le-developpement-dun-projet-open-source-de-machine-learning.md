@@ -434,7 +434,11 @@ En somme, nous concluons que **la qualité semble être une réelle préoccupati
 
 ### **Conclusion**
 
-Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et qu'environ la moitié d'entre eux contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante.
+![](/assets/major_contributors_researchers.png)
+
+_Figure 20 - La majorité des personnes contribuant majoritairement à au moins un algorithme sont des chercheurs_
+
+Dans notre étude, nous avons pu montrer que les projets Open Source de Machine learning sont principalement développés par des chercheurs, malgré leur minorité en nombre. Nous avons aussi pu montrer que la majorité des algorithmes possède un contributeur majeur qui est le plus souvent un chercheur \(dans la limite des projets que nous avons étudié : _scikit-learn_, _scikit-images_ et _nltk_\), et qu'environ la moitié d'entre eux contribuent aussi majoritairement sur d'autres algorithmes. Aussi, nous avons pu constater que la dette technique est une préoccupation bien traitée pour la majorité des projets étudiés, où celle-ci est presque stagnante, voire décroissante.
 
 ## VI. Références
 
