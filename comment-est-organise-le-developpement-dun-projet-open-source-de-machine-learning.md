@@ -213,6 +213,19 @@ L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur m
 
 ### IV.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
+La qualité logicielle est synonyme de santé du projet ; la maintenabilité et l'extensibilité sur le long terme en dépendent. Nous mesurons cette caractéristiques à travers la dette technique.
+
+La septième loi de Lehman stipule qu'un projet qui évolue est un projet dont la qualité se dégrade sauf si un effort est produit pour la maintenir. Cette dégradation dans les projets Open Source est une conséquence de l'absence de processus qualité et des délais que les contributeurs s'imposent \[2\].
+
+Nous nous intéressons à l'évolution de la dette technique des projets Open Source de Machine Learning à travers les hypothèses suivantes :
+
+1. **La dette technique grandit en même temps que le projet.**
+2. **La dette technique normalisée par la taille du projet diminue au fil du temps.**
+
+Notre intuition est que la dette technique de ces projets augmente au fil des évolutions \(conformément aux lois de Lehman\), mais qu'un effort est produit pour réhausser la qualité \(revue des _pull requests_, ...\).
+
+---
+
 La qualité logicielle représente la santé du projet en terme de maintenabilité, d'extension et de durée de vie. Cette caractéristique est directement liée à la dette technique qu'un projet accumule avec le temps.
 
 On écrit du code pour arriver à un résultat fonctionnel. Qu'on veuille créer une librairie, un logiciel final, ou autre, il faut que le temps investi dans le projet ne soit pas déraisonnablement long par rapport au résultat attendu. Il n'est pas viable de chercher à produire le code le plus parfait possible car cela revient à prendre du temps pour perfectionner quelque chose qui existe déjà, au lieu de chercher à rajouter des fonctionnalités nouvelles.
@@ -230,7 +243,7 @@ Certains choix architecturaux peuvent permettre de rapidement ajouter de la vale
 Nous étudierons les hypothèses suivantes:
 
 1. **La dette technique grandit en même temps que le projet.**
-2. **La dette technique normalisée diminue durant l'évolution du projet.**
+   1. **La dette technique normalisée diminue durant l'évolution du projet.**
 
 On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité, donc d'essayer de ne pas faire grandir cette dette à tout instant de la vie du projet. La deuxième est de périodiquement faire des réfactors ayant spécifiquement pour but de réduire la dette du projet.
 
@@ -387,6 +400,10 @@ Dans les projets étudiés et d'après l'interprétation de nos hypothèses, la 
 Cela soulève une question : les algorithmes qui partagent le même contributeur majeur sont-elles les variantes d'un même algorithme ? Une réponse positive à cette question permettrait de regrouper les variantes de l'algorithme et évaluer si l'une des variantes produit systématiquement des résultats plus fiables.
 
 ## VI. Références
+
+\[1\] TODO Article de Xavier Blanc
+
+\[2\] G. Digkas, M. Lungu, A. Chatzigeorgiou, P. Avgeriou \(2017\). The Evolution of Technical Debt in the Apache Ecosystem, Springer International Publishing.
 
 _À remplir._
 
