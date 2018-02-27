@@ -12,7 +12,7 @@ Nous somme cinq étudiants en cinquième année de science informatique à l'éc
 
 ## Introduction
 
-Dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des Logiciels \(RIMÉL\), ce chapitre présente le travail que nous avons réalisé durant ce semestre. Ce document montre explicitement le contexte de notre travail et le problématique évoqué suivie par nos hypothèses, la démarche effectuée et les résultats. À la fin de ce document nous établissons une relation entre les résultats obtenus avec nos hypothèses.
+Dans le cadre de la matière Rétro-Ingénierie, Maintenance et Évolution des Logiciels \(RIMEL\), ce chapitre présente le travail que nous avons réalisé durant ce semestre. Ce document montre explicitement le contexte de notre travail et la problématique évoquée, suivie par nos hypothèses, puis les démarches effectuées et enfin, les résultats. À la fin de ce document nous établirons une conclusion sur la validité ou non de nos hypothèses ainsi qu'une réponse a notre question générale.
 
 ## I. Contexte de recherche
 
@@ -47,7 +47,7 @@ Pour faire suite aux problématiques soulevées dans notre contexte, nous commen
 
 **Question générale : Comments les utilisateurs s'adaptent-ils aux mise à jour de Docker Compose en fonction des caractéristiques de leurs projets ?**
 
-L’objectifs ainsi fixé, il s’agira donc pour nous, dans la suite de ce document de chercher si oui ou non il existe des critères propres à un projet, qui permettraient d’établir un lien de causalité entre leurs présence \(ou leur absence\) valué, et le dynamisme de changement de version desCompose File.
+L’objectifs ainsi fixé, il s’agira donc pour nous, dans la suite de ce document de chercher si oui ou non il existe des critères propres à un projet, qui permettraient d’établir un lien de causalité entre leurs présence \(ou leur absence\) valué, et le dynamisme de changement de version des Compose File.
 
 L'intérêt étant ici, que si il existe bel est bien un lien entre un tel critère, et cette action de mettre à jour son Docker Compose, nous serions en mesure de qualifier le groupe d’utilisateurs qui bénéficie le plus \(ou pas du tout\) de la politique de mise à jour adopté par Docker.
 
@@ -61,13 +61,13 @@ Le déroulement formel du rassemblement d’information est ainsi :
 
 * Dans un premier temps, sélectionner l’ensemble des repository portant letopicDocker, et ayant la visibilité publique. \(n=1020\).
 
-* A partir de ce premier ensemble, nous avons effectué un tris visant à écarter les projet, ne contenant pas au moins 1 fichierdocker-compose.yml.
+* A partir de ce premier ensemble, nous avons effectué un tris visant à écarter les projet, ne contenant pas au moins 1 fichier docker-compose.yml \(n=175\).
 
-* Nous avons extraits des répo restant des informations pertinentes pour qualifier ces dernier \(nombre de commit, nombre de collaborateur etc…\)
+* Nous avons extraits des répo restant des informations pertinentes pour qualifier ces dernier \(nombre de commits, nombre de collaborateurs etc…\)
 
-* Sur la base des fichiers restant, nous avons par la suite effectué un processus dedrillingnous permettant pour chaque fichier Docker Compose d’un repository, d’en extraire l’ensemble des versions différentes ayant existé par le biais des commits qui les ont modifié.
+* Sur la base des fichiers restants, nous avons par la suite effectué un processus de drilling nous permettant pour chaque fichier Docker Compose d’un repository, d’en extraire l’ensemble des versions différentes ayant existé par le biais des commits qui les ont modifiées.
 
-* Une fois l’ensemble de ces version récupéré, nous avons récupéré pour chacune des versions du fichier ayant existé, la version spécifié dans contenu par le champ “version” du fichier docker-compose.
+* Une fois l’ensemble de ces versions récupérées, nous avons récupéré pour chacune des versions du fichier ayant existé, la version spécifié dans contenu par le champ “version” du fichier docker-compose.
 
 * Nous avons ensuite comparé un à un \(par ordonnancement chronologique\), chacune des version de docker compose, et lorsque celle-ci changeait d’un commit à un autre, nous avons sauvegardé la date du commit apportant ce changement
 
@@ -76,8 +76,6 @@ Le déroulement formel du rassemblement d’information est ainsi :
 * Sauvegarde des données au format JSON pour leurs exploitation
 
 Une fois ces données produite, nous avons pu poursuivre notre étude en cherchant donc si cette durée en jours \(vélocité de mise à jour\) pouvait être reliée à un des critères.
-
-_TODO_
 
 ## IV. Hypothèses et expériences
 
@@ -115,7 +113,7 @@ Nous constatons enfin que les repos mettent en moyenne environ 268 jours pours p
 
 #### b. Répartition des mises à jours en fonction de l'âge des repository
 
-![](https://lh3.googleusercontent.com/aNNflAoSkYlEeprebtz1gCVn57vhwp28KP6-FQfriwjzK-SOgo3hQtvpT98tod7uny7TH1WC_OF7MSEkKOGG_l8J6ovVla_KeCReOiAUdiceGutaqlcbIYybG6TXmP3Wv1XbAUM)**  
+![](https://lh3.googleusercontent.com/aNNflAoSkYlEeprebtz1gCVn57vhwp28KP6-FQfriwjzK-SOgo3hQtvpT98tod7uny7TH1WC_OF7MSEkKOGG_l8J6ovVla_KeCReOiAUdiceGutaqlcbIYybG6TXmP3Wv1XbAUM)**    
 **
 
 Pour répondre à l’hypothèse 2, nous avons mesuré la proportion de repository ayant effectué au moins une mise à jour de fichier docker compose au cours de son existence. Si, chaque repository effectuez une mise à jour régulièrement, on s’attend à ce que leurs proportion augmente dans le temps. La figure 2 nous suggère le contraire, la répartition des repository ayant effectué au moins une mise à jour reste assez stable au alentour de 60%. Cette tendance nous permet de déduire qu’environ 40% des repository n'effectuent et n’effectuerons jamais de mise à jour, quelque soit leurs âge.
