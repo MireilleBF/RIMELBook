@@ -146,7 +146,7 @@ Nous procéderons en étudiant la répartition des _commits_ et des lignes modif
 
 #### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
-Il s'agit ici d'étudier l'investissement de chaque contributeurs-chercheurs dans le développement comparé aux autres contributeurs. \(Contribuent-ils plus ou moins que les autres?\) 
+Il s'agit ici d'étudier l'investissement de chaque contributeurs-chercheurs dans le développement comparé aux autres contributeurs. \(Contribuent-ils plus ou moins que les autres?\)
 
 Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, la majorité des contributeurs-chercheurs s'investit moins que les autres contributeurs.
 
@@ -226,7 +226,7 @@ Notre intuition est que la dette technique de ces projets augmente au fil des é
 
 #### Comment mesurer la dette technique ?
 
-SonarQube permet d'analyser le code source d'un projet et d'estimer la dette technique, représentée en la durée qu'il faudrait pour complètement nullifier la dette technique. Un biais de cette mesure est que SonarQube ne peut pas évaluer un choix d'architecture de haut niveau, alors que nous avons l'intuition que l'un des facteurs les plus importants de la dette technique : un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.
+SonarQube est un outil qui permet d'analyser le code source d'un projet pour estimer la dette technique, représentée par le temps qu'il faudrait pour la corriger complètement. Un biais de cette mesure est que SonarQube ne peut pas évaluer un choix d'architecture de haut niveau, alors que nous avons l'intuition que l'un des facteurs les plus importants de la dette technique : un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.
 
 L'analyse SonarQube est basée sur des facteurs directement mesurables: la duplication de code, la complexité des fonctions, la complexité des appels des modules entre eux, des patterns de code identifiables réputés pour être mauvais... Ce n'est donc pas une analyse absolue de la dette technique, mais c'est un outil très utile pour avoir une estimation de la santé d'un projet.
 
