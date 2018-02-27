@@ -103,9 +103,44 @@ _TODO_
 
 ## V. Analyse des résultats et conclusion
 
-_TODO_
+#### a. Temps moyen du changement de version \(jours\) en fonction du nombre de contributeurs
 
-## VI. Références
+![](https://lh3.googleusercontent.com/VV_nXa-wgTE0aUmXkesRLek0nShRr3tAxKt1vRE0Y8cVwCOyzmHzxWCzen7RHZ8fOdkP03Ss7XfcbD7ORVky-hJEgrO_CccDjCrJMwi8ReqrLwfCt57IyCLOvaj_wRcddyMO5I4)
 
-_TODO_
+Dans cette figure 1, nous avons représenté par un point chaque repository. un point est représenté en abscisse par son âge et en ordonnée son temps moyen de changement de version, tous deux en jours. Cette figure nous montre un nuage de point fortement dispersé. Nous en déduisant qu’il ne semble pas y avoir de lien entre le nombre de contributeurs et le temps moyen de mise à jour pour un repository.
+
+La meilleur approximation \(parmis les approximations linéaires, puissance, polynomiale et exponentiel\) est une approximation exponentielle \(tracé bleu\). Elle suggère une légère hausse du temps de mise à jours en fonction du nombre de contributeurs, cependant le coefficient de détermination associé étant très faible, cette tendance est peu représentative.
+
+Nous constatons enfin que les repos mettent en moyenne environ 268 jours pours passer d’une versions à l’autre de docker-compose, ce qui est assez long à l'échelle du développement d’un projet. Cela nous pousse à penser que les mise a jours s’effectuent surtout à la suite d’une nouvelle release \(268 jours étant un temps raisonnable pour concevoir et livre un produit\) pour redémarrer sur des bonne bases.
+
+#### b. Répartition des mises à jours en fonction de l'âge des repository
+
+![](https://lh3.googleusercontent.com/aNNflAoSkYlEeprebtz1gCVn57vhwp28KP6-FQfriwjzK-SOgo3hQtvpT98tod7uny7TH1WC_OF7MSEkKOGG_l8J6ovVla_KeCReOiAUdiceGutaqlcbIYybG6TXmP3Wv1XbAUM)**  
+**
+
+Pour répondre à l’hypothèse 2, nous avons mesuré la proportion de repository ayant effectué au moins une mise à jour de fichier docker compose au cours de son existence. Si, chaque repository effectuez une mise à jour régulièrement, on s’attend à ce que leurs proportion augmente dans le temps. La figure 2 nous suggère le contraire, la répartition des repository ayant effectué au moins une mise à jour reste assez stable au alentour de 60%. Cette tendance nous permet de déduire qu’environ 40% des repository n'effectuent et n’effectuerons jamais de mise à jour, quelque soit leurs âge.
+
+La proportion des non augmente légèrement avec l'âge à partir de 1440 jours. Les repository concerné sont donc ceux qui ont connus la première versions de docker-compose \(il y a 1530 jours\). On peut penser que ces repository ont adopté la technologie rapidement puis n’y ont pas vu d'intérêt et ont donc décidé de ne plus la mettre à jour. Ils ont cependant gardé leurs fichiers docker-compose, probablement pour des raisons de stabilité ou car la livraison de fonctionnalitées étant plus importante, la priorité n’a pas était donnée à cette migration de versions.
+
+#### c. Temps moyen du changement de version \(jours\) en fonction de l'âge du repository
+
+![](https://lh5.googleusercontent.com/RDn3lnkZo_0CHqozUuyKW8_ypwBgbsX-hykdzkXWjDOsuL0Lrlm5ZVKkGVzQboOKEz2FmHd1c9D-x-LG5K83e9r-8-bVce2GVuvyUOd6gHgxK_kJrGCtE6qeA5IZJUIS9Yr2za0)
+
+Nous avons mesuré le temps moyen de changement de version en fonction de l’age des repository. Le figure représente chaque point comme un repository avec en ordonné le temps moyen de changement de version et en abscisse l’age de celui ci. Cette fois encore, ce nuage nous suggere qu’il n’y a aucun lien entre l’age et le temps de changement de version. Notre meilleur approximation \(une fonction puissance\) nous donne un coefficient de détermination très faible \(0.015\) qui nous permet de
+
+#### d. Conclusion
+
+Pour reprendre notre question générale posée en début de document qui était :
+
+**Comments les utilisateurs s'adaptent-ils aux mise à jour de Docker Compose en fonction des caractéristiques de leurs projets ?**
+
+En conclusion, et en nous appuyant sur les hypothèse formulé précédemment, ainsi que sur les résultats présentés ci-dessus nous sommes en mesure d’affirmer, que parmis les métriques de projets que nous avons étudiés, il n'existe pas de corrélation permettant d’affirmer qu’une quelconque causalité existe entre les critères de projets GitHub, et le temps moyen d’adoption de nouvelle version de Docker Compose.
+
+Néanmoins, ayant observé un temps moyens de mise à jours \(tout repository confondus\) de 268 jours, nous somme en mesure d’affirmer que la stratégie adopté par Docker sortir beaucoup de version par année \(8 en 2017, soit une version tout les 46 jours environs\) avec parfois des changements non rétrocompatible, et en opposition directe avec l’utilisation qu’en font les utilisateurs. Cette opposition peut s’avérer risqué pour Docker comme expliquée dans le contexte, et pourrait amener à d’autres opposition dans le futur.
+
+#### e. Limites de l’études
+
+Bien qu’un effort est été fait afin de fournir un grand nombre de projets sample en entrés \(1.020\) \(topic:Docker et visibilité:public\) au détriment parfois du temps nécessaire à processer toute les informations \(35.000 commits parfois\), , après application de tous nos filtres, notre sample se retrouve à 175 projets, dont seulement 108 ont fait au moins un changement de version.
+
+Afin d’approfondir la question étudiée, il serait probablement nécessaire, une autre manière de recueillir des projets samples répondant directement à nos critères.
 
