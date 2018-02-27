@@ -215,7 +215,13 @@ L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur m
 
 La qualité logicielle représente la santé du projet en terme de maintenabilité, d'extension et de durée de vie. Cette caractéristique est directement liée à la dette technique qu'un projet accumule avec le temps.
 
+L'écriture de code, surtout dans une entreprise, est soumise à des contraintes de main d'oeuvre et de temps. Il n'est pas viable de chercher à produire le code le plus parfait possible car cela revient à prendre du temps pour perfectionner quelque chose qui existe déjà, au lieu de chercher à rajouter des fonctionnalités nouvelles.
 
+Cependant, il n'est pas non plus viable d'avoir pour but que l'aspect fonctionnel du programme, sans jamais se soucier de comment la manière dont on écrit le code va impacter son évolution future.
+
+
+
+Réfactors souvent, ca explique les pics de baisse
 
 1. **La dette technique grandit en même temps que le projet**
 2. **La dette technique normalisée diminue durant l'évolution du projet**
