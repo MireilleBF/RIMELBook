@@ -39,7 +39,7 @@ Ce sont ce type de questions auxquelles nous allons tenter d’apporter une rép
 
 ![](/assets/docker_compose_study_project_files/docker-compose-version-release.png)
 
-_TODO_
+_Figure 1: Figure 1: L'évolution de version de Docker depuis la première sortie \(20 décembre 2013\), version 1 \(en rouge\), version 2.X \(en orange\) et version 3.X \(en bleue\)._
 
 ## II. Observations et question générale
 
@@ -52,8 +52,6 @@ L’objectifs ainsi fixé, il s’agira donc pour nous, dans la suite de ce docu
 L'intérêt étant ici, que si il existe bel est bien un lien entre un tel critère, et cette action de mettre à jour son Docker Compose, nous serions en mesure de qualifier le groupe d’utilisateurs qui bénéficie le plus \(ou pas du tout\) de la politique de mise à jour adopté par Docker.
 
 Ce résultat intermédiaire nous permettrait ainsi de conclure si le pari fait par Docker pour son outil Compose va à l’encontre ou non de l’usage qu’en font les utilisateurs.
-
-_TODO_
 
 ## III. Rassemblement d'informations
 
