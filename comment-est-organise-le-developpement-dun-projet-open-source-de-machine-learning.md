@@ -230,15 +230,15 @@ SonarQube est un outil qui permet d'analyser le code source d'un projet pour est
 
 L'analyse SonarQube est basée sur des facteurs directement mesurables: la duplication de code, la complexité des fonctions, la complexité des appels des modules entre eux, des patterns de code identifiables réputés pour être mauvais... Ce n'est donc pas une analyse absolue de la dette technique, mais c'est un outil très utile pour avoir une estimation de la santé d'un projet.
 
-Pour un projet donné, nous sélectionnerons, sur une durée de cinq ans, un commit git par période de cinq semaines et exécuterons les analyses SonarQube sur ces commits dans leur ordre chronologique, afin de voir l'évolution dans le temps de la taille d'un projet et de sa dette technique.
+Pour un projet donné, nous sélectionnerons, sur une durée de cinq ans, un commit git par période de cinq semaines et exécuterons les analyses SonarQube sur ces commits dans leur ordre chronologique, afin de voir l'évolution dans le temps de la taille d'un projet et de sa dette technique. Les projets sélectionnés sont _nilearn, pattern, pybrain, pyhsmm, scikit-image, scikit-learn, theano._
 
-#### IV.3.1. **La dette technique grandit en même temps que le projet.**
+#### IV.3.1. _**La dette technique grandit en même temps que le projet.**_
 
 Nous nous attendons à ce que la dette technique grandisse en même temps que la taille d'un projet \(représentée par son nombre de ligne de codes\), comme le prévoit la loi de Lehman.
 
 L'hypothèse est réfutée s'il s'avère que la dette technique suit une courbe stagnante, voire diminue dans le temps.
 
-#### IV.3.2. **La dette technique normalisée diminue durant l'évolution du projet.**
+#### IV.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
 
 Nous nous attendons à ce que les méthodes de collaboration open source produisent un effort qui permet de garder la croissance de la dette technique en dessous de la croissance de la taille du projet.
 
@@ -376,7 +376,29 @@ La figure montre bien que peu importe le seuil, il existe au moins un contribute
 
 Dans les projets étudiés et d'après l'interprétation de nos hypothèses, la majorité des algorithmes de Machine Learning sont écrits et maintenus par un seul contributeur expert de cet algorithme. Nous avons observé également qu'une partie de ces contributeurs experts d'un algorithme sont experts d'au moins un autre algorithme présenté dans le projet.
 
-Cela soulève une question : les algorithmes qui partagent le même contributeur majeur sont-elles les variantes d'un même algorithme ? Une réponse positive à cette question permettrait de regrouper les variantes de l'algorithme et évaluer si l'une des variantes produit systématiquement des résultats plus fiables.
+Cela soulève une question : les algorithmes qui partagent le même contributeur majeur sont-elles les variantes d'un même algorithme ? Une réponse positive à cette question permettrait de regrouper les variantes de l'algorithme et évaluer si l'une des variantes produit systématiquement des résultats plus fiables.V.1. Ces projets sont-ils menés par des chercheurs ?
+
+### V.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
+
+Le montant de dette technique est représenté sous SonarQube par l'indice SQALE \(Software Quality Assessment based on Lifecycle Expectations\).
+
+#### V.3.1. _**La dette technique grandit en même temps que le projet.**_
+
+On peut observer plusieurs tendances. Les projets _nilearn, scikit-image \_et \_scikit-learn_ suivent la courbe qu'on avait supposé, c'est a dire une dette technique globalement croissante dans le temps.
+
+![](assets/organisation_project_os_ml/scikit-learn-loc.png)_Figure 14 - Courbes de l'évolution des lignes de codes et de l'index SQALE de scikit-learn. ncloc représente le nombre de lignes de code non commentées_
+
+Néanmoins, sur les projets _pattern, pybrain, pyhsmm _et_ theano_, on peut observer une courbe stagnante voire décroissante de la dette technique sur cinq ans.
+
+![](assets/organisation_project_os_ml/theano-loc.png)_Figure 15 - Courbes de l'évolution des lignes de codes et de l'index SQALE de theano. On observe une tendance décroissante de la dette technique dans le temps._
+
+On peut observer deux _refactors _ayant eu pour but de réduire la dette technique, une en 2015 et une en 2017. Celle de 2017 est accompagnée d'une importante baisse de lignes de code.
+
+On voit que la dette technique était plus importante en 2013 où le nombre de lignes de code était a 150k qu'en 2018 avec 220k lignes de codes.
+
+L'hypothèse est invalide sur quatre projets, et valide sur trois. On s'attendait à trouver la même tendance croissante sur tous les projets, donc notre hypothèse est invalidée.
+
+#### V.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
 
 ## VI. Références
 
