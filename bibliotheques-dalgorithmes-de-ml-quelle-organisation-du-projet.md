@@ -132,11 +132,7 @@ We wrote two Python scripts available on Github:
 
 Table 1 :Résults of match\_weka\_scikit.py
 
-
-
 From those results, we can see that many algorithms have been found in Weka using simple algorithms names. This shows that this machine learning library seems complete and can be used as a reference for the research in Scikit.![](https://lh6.googleusercontent.com/20yJm7LRS1HaDKVIZGEyCYDP_PIfIrB_gvnqy_f2AQeGm6vS9Bnyf1ZEaBBKH1mnI072WAgkQOy9XZFducQ7yrjfgFjyo5AeNwbRuN28a3hCRLrvo-YthDAoCJ1WaCsbBkp9C9kc)Figure 1 : Number of algorithms found on Weka and Scikit extern
-
-
 
 From the algorithms found in Weka, we started by making a research in Scikit by only looking at the files and packages names.
 
@@ -157,8 +153,6 @@ The graph below shows the difference of results for the two strategies of resear
 We noticed that many results are close between Scikit and Weka.
 
 ![](https://lh4.googleusercontent.com/EA_O_JlLHNLZ7vnCCs1YdQzd5vF5AwnWu43B9pCaUpulRlX_TIOO42OEiLHIz6LCgtaGDhzcyHTljxcMeRt1vIagYOmVqNzDTrQeK-QnN7CEN6d4NU-aXBUmexFxMoWAGHhOzzNK)Figure 3 : Number of algorithms by comparing Scikit extern and intern
-
-
 
 We can see that with the exception of K-Means, the results are good for the file research. Most of the Weka algorithms has been found in Scikit. The exception of K-Mean might mean that it has not been implemented in Scikit…
 
@@ -184,8 +178,6 @@ We could find results in weka, for each algorithm test, we call a default constr
 
 Figure 4 : Results of algorithms dependences
 
-
-
 We tried the same steps for the scikit project but we could not find any important results.
 
 #### b\) Study of code metrics
@@ -210,8 +202,6 @@ The first step was to launch a complete analysis of the two projects weka et sck
 
 Figure 5 & 6 : SonarQube analysis for Weka\(5\) and Scikit\(6\)
 
-
-
 To extract the complexity value of each algorithm we did a search by their names.
 
 Here are the raw results we obtained after analysing the projects.
@@ -232,11 +222,7 @@ Table 2 : table of comparison cyclomatic complexity weka vs Scikit
 
 Figure 7 : Courbes of cyclomatic complexity weka vs scikit
 
-
-
 Looking at the two cyclomatic complexity curves of the weka and scikit project algorithms, we notice that there is always a kind of correlation for each common algorithm, with a well-defined gap.
-
-
 
 * Comparaison Cognitive Complexity
 
@@ -254,8 +240,6 @@ Table 3 : table of comparison congnitive complexity weka vs scikit
 
 Figure 8 : Courbes of cognitive complexity weka vs scikit
 
-
-
 For cognitive complexity, we can not notice a correlation between the two curves, this is due to language difference between weka which is developed in java and scikit which is developed in python. The latter has a clear syntax and uses a simpler approach what allows a facility of understanding.
 
 ### 3- Correlating the authorship models of the algorithms of the two projects
@@ -272,19 +256,21 @@ Here are what we obtain using SVNStats on the Weka’svn :
 
 Figure 9 : Number of LOC by contributors
 
-
-
 As we can see, there are only 4 contributors to the official SVN for all lines of code. After a few research we find out that all those four peoples are teacher or researcher at the waikato University. We assumes that they were using some kind of centralized organisation to add new modules to the weka’s library. Indeed, after few investigations all contributions \(those made by wakaito’s people or anyone around the world\) must be reviewed by a weka’s admin before being integrated to the whole project. At this point we knew that the SVN can’t provide us temporal informations about authorship.
 
 Let’s take a look at the Scikit’s git, and the distribution of commit among all contributors:
 
-![](https://lh4.googleusercontent.com/7qxgLBK70han4GEiV7YeJ9TLZ3S-a7JSp52CVbybDcs1XFpRhRrUr5Xg8eQba8NcjeoId3qSKV14XPN__UUjbArYg1l6Km5J2r-iCVtuRZR-LZSp3ckvvw6-gooE2pRKexh5WXMj)
+![](https://lh5.googleusercontent.com/HVGmPT33bU7eLw4jEIvD3D42rCXvjYXcUQa3MMQd-k94--d0oGWXztbhlLAGWWfqf9cMwXJ05OOnMHAqHt5U4aXZQkY46H_T8IUABBqLA2f9nVz6WiQM7TL5QvCjPGgvVHnXGjES)
+
+Figure 10 : Commits repartition among all contributors of scikit
 
 We found a total of 1159 contributors splitted like above. We can observe 3 distincts parts : the first one \(dark blue\) represents the proportion of contributors with less than 200 commits, the second one \(green\) represents contributors who have more than 200 commits and less than 1000 commits, and finally the third part represent the part of commit of the 5 biggest project’s contributors. We can assume that the knowledge isn’t heavily spread because 17 peoples \(green + big fives\) have done ⅔ of all the commits. From here, we make the hypothesis that it will be easier to find specialised people among the people in the dark blue part because we assume that the fewer commits are made by a contributor the more precise and specialised they are.
 
 Next we want to observe files that were modified by the least authors possible in order to find a relation between the contributors who did few commits and files with few authors to restrain our area of research.
 
-![](https://lh3.googleusercontent.com/ccAm9PHp4QRoJ5nmmC7lTGlPaV6UwaDbwHy6af4Hu0zqne5rOjxjfQRWCfWDFiQYxh3awEEN_mKX7zoPLUqOeh4l0lRURvg8xGZ2P5D07KzrIlF81Sk7-pHJUvq6XwpeyxjJYHzM)Here we can observe that more than ⅔ of files have been modified by less than 4 authors. It could be because some files are too domain-specific for being modified by non-specialised people.
+![](https://lh3.googleusercontent.com/ccAm9PHp4QRoJ5nmmC7lTGlPaV6UwaDbwHy6af4Hu0zqne5rOjxjfQRWCfWDFiQYxh3awEEN_mKX7zoPLUqOeh4l0lRURvg8xGZ2P5D07KzrIlF81Sk7-pHJUvq6XwpeyxjJYHzM)Figure 11 : Number of authors for each file in scikit
+
+Here we can observe that more than ⅔ of files have been modified by less than 4 authors. It could be because some files are too domain-specific for being modified by non-specialised people.
 
 Both VCS give us differents informations but never the same one, this implies that it can’t be automated and we have to observe, understand and make hypothesis among informations that we grab from different library VCS.
 
@@ -298,7 +284,9 @@ Then, we wanted to collect all those authors names in a single file in order to 
 
 Here are our results :
 
-![](https://lh6.googleusercontent.com/91x3OQn76fDDPthpjPkX-VzPh6Y9rol95o3EqESfVTFpEY1ep9uG9nJrC5RHa26GoWFjOfPZ4IkQ9V8lCKnj1SaUYf7_7Pk2P229NKddXiAblBfiETk4zF26SRd6KtcHYj-rty-r)Our script find out 42 different authors in Weka and 45 differents authors in Scikit. All of those authors contributed to more than one package, so there are no “specialist”.
+![](https://lh6.googleusercontent.com/91x3OQn76fDDPthpjPkX-VzPh6Y9rol95o3EqESfVTFpEY1ep9uG9nJrC5RHa26GoWFjOfPZ4IkQ9V8lCKnj1SaUYf7_7Pk2P229NKddXiAblBfiETk4zF26SRd6KtcHYj-rty-r)Figure 12 : Repartition of specialized authors among all authors found
+
+Our script find out 42 different authors in Weka and 45 differents authors in Scikit. All of those authors contributed to more than one package, so there are no “specialist”.
 
 More than that, authors that we retrieve the most occurrences from Weka were FracPete, Mark Hall and Eibe which are parts of project’s admin. From Scikit, the authors with the most occurrences are Varoquaux, Mueller and Grisel which are parts of the “big five” contributors.
 
