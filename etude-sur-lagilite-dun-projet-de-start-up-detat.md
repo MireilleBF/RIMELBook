@@ -154,11 +154,11 @@ Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ram
 | Dette technique | 3 | 100 - Nombre de jours \(&gt; 0\) |
 | % Pertinance des tests | 5 | Estimé par l'architecte / Tech lead |
 | Outillage | 6 | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI ou autre \(20%\)                         - Dette Technique \(20%\)                          - Ticketage  \(40%\) |
-| Release | ? | ? |
+| Release | 4 | Si &gt;= 2/mois 100%, si 1/mois 50%, sinon 0%. -1% pour chaque jour où il y a plus d'une release. |
 
 Evidemment, ces coefficients ont été définis selon notre expérience personnelle, et ce que nous avons pu observer durant cette étude. Ils sont donc sujets à éventuelle modification après concertation auprès d'un plus grand nombre d'intervenants.
 
-//parler de la release
+La fréquence des releases est importante pour déterminé l'agilité d'un projet mais il faut aussi faire attention à ce que les releases ne soit pas faite par obligation mais a une vraie valeur pour le projet. Nous avons défini que 2 releases par mois est une bonne fréquence et que sortir plusieurs releases dans la même journée est un mauvais point car indique que certaines releases contiennent des problèmes. Nous avons donc essayé de représenter cela avec une formule qu'il faudra surement ajuster avec le temps.
 
 ## V. Analyse des résultats et conclusion
 
@@ -170,7 +170,7 @@ _À remplir._
 
 ## VI. Références
 
-Pix : 
+Pix :
 
 [https://github.com/betagouv/pix](https://github.com/betagouv/pix)
 
@@ -178,11 +178,9 @@ Pix :
 
 [https://beta.gouv.fr/startup/pix.html](https://beta.gouv.fr/startup/pix.html)
 
-
-
 Articles:
 
-Méthode Agile: Controverses et reflexions : http://www.entreprise-agile.com/AgileControverses.pdf
+Méthode Agile: Controverses et reflexions : [http://www.entreprise-agile.com/AgileControverses.pdf](http://www.entreprise-agile.com/AgileControverses.pdf)
 
-Agile Software Development : http://users.jyu.fi/~mieijala/kandimateriaali/Agile%20software%20development.pdf
+Agile Software Development : [http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf](http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf)
 
