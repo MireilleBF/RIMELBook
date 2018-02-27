@@ -406,9 +406,15 @@ Afin de comparer les tendances des différents projets, nous effectuons un test 
 
 _Figure 16 - Représentation des tendances d'évolution de la dette technique pour les différents projets._
 
-Ici on voit que pour le projet pyhsmm, dont la valeur est entre 0 et +1, on ne peut déduire de tendance sur l'évolution de la dette technique. On a ensuite trois projets avec une tendance clairement positive et trois avec une tendance clairement négative.
+Nous lisons :
 
-L'hypothèse est donc invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**. D'après les lois de Lehman, nous faisons cette observation si un effort est produit pour maintenir la qualité, ce qui est le cas pour theano \(Figure 15\), par exemple. Cependant, la solidité de cette conclusion est à mettre en perspective avec le nombre de projets étudiés qui est bas, d'autant plus que nous sommes à la frontière de notre condition de réfutation : prolonger l'étude sur d'autres projets nous permettrait sans doute de fonder une conclusion plus solide.
+* La dette technique de _pyhsmm_ ne suit pas de tendance particulière au fil du temps.
+* Trois projets \(_scikit-learn_, _scikit-image_ et _nilearn_\) ont une dette technique qui suit une évolution monotone croissante au fil du temps.
+* Trois projets \(_theano_, _pybrain_ et _pattern_\) ont une dette techique qui suit une évolution monotone décroissante au fil du temps.
+
+L'hypothèse est donc invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**. 
+
+D'après les lois de Lehman, nous faisons cette observation si un effort est produit pour maintenir la qualité, ce qui est le cas pour _theano_ \(Figure 15\), par exemple. Cependant, la solidité de cette conclusion est à mettre en perspective avec le nombre de projets étudiés qui est bas, d'autant plus que nous sommes à la frontière de notre condition de réfutation : prolonger l'étude sur d'autres projets nous permettrait sans doute de fonder une conclusion plus solide.
 
 #### V.3.2. _**La dette technique normalisée diminue durant l'évolution du projet.**_
 
