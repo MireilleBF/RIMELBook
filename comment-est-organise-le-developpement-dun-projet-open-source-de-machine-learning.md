@@ -217,9 +217,17 @@ La qualité logicielle représente la santé du projet en terme de maintenabilit
 
 L'écriture de code, surtout dans une entreprise, est soumise à des contraintes de main d'oeuvre et de temps. Il n'est pas viable de chercher à produire le code le plus parfait possible car cela revient à prendre du temps pour perfectionner quelque chose qui existe déjà, au lieu de chercher à rajouter des fonctionnalités nouvelles.
 
-Cependant, il n'est pas non plus viable d'avoir pour but que l'aspect fonctionnel du programme, sans jamais se soucier de comment la manière dont on écrit le code va impacter son évolution future.
+Cependant, il n'est pas non plus viable de n'avoir pour but que l'aspect fonctionnel du programme, en accumulant de la dette technique sans jamais se soucier de comment la manière dont on écrit le code va impacter son évolution future.
+
+Il s'agit donc de trouver un juste équilibre entre écrire efficacement du code en ayant pour but de créer quelque chose d'utile pour un utilisateur final, et faire attention à ne pas rendre le projet si complexe qu'il n'est plus maintenable.
+
+Nous prenons donc comme indicateur de cet équilibre d'un projet, la dette technique, qui représente le temps qu'il faudrait passer sur le projet pour le rendre moins complexe, sans pour autant rajouter de fonctionnalité.
+
+Plusieurs aspects d'un projet permettent de mesurer sa dette technique. L'existence de morceaux de codes très complexes, comme par exemple une fonction de plusieurs milliers de ligne contenant de nombreuses boucles et tests conditionnels imbriqués. Cela entraîne une difficulté à relire le code dans le futur, et donc augmentera le temps nécessaire pour le faire évoluer.
 
 
+
+On suppose qu'il y a deux manières de garder la dette technique à un seuil acceptable. La première est de faire en sorte que toute modification du code n'augmente pas sa complexité.
 
 Réfactors souvent, ca explique les pics de baisse
 
