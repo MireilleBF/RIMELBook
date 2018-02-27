@@ -23,11 +23,14 @@ _TODO_
 ## II. Observations et question générale
 
 Nous souhaitons donc étudier la manière dont les utilisateurs de cet outil réagit face à la mise à jour du Docker. Afin d’élargir les perspectives de nos études, nous avons choisi de chercher à voir s’il était possible de définir certains comportements lors de ces mise à jours en fonction de certains critère. En nous appuyant sur un sample de dépôt sur GitHub, et en les classifiants selon leurs caractéristiques disponibles telles que : le nombre de collaborateurs, le nombre de lignes de codes, le langage source, les technologie utilisés.
+Afin de maintenir un fonctionnement optimal de Docker, on doit étudier l’évolution et l’utilisation de cette plateforme par rapport à la dernière mise à jour.  
+Notre étude se base sur les dockercomposes  d’où la questions qui se pose est la suivante :
+Comments les utilisateurs s'adaptent-ils au mise à jour de Docker Compose en fonction des caractéristiques de leurs repository ?
 
 _TODO_
 
 ## III. Rassemblement d'informations
-
+En prenant GitHub comme source des données, l’objectif de ce projet est la construction d’une dataset des fichiers dockercompose disponibles dans des projets publics choisis selon certains critéres pour qu’on puisse les analyser apres.
 _TODO_
 
 ## IV. Hypothèses et expériences
