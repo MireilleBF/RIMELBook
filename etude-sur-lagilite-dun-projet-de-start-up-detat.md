@@ -133,11 +133,16 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   * Outil : [CodeClimate](https://codeclimate.com/ "CodeClimate")
   * Résultat:
+    La dette technique a été étudié par 
 * #### Releases
 
   * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
   * Résultat:
-    ![](/assets/releases.png)
+    Nous avons étudié la fréquence des releases afin d'observer d'éventuelles inconsistances ou des comportements réguliers. Il se trouve que leurs releases se font à une fréquence assez irrégulière sur un représentation par semaine mais qu'une certaine régularité se retrouve chaque mois. Seuls les mois d'octobre et de décembre se trouvent pourvus de  plus de releases. Cela est du au fait que certaines bugs se sont retrouvés sur la production et qu'ils ont du effectuer des fixs très rapidement.
+
+  ![](/assets/releases.png)
+
+  La fréquence des releases est importante pour assurer l'agilité d'un projet mais il faut aussi faire attention à ce que les releases ne soient pas faite par obligation mais aient une vraie valeur pour le projet. Nous avons défini que 2 releases par mois est une bonne fréquence et que sortir plusieurs releases dans la même journée est un mauvais point car indique que certaines releases contiennent des problèmes. 
 
 ## IV. Hypothèses et expériences
 
@@ -149,28 +154,40 @@ Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ram
 | :--- | :--- | :--- |
 | % Commit bien formaté | 4 | Si tag et rattaché à une tache |
 | % Commit dans la langue principale | 1 | La langue principale est la langue la + représentée |
-| % Couverture de test moyen | 4 | Si &gt; 95% on passe à 100% |
+| % Couverture de test moyenne | 4 | Si &gt; 95% on passe à 100% |
 | % Build passe | 4 | Sur chaque commit |
 | Dette technique | 3 | 100 - Nombre de jours \(&gt; 0\) |
 | % Pertinance des tests | 5 | Estimé par l'architecte / Tech lead |
-| Outillage | 6 | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI ou autre \(20%\)                         - Dette Technique \(20%\)                          - Ticketage  \(40%\) |
+| Outillage | 6 \(Sans outillage on navigue à l'aveugle et il est impossible de s'assurer du reste\) | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI ou autre \(20%\)                         - Dette Technique \(20%\)                          - Ticketage  \(40%\) |
 | Release | 4 | Si &gt;= 2/mois 100%, si 1/mois 50%, sinon 0%. -1% pour chaque jour où il y a plus d'une release. |
 
 Evidemment, ces coefficients ont été définis selon notre expérience personnelle, et ce que nous avons pu observer durant cette étude. Ils sont donc sujets à éventuelle modification après concertation auprès d'un plus grand nombre d'intervenants.
 
-La fréquence des releases est importante pour déterminé l'agilité d'un projet mais il faut aussi faire attention à ce que les releases ne soit pas faite par obligation mais a une vraie valeur pour le projet. Nous avons défini que 2 releases par mois est une bonne fréquence et que sortir plusieurs releases dans la même journée est un mauvais point car indique que certaines releases contiennent des problèmes. Nous avons donc essayé de représenter cela avec une formule qu'il faudra surement ajuster avec le temps.
-
 ## V. Analyse des résultats et conclusion
 
-_À remplir._
+Nous avons donc calculé l'indice d'agilité de pix : 
 
-//On ne peut pas forcément respecter a 100% scrum
+| Critère d'agilité | Coefficient | Score\* |
+| :--- | :--- | :--- |
+| %Commit bien formaté | 4 | 82 |
+| %Commit dans la langue principale | 1 | 72 |
+| % Couverture de test moyenne | 4 | 100 |
+| % Build passe | 4 | 92 |
+| Dette technique | 3 | 76 |
+| % Pertinance des tests | 5 | 80 |
+| Outillage | 6 | 100 |
+| Release | 4 | 95 |
+|  | **TOTAL** | 88.75 / 100 |
 
-//Pourquoi on ne peut pas faire un indicateur sur les releases \(Si c'est trop fréquent, fix, agile mais pas bien testé\)
+\*: Arrondi à l'unité
+
+L'indice d'agilité de PIX est donc de **88.75. **Ce score représente le respect de l'agilité sous le plan technique et non humain comme expliqué précédemment \(III-A\). Pix respecte globalement les principes clés de l'agilité. Avec des releases fréquentes, une gestion très bonne de leur repository et un code résilient \(Testé et buildé à chaque commit\), le tout renforcé par des outils permettant d'apporter une visibilité sur le projet.
+
+Malgré tout, PIX n'obtient pas un score de 100. Cela s'explique par le fait que l'agilité est un idéal qui est quasiment inatteignable sans que cela coûte un temps élevé en création de taches atomiques ou en réduction au maximum de la dette technique par exemple.
 
 ## VI. Références
 
-Pix :
+###### Pix :
 
 [https://github.com/betagouv/pix](https://github.com/betagouv/pix)
 
@@ -178,9 +195,9 @@ Pix :
 
 [https://beta.gouv.fr/startup/pix.html](https://beta.gouv.fr/startup/pix.html)
 
-Articles:
+###### Articles:
 
-Méthode Agile: Controverses et reflexions : [http://www.entreprise-agile.com/AgileControverses.pdf](http://www.entreprise-agile.com/AgileControverses.pdf)
+_Méthode Agile: Controverses et reflexions _: [http://www.entreprise-agile.com/AgileControverses.pdf](http://www.entreprise-agile.com/AgileControverses.pdf)
 
-Agile Software Development : [http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf](http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf)
+_Agile Software Development_ : [http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf](http://users.jyu.fi/~mieijala/kandimateriaali/Agile software development.pdf)
 
