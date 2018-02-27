@@ -130,11 +130,13 @@ We wrote two Python scripts available on Github:
 | K-Means | 2 | 0 | 0 |
 | Random Forest | 1 | 0 | 2 |
 
-                                                                         _Table 1 :Résults of **match\_weka\_scikit.py**_
+Table 1 :Résults of match\_weka\_scikit.py
 
-From those results, we can see that many algorithms have been found in Weka using simple algorithms names. This shows that this machine learning library seems complete and can be used as a reference for the research in Scikit.![](https://lh6.googleusercontent.com/20yJm7LRS1HaDKVIZGEyCYDP_PIfIrB_gvnqy_f2AQeGm6vS9Bnyf1ZEaBBKH1mnI072WAgkQOy9XZFducQ7yrjfgFjyo5AeNwbRuN28a3hCRLrvo-YthDAoCJ1WaCsbBkp9C9kc)
 
-                                                     _Figure 1 : Number of algorithms found on Weka and Scikit extern_
+
+From those results, we can see that many algorithms have been found in Weka using simple algorithms names. This shows that this machine learning library seems complete and can be used as a reference for the research in Scikit.![](https://lh6.googleusercontent.com/20yJm7LRS1HaDKVIZGEyCYDP_PIfIrB_gvnqy_f2AQeGm6vS9Bnyf1ZEaBBKH1mnI072WAgkQOy9XZFducQ7yrjfgFjyo5AeNwbRuN28a3hCRLrvo-YthDAoCJ1WaCsbBkp9C9kc)Figure 1 : Number of algorithms found on Weka and Scikit extern
+
+
 
 From the algorithms found in Weka, we started by making a research in Scikit by only looking at the files and packages names.
 
@@ -144,7 +146,7 @@ It seems that the Scikit developers didn’t have a naming and structural conven
 
 ![](https://lh3.googleusercontent.com/8wVUnwy6EGyFrmp5gAK_O6Dy7haIpw83KU7XD3oUAlvwmS1Qf9csUyZdQQNHwPklXyHtyTVH9x--MY2HhaKFzRkeOEReUPNZszekrPrbJbmXsUoIQo8jO51VidRb_RPNfIU2aDL0)
 
-                                                       _Figure 2 : Number of algorithms found on Weka and Scikit intern_
+Figure 2 : Number of algorithms found on Weka and Scikit intern
 
 We looked inside the files and this graph shows the results.
 
@@ -154,7 +156,9 @@ The graph below shows the difference of results for the two strategies of resear
 
 We noticed that many results are close between Scikit and Weka.
 
-![](https://lh4.googleusercontent.com/EA_O_JlLHNLZ7vnCCs1YdQzd5vF5AwnWu43B9pCaUpulRlX_TIOO42OEiLHIz6LCgtaGDhzcyHTljxcMeRt1vIagYOmVqNzDTrQeK-QnN7CEN6d4NU-aXBUmexFxMoWAGHhOzzNK)
+![](https://lh4.googleusercontent.com/EA_O_JlLHNLZ7vnCCs1YdQzd5vF5AwnWu43B9pCaUpulRlX_TIOO42OEiLHIz6LCgtaGDhzcyHTljxcMeRt1vIagYOmVqNzDTrQeK-QnN7CEN6d4NU-aXBUmexFxMoWAGHhOzzNK)Figure 3 : Number of algorithms by comparing Scikit extern and intern
+
+
 
 We can see that with the exception of K-Means, the results are good for the file research. Most of the Weka algorithms has been found in Scikit. The exception of K-Mean might mean that it has not been implemented in Scikit…
 
@@ -178,6 +182,10 @@ We could find results in weka, for each algorithm test, we call a default constr
 
 ![](https://lh6.googleusercontent.com/o9Ohz_44mf_K15wDe0ZqXKabBdOKZkpU-kUXoB_JflmmXQEYy2c5JR4EYnWST7FJt5VTgrNpWQAckgyThDqIXbxK_e5pFA-GG2lBs-HGlPuQ66q48QJndu0YBiAewoThksiFvTYo)
 
+Figure 4 : Results of algorithms dependences
+
+
+
 We tried the same steps for the scikit project but we could not find any important results.
 
 #### b\) Study of code metrics
@@ -200,6 +208,10 @@ The first step was to launch a complete analysis of the two projects weka et sck
 
 ![](https://lh4.googleusercontent.com/E3xXACqlFntQ_iX8XmGKiQgjPVqKZ_poTenXpC7D8RV_e-ntRJxfrxiWkxLfe5Wn-9IZs-8QMsNZRrqp36G6DkMxteSyx5OfTx4WPHqnyjJUknaGkaufx_GNHWWNbJtAhex9fpP4) ![](https://lh4.googleusercontent.com/Taofvr6TMF8WgDD7uUGQ0gzFs8no06euUedXosbfBue5ttKBkHQ5d1LKgKsfUgqigUavKNL8kOlv_StJwRew59RuNRrIjlIkCGwTpoD-Leh9tfHgt8E0ECbaPYvtKtQ9bvyQ-TSr)
 
+Figure 5 & 6 : SonarQube analysis for Weka\(5\) and Scikit\(6\)
+
+
+
 To extract the complexity value of each algorithm we did a search by their names.
 
 Here are the raw results we obtained after analysing the projects.
@@ -214,9 +226,19 @@ Here are the raw results we obtained after analysing the projects.
 | Linear Regression | 133 | 0 |
 | Logistic Regression | 120 | 30 |
 
+Table 2 : table of comparison cyclomatic complexity weka vs Scikit
+
 ![](https://lh6.googleusercontent.com/pXEqdYh72Wibf1JqM68wC2HtsniDXehFx_1SqEFMw8zO1_wD3umsToDkQ_8uaO4fIqY_yqbGr5-uZXZfMoWC5Avy6344q2qL25XBDlU-d3nOkeYtBiVfAlm4mZ-rl0Kb0qLoSzkI)
 
+Figure 7 : Courbes of cyclomatic complexity weka vs scikit
+
+
+
 Looking at the two cyclomatic complexity curves of the weka and scikit project algorithms, we notice that there is always a kind of correlation for each common algorithm, with a well-defined gap.
+
+
+
+* Comparaison Cognitive Complexity
 
 |  | Cognitive Complexity weka | Cognitive Complexity |
 | :--- | :--- | :--- |
@@ -226,7 +248,13 @@ Looking at the two cyclomatic complexity curves of the weka and scikit project a
 | Linear Regression | 0 | 0 |
 | Logisitic Regression | 0 | 0 |
 
+Table 3 : table of comparison congnitive complexity weka vs scikit
+
 ![](https://lh4.googleusercontent.com/2prsbJAezw9y3RwEsyH_UBnrK4jHe3136EtnaV7cREhkLrXHiTsUhze9bysnppzrEbWqCYRYXBjj5YwXiKG0reFqY6_TPGW6ifrqpSI8_Py1N5HT9St59IQZWwbdHdsdyCRC50Oy)
+
+Figure 8 : Courbes of cognitive complexity weka vs scikit
+
+
 
 For cognitive complexity, we can not notice a correlation between the two curves, this is due to language difference between weka which is developed in java and scikit which is developed in python. The latter has a clear syntax and uses a simpler approach what allows a facility of understanding.
 
@@ -241,6 +269,10 @@ We first take a look to the respectives CVS of Weka \(which is SVN\) and Scikit 
 Here are what we obtain using SVNStats on the Weka’svn :
 
 ![](https://lh6.googleusercontent.com/_IT0CC3i4wJJV09hjN7qdK9Vohbhy0RLR2GnuxOJ0juwarvHBtUBOgp9jaW_vUI1a728dgdl9aIIX9QKoABsnjtEN-eA9hI1aWHmZfce8dizekzt3jo_n0MW7VMFvkAFrGofM_b6)
+
+Figure 9 : Number of LOC by contributors
+
+
 
 As we can see, there are only 4 contributors to the official SVN for all lines of code. After a few research we find out that all those four peoples are teacher or researcher at the waikato University. We assumes that they were using some kind of centralized organisation to add new modules to the weka’s library. Indeed, after few investigations all contributions \(those made by wakaito’s people or anyone around the world\) must be reviewed by a weka’s admin before being integrated to the whole project. At this point we knew that the SVN can’t provide us temporal informations about authorship.
 
