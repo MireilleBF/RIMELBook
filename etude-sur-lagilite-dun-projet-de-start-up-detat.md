@@ -137,8 +137,7 @@ Nous nous sommes donc concentrés sur les indicateurs suivants:
 
   * Outil: [RepoDriller](http://repodriller.org/ "RepoDriller") 
   * Résultat:
-
-/_/Comment on a rassemblé, ce qu'on a rassemblé_
+    ![](/assets/releases.png)
 
 ## IV. Hypothèses et expériences
 
@@ -157,6 +156,10 @@ Nous voulions donc avoir un indice allant de 1 à 100. Pour cela, nous avons ram
 | Outillage | 6 | On gagne des % par outil:                        - Couverture de test \(20%\)                     - CircleCI ou autre \(20%\)                         - Dette Technique \(20%\)                          - Ticketage  \(40%\) |
 | Release | ? | ? |
 
+Evidemment, ces coefficients ont été définis selon notre expérience personnelle, et ce que nous avons pu observer durant cette étude. Ils sont donc sujets à éventuelle modification après concertation auprès d'un plus grand nombre d'intervenants.
+
+//parler de la release
+
 ## V. Analyse des résultats et conclusion
 
 _À remplir._
@@ -167,5 +170,19 @@ _À remplir._
 
 ## VI. Références
 
-_À remplir._
+Pix : 
+
+[https://github.com/betagouv/pix](https://github.com/betagouv/pix)
+
+[https://pix.beta.gouv.fr/](https://pix.beta.gouv.fr/)
+
+[https://beta.gouv.fr/startup/pix.html](https://beta.gouv.fr/startup/pix.html)
+
+
+
+Articles:
+
+Méthode Agile: Controverses et reflexions : http://www.entreprise-agile.com/AgileControverses.pdf
+
+Agile Software Development : http://users.jyu.fi/~mieijala/kandimateriaali/Agile%20software%20development.pdf
 
