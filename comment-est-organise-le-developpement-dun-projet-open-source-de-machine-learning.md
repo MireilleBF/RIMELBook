@@ -234,7 +234,15 @@ Pour un projet donné, nous sélectionnerons, sur une durée de cinq ans, un com
 
 #### IV.3.1. **La dette technique grandit en même temps que le projet.**
 
+Nous nous attendons à ce que la dette technique grandisse en même temps que la taille d'un projet \(représentée par son nombre de ligne de codes\), comme le prévoit la loi de Lehman. 
+
+L'hypothèse est réfutée s'il s'avère que la dette technique suit une courbe stagnante, voire diminue dans le temps.
+
 #### IV.3.2. **La dette technique normalisée diminue durant l'évolution du projet.**
+
+Nous nous attendons à ce que les méthodes de collaboration open source produisent un effort qui permet de garder la croissance de la dette technique en dessous de la croissance de la taille du projet.
+
+L'hypothèse est réfutée si la dette technique normalisée à la taille du projet suit une courbe croissante.
 
 ## V. Analyse des résultats et conclusion
 
