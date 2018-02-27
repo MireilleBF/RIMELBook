@@ -422,13 +422,15 @@ Nous observons que la dette technique relative à la taille du projet ne décroi
 
 Le seul projet avec dont la dette technique suit une tendance croissante, _scikit-image_, possède une dette technique normalisée croissante dans le temps. Cela signifie que si cette tendance se poursuit, éventuellement la dette technique pourra arriver à un point critique \(car la dette technique grandit plus vite que le code\). Cependant, cette dette normalisée se situe entre 0,07 et 0,105, ce qui est très inférieur à la dette technique d'autre projets open source, tel que Apache Sling, pour lequel elle se situe en 0,55 et 0,45 \[3\]. Donc bien qu'elle soit croissante, cette croissance est très faible.
 
-L'hypothèse est donc validée, avec cinq projets ayant une dette technique normalisée décroissante dans le temps, un projet qui stagne, et un projet où elle est croissante.
+L'hypothèse est donc validée, avec cinq projets ayant une dette technique normalisée décroissante dans le temps, un projet qui stagne, et un projet où elle est croissante : **la dette technique normalisée par le nombre de lignes de code décroît au fil du temps dans les projets Open Source**.
 
 #### Conclusion partielle
 
-Notre hypothèse selon laquelle la dette technique grandit obligatoirement dans le temps est donc invalidée. On obtient des résultats inverses à ceux obtenus dans l'étude sur les projets open source d'Apache, où la dette technique avait clairement une tendance croissante. Ces résultats sont peut-être liés au faible nombre de projets que nous avons étudiés. Nous pourrions facilement relancer nos analyses sur un plus grand nombre de projets avec les outils que nous avons mis en place.
+Notre hypothèse selon laquelle la dette technique grandit obligatoirement dans le temps est donc invalidée. Nous obtenons des résultats inverses à ceux obtenus dans l'étude sur les projets Open Source d'Apache \[3\], dans laquelle la dette technique avait clairement une tendance croissante. Ces résultats sont peut-être liés au faible nombre de projets que nous avons étudiés. Nous pourrions facilement relancer nos analyses sur un plus grand nombre de projets avec les outils que nous avons mis en place.
 
 La dette technique normalisée, en revanche, évolue bien comme on s'y attendait, avec une tendance à décroître dans le temps. Cela semble confirmer notre hypothèse comme quoi les méthodes de développement open source \(principalement le système de pull request et leur reviews\) permettent d'assurer une constance de la qualité logicielle dans le temps.
+
+En somme, nous concluons que **la qualité semble être une réelle préoccupation des projets Open Source de Machine Learning**.
 
 ### **Conclusion**
 
