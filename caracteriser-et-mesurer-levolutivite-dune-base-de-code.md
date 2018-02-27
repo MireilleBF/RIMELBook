@@ -65,11 +65,59 @@ Nous sommes donc partie sur cette hypothèse pour faire l'analyse et en tirer un
 
 ## V. Result Analysis and Conclusion
 
+### Résultats
 
+Tout au long de cette phase d’analyse, nous avons pu conclure sur des faits qui vont nous permettre de répondre si, pour nous, PIX est bien évolutif et s’il ne l’est pas, quelles en sont les raisons.
+
+Pour commencer nous pouvons noter que PIX regroupe de nombreux points positifs. En effet, nous avons un projet modulaire, bien découpé, ce qui est un élément clé lorsque l’on veut faire un projet dit évolutif. Le suivi de projet, avec 122 issues, est bien traité et maintenue. Nous constatons qu’un système de build automatique est en place ce qui facile grandement la tâche des développeurs. La couverture de code est très bonne et elle est supérieur à 95%, ce qui est confirmé par CodeClimate qui indique bien que le projet est maintenable et bien testé. Nous avons à première vu un projet qui se porte bien et qui est bien guidé.
+
+Nous avons notamment un développement constant, avec une branche par issue ou parfeaturece qui annonce une méthodologie de développement plutôt propre et maitrisé. Et pour terminer sur les points positifs, nous avons une équipe qui fait une livraison continue et constante. On pourrait alors conclure rapidement que le projet dispose tout de même d'une relative bonne santé. Par contre, nous constatons certaines branches à haute durée de vie, voire à durée de vie finalement infinie.
+
+Nous avons également de gros refactorings ce qui implique surement une grosse dette technique accumulée dont l’équipe essaye de se défaire. Nous trouvons en relation surement du problème précedent, beaucoup de duplications de code. Ici nous avons notre outil qui nous indique 62 code dupliqués au sein du projet, ce qui n’est pas dans l’optique du développement évolutif.
+
+On peut clairement voir via nos différents outils d’analyse, un très fort couplage entre différentes parties du code, ce qui est un très gros frein à l’évolutivité. Lorsque nous regardons de plus près, nous constatons également que la connaissance est regroupé autour d’une ou deux personne. En effet, le nombre de collaborateur actifs dans le projet est insatisfaisante pour une équipe d'environs plus de 8 personnes.On peut également faire le constat qu’il y a un “bad smell” au niveau des tests. En effet, on peut constater que nous avons de gros fichier de test, qui induit une très grosse complexité et couplage dans le projet.
+
+### Conclusion
 
 ## VI. Tools
 
+De multitudes d'outils nous ont permis d’enquêter sur l’architecture globale du projet et sur l’organisation des différentes parties impliquées. Nous avons utilisé des outils tels que CodeCity, RepoDriller ou d’autres consorts pour l’analyse de code et l’analyse du repository. L’objectif étant dans un premier temps de se faire un avis global, cela a révélé très rapidement certains points que nous avons étudié par la suite, tel qu’un couplage très fort entre 2 parties du code qui se trouve être relativement massives et qui semblent dans un premier temps être un véritable frein à la philosophie “évolutive” du projet.
+
+Bien évidemment, notre première approche était resté très globale et relativement superficielle. Il reste néanmoins intéressant de noter que de potentiels pistes se sont révélées très rapidement avec des analyses utilisant les paramètres “de base” de certains outils, nul doute quant aux potentialités d’analyses poussées avec les différents outils d’analyse de code et de repository.
+
+Nous avons donc procédé à cette phase de tests poussées notamment principalement avec les outils CodeCity et CodeScene tout en comparant le projet PIX avec d’autre projets du même type et qui partagent la même philosophie de développement. Ces deux outils utilisent donc les bases de code disponibles via Git pour analyser les projet selon différents aspects qui sont principalement la modularité, la complexité et d’autres éléments comme la duplication de code ou bien le pourcentage de refactoring et le pourcentage de dette technique accumulé par exemple.
+
+Pour l’utilisation de CodeScene, on commence par “fork”le GitHub du repository qu’on veut analyser sur notre propre compte c’est-à-dire dans notre propre repository. On connecte ensuite notre repository à CodeScene ce qui va nous permettre d’importer le projet visé dans l’outil. Une fois le projet importé, on lance la phase de test et d’analyse. Suite à cela, nous allons avoir différents métriques sur le projet dans sa globalité et ils nous restera plus qu’à faire des constats et retenir les informations pertinentes utile pour répondre à notre problématique. On peut grâce à cet outil faire des analyses en détail classe par classe et constater les différents problème auquel le projet fait face. Cette phase d’analyse via CodeScene à été faite également sur d’autre projet afin d’avoir des éléments de comparaison et appuyer nos arguments sur les différents constat qu’on a pu établir en ce qui concerne si PIX est évolutif ou pas. CodeScene va nous renseigner sur l'évolution du code. Cela nous donnera la possibilité de prédire son avenir et de trouver le code qui est difficile à développer et sujettes à des défauts.
+
+CodeCity nous permet d'analyser des logiciels, dans lequel les projets sont visualisés en tant que des villes en 3D. C’est un outils clé dans notre analyse de PIX dans la mesure ou on peut constater, selon la forme de la ville, la complexité et la modularité du projet qui sont deux éléments clé dans l’étude de l’évolutivité. Les classes sont représentées comme des bâtiments dans la ville, tandis que les paquets sont représentés comme les districts dans lesquels les bâtiments résident. La hauteur des bâtiment est mappé sur le nombre de méthodes pour une classe en question et le nombre d'attributs sur la taille de base. Le niveau d'imbrication d'un paquet quand à elle est mappé sur la saturation des couleurs du quartier, c'est-à-dire que les paquets profondément imbriqués sont colorés en bleu foncé, tandis que les paquets peu profonds sont en bleu clair. Pour son utilisation, rien de plus simple. Il suffit de cloner le repository que nous voulons investiguer sur notre ordinateur et lancer le programme CodeCity avec la source le chemin du projet en question. Pour une analyse plus poussé, CodeCity nous propose de multitude option qui peuvent nous permettre d’approfondir les résultats si nécessaire.
+
+Nous avons egalement CodeClimate qui nous renseigne sur la qualité du code en intégrant des données de couverture de test et de maintenabilité. Il s’utilise comme CodeScene via GitHub. Nous obtenons ainsi des informations sur le statut global du projet notamment le nombre de duplication présente, le pourcentage de “code smells” et l’analyse de la dette technique.
+
 ## VI. References
+
+* **PIX :**
+  * [**https://pix.beta.gouv.fr/**](https://pix.beta.gouv.fr/)
+  * [**https://github.com/betagouv/pix**](https://github.com/betagouv/pix)
+* **Articles traitant du projet PIX:**
+  * [**http://jactiv.ouest-france.fr/job-formation/se-former/pix-nouvel-outil-pour-evaluer-vos-competences-numeriques-83597**](http://jactiv.ouest-france.fr/job-formation/se-former/pix-nouvel-outil-pour-evaluer-vos-competences-numeriques-83597)
+  * [**http://ecolenumerique.education.gouv.fr/2016/11/17/pix-un-service-public-pour-evaluer-et-certifier-les-competences-numeriques-bientot-ouvert/**](http://ecolenumerique.education.gouv.fr/2016/11/17/pix-un-service-public-pour-evaluer-et-certifier-les-competences-numeriques-bientot-ouvert/)
+* **Outils d’analyse :**
+  * [**https://codescene.io/**](https://codescene.io/)
+  * [**https://wettel.github.io/codecity.html**](https://wettel.github.io/codecity.html)
+  * [**https://codeclimate.com/**](https://codeclimate.com/)
+  * [**https://www.codebasehq.com/**](https://www.codebasehq.com/)
+  * [**https://github.com/aserg-ufmg/JSCity**](https://github.com/aserg-ufmg/JSCity)
+  * [**https://github.com/mauricioaniche/repodriller**](https://github.com/mauricioaniche/repodriller)
+* **Repositorys utilisés à titre de comparaison :**
+  * **Balanced dashboard :**
+    * **URL: **[**github.com/balanced/balanced-dashboard**](https://github.com/balanced/balanced-dashboard)
+    * **Github: **[**balanced/balanced-dashboard**](https://github.com/balanced/balanced-dashboard)
+  * **Aptible :**
+    * **URL: **[**dashboard.aptible.com**](https://dashboard.aptible.com/login)
+    * **Github: **[**aptible/dashboard.aptible.com**](https://github.com/aptible/dashboard.aptible.com)
+* **Code Corps Ember :**
+  * **URL: **[**codecorps.org**](https://www.codecorps.org/)
+  * **Github: **[**code-corps/code-corps-ember**](https://github.com/code-corps/code-corps-ember)
 
 
 
