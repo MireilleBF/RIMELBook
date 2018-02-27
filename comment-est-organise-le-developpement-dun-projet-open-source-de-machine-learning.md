@@ -213,7 +213,7 @@ L'hypothèse est réfutée s'il existe au moins un auteur qui est contributeur m
 
 ### IV.3. **La qualité logicielle est-elle une préoccupation de ces projets ?**
 
-La qualité logicielle est synonyme de santé du projet ; la maintenabilité et l'extensibilité sur le long terme en dépendent. Nous mesurons cette caractéristiques à travers la dette technique ; cette dernière est une métaphore des fautes de conception et d'écriture du code \(duplication, gestion des exceptions, mauvaise utilisation des patrons de conception, ...\) qui s'accumulent au cours de la vie d'un projet, le rendant plus difficile la maintenance et l'évolution sur le long terme \[2\]. 
+La qualité logicielle est synonyme de santé du projet ; la maintenabilité et l'extensibilité sur le long terme en dépendent. Nous mesurons cette caractéristiques à travers la dette technique ; cette dernière est une métaphore des fautes de conception et d'écriture du code \(duplication, gestion des exceptions, mauvaise utilisation des patrons de conception, ...\) qui s'accumulent au cours de la vie d'un projet, le rendant plus difficile la maintenance et l'évolution sur le long terme \[2\].
 
 La septième loi de Lehman stipule qu'un projet qui évolue est un projet dont la qualité se dégrade sauf si un effort est produit pour la maintenir. Cette dégradation dans les projets Open Source est une conséquence de l'absence de processus qualité et des délais que les contributeurs s'imposent \[3\].
 
@@ -224,11 +224,15 @@ Nous nous intéressons à l'évolution de la dette technique des projets Open So
 
 Notre intuition est que la dette technique de ces projets augmente au fil des évolutions \(conformément aux lois de Lehman\), mais qu'un effort est produit pour réhausser la qualité \(revue des _pull requests_, ...\).
 
-#### Comment mesurer la qualité logicielle ?
+#### Comment mesurer la dette technique ?
+
+SonarQube permet d'analyser le code source d'un projet et d'estimer la dette technique, représentée en la durée qu'il faudrait pour complètement nullifier la dette technique. SonarQube est incapable d'évaluer si des choix architecturaux haut niveau sont corrects, alors que c'est probablement le facteur le plus impactant de la dette technique. Un mauvais choix d'architecture peut rendre un projet trop dur à maintenir sur le long terme.
+
+L'analyse SonarQube est basée sur des facteurs directement mesurables: la duplication de code, la complexité des fonctions, la complexité des appels des modules entre eux, des patterns de code identifiables réputés pour être mauvais... Ce n'est donc pas une analyse absolue de la dette technique, mais c'est un outil très utile pour avoir une estimation de la santé d'un projet.
+
+Pour un projet donné, nous sélectionnerons, sur une durée de cinq ans, un commit git par période de cinq semaines et exécuterons les analyses SonarQube sur ces commits dans leur ordre chronologique, afin de voir l'évolution dans le temps de la taille d'un projet et de sa dette technique.
 
 #### IV.3.1. **La dette technique grandit en même temps que le projet.**
-
-
 
 #### IV.3.2. **La dette technique normalisée diminue durant l'évolution du projet.**
 
