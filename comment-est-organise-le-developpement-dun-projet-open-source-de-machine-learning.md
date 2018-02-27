@@ -146,7 +146,7 @@ Nous procéderons en étudiant la répartition des _commits_ et des lignes modif
 
 #### IV.1.3. _Les chercheurs contribuent plus individuellement que les autres contributeurs._
 
-Il s'agit ici d'étudier l'investissement de chaque contributeurs-chercheurs dans le développement comparé aux autres contributeurs. \(Contribuent-ils plus ou moins que les autres?\) 
+Il s'agit ici d'étudier l'investissement de chaque contributeurs-chercheurs dans le développement comparé aux autres contributeurs. \(Contribuent-ils plus ou moins que les autres?\)
 
 Nous considérons que cette hypothèse serait réfutée si, en termes de _commits_ ou de lignes de code modifiées, la majorité des contributeurs-chercheurs s'investit moins que les autres contributeurs.
 
@@ -276,7 +276,7 @@ Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astro
 
 ![](/assets/organisation_project_os_ml/researchers_commits.png)
 
-_Figure 5 - Une majorité de_ commits _proviennent de chercheurs dans la majorité des projets étudiés._
+_Figure 5 - Une majorité de_ commits _proviennent de chercheurs dans la majorité des projets étudiés_
 
 La _Figure 5_ montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des _commits_ qui constituent les projets de Machine Learning étudiés.
 
