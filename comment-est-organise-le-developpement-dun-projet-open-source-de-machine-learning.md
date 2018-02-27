@@ -412,7 +412,7 @@ Nous lisons :
 * Trois projets \(_scikit-learn_, _scikit-image_ et _nilearn_\) ont une dette technique qui suit une évolution monotone croissante au fil du temps.
 * Trois projets \(_theano_, _pybrain_ et _pattern_\) ont une dette techique qui suit une évolution monotone décroissante au fil du temps.
 
-L'hypothèse est donc invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**. 
+L'hypothèse est donc invalide sur quatre projets, et valide sur trois, ce qui nous mène à réfuter cette hypothèse : **dans ces projets, la dette ne grandit pas au fil des évolutions**.
 
 D'après les lois de Lehman, nous faisons cette observation si un effort est produit pour maintenir la qualité, ce qui est le cas pour _theano_ \(Figure 15\), par exemple. Cependant, la solidité de cette conclusion est à mettre en perspective avec le nombre de projets étudiés qui est bas, d'autant plus que nous sommes à la frontière de notre condition de réfutation : prolonger l'étude sur d'autres projets nous permettrait sans doute de fonder une conclusion plus solide.
 
@@ -442,9 +442,15 @@ Nous réalisons un autre test Mann-Kendall pour observer les tendances de la det
 
 _Figure 21 - Représentation des tendances d'évolution de la dette technique normalisée pour les différents projets._
 
-Nous pouvons observer que le projet nilearn a une valeur de tendance inférieure à 3, donc nous estimons qu'il n'est pas possible d'estimer si la tendance est positive ou négative. Pour le reste, tous les projets ont une tendance négative à part scikit-image.
+Nous observons :
+
+* La dette technique normalisée de _nilearn_ ne suit pas de tendance particulière au fil du temps.
+* La dette technique normalisée de _scikit-image_ croît au fil du temps.
+* La dette technique normalisées des autres projets \(_scikit-learn_, _theano_, _pyhsmm_, _pybrain_, _pattern_\) décroît au fil du temps.
 
 L'hypothèse est donc validée, avec cinq projets ayant une dette technique normalisée décroissante dans le temps, un projet qui stagne, et un projet où elle est croissante : **la dette technique normalisée par le nombre de lignes de code décroît au fil du temps dans les projets Open Source**.
+
+Comme la tendance pour la plupart des projets est à la croissance du nombre de lignes de codes, cela signifie qu'un effort est produit pour contenir la dette technique.
 
 #### Conclusion partielle
 
