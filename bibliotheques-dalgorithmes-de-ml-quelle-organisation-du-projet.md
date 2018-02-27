@@ -46,7 +46,7 @@ We are trying to understand the mechanism of machine learning without having to 
 
 We won’t look into the details of the algorithms but we will look at the way they are structured. We will look at the general structure of a machine learning project and specify the scope until we can detect the algorithm families and find specificities to those families or to the project in general.
 
-We would like to know ifit’s possible to automatically detect the location of algorithm families in a machine learning project ?
+We would like to know if** it’s possible to automatically detect the location of algorithm families in a machine learning project ?**
 
 We are going to study two open source machine learning libraries, the Weka project and Scikit-learn.
 
@@ -100,31 +100,28 @@ In contrary for the project Scikit-learn written in Python, there is no naming c
 
 We wrote two Python scripts available on Github:
 
-* retrieve\_init\_scikit.py
+* **retrieve\_init\_scikit.py**
+
   * Allow to read the Python files named \_\_init\_\_.py of Scikit and retrieve all the algorithms declared in those files. Indeed we have noticed that Scikit centralise the export of their algorithm in those files.
   * Running this script creates a file results.txt with all the algorithms exported from Scikit.
 
-* match\_weka\_scikit.py
+* **match\_weka\_scikit.py**
 
   * Which allow to match the algorithms names of Sikit with those of Weka. It contains a list of algorithms names and uses the results found in Weka to search for the equivalent in Scikit.
 
   * Example for the algorithm Linear Regression:
 
-    * We look for the files that matches the glob “\*linear\*regression\*.java” in Weka.
+    1. We look for the files that matches the glob “\*linear\*regression\*.java” in Weka.
 
-    * For each file found, we get its the name of the Java file.
+    2. For each file found, we get its the name of the Java file.
 
-      * LinearRegression.java
+       * LinearRegression.java
 
-      * SimpleLinearRegression.java
+       * SimpleLinearRegression.java
 
-    * For each file we construct a regular expression for Python and we search it starting by the file names of the projects and then with the algorithm names contained in “results.txt” made before.
+    3. For each file we construct a regular expression for Python and we search it starting by the file names of the projects and then with the algorithm names contained in “results.txt” made before.
 
-
-
-Résultats de match\_weka\_scikit.py:
-
-|   | Weka | Scikit externe | Scikit interne |
+|  | Weka | Scikit extern | Scikit intern |
 | :--- | :--- | :--- | :--- |
 | Linear Regression | 2 | 0 | 1 |
 | Logistic Regression | 3 | 1 | 4 |
@@ -133,15 +130,21 @@ Résultats de match\_weka\_scikit.py:
 | K-Means | 2 | 0 | 0 |
 | Random Forest | 1 | 0 | 2 |
 
-From those results, we can see that many algorithms have been found in Weka using simple algorithms names. This shows that this machine learning library seems complete and can be used as a reference for the research in Scikit.![](https://lh6.googleusercontent.com/20yJm7LRS1HaDKVIZGEyCYDP_PIfIrB_gvnqy_f2AQeGm6vS9Bnyf1ZEaBBKH1mnI072WAgkQOy9XZFducQ7yrjfgFjyo5AeNwbRuN28a3hCRLrvo-YthDAoCJ1WaCsbBkp9C9kc)From the algorithms found in Weka, we started by making a research in Scikit by only looking at the files and packages names.
+                                                                         _Table 1 :Résults of **match\_weka\_scikit.py**_
+
+From those results, we can see that many algorithms have been found in Weka using simple algorithms names. This shows that this machine learning library seems complete and can be used as a reference for the research in Scikit.![](https://lh6.googleusercontent.com/20yJm7LRS1HaDKVIZGEyCYDP_PIfIrB_gvnqy_f2AQeGm6vS9Bnyf1ZEaBBKH1mnI072WAgkQOy9XZFducQ7yrjfgFjyo5AeNwbRuN28a3hCRLrvo-YthDAoCJ1WaCsbBkp9C9kc)
+
+                                                     _Figure 1 : Number of algorithms found on Weka and Scikit extern_
+
+From the algorithms found in Weka, we started by making a research in Scikit by only looking at the files and packages names.
 
 We noticed that the number of algorithm found was very low, null in some cases.
 
 It seems that the Scikit developers didn’t have a naming and structural convention. We then have to look inside the files to see if we can get more results or if their is really no correspondence with the algorithms of Weka.
 
-
-
 ![](https://lh3.googleusercontent.com/8wVUnwy6EGyFrmp5gAK_O6Dy7haIpw83KU7XD3oUAlvwmS1Qf9csUyZdQQNHwPklXyHtyTVH9x--MY2HhaKFzRkeOEReUPNZszekrPrbJbmXsUoIQo8jO51VidRb_RPNfIU2aDL0)
+
+                                                       _Figure 2 : Number of algorithms found on Weka and Scikit intern_
 
 We looked inside the files and this graph shows the results.
 
@@ -173,8 +176,6 @@ We could find results in weka, for each algorithm test, we call a default constr
 
 ![](https://lh5.googleusercontent.com/054PtnOpqnU7o2_tD4fV-ASH7fgxZLsS6Sflmk68JgSmP7EGq4SCGulNd40Hx_1JmuwqA2PhADCTA3PeVRxlG01wN_3dw4R-Wjia98zF9Z0n5y75BU8rB2B57-aass3lzcSD5VlH)
 
-
-
 ![](https://lh6.googleusercontent.com/o9Ohz_44mf_K15wDe0ZqXKabBdOKZkpU-kUXoB_JflmmXQEYy2c5JR4EYnWST7FJt5VTgrNpWQAckgyThDqIXbxK_e5pFA-GG2lBs-HGlPuQ66q48QJndu0YBiAewoThksiFvTYo)
 
 We tried the same steps for the scikit project but we could not find any important results.
@@ -205,9 +206,7 @@ Here are the raw results we obtained after analysing the projects.
 
 * Comparaison Cyclomatic Complexity
 
-
-
-|   | Cyclomatic Complexity weka | Cyclomatic Complexity scikit |
+|  | Cyclomatic Complexity weka | Cyclomatic Complexity scikit |
 | :--- | :--- | :--- |
 | Naive Bayes | 844 | 66 |
 | Decision Tree | 141 | 0 |
@@ -217,13 +216,9 @@ Here are the raw results we obtained after analysing the projects.
 
 ![](https://lh6.googleusercontent.com/pXEqdYh72Wibf1JqM68wC2HtsniDXehFx_1SqEFMw8zO1_wD3umsToDkQ_8uaO4fIqY_yqbGr5-uZXZfMoWC5Avy6344q2qL25XBDlU-d3nOkeYtBiVfAlm4mZ-rl0Kb0qLoSzkI)
 
-
-
 Looking at the two cyclomatic complexity curves of the weka and scikit project algorithms, we notice that there is always a kind of correlation for each common algorithm, with a well-defined gap.
 
-
-
-|   | Cognitive Complexity weka | Cognitive Complexity |
+|  | Cognitive Complexity weka | Cognitive Complexity |
 | :--- | :--- | :--- |
 | Naive Bayes | 1837 | 0 |
 | Decision Tree | 232 | 0 |
@@ -233,11 +228,7 @@ Looking at the two cyclomatic complexity curves of the weka and scikit project a
 
 ![](https://lh4.googleusercontent.com/2prsbJAezw9y3RwEsyH_UBnrK4jHe3136EtnaV7cREhkLrXHiTsUhze9bysnppzrEbWqCYRYXBjj5YwXiKG0reFqY6_TPGW6ifrqpSI8_Py1N5HT9St59IQZWwbdHdsdyCRC50Oy)
 
-
-
 For cognitive complexity, we can not notice a correlation between the two curves, this is due to language difference between weka which is developed in java and scikit which is developed in python. The latter has a clear syntax and uses a simpler approach what allows a facility of understanding.
-
-
 
 ### 3- Correlating the authorship models of the algorithms of the two projects
 
@@ -261,15 +252,11 @@ We found a total of 1159 contributors splitted like above. We can observe 3 dist
 
 Next we want to observe files that were modified by the least authors possible in order to find a relation between the contributors who did few commits and files with few authors to restrain our area of research.
 
-
-
 ![](https://lh3.googleusercontent.com/ccAm9PHp4QRoJ5nmmC7lTGlPaV6UwaDbwHy6af4Hu0zqne5rOjxjfQRWCfWDFiQYxh3awEEN_mKX7zoPLUqOeh4l0lRURvg8xGZ2P5D07KzrIlF81Sk7-pHJUvq6XwpeyxjJYHzM)Here we can observe that more than ⅔ of files have been modified by less than 4 authors. It could be because some files are too domain-specific for being modified by non-specialised people.
 
 Both VCS give us differents informations but never the same one, this implies that it can’t be automated and we have to observe, understand and make hypothesis among informations that we grab from different library VCS.
 
 So our next question is : Can we find people that contribute only to a specific area of the project in order to group their own files into packages that we would like to call families ?
-
-
 
 #### b\) Take a deep look into files
 
@@ -289,8 +276,7 @@ However, multiples facts can explain those results.
 
 First, we are collecting only authors that created the file and fill the field “author”, this means that we are looking only people who created files regardless of people who modify it over time. Second, there are no conventions about multiple authors contributions, that’s where our parser reach its limit, we only collect the first author and lose multiple lines mentions. Third, our approach is static due to the different CVS informations so we knew that those scripted operations would bring us partial informations.
 
-Even so, we found that almost 5% of authors misspelled their own name or mail addresses, that means they were writing those informations each time they created files and among the most recurrent names we met the major part of “Big contributors” mentioned earlier. That statement show that they created a lot of files among the project that means they are those who are the most impacting on the project’s structure so by concentring the greater part of the knowledge and orienting the project’s structure they prevent the project to go wrong.  
-
+Even so, we found that almost 5% of authors misspelled their own name or mail addresses, that means they were writing those informations each time they created files and among the most recurrent names we met the major part of “Big contributors” mentioned earlier. That statement show that they created a lot of files among the project that means they are those who are the most impacting on the project’s structure so by concentring the greater part of the knowledge and orienting the project’s structure they prevent the project to go wrong.
 
 It is impossible to status with our results if we can or cannot retrieve specialized structural informations about code, looking at the autorship of the two libraries because statical informations are partial and non-directly comparable informations from CVS make the dynamical approach hard. We think a deeper look to each commit manually could come complete our informations about code ownership over time and may see arise some specialized people.
 
@@ -306,8 +292,6 @@ Once we found a bijection, we wanted to automatically arise a project’s struct
 
 To conclude, it seems very difficult to automate the process of finding machines learning algorithms families due to the countless way to lead this kind of project or convention that organisation decide to apply to it. Yet, this study shows that we can retrieve major parts of families in a non-structured project by hand research or tailor-made scripting if we have a well structured project as reference, if the reference is big-enough to contains a wide spectrum of domain-specific knowledge.
 
-
-
 ## VI. Tools {#docs-internal-guid-b1b174c1-d8e5-8c09-50a0-cbae80bde47f}
 
 * SonarQube
@@ -317,8 +301,6 @@ To conclude, it seems very difficult to automate the process of finding machines
 * Code-maat
 
 * SvnStats
-
-
 
 ## VII. Articles {#docs-internal-guid-ab546d41-d8e5-b0ba-5f97-b862224267aa}
 
