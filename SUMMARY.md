@@ -9,9 +9,11 @@
     * [II.1. Is it possible to automatically detect the location of algorithm families in a machine learning project ?](bibliotheques-dalgorithmes-de-ml-quelle-organisation-du-projet.md)
     * [II.2. Comment est organisé le développement d'un projet Open Source de Machine Learning ?](comment-est-organise-le-developpement-dun-projet-open-source-de-machine-learning.md)
     * [II.3. Peut-on extraire automatiquement toutes les préconditions d'algorithmes de machine learning ?](peut-on-extraire-les-preconditions-dalgorithmes-de-machine-learning.md)
-* [III. Analyzing Docker Ecosystem](#)
-    * [III.1. Comment les utilisateurs de Docker Compose s'adaptent-ils aux changements de version selon les spécifications de leurs projets](comment-les-utilisateurs-de-docker-compose-sadaptent-ils-aux-changements-de-version-selon-les-specifications-de-leurs-projets.md)
-    * [III.2. Comment les projets s’adaptent à l’évolution de Docker ?](comment-les-projets-sadaptent-a-levolution-de-docker.md)
+* [III. Analyzing Docker Ecosystem](2018/DOCKER.md)
+
+
+
+
 
 
 
