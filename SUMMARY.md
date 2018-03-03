@@ -14,7 +14,7 @@
     * [III.2. Comment les projets s’adaptent à l’évolution de Docker ?](comment-les-projets-sadaptent-a-levolution-de-docker.md)
 * [IV. Analyzing PIX ecosystem](2018/PIX.md)
     * [IV.1. Caractériser et mesurer l'évolutivité d'une base de code](caracteriser-et-mesurer-levolutivite-dune-base-de-code.md)
-    * [IV.2. Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md)
+    * [IV.2. Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md) 
 
 
 
