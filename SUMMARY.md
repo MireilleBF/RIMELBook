@@ -19,7 +19,7 @@
 
   * IV.1. [Caractériser et mesurer l'évolutivité d'une base de code](caracteriser-et-mesurer-levolutivite-dune-base-de-code.md)
 
-  * IV.2. [Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md)
+  * IV.2. [Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md) 
 
 
 
