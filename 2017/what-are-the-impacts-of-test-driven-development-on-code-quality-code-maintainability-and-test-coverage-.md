@@ -154,7 +154,7 @@ $ mvn jacoco:report
 ```
 
 For each project, we had a report like the following :  
-![JUnit4 JaCoCo report](/assets/JUnit.png)  
+![JUnit4 JaCoCo report](./assets/JUnit.png)  
 Figure 2 : JUnit4 JaCoCo report
 
 This report allows us to know the code coverage of each project, a metric we need to compare TDD and TL methods.
@@ -189,7 +189,7 @@ $ sonar-scanner
 
 The reports can be found onlocalhost:9000, where the list of all your projects will be displayed.
 
-Another advantage of using Sonar is the uniformity of the generated reports. For example :![](/assets/SonarQube   junit.png)Figure 3 : Sonar reports for JUnit4
+Another advantage of using Sonar is the uniformity of the generated reports. For example :![](./assets/SonarQube   junit.png)Figure 3 : Sonar reports for JUnit4
 
 Using SonarQube was a way during our study to get the cyclomatic complexity of the projects, along with the sonar issues. Both are a metric we need to compare TDD and TL methods. Sonar defines a number of issues during a scan, for example bugs detected, vulnerabilities and code smells.
 
@@ -199,7 +199,7 @@ SoftVis3D is a framework to vizualize a project, litterally. It is available on 
 
 The goal is to provide a visualization for the hierarchical structure of a project. Folders or packages are shown as districts, files as buildings. The building footprint, height and color are dependent on two arbitrary sonar metrics : you can tell SoftVis3D wich value you want to use, and you can use any metrics. This tool is useful in order to have a complete view of a project, and to see if a god-class is present. For our project, we use it to judge the global cleanliness of a project. We used the complexity as footprint , the number of duplicated lines as height, and number of Sonar issues as the color.
 
-![](/assets/junit-codecity.png)
+![](./assets/junit-codecity.png)
 
 Figure 4 : SoftVis3D results for JUnit4
 
@@ -252,25 +252,25 @@ Here are the raw results we obtained after analysing the projects.
 
 #### TDD projects
 
-![](/assets/FitnesseBobCodeQuality.png)Figure 5 : Fitnesse
+![](./assets/FitnesseBobCodeQuality.png)Figure 5 : Fitnesse
 
-![](/assets/jfreechart-codecity.png)
+![](./assets/jfreechart-codecity.png)
 
 Figure 6 : JFreeChart
 
-![](/assets/junit-codecity.png)
+![](./assets/junit-codecity.png)
 
 Figure 7 : JUnit4
 
 #### Test-Last projects
 
-![](/assets/GsonCityCodeQuality.png)
+![](./assets/GsonCityCodeQuality.png)
 
 Figure 8 : Google GSON
 
-![](/assets/JaCoCoCodeQuality.png)Figure 9 : JaCoCo
+![](./assets/JaCoCoCodeQuality.png)Figure 9 : JaCoCo
 
-![](/assets/spoon-codecity.png)
+![](./assets/spoon-codecity.png)
 
 Figure 10 : Spoon
 
@@ -278,25 +278,25 @@ Figure 10 : Spoon
 
 From the raw data we had collected and for each of our metrics, we made charts to obtain a better visualization and make comparisons easier. The four first projects in the charts are TDD and the three last TL.
 
-![](/assets/test_coverage.png)
+![](./assets/test_coverage.png)
 
 Figure 11 : Test Coverage
 
 This chart represents the percentage of code coverage for each project. We can see that TL projects have a code coverage higher than 80%, so they are mainly well covered by tests. For the TDD projects, there is some disparity. Two projects have a code coverage higher than 80% but the two others have a coverage of 48% and 52%, which is really low. We expected TDD projects to have a high code coverage, but our study shows the opposite. TL projects seems to have a better code coverage than TDD. But as we studied just a few projects, these results can be just exceptions or the consequences of external factors.
 
-![](/assets/count_keywords.png)
+![](./assets/count_keywords.png)
 
 Figure 12 : Proportions of commits
 
 With this view, where the projects are kept separated, we can see that the results are more or less uniform. Except for Spoon, whose number of fix related commits is surprisingly high, about four times higher than the other.
 
-![](/assets/compare_keywords.png)
+![](./assets/compare_keywords.png)
 
 Figure 13 : Proportions of commits. TDD compared to TL
 
 As expected, using a Test-Last method implies to have more fixes \(and so, have more bugs\). However, Spoon has falsified our data, it proves that we need more data to have a concrete representation of the Test-Driven Method and the Test-Last method. Also, the first metric shows that in Test-Driven Development we got less tests than in Test-Last. This metric is only a study of their commits and not representing the test coverage. Yet, due to the way TDD works, with phases of test and phases of refactoring, we expected TDD projects to have a higher percentage of refactor commits.
 
-![](/assets/mean_revisions.png)
+![](./assets/mean_revisions.png)
 
 Figure 14 : Stability of files
 
@@ -304,7 +304,7 @@ The first four are TDD projects and others are TL projects. GSON is a TL project
 
 Globally, TL projects are less stable \(more often edited\) than TDD projects and consequently more subjects to bugs.
 
-![](/assets/compare_metrics.png)
+![](./assets/compare_metrics.png)
 
 Figure 15 : Stability and Test Coverage \(TDD compared to TL\)
 
