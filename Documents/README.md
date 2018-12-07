@@ -1,1 +1,1 @@
-Ce répertoire est utilisé pour déposé les documents produits utiles à la rédaction.
+Ce répertoire est utilisé pour déposer les documents produits utiles à la rédaction.
