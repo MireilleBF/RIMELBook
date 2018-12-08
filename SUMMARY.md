@@ -6,7 +6,7 @@
 ## 2019 : Work in progress
 * [Format 2019](2019/format-2019.md)
 
-### Architecture analysis
+### Architecture analysis (ROCKFlows)
 * [Projet 1](./2019//Architecture/projet1/contents.md)
 * [Projet 2](./2019//Architecture/projet2/contents.md)
 
@@ -16,10 +16,16 @@
 * [Projet 3](./2019/GITMERGE/projet3/contents.md)
 * [Projet 4](./2019/GITMERGE/projet4/contents.md)
 
-###  Code Analysis
+###  Code Analysis 
 * [Projet 1](./2019/CodeAnalysis/projet1/contents.md)
 * [Projet 2](./2019/CodeAnalysis/projet2/contents.md)
 * [Projet 3](./2019/CodeAnalysis/projet3/contents.md)
+
+###  Code Quality (XWiki)
+* [Projet 1](./2019/XWiki/projet1/contents.md)
+* [Projet 2](./2019/XWiki/projet2/contents.md)
+* [Projet 3](./2019/XWiki/projet3/contents.md)
+
 
 ## 2018 : Some Articles
 
