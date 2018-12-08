@@ -2,7 +2,6 @@
 
 **Date de rendu finale : March 2018 au plus tard**
 
-> Respecter la structure pour que les chapitres soient bien indépendants
 
 Remarques : 
 

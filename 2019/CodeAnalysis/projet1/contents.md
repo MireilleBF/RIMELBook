@@ -1,8 +1,8 @@
-# Format 2019 \(à remplacer par le titre du chapitre\)
+# Software Maintenance : PROJECT 1 A MODIFIER
+
 
 **Date de rendu finale : March 2018 au plus tard**
 
-> Respecter la structure pour que les chapitres soient bien indépendants
 
 Remarques : 
 
@@ -54,6 +54,9 @@ Préciser vos zones de recherches en fonction de votre projet,
 
 1. Analyse des résultats & construction d’une conclusion : Une fois votre expérience terminée, vous récupérez vos mesures et vous les analysez pour voir si votre hypothèse tient la route. 
 
+![](./assets/logo_uns.png)
+UCA : University Côte d'Azur (french Riviera University)
+
 ## VI. Tools \(facultatif\)
 
 Précisez votre utilisation des outils ou les développements \(e.g. scripts\) réalisés pour atteindre vos objectifs. Ce chapitre doit viser à \(1\) pouvoir reproduire vos expériementations, \(2\) partager/expliquer à d'autres l'usage des outils.
@@ -63,3 +66,7 @@ Précisez votre utilisation des outils ou les développements \(e.g. scripts\) r
 1.
 
 2. 
+
+
+
+
