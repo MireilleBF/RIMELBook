@@ -1,5 +1,7 @@
 # Etude sur l'agilité d'un projet de start-up d'état
 
+**Février 2018**
+
 ## Auteurs
 
 Nous sommes quatre étudiants en dernière année à Polytech Nice-Sophia Antipolis, spécialisés en Architecture Logicielle.

@@ -1,5 +1,7 @@
 # Caractériser et mesurer l'évolutivité d'une base de code - PIX
 
+**Février 2018**
+
 ## Auteurs
 
 Nous sommes 4 étudiants à Polytech' Nice-Sophia specialisés en Architecture Logicielle que voici :
