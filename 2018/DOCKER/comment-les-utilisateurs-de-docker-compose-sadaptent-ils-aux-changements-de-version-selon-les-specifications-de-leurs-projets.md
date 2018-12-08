@@ -1,4 +1,6 @@
-# Comment les utilisateurs de Docker Compose s'adaptent-ils aux changements de version selon les spécifications de leurs projet
+# Comment les utilisateurs de Docker Compose s'adaptent-ils aux changements de version selon les spécifications de leur projet
+
+**Février 2018**
 
 ## Auteurs
 
@@ -37,7 +39,7 @@ Mais au vu du revers de la politique de Docker sur Kubernetes, qu’adviendrait-
 
 Ce sont ce type de questions auxquelles nous allons tenter d’apporter une réponse.
 
-![](/assets/docker_compose_study_project_files/docker-compose-version-release.png)
+![](./assets/docker_compose_study_project_files/docker-compose-version-release.png)
 
 _Figure 1: Figure 1: L'évolution de version de Docker depuis la première sortie \(20 décembre 2013\), version 1 \(en rouge\), version 2.X \(en orange\) et version 3.X \(en bleue\)._
 

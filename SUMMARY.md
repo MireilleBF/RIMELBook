@@ -2,20 +2,25 @@
 
 * [Preface](README.md)   
 * [Introduction](Introduction.md)
-* [Format 2017](format-2017.md)
-* [I. Best Article in 2017](2017/Readme.md)
-    * [I.1. What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
-* [II. Machine Learning Libraries](2018/ML.md)
-    * [II.1. Is it possible to automatically detect the location of algorithm families in a machine learning project ?](bibliotheques-dalgorithmes-de-ml-quelle-organisation-du-projet.md)
-    * [II.2. Comment est organisé le développement d'un projet Open Source de Machine Learning ?](comment-est-organise-le-developpement-dun-projet-open-source-de-machine-learning.md)
-    * [II.3. Peut-on extraire automatiquement toutes les préconditions d'algorithmes de machine learning ?](peut-on-extraire-les-preconditions-dalgorithmes-de-machine-learning.md)
-* [III. Analyzing Docker Ecosystem](2018/DOCKER.md)
-    * [III.1. Comment les utilisateurs de Docker Compose s'adaptent-ils aux changements de version selon les spécifications de leurs projets](comment-les-utilisateurs-de-docker-compose-sadaptent-ils-aux-changements-de-version-selon-les-specifications-de-leurs-projets.md)
-    * [III.2. Comment les projets s’adaptent à l’évolution de Docker ?](comment-les-projets-sadaptent-a-levolution-de-docker.md)
-* [IV. Analyzing PIX ecosystem](2018/PIX.md)
-    * [IV.1. Caractériser et mesurer l'évolutivité d'une base de code](caracteriser-et-mesurer-levolutivite-dune-base-de-code.md)
-    * [IV.2. Etude sur l'agilité d'un projet de start-up d'état](etude-sur-lagilite-dun-projet-de-start-up-detat.md) 
 
+### Part 2019
+* [Format 2019](2019/format-2019.md)
+* [Projet 1](2019/projet1/contents.md)
+* [Projet 2](2019/projet2/contents.md)
+
+### Part 2018 : some articles in 2018
+
+* [Machine Learning Explorations](2018/ML.md)
+    * [Comment est organisé le développement d'un projet Open Source de Machine Learning ?](./2018/ML-Organisation/comment-est-organise-le-developpement-dun-projet-open-source-de-machine-learning.md)
+* [Docker Ecosystem Analysis](2018/DOCKER.md)
+    * [Comment les utilisateurs de Docker Compose s'adaptent-ils aux changements de version selon les spécifications de leurs projets](./2018/DOCKER/comment-les-utilisateurs-de-docker-compose-sadaptent-ils-aux-changements-de-version-selon-les-specifications-de-leurs-projets.md)
+    * [Comment les projets s’adaptent à l’évolution de Docker ?](./2018/DOCKER/comment-les-projets-sadaptent-a-levolution-de-docker.md)
+* [Analyzing PIX ecosystem](2018/PIX.md)
+    * [Caractériser et mesurer l'évolutivité d'une base de code](./2018/PIX/caracteriser-et-mesurer-levolutivite-dune-base-de-code.md)
+    * [Etude sur l'agilité d'un projet de start-up d'état](./2018/PIX/etude-sur-lagilite-dun-projet-de-start-up-detat.md) 
+
+### Part 2017 : Best Article in 2017
+* [What are the impacts of Test-Driven Development on code quality, code maintainability and test coverage ?](2017/what-are-the-impacts-of-test-driven-development-on-code-quality-code-maintainability-and-test-coverage-.md)
 
 
 

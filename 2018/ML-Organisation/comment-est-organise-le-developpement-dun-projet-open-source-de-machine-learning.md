@@ -1,6 +1,6 @@
 # Comment est organisé le développement d'un projet Open Source de Machine Learning ?
 
-_Février 2018_
+**Février 2018**
 
 ## Auteurs
 
@@ -19,7 +19,7 @@ Ce chapitre présente le travail de recherche produit par notre groupe dans le c
 
 L'**apprentissage automatique** \(Machine Learning, ML\) est une science sous-jacente à l'intelligence artificielle qui définit des méthodes pour prédire des caractéristiques à partir d'un ensemble de données.
 
-Cette discipline ne cesse d'intéresser de nouveaux adeptes, autant les entreprises qui souhaitent exploiter les très grands volumes de données qu'elles génèrent, que les chercheurs qui ne cessent de publier de nouveaux travaux à ce sujet.![](/assets/organisation_project_os_ml/machine_learning_trends.png)
+Cette discipline ne cesse d'intéresser de nouveaux adeptes, autant les entreprises qui souhaitent exploiter les très grands volumes de données qu'elles génèrent, que les chercheurs qui ne cessent de publier de nouveaux travaux à ce sujet.![](./assets/organisation_project_os_ml/machine_learning_trends.png)
 
 _Figure 1 - Intérêt croissant pour le Machine Learning lors des cinq dernières années_
 
@@ -78,13 +78,13 @@ Ils sont au nombre de trente-quatre : _scikit-learn_, _theano_, _keras_, _scikit
 
 Ces projets sont différents entre eux notamment au niveau des domaines auxquels ils sont dédiés \(certains sont généralistes, d'autres spécifiques à un domaine\) ainsi que de leur maturité \(en terme de nombre de contributions, nombre de contributeurs\).
 
-![](/assets/organisation_project_os_ml/contributions_per_project.png)
+![](./assets/organisation_project_os_ml/contributions_per_project.png)
 
 _Figure 2 - Grandes disparités de la maturité des projets étudiés_
 
 Nous observerons néanmoins que ces projets très actifs pour la plupart. La _Figure 3_ présente la fonction de répartition cumulative \(Cumulative Distribution Function - CDF\) des contributions apportés aux projets en 2017 et montre que, nonobstant de rares projets qui n'évoluent plus ou très peu, les projets évoluent en continu dans l'année \(la plupart des courbes sont approximativement linéaires\).
 
-![](/assets/organisation_project_os_ml/contributions_cdf.png)
+![](./assets/organisation_project_os_ml/contributions_cdf.png)
 
 _Figure 3 - Évolution perpétuelle de la plupart des projets_
 
@@ -256,7 +256,7 @@ L'approche avec les adresses mails a conclu que 527 contributeurs étaient des c
 
 #### V.1.1. _Les contributeurs sont majoritairement des chercheurs._ {#contrib}
 
-![](/assets/organisation_project_os_ml/researchers_per_project.png)
+![](./assets/organisation_project_os_ml/researchers_per_project.png)
 
 _Figure 4 - Une minorité de projets compte une majorité de chercheurs_
 
@@ -274,13 +274,13 @@ Pour une partie de ces projets \(_spearmint_, _simpleai_, _metric-learn_, _astro
 
 #### V.1.2. _Les contributions viennent majoritairement de chercheurs._
 
-![](/assets/organisation_project_os_ml/researchers_commits.png)
+![](./assets/organisation_project_os_ml/researchers_commits.png)
 
 _Figure 5 - Une majorité de_ commits _proviennent de chercheurs dans la majorité des projets étudiés_
 
 La _Figure 5_ montre que, malgré la minorité de chercheurs dans ces projets établie en [V.1.1](#contrib), ils produisent la majorité des _commits_ qui constituent les projets de Machine Learning étudiés.
 
-![](/assets/organisation_project_os_ml/researchers_modified_lines.png)
+![](./assets/organisation_project_os_ml/researchers_modified_lines.png)
 
 _Figure 6 - Les chercheurs produisent également la majorité des ajouts et retraits de lignes dans la majorité des projets_
 
@@ -298,17 +298,17 @@ Pour limiter l'influence de la taille des projets sur nos mesures, nous avons no
 
 Dans un premier temps, nous étudions cette hypothèse en observant le nombre de _commits_. Le nombre de commits permet d'inférer l'investissement sur le long terme d'un contributeur, en supposant que ces contributions sont étalées sur la durée. Ceci constitue un biais de notre méthode, qui pourrait être corrigé en utilisant un outil statistique \(dont nous n'avons pour l'instant pas connaissance\) qui nous permettrait de croiser le nombre de _commits_ et la répartition de ces _commits_ dans le temps.
 
-![](/assets/organisation_project_os_ml/commits_median.png)
+![](./assets/organisation_project_os_ml/commits_median.png)
 
 _Figure 7 - La majorité des contributeurs, aussi bien chercheurs que non-chercheurs, contribuent peu_
 
 La _Figure 7_ montre que la majorité des contributeurs, indépendamment de leur type, sont des contributeurs ponctuels \(un ou deux _commits_\). Le grand écart-type sur la boîte des chercheurs est dû aux petits projets qui comptent peu de contributeurs mais une grande proportion de chercheurs.
 
-![](/assets/organisation_project_os_ml/commits_third_quartile.png)
+![](./assets/organisation_project_os_ml/commits_third_quartile.png)
 
 _Figure 8 - Il y a proportionnellement moins de chercheurs ponctuels que de non-chercheur ponctuels_
 
-![](/assets/organisation_project_os_ml/commits_mean.png)
+![](./assets/organisation_project_os_ml/commits_mean.png)
 
 _Figure 9 - En moyenne, les chercheurs fournissent beaucoup plus de \_commits_ que les non-chercheurs\_
 
@@ -318,13 +318,13 @@ La _Figure 8_ montre qu'en proportion il y a moins de chercheurs ponctuels \(dan
 
 Notre hypothèse de travail est qu'un contributeur qui a modifié de nombreuses lignes \(ajout, retrait\) dans le code du projet est un contributeur qui a une bonne maîtrise du projet et qui se l'est approprié.
 
-![](/assets/organisation_project_os_ml/modified_lines_third_quartile.png)
+![](./assets/organisation_project_os_ml/modified_lines_third_quartile.png)
 
 _Figure 10 - Les chercheurs sont plus nombreux à s'approprier leur projet que les autres contributeurs_
 
 Si la médiane des nombres de lignes modifiées par contributeur est proche de zéro avec un faible écart-type pour les deux classes de contributeurs, la _Figure 10_ montre que cet écart-type augmente au troisième quartile, ce qui signifie qu'à proportion égale les chercheurs s'approprient plus le projet que les non-chercheurs, de par une plus grande contribution en lignes de code. La _Figure 11_ renforce cette analyse en montrant que le volume moyen de lignes modifiées par un chercheur est bien plus grand que celui des autres types de contributeurs. En d'autres termes, **un chercheur qui contribue est un chercheur qui s'approprie plus le projet que les autres contributeurs**.
 
-![](/assets/organisation_project_os_ml/modified_lines_mean.png)
+![](./assets/organisation_project_os_ml/modified_lines_mean.png)
 
 _Figure 11 - En moyenne, les chercheurs contribuent plus en volume que les autres contributeurs_
 
@@ -350,7 +350,7 @@ Le nombre d'algorithmes pour _scikit-learn_ et _scikit-image_ nous paraîssent f
 
 Outre le résultat pour les conditions que nous avons posé, nous avons évalué l'hypothèse en faisant varier le seuil de la proportion de ligne de code possédées à partir duquel nous considérons qu'un contributeur est un contributeur majeur de l'algorithme.
 
-![](/assets/organisation_project_os_ml/algorithms_have_major_contributor.png)
+![](./assets/organisation_project_os_ml/algorithms_have_major_contributor.png)
 
 _Figure 12 - Les algorithmes de_ scikit-image _et de_ nltk _présentent un fort_ code ownership
 
@@ -364,11 +364,11 @@ Nous observons que pour notre définition d'un contributeur majeur \(50% de _cod
 
 À nouveau, nous avons étudié l'évolution des résultats obtenus en variant le seuil de _algorithm ownership_.
 
-![](/assets/organisation_project_os_ml/contributors_have_multiple_algorithms.png)
+![](./assets/organisation_project_os_ml/contributors_have_multiple_algorithms.png)
 
 _Figure 13 - Peu importe le seuil, il existe des contributeurs qui sont contributeurs majeurs de plusieurs algorithmes dans les projets étudiés_
 
-![](/assets/at-least-one-algorithm.png)
+![](./assets/at-least-one-algorithm.png)
 
 _Figure 13 bis - On peut d'ailleurs constater que les contributeurs majeurs pour plusieurs algorithmes représentent environ la moitié des contributeurs majeurs pour au moins un algorithme_
 
@@ -466,7 +466,7 @@ L'étude des sous-questions que nous avons posées nous a permis de traiter une 
 
 En croisant les parties, nous pourrions observer des comportements particuliers. Par exemple, la _Figure 20_ montre que la majorité des contributeurs majeurs des algorithmes des trois projets étudiés sont des chercheurs, ce qui corrobore notre hypothèse que les algorithmes sont développés par des experts du domaine.
 
-![](/assets/major_contributors_researchers.png)
+![](./assets/major_contributors_researchers.png)
 
 _Figure 20 - La majorité des personnes contribuant majoritairement à au moins un algorithme sont des chercheurs_
 
